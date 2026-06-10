@@ -1,0 +1,36 @@
+name: Update Daily Market Briefing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 23 * * 0-4"
+    - cron: "30 07 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update-market:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate market briefing
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/update-market.js
+
+      - name: Commit updated briefing
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/today.json
+          git commit -m "Update daily market briefing" || echo "No changes to commit"
+          git push
