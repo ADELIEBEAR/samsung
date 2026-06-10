@@ -2,19 +2,24 @@ const fs = require('fs');
 const path = require('path');
 
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+
 if (!API_KEY) {
-  console.error('GEMINI_API_KEY is missing');
+  console.error('GEMINI_API_KEY is missing. Add it in GitHub → Settings → Secrets and variables → Actions.');
   process.exit(1);
 }
 
 const now = new Date();
-const kst = new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', dateStyle: 'full', timeStyle: 'short' }).format(now);
+const kst = new Intl.DateTimeFormat('ko-KR', {
+  timeZone: 'Asia/Seoul',
+  dateStyle: 'full',
+  timeStyle: 'short'
+}).format(now);
 
 const prompt = `
 너는 한국 주식시장 데일리 브리핑 편집자다.
 목표: 특정 종목 추천이 아니라 오늘 한국 증시의 레짐, 수급, 매크로, 섹터 로테이션, 리스크를 요약한다.
-반드시 삼성전자 중심으로만 쓰지 말고, 코스피/코스닥/환율/미국장/외국인·기관 수급/주도 섹터를 균형 있게 다뤄라.
+삼성전자 중심으로만 쓰지 말고, 코스피/코스닥/환율/미국장/외국인·기관 수급/주도 섹터를 균형 있게 다뤄라.
 포함 섹터: 반도체·AI, 전력·인프라, 2차전지, 바이오, 자동차·전장, 조선·방산, 금융·지주, 로봇·소프트웨어.
 현재 시각: ${kst}
 
@@ -56,40 +61,78 @@ const prompt = `
 면책: 매수·매도 추천 표현 금지. 수익 보장 표현 금지.
 `;
 
-function extractText(data){
-  return data?.candidates?.[0]?.content?.parts?.map(p=>p.text||'').join('\n') || '';
+function extractText(data) {
+  return data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('\n') || '';
 }
-function cleanJson(text){
-  return text.replace(/^```json\s*/i,'').replace(/^```\s*/,'').replace(/```$/,'').trim();
+
+function cleanJson(text) {
+  return text.replace(/^```json\s*/i, '').replace(/^```\s*/, '').replace(/```$/,'').trim();
 }
-function collectSources(data){
+
+function collectSources(data) {
   const chunks = data?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
-  return chunks.map(c=>c.web).filter(Boolean).map(w=>({title:w.title||w.uri, url:w.uri})).slice(0,8);
+  return chunks
+    .map(c => c.web)
+    .filter(Boolean)
+    .map(w => ({ title: w.title || w.uri, url: w.uri }))
+    .slice(0, 8);
 }
-(async()=>{
+
+(async () => {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
   const body = {
-    contents:[{parts:[{text:prompt}]}],
-    tools:[{google_search:{}}],
-    generationConfig:{temperature:0.35,responseMimeType:'application/json'}
+    contents: [{ parts: [{ text: prompt }] }],
+    tools: [{ google_search: {} }],
+    generationConfig: {
+      temperature: 0.35,
+      responseMimeType: 'application/json'
+    }
   };
-  const res = await fetch(url, {method:'POST', headers:{'x-goog-api-key':API_KEY,'Content-Type':'application/json'}, body:JSON.stringify(body)});
-  if(!res.ok){
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'x-goog-api-key': API_KEY,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (!res.ok) {
     const errText = await res.text();
     throw new Error(`Gemini API error ${res.status}: ${errText}`);
   }
+
   const data = await res.json();
   const text = cleanJson(extractText(data));
   let report;
-  try{ report = JSON.parse(text); }catch(e){
+
+  try {
+    report = JSON.parse(text);
+  } catch (e) {
     report = {
-      updatedAt:kst, session:'자동 브리핑', marketTitle:'브리핑 파싱 확인 필요', temperature:'중립', riskLevel:'보통', oneLine:text.slice(0,220), marketRegime:'응답 파싱 확인 필요', summary:[text.slice(0,500)], dashboard:{indices:'-',global:'-',fx:'-',flows:'-'}, sectors:[], watch:[], risks:[], actionPlan:{holder:'-',newEntry:'-',cash:'-'}, sources:[]
+      updatedAt: kst,
+      session: '자동 브리핑',
+      marketTitle: '브리핑 파싱 확인 필요',
+      temperature: '중립',
+      riskLevel: '보통',
+      oneLine: text.slice(0, 220),
+      marketRegime: '응답 파싱 확인 필요',
+      summary: [text.slice(0, 500)],
+      dashboard: { indices: '-', global: '-', fx: '-', flows: '-' },
+      sectors: [],
+      watch: [],
+      risks: [],
+      actionPlan: { holder: '-', newEntry: '-', cash: '-' },
+      sources: []
     };
   }
+
   const groundedSources = collectSources(data);
-  if(groundedSources.length) report.sources = groundedSources;
+  if (groundedSources.length) report.sources = groundedSources;
   report.updatedAt = report.updatedAt || kst;
-  const out = path.join(__dirname,'..','data','today.json');
-  fs.writeFileSync(out, JSON.stringify(report,null,2), 'utf8');
+
+  const out = path.join(__dirname, '..', 'data', 'today.json');
+  fs.writeFileSync(out, JSON.stringify(report, null, 2), 'utf8');
   console.log('Updated data/today.json');
 })();
