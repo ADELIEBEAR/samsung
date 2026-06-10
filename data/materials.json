@@ -1,0 +1,62 @@
+[
+  {
+    "id": "market-regime",
+    "title": "국장 레짐 진단표",
+    "purpose": "지금 시장이 공격 구간인지 방어 구간인지 판단",
+    "anchor": "#dashboard"
+  },
+  {
+    "id": "samsung-7factor",
+    "title": "삼성전자 7-Factor 스코어카드",
+    "purpose": "삼성전자 상승의 성격을 구분",
+    "anchor": "#samsung-score"
+  },
+  {
+    "id": "flow-matrix",
+    "title": "외국인·기관 수급 해석 매트릭스",
+    "purpose": "수급 조합과 주가 흐름을 함께 해석",
+    "anchor": "#flow-matrix"
+  },
+  {
+    "id": "rotation-map",
+    "title": "반도체 밸류체인 순환매 지도",
+    "purpose": "삼성전자 이후 돈의 이동을 추적",
+    "anchor": "#rotation"
+  },
+  {
+    "id": "factor-screening",
+    "title": "반도체 소부장 팩터 스크리닝표",
+    "purpose": "관련주가 아니라 팩터 기준으로 종목군을 관찰",
+    "anchor": "#screening"
+  },
+  {
+    "id": "us-semi-check",
+    "title": "미국 반도체 선행지표 체크표",
+    "purpose": "국내장 전 미국 반도체 흐름 점검",
+    "anchor": "#us-semi"
+  },
+  {
+    "id": "macro-risk",
+    "title": "환율·금리 리스크 판단표",
+    "purpose": "외국인 수급 환경 판단",
+    "anchor": "#macro-risk"
+  },
+  {
+    "id": "event-scenario",
+    "title": "급등·급락 이벤트 대응 시나리오북",
+    "purpose": "감정 매매가 쉬운 이벤트 상황 대응",
+    "anchor": "#scenarios"
+  },
+  {
+    "id": "position-sizing",
+    "title": "포지션 사이징·손실 허용 한도표",
+    "purpose": "레짐별 현금 비중과 손실 구간 대응",
+    "anchor": "#position"
+  },
+  {
+    "id": "daily-report",
+    "title": "하루 10분 국장 마감 리포트 템플릿",
+    "purpose": "매일 시장을 기준대로 기록",
+    "anchor": "#daily-report"
+  }
+]
