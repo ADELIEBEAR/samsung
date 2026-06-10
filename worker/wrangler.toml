@@ -1,0 +1,12 @@
+name = "samsung-live-api"
+main = "src/worker.js"
+compatibility_date = "2025-02-04"
+
+[vars]
+ALLOWED_ORIGIN = "https://adeliebear.github.io"
+GEMINI_MODEL = "gemini-2.5-flash"
+MAX_ADMIN_CALLS_PER_HOUR = "20"
+
+[[kv_namespaces]]
+binding = "LIVE_DATA"
+id = "YOUR_KV_NAMESPACE_ID"
