@@ -1,62 +1,113 @@
 [
   {
-    "id": "market-regime",
-    "title": "국장 레짐 진단표",
-    "purpose": "지금 시장이 공격 구간인지 방어 구간인지 판단",
-    "anchor": "#dashboard"
+    "no": "01",
+    "slug": "01-samsung-response",
+    "title": "삼성전자 보유·신규·관망 대응표",
+    "short": "삼성전자를 계속 들고 갈지, 눌림을 기다릴지, 일부 줄일지 판단하는 상황별 기준표",
+    "tags": [
+      "삼성전자",
+      "보유자",
+      "신규진입",
+      "물린사람",
+      "갭상승",
+      "눌림"
+    ]
   },
   {
-    "id": "samsung-7factor",
-    "title": "삼성전자 7-Factor 스코어카드",
-    "purpose": "삼성전자 상승의 성격을 구분",
-    "anchor": "#samsung-score"
+    "no": "02",
+    "slug": "02-daily-market-checklist",
+    "title": "하루 5분 시장 체크리스트",
+    "short": "외국인 수급, 환율, 미국 반도체주를 하루 5분 안에 확인하는 완성형 해석표",
+    "tags": [
+      "체크리스트",
+      "미국반도체",
+      "환율",
+      "외국인",
+      "기관",
+      "뉴스"
+    ]
   },
   {
-    "id": "flow-matrix",
-    "title": "외국인·기관 수급 해석 매트릭스",
-    "purpose": "수급 조합과 주가 흐름을 함께 해석",
-    "anchor": "#flow-matrix"
+    "no": "03",
+    "slug": "03-money-flow-map",
+    "title": "삼성전자 이후 돈의 이동 지도",
+    "short": "삼성전자에서 시작된 돈이 SK하이닉스, 장비, 소부장, 후공정, 전력 인프라로 번지는 순서",
+    "tags": [
+      "순환매",
+      "돈의이동",
+      "HBM",
+      "장비",
+      "소부장",
+      "전력인프라"
+    ]
   },
   {
-    "id": "rotation-map",
-    "title": "반도체 밸류체인 순환매 지도",
-    "purpose": "삼성전자 이후 돈의 이동을 추적",
-    "anchor": "#rotation"
+    "no": "04",
+    "slug": "04-semiconductor-watchlist",
+    "title": "반도체 소부장·후공정 관찰 리스트",
+    "short": "장비, 소재, 부품, 후공정, 기판 후보군과 장세별 관찰 우선순위",
+    "tags": [
+      "소부장",
+      "후공정",
+      "기판",
+      "관찰후보군",
+      "장비",
+      "소재"
+    ]
   },
   {
-    "id": "factor-screening",
-    "title": "반도체 소부장 팩터 스크리닝표",
-    "purpose": "관련주가 아니라 팩터 기준으로 종목군을 관찰",
-    "anchor": "#screening"
+    "no": "05",
+    "slug": "05-ai-power-infra",
+    "title": "AI 전력 인프라 관찰표",
+    "short": "AI 데이터센터와 반도체 확장 흐름이 변압기, 전력기기, 전선으로 번지는지 보는 자료",
+    "tags": [
+      "전력인프라",
+      "AI",
+      "데이터센터",
+      "변압기",
+      "전선",
+      "전력기기"
+    ]
   },
   {
-    "id": "us-semi-check",
-    "title": "미국 반도체 선행지표 체크표",
-    "purpose": "국내장 전 미국 반도체 흐름 점검",
-    "anchor": "#us-semi"
+    "no": "06",
+    "slug": "06-crisis-scenario",
+    "title": "급등·급락 시나리오 대응표",
+    "short": "갭상승, 갭하락, 외국인 매도 전환, 환율 급등, 본전 회복 때 대응 기준",
+    "tags": [
+      "급등",
+      "급락",
+      "갭상승",
+      "갭하락",
+      "본전회복",
+      "시나리오"
+    ]
   },
   {
-    "id": "macro-risk",
-    "title": "환율·금리 리스크 판단표",
-    "purpose": "외국인 수급 환경 판단",
-    "anchor": "#macro-risk"
+    "no": "07",
+    "slug": "07-position-sizing",
+    "title": "초보자용 비중 관리표",
+    "short": "현금 비중, 분할매수, 손실 구간별 대응, 물타기 금지 조건, 수익 구간별 비중 관리",
+    "tags": [
+      "비중관리",
+      "현금비중",
+      "분할매수",
+      "물타기",
+      "손실관리"
+    ]
   },
   {
-    "id": "event-scenario",
-    "title": "급등·급락 이벤트 대응 시나리오북",
-    "purpose": "감정 매매가 쉬운 이벤트 상황 대응",
-    "anchor": "#scenarios"
-  },
-  {
-    "id": "position-sizing",
-    "title": "포지션 사이징·손실 허용 한도표",
-    "purpose": "레짐별 현금 비중과 손실 구간 대응",
-    "anchor": "#position"
-  },
-  {
-    "id": "daily-report",
-    "title": "하루 10분 국장 마감 리포트 템플릿",
-    "purpose": "매일 시장을 기준대로 기록",
-    "anchor": "#daily-report"
+    "no": "08",
+    "slug": "08-indicator-guide",
+    "title": "AI 보조지표 활용 가이드",
+    "short": "추세, 거래량, 과열, 눌림을 확인하는 차트 초보용 보조지표 해석표",
+    "tags": [
+      "보조지표",
+      "차트",
+      "추세",
+      "거래량",
+      "과열",
+      "눌림"
+    ]
   }
 ]

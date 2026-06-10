@@ -1,36 +1,32 @@
-# Strategy Note Hub
+# 국장 통합 전략노트
 
-삼성전자 중심 국장 레짐 전략노트 자료실입니다.
+삼성전자 중심 국장 통합 전략노트 사이트형 버전입니다.
 
-## 구성
+## 구조
 
-- `index.html`: 전체 자료실 페이지
-- `assets/css/style.css`: 디자인 스타일
-- `assets/js/app.js`: 레짐 점수 계산, 자료 검색, 시나리오 선택, 데일리 리포트 저장 기능
-- `data/materials.json`: 자료 구성 메타데이터
-
-## 포함 자료
-
-1. 국장 레짐 진단표
-2. 삼성전자 7-Factor 스코어카드
-3. 외국인·기관 수급 해석 매트릭스
-4. 반도체 밸류체인 순환매 지도
-5. 반도체 소부장 팩터 스크리닝표
-6. 미국 반도체 선행지표 체크표
-7. 환율·금리 리스크오프 판단표
-8. 급등·급락 이벤트 대응 시나리오북
-9. 포지션 사이징·손실 허용 한도표
-10. 하루 10분 국장 마감 리포트 템플릿
+```text
+index.html
+materials/
+  01-samsung-response.html
+  02-daily-market-checklist.html
+  03-money-flow-map.html
+  04-semiconductor-watchlist.html
+  05-ai-power-infra.html
+  06-crisis-scenario.html
+  07-position-sizing.html
+  08-indicator-guide.html
+assets/css/style.css
+assets/js/app.js
+data/materials.json
+.nojekyll
+```
 
 ## GitHub Pages 배포
 
-1. 새 GitHub 저장소를 만듭니다.
-2. 이 폴더 안의 파일을 그대로 업로드합니다.
-3. 저장소의 Settings → Pages로 이동합니다.
-4. Source를 `Deploy from a branch`로 선택합니다.
-5. Branch는 `main`, folder는 `/root`로 설정합니다.
-6. 생성된 `https://계정명.github.io/저장소명/` 주소로 접속합니다.
+1. 이 폴더 안의 파일을 `ADELIEBEAR/samsung` 저장소 루트에 업로드합니다.
+2. Settings → Pages → Deploy from a branch → main / root 로 설정합니다.
+3. 배포 주소는 일반적으로 `https://adeliebear.github.io/samsung/` 입니다.
 
-## 주의 문구
+## 유의사항
 
-본 자료는 투자 판단을 돕기 위한 시장 분석 참고자료이며, 특정 종목의 매수·매도 추천이나 수익 보장을 목적으로 하지 않습니다. 모든 투자 판단과 책임은 투자자 본인에게 있습니다.
+본 자료는 투자 참고용이며 특정 종목의 매수·매도 추천이 아닙니다.

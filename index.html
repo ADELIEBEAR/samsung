@@ -3,585 +3,106 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="삼성전자 중심 국장 레짐 전략노트. 외국인 수급, 환율, 미국 반도체, 반도체 소부장, 전력 인프라, 급등급락 대응, 비중 관리 자료를 한곳에 모은 정적 HTML 자료실." />
-  <title>국장 통합 전략노트 | 삼성전자 중심 시장 레짐 자료실</title>
+  <meta name="description" content="국장 통합 전략노트. 삼성전자, 반도체, 소부장, 전력 인프라, 급등급락 대응, 비중 관리 자료를 한곳에 모은 사이트형 전략노트." />
+  <title>국장 통합 전략노트 | 삼성전자 중심 시장 대응 자료</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">본문으로 이동</a>
-
-  <header class="topbar" id="top">
+  <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="#top" aria-label="국장 통합 전략노트 홈">
-        <span class="brand-mark">S</span>
-        <span>
-          <strong>Strategy Note Hub</strong>
-          <em>삼성전자 중심 국장 레짐 자료실</em>
-        </span>
-      </a>
-      <nav class="nav" aria-label="주요 메뉴">
-        <a href="#materials">자료실</a>
-        <a href="#dashboard">레짐판단</a>
-        <a href="#rotation">순환매지도</a>
-        <a href="#scenarios">대응시나리오</a>
-        <a href="#daily-report">데일리리포트</a>
-      </nav>
-      <button class="menu-toggle" type="button" aria-label="모바일 메뉴 열기" aria-expanded="false">메뉴</button>
+      <a class="brand" href="index.html"><span class="brand-mark">S</span><span><strong>국장 통합 전략노트</strong><small>삼성전자 이후 돈이 어디로 움직이는지 보는 시장 대응 자료</small></span></a>
+      <nav class="nav" aria-label="주요 메뉴"><a href="#materials">자료실</a><a href="#guide">사용법</a><a href="#cta">신청 안내</a></nav>
+      <button class="menu-btn" type="button" aria-label="메뉴 열기" aria-expanded="false">메뉴</button>
     </div>
   </header>
-
   <main id="main">
-    <section class="hero section-pad">
+    <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">전략노트 신청자 전용 자료실 콘셉트</p>
-          <h1>삼성전자 하나만 보지 말고,<br />돈의 이동을 한곳에서 봅니다.</h1>
-          <p class="lead">
-            외국인 수급, 기관 동조, 원달러 환율, 미국 반도체, 금리, 정책 이슈, 반도체 소부장, 전력 인프라, 저평가 대형주까지 흩어진 판단 기준을 하나의 사이트형 자료실로 묶었습니다.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#materials">자료실 보기</a>
-            <a class="button button-secondary" href="#dashboard">오늘 레짐 점검</a>
-            <button class="button button-ghost" type="button" id="printSite">PDF 저장 / 인쇄</button>
-          </div>
-          <div class="proof-strip" aria-label="자료 특징">
-            <span>수동 점수 입력</span>
-            <span>GitHub Pages 배포형</span>
-            <span>데일리 기록 저장</span>
-            <span>종목 추천 아님</span>
-          </div>
+        <div>
+          <p class="eyebrow">Strategy Note Library</p>
+          <h1>삼성전자 하나만 보지 말고,<br>돈의 이동을 자료별로 봅니다.</h1>
+          <p class="lead">외국인 수급, 환율, 미국 반도체, 삼성전자 이후 순환매, 소부장, 전력 인프라, 급등·급락 대응, 비중 관리까지 한곳에 모은 사이트형 전략노트입니다.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#materials">자료실 열기</a><a class="button button-secondary" href="materials/01-samsung-response.html">1번 자료부터 보기</a><button class="button" type="button" data-print>PDF 저장 / 인쇄</button></div>
         </div>
-
-        <aside class="hero-card" aria-label="전략노트 핵심 구조">
-          <div class="hero-card-top">
-            <span class="card-label">Core Flow</span>
-            <strong>국장 레짐 → 삼성전자 수급 → 반도체 순환매 → 매크로 리스크 → 비중 관리</strong>
-          </div>
-          <div class="flow-stack">
-            <div><span>01</span><p>지금 시장이 공격 구간인지 방어 구간인지 판단</p></div>
-            <div><span>02</span><p>삼성전자 상승이 진짜 수급인지 단기 반등인지 분류</p></div>
-            <div><span>03</span><p>돈이 소부장, 후공정, 전력 인프라로 번지는지 추적</p></div>
-            <div><span>04</span><p>급등·급락 때 감정 매매를 줄이는 대응 기준 확인</p></div>
-          </div>
+        <aside class="hero-card">
+          <p class="eyebrow">Core Flow</p>
+          <div class="flow-item"><span>01</span><div><strong>삼성전자 대응</strong><p>보유·신규·관망·물린 사람 기준 정리</p></div></div>
+          <div class="flow-item"><span>02</span><div><strong>시장 체크</strong><p>미국 반도체, 환율, 외국인 수급을 5분 안에 확인</p></div></div>
+          <div class="flow-item"><span>03</span><div><strong>돈의 이동</strong><p>삼성전자 이후 소부장·후공정·전력 인프라 확산 추적</p></div></div>
+          <div class="flow-item"><span>04</span><div><strong>대응 기준</strong><p>급등·급락과 비중 관리, 보조지표 활용</p></div></div>
         </aside>
       </div>
     </section>
-
-    <section class="section-pad section-muted intro-section">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">Problem</p>
-          <h2>대본에서 말한 문제를 사이트 구조로 해결합니다.</h2>
-        </div>
-        <div class="quote-box">
-          <p>“외국인 수급 보세요, 환율 보세요, 미국장 보세요”라고 말만 하면 막막합니다. 그래서 이 사이트는 매일 봐야 할 기준을 자료별로 나누고, 시청자가 필요한 순간 바로 열어볼 수 있게 구성합니다.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad" id="materials">
+    <section class="section section-muted" id="guide">
       <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Material Library</p>
-            <h2>전략노트 자료실</h2>
-            <p>대본에서 약속한 자료들을 카드형 자료실로 구성했습니다. 각 자료는 실제 페이지 안에서 바로 확인하고, 인쇄하거나 PDF로 저장할 수 있습니다.</p>
-          </div>
-          <div class="search-box">
-            <label for="materialSearch">자료 검색</label>
-            <input id="materialSearch" type="search" placeholder="예: 환율, 소부장, 수급, 비중" />
-          </div>
-        </div>
-
-        <div class="material-grid" id="materialGrid">
-          <article class="material-card" data-keywords="국장 레짐 시장 공격 방어 점수">
-            <span class="material-no">01</span>
-            <h3>국장 레짐 진단표</h3>
-            <p>지금 시장이 공격 구간인지, 중립인지, 리스크오프인지 100점으로 판단합니다.</p>
-            <a href="#dashboard">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="삼성전자 외국인 기관 거래량 상대강도">
-            <span class="material-no">02</span>
-            <h3>삼성전자 7-Factor 스코어카드</h3>
-            <p>삼성전자 상승이 수급 재평가형인지, 뉴스성 반등인지, 분배형인지 구분합니다.</p>
-            <a href="#samsung-score">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="외국인 기관 수급 매트릭스 연기금 투신 금융투자">
-            <span class="material-no">03</span>
-            <h3>외국인·기관 수급 해석 매트릭스</h3>
-            <p>외국인과 기관의 매수·매도 조합을 주가 흐름과 함께 해석합니다.</p>
-            <a href="#flow-matrix">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="반도체 밸류체인 순환매 삼성전자 소부장 후공정 전력">
-            <span class="material-no">04</span>
-            <h3>반도체 밸류체인 순환매 지도</h3>
-            <p>삼성전자에서 시작된 돈이 장비, 소부장, 후공정, 전력 인프라로 번지는지 봅니다.</p>
-            <a href="#rotation">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="소부장 팩터 스크리닝 HBM AI 실적 거래대금">
-            <span class="material-no">05</span>
-            <h3>소부장 팩터 스크리닝표</h3>
-            <p>단순 관련주가 아니라 실적 민감도, HBM 연관성, 수급 강도, 과열도를 기준으로 봅니다.</p>
-            <a href="#screening">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="미국 반도체 SOX 엔비디아 마이크론 TSMC ASML 아침 체크">
-            <span class="material-no">06</span>
-            <h3>미국 반도체 선행지표 체크표</h3>
-            <p>SOX, 엔비디아, 마이크론, TSMC, ASML 흐름으로 국내 반도체를 선행 점검합니다.</p>
-            <a href="#us-semi">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="환율 금리 달러 리스크오프 매크로">
-            <span class="material-no">07</span>
-            <h3>환율·금리 리스크 판단표</h3>
-            <p>원달러 환율과 미국 금리 조합으로 외국인 수급 환경을 판단합니다.</p>
-            <a href="#macro-risk">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="급등 급락 갭상승 갭하락 본전 회복 이벤트 대응">
-            <span class="material-no">08</span>
-            <h3>급등·급락 이벤트 대응 시나리오북</h3>
-            <p>갭상승, 갭하락, 외국인 매도 전환, 환율 급등, 본전 회복 때 대응 기준을 확인합니다.</p>
-            <a href="#scenarios">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="포지션 사이징 비중 관리 손실 허용 현금 비중">
-            <span class="material-no">09</span>
-            <h3>포지션 사이징·손실 허용 한도표</h3>
-            <p>몰빵, 물타기, 본전 매도 반복을 줄이기 위한 비중 관리 기준입니다.</p>
-            <a href="#position">자료 열기</a>
-          </article>
-          <article class="material-card" data-keywords="하루 10분 데일리 리포트 템플릿 기록 마감">
-            <span class="material-no">10</span>
-            <h3>하루 10분 국장 마감 리포트 템플릿</h3>
-            <p>매일 시장을 감정이 아니라 기준으로 기록하는 리포트 양식입니다.</p>
-            <a href="#daily-report">자료 열기</a>
-          </article>
-        </div>
+        <div class="banner"><h2>이 사이트는 한 페이지 자료집이 아니라, 자료를 눌러서 여는 방식입니다.</h2><p>메인 화면에서는 8개 자료의 목록만 보고, 각 카드를 누르면 해당 자료 페이지가 따로 열립니다. GitHub Pages에 올리면 일반 웹사이트처럼 사용할 수 있습니다.</p></div>
       </div>
     </section>
-
-    <section class="section-pad section-dark" id="dashboard">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Daily Dashboard</p>
-            <h2>국장 레짐 진단표</h2>
-            <p>오늘 시장이 공격 구간인지 방어 구간인지 먼저 판단합니다. 점수는 절대 예측값이 아니라, 여러 조건의 조합을 정리하는 도구입니다.</p>
-          </div>
-          <div class="score-summary">
-            <span>국장 레짐 점수</span>
-            <strong id="marketTotal">0</strong>
-            <em id="marketRegime">입력 대기</em>
-          </div>
-        </div>
-
-        <div class="score-layout">
-          <div class="score-panel" data-calculator="market">
-            <div class="factor-line">
-              <label for="mForeign">외국인 코스피 순매수 <span>20점</span></label>
-              <input id="mForeign" type="range" min="0" max="20" value="0" data-max="20" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mSamsung">삼성전자 외국인 수급 <span>20점</span></label>
-              <input id="mSamsung" type="range" min="0" max="20" value="0" data-max="20" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mFx">원달러 환율 안정도 <span>15점</span></label>
-              <input id="mFx" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mUsSemi">미국 반도체 흐름 <span>15점</span></label>
-              <input id="mUsSemi" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mKospi">코스피 상대강도 <span>10점</span></label>
-              <input id="mKospi" type="range" min="0" max="10" value="0" data-max="10" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mBreadth">반도체 섹터 확산도 <span>10점</span></label>
-              <input id="mBreadth" type="range" min="0" max="10" value="0" data-max="10" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="mPolicy">정책·뉴스 모멘텀 <span>10점</span></label>
-              <input id="mPolicy" type="range" min="0" max="10" value="0" data-max="10" />
-              <output>0</output>
-            </div>
-          </div>
-
-          <aside class="interpret-card" id="marketInterpretation">
-            <span class="card-label">판정 결과</span>
-            <h3>점수를 입력하면 레짐이 표시됩니다.</h3>
-            <p>80점 이상은 공격 구간, 65~79점은 상승 지속 구간, 50~64점은 중립, 35~49점은 약화, 34점 이하는 리스크오프입니다.</p>
-            <ul class="mini-list">
-              <li>공격 구간: 주도주 보유, 눌림 관심</li>
-              <li>중립 구간: 추격 금지, 확인 후 대응</li>
-              <li>리스크오프: 방어 우선, 현금 관리</li>
-            </ul>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad" id="samsung-score">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Samsung Electronics</p>
-            <h2>삼성전자 7-Factor 스코어카드</h2>
-            <p>삼성전자 상승의 성격을 분류합니다. 같은 상승이라도 외국인 패시브 유입, 반도체 업황 재평가, 뉴스성 반등, 숏커버, 분배형 상승은 대응이 다릅니다.</p>
-          </div>
-          <div class="score-summary light">
-            <span>삼성전자 점수</span>
-            <strong id="samsungTotal">0</strong>
-            <em id="samsungRegime">입력 대기</em>
-          </div>
-        </div>
-
-        <div class="score-layout reverse">
-          <aside class="interpret-card light-card" id="samsungInterpretation">
-            <span class="card-label">상승 유형 힌트</span>
-            <h3>상승의 질을 구분합니다.</h3>
-            <p>외국인 수급, 가격·거래량, 미국 반도체, 국내 확산도가 같이 강하면 반도체 업황 재평가형 상승으로 볼 수 있습니다.</p>
-            <div class="type-chips">
-              <span>패시브 유입형</span>
-              <span>업황 재평가형</span>
-              <span>뉴스 기대감형</span>
-              <span>숏커버형</span>
-              <span>분배형</span>
-            </div>
-          </aside>
-
-          <div class="score-panel light-panel" data-calculator="samsung">
-            <div class="factor-line">
-              <label for="sForeign">외국인 현물 수급 강도 <span>20점</span></label>
-              <input id="sForeign" type="range" min="0" max="20" value="0" data-max="20" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sInstitution">기관 동조 여부 <span>10점</span></label>
-              <input id="sInstitution" type="range" min="0" max="10" value="0" data-max="10" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sVolume">가격·거래량 질 <span>15점</span></label>
-              <input id="sVolume" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sRelative">삼성전자 상대강도 <span>15점</span></label>
-              <input id="sRelative" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sMacro">환율·금리 환경 <span>15점</span></label>
-              <input id="sMacro" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sUsSemi">미국 반도체 선행 신호 <span>15점</span></label>
-              <input id="sUsSemi" type="range" min="0" max="15" value="0" data-max="15" />
-              <output>0</output>
-            </div>
-            <div class="factor-line">
-              <label for="sBreadth">국내 반도체 확산도 <span>10점</span></label>
-              <input id="sBreadth" type="range" min="0" max="10" value="0" data-max="10" />
-              <output>0</output>
-            </div>
-          </div>
-        </div>
-
-        <div class="table-card">
-          <h3>삼성전자 상승 유형 분류표</h3>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>상승 유형</th><th>특징</th><th>해석</th><th>대응 관점</th></tr></thead>
-              <tbody>
-                <tr><td>외국인 패시브 유입형</td><td>삼성전자와 코스피 대형주 동반 강세</td><td>한국 대형주 전체로 자금 유입</td><td>대형주 확산 여부 확인</td></tr>
-                <tr><td>반도체 업황 재평가형</td><td>삼성전자, SK하이닉스, 소부장 동반 강세</td><td>가장 질 좋은 상승</td><td>눌림과 확산 섹터 동시 관찰</td></tr>
-                <tr><td>뉴스·정책 기대감형</td><td>장 초반 급등, 윗꼬리, 수급 약함</td><td>단기 재료성 상승 가능성</td><td>종가와 외국인 수급 확인</td></tr>
-                <tr><td>숏커버·되돌림형</td><td>급락 후 급반등, 거래량 지속 약함</td><td>기술적 반등 가능성</td><td>추세 전환 착각 주의</td></tr>
-                <tr><td>분배형 상승</td><td>고점권 거래량 증가, 종가 밀림, 관련주 약화</td><td>물량 출회 의심</td><td>비중 관리 우선</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad section-muted" id="flow-matrix">
+    <section class="section" id="materials">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">Flow Matrix</p>
-          <h2>외국인·기관 수급 해석 매트릭스</h2>
-          <p>외국인이 샀다, 기관이 팔았다에서 끝내지 않고 주가 흐름과 조합해서 해석합니다.</p>
+          <div><p class="eyebrow">Material Library</p><h2>전략노트 자료실</h2><p>대본에서 약속한 8개 자료입니다. 필요한 자료를 클릭해서 개별 페이지로 열어보는 구조입니다.</p></div>
+          <div class="search"><label for="materialSearch">자료 검색</label><input id="materialSearch" type="search" placeholder="예: 환율, 소부장, 비중, 갭상승"></div>
         </div>
-        <div class="table-card flush">
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>외국인</th><th>기관</th><th>주가</th><th>해석</th><th>대응 포인트</th></tr></thead>
-              <tbody>
-                <tr><td>순매수</td><td>순매수</td><td>상승</td><td>가장 강한 수급</td><td>섹터 확산 확인</td></tr>
-                <tr><td>순매수</td><td>순매도</td><td>상승</td><td>외국인 주도 상승</td><td>기관 매물 부담 체크</td></tr>
-                <tr><td>순매수</td><td>순매도</td><td>하락</td><td>저점 축적 가능성</td><td>종가 방어와 거래량 확인</td></tr>
-                <tr><td>순매도</td><td>순매수</td><td>상승</td><td>기관 방어 또는 단기 반등</td><td>외국인 재유입 전까지 추격 주의</td></tr>
-                <tr><td>순매도</td><td>순매도</td><td>하락</td><td>리스크오프 가능성</td><td>비중 확대 금지</td></tr>
-                <tr><td>순매도</td><td>순매수</td><td>하락</td><td>기관 방어 실패 가능성</td><td>지수와 환율 동시 확인</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="mini-cards four">
-          <article><h3>연기금</h3><p>대형주 신뢰도와 장기성 자금 관점에서 봅니다.</p></article>
-          <article><h3>투신</h3><p>펀드 자금과 시장 분위기 변화에 민감합니다.</p></article>
-          <article><h3>금융투자</h3><p>프로그램, 파생, 단기 수급 영향 가능성을 봅니다.</p></article>
-          <article><h3>사모·보험</h3><p>이벤트성 자금과 보수적 장기 자금 성격을 구분합니다.</p></article>
-        </div>
+        <div class="material-grid"><article class="material-card" data-keywords="삼성전자 보유자 신규진입 물린사람 갭상승 눌림 삼성전자 보유·신규·관망 대응표 삼성전자를 계속 들고 갈지, 눌림을 기다릴지, 일부 줄일지 판단하는 상황별 기준표">
+      <span class="material-no">01</span>
+      <h3>삼성전자 보유·신규·관망 대응표</h3>
+      <p>삼성전자를 계속 들고 갈지, 눌림을 기다릴지, 일부 줄일지 판단하는 상황별 기준표</p>
+      <div class="tag-row"><span class="tag">삼성전자</span><span class="tag">보유자</span><span class="tag">신규진입</span></div>
+      <a class="open-link" href="materials/01-samsung-response.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="체크리스트 미국반도체 환율 외국인 기관 뉴스 하루 5분 시장 체크리스트 외국인 수급, 환율, 미국 반도체주를 하루 5분 안에 확인하는 완성형 해석표">
+      <span class="material-no">02</span>
+      <h3>하루 5분 시장 체크리스트</h3>
+      <p>외국인 수급, 환율, 미국 반도체주를 하루 5분 안에 확인하는 완성형 해석표</p>
+      <div class="tag-row"><span class="tag">체크리스트</span><span class="tag">미국반도체</span><span class="tag">환율</span></div>
+      <a class="open-link" href="materials/02-daily-market-checklist.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="순환매 돈의이동 HBM 장비 소부장 전력인프라 삼성전자 이후 돈의 이동 지도 삼성전자에서 시작된 돈이 SK하이닉스, 장비, 소부장, 후공정, 전력 인프라로 번지는 순서">
+      <span class="material-no">03</span>
+      <h3>삼성전자 이후 돈의 이동 지도</h3>
+      <p>삼성전자에서 시작된 돈이 SK하이닉스, 장비, 소부장, 후공정, 전력 인프라로 번지는 순서</p>
+      <div class="tag-row"><span class="tag">순환매</span><span class="tag">돈의이동</span><span class="tag">HBM</span></div>
+      <a class="open-link" href="materials/03-money-flow-map.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="소부장 후공정 기판 관찰후보군 장비 소재 반도체 소부장·후공정 관찰 리스트 장비, 소재, 부품, 후공정, 기판 후보군과 장세별 관찰 우선순위">
+      <span class="material-no">04</span>
+      <h3>반도체 소부장·후공정 관찰 리스트</h3>
+      <p>장비, 소재, 부품, 후공정, 기판 후보군과 장세별 관찰 우선순위</p>
+      <div class="tag-row"><span class="tag">소부장</span><span class="tag">후공정</span><span class="tag">기판</span></div>
+      <a class="open-link" href="materials/04-semiconductor-watchlist.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="전력인프라 AI 데이터센터 변압기 전선 전력기기 AI 전력 인프라 관찰표 AI 데이터센터와 반도체 확장 흐름이 변압기, 전력기기, 전선으로 번지는지 보는 자료">
+      <span class="material-no">05</span>
+      <h3>AI 전력 인프라 관찰표</h3>
+      <p>AI 데이터센터와 반도체 확장 흐름이 변압기, 전력기기, 전선으로 번지는지 보는 자료</p>
+      <div class="tag-row"><span class="tag">전력인프라</span><span class="tag">AI</span><span class="tag">데이터센터</span></div>
+      <a class="open-link" href="materials/05-ai-power-infra.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="급등 급락 갭상승 갭하락 본전회복 시나리오 급등·급락 시나리오 대응표 갭상승, 갭하락, 외국인 매도 전환, 환율 급등, 본전 회복 때 대응 기준">
+      <span class="material-no">06</span>
+      <h3>급등·급락 시나리오 대응표</h3>
+      <p>갭상승, 갭하락, 외국인 매도 전환, 환율 급등, 본전 회복 때 대응 기준</p>
+      <div class="tag-row"><span class="tag">급등</span><span class="tag">급락</span><span class="tag">갭상승</span></div>
+      <a class="open-link" href="materials/06-crisis-scenario.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="비중관리 현금비중 분할매수 물타기 손실관리 초보자용 비중 관리표 현금 비중, 분할매수, 손실 구간별 대응, 물타기 금지 조건, 수익 구간별 비중 관리">
+      <span class="material-no">07</span>
+      <h3>초보자용 비중 관리표</h3>
+      <p>현금 비중, 분할매수, 손실 구간별 대응, 물타기 금지 조건, 수익 구간별 비중 관리</p>
+      <div class="tag-row"><span class="tag">비중관리</span><span class="tag">현금비중</span><span class="tag">분할매수</span></div>
+      <a class="open-link" href="materials/07-position-sizing.html">자료 열기 →</a>
+    </article><article class="material-card" data-keywords="보조지표 차트 추세 거래량 과열 눌림 AI 보조지표 활용 가이드 추세, 거래량, 과열, 눌림을 확인하는 차트 초보용 보조지표 해석표">
+      <span class="material-no">08</span>
+      <h3>AI 보조지표 활용 가이드</h3>
+      <p>추세, 거래량, 과열, 눌림을 확인하는 차트 초보용 보조지표 해석표</p>
+      <div class="tag-row"><span class="tag">보조지표</span><span class="tag">차트</span><span class="tag">추세</span></div>
+      <a class="open-link" href="materials/08-indicator-guide.html">자료 열기 →</a>
+    </article></div>
       </div>
     </section>
-
-    <section class="section-pad" id="rotation">
+    <section class="section section-muted" id="cta">
       <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Rotation Map</p>
-            <h2>반도체 밸류체인 순환매 지도</h2>
-            <p>삼성전자 이후 돈이 어디로 번질 수 있는지 단계별로 정리합니다. 핵심은 “관련주 나열”이 아니라 확산 순서와 강도를 보는 것입니다.</p>
-          </div>
-          <a class="button button-secondary" href="#screening">소부장 팩터 보기</a>
-        </div>
-        <div class="rotation-map" aria-label="반도체 순환매 단계">
-          <article><span>1단계</span><h3>대형주 재평가</h3><p>삼성전자, SK하이닉스</p></article>
-          <article><span>2단계</span><h3>핵심 모멘텀</h3><p>HBM, 고성능 메모리</p></article>
-          <article><span>3단계</span><h3>장비 확산</h3><p>전공정·후공정 장비</p></article>
-          <article><span>4단계</span><h3>소재·부품</h3><p>소재, 부품, 테스트</p></article>
-          <article><span>5단계</span><h3>패키징·기판</h3><p>후공정, FC-BGA, 테스트</p></article>
-          <article><span>6단계</span><h3>AI 인프라</h3><p>전력기기, 변압기, 전선</p></article>
-          <article><span>7단계</span><h3>국장 확산</h3><p>금융, 자동차, 저평가 대형주</p></article>
-        </div>
-        <p class="note">본 지도는 특정 종목 매수 추천이 아니라 시장 확산도를 관찰하기 위한 프레임워크입니다.</p>
-      </div>
-    </section>
-
-    <section class="section-pad section-muted" id="screening">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Factor Screening</p>
-          <h2>반도체 소부장 팩터 스크리닝표</h2>
-          <p>종목을 찍는 자료가 아니라, 어떤 종목군이 시장에서 먼저 반응하는지 판단하는 기준표입니다.</p>
-        </div>
-        <div class="screening-grid">
-          <article class="factor-badge"><span>실적 민감도</span><p>업황 회복 시 매출·마진이 움직이는가</p></article>
-          <article class="factor-badge"><span>고객사 노출도</span><p>삼성전자, SK하이닉스, 글로벌 고객사와 연결되는가</p></article>
-          <article class="factor-badge"><span>HBM·AI 연관성</span><p>AI 반도체 수요와 직접 또는 간접으로 연결되는가</p></article>
-          <article class="factor-badge"><span>수급 강도</span><p>외국인·기관 관심이 실제 매수로 확인되는가</p></article>
-          <article class="factor-badge"><span>거래대금 증가</span><p>시장 관심이 돈으로 붙고 있는가</p></article>
-          <article class="factor-badge"><span>신고가 근접도</span><p>주도주 성격이 살아있는가</p></article>
-          <article class="factor-badge"><span>밸류 부담</span><p>기대감이 이미 과도하게 반영됐는가</p></article>
-          <article class="factor-badge"><span>차트 위치</span><p>추세 상단인지, 정상 눌림인지, 이탈인지 구분</p></article>
-        </div>
-        <div class="table-card">
-          <h3>종목군별 관찰 우선순위 예시</h3>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>종목군</th><th>실적 민감도</th><th>HBM/AI 연관성</th><th>수급 강도</th><th>과열도</th><th>관찰 우선순위</th></tr></thead>
-              <tbody>
-                <tr><td>장비주</td><td>높음</td><td>높음</td><td>중상</td><td>중</td><td>1순위</td></tr>
-                <tr><td>후공정</td><td>높음</td><td>높음</td><td>높음</td><td>중상</td><td>1순위</td></tr>
-                <tr><td>소재</td><td>중</td><td>중</td><td>중</td><td>낮음</td><td>2순위</td></tr>
-                <tr><td>부품</td><td>중</td><td>중</td><td>중</td><td>중</td><td>2순위</td></tr>
-                <tr><td>기판</td><td>중상</td><td>높음</td><td>중</td><td>중상</td><td>2순위</td></tr>
-                <tr><td>전력 인프라</td><td>높음</td><td>간접</td><td>높음</td><td>중상</td><td>별도 관찰</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad" id="us-semi">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Morning Check</p>
-          <h2>미국 반도체 선행지표 체크표</h2>
-          <p>국내장 시작 전, 나스닥 전체보다 메모리·AI 반도체와 장비 사이클을 나눠서 봅니다.</p>
-        </div>
-        <div class="indicator-grid">
-          <article><h3>SOX</h3><p>글로벌 반도체 투자심리</p></article>
-          <article><h3>엔비디아</h3><p>AI 반도체 심리</p></article>
-          <article><h3>마이크론</h3><p>메모리 업황 연결</p></article>
-          <article><h3>AMD</h3><p>AI 서버·데이터센터 수요</p></article>
-          <article><h3>TSMC</h3><p>파운드리·글로벌 반도체 수요</p></article>
-          <article><h3>ASML</h3><p>반도체 장비 투자 사이클</p></article>
-          <article><h3>미국 10년물</h3><p>성장주 밸류에이션 부담</p></article>
-          <article><h3>달러인덱스</h3><p>외국인 자금 환경</p></article>
-        </div>
-        <div class="table-card">
-          <h3>한국 반도체 해석표</h3>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>미국 반도체</th><th>마이크론</th><th>엔비디아</th><th>한국 반도체 해석</th></tr></thead>
-              <tbody>
-                <tr><td>강세</td><td>강세</td><td>강세</td><td>국내 반도체 우호</td></tr>
-                <tr><td>강세</td><td>약세</td><td>강세</td><td>AI 중심, 메모리 확인 필요</td></tr>
-                <tr><td>약세</td><td>강세</td><td>약세</td><td>메모리만 선별 가능성</td></tr>
-                <tr><td>약세</td><td>약세</td><td>약세</td><td>국내 반도체 부담</td></tr>
-                <tr><td>혼조</td><td>강세</td><td>강세</td><td>SK하이닉스·HBM 우위 가능성 확인</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad section-muted" id="macro-risk">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Macro Risk</p>
-          <h2>환율·금리 리스크오프 판단표</h2>
-          <p>환율이 오른다, 금리가 오른다를 따로 보지 않고 조합으로 봅니다.</p>
-        </div>
-        <div class="matrix-grid">
-          <article><span>환율 하락 · 금리 하락</span><h3>외국인 유입 우호</h3><p>대형주와 성장주 모두 우호적인 조합입니다.</p></article>
-          <article><span>환율 하락 · 금리 상승</span><h3>선별장</h3><p>환율은 우호적이지만 성장주 밸류 부담을 확인합니다.</p></article>
-          <article><span>환율 상승 · 금리 하락</span><h3>안전자산 선호 확인</h3><p>환율 상승 원인이 외국인 이탈인지 확인합니다.</p></article>
-          <article><span>환율 상승 · 금리 상승</span><h3>수급 부담</h3><p>대형주 신규 진입보다 비중 관리가 우선입니다.</p></article>
-          <article><span>환율 급등 · 금리 급등</span><h3>리스크오프</h3><p>방어 우선, 외국인 순매도 여부를 가장 먼저 봅니다.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad" id="scenarios">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Scenario Book</p>
-            <h2>급등·급락 이벤트 대응 시나리오북</h2>
-            <p>시청자가 가장 흔들리는 순간에 바로 펼쳐보는 자료입니다. 상황을 선택하면 해석과 대응 기준이 표시됩니다.</p>
-          </div>
-          <div class="scenario-select">
-            <label for="scenarioPicker">상황 선택</label>
-            <select id="scenarioPicker">
-              <option value="gapUp">삼성전자 장 초반 갭상승</option>
-              <option value="gapDown">삼성전자 장 초반 갭하락</option>
-              <option value="foreignBuy">외국인 강한 순매수</option>
-              <option value="foreignSell">외국인 순매도 전환</option>
-              <option value="fxSpike">환율 급등</option>
-              <option value="usSemiDrop">미국 반도체 급락</option>
-              <option value="policyNews">정책 뉴스 급등</option>
-              <option value="breakEven">본전 회복</option>
-            </select>
-          </div>
-        </div>
-        <div class="scenario-result" id="scenarioResult" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <section class="section-pad section-muted" id="position">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Position Sizing</p>
-          <h2>포지션 사이징·손실 허용 한도표</h2>
-          <p>좋은 종목도 비중이 과하면 버티기 어렵습니다. 시장 레짐에 따라 현금 비중과 행동 기준을 정합니다.</p>
-        </div>
-        <div class="table-grid">
-          <div class="table-card flush">
-            <h3>시장 레짐별 현금 비중</h3>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>시장 상태</th><th>현금 비중</th><th>대응</th></tr></thead>
-                <tbody>
-                  <tr><td>레짐 강함</td><td>20~30%</td><td>주도주 보유, 눌림 분할</td></tr>
-                  <tr><td>상승 지속</td><td>30~40%</td><td>추격보다 분할</td></tr>
-                  <tr><td>중립</td><td>50% 이상</td><td>확인 전까지 대기</td></tr>
-                  <tr><td>약화</td><td>60~70%</td><td>비중 축소</td></tr>
-                  <tr><td>리스크오프</td><td>70% 이상</td><td>방어 우선</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="table-card flush">
-            <h3>물린 사람 전용 기준</h3>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>손실 구간</th><th>하면 안 되는 행동</th><th>먼저 할 것</th></tr></thead>
-                <tbody>
-                  <tr><td>-3% 이내</td><td>감정적 손절</td><td>수급·종가 확인</td></tr>
-                  <tr><td>-5~-10%</td><td>무리한 물타기</td><td>비중 점검</td></tr>
-                  <tr><td>-10~-20%</td><td>본전 집착</td><td>종목과 시장 레짐 분리</td></tr>
-                  <tr><td>-20% 이상</td><td>계속 방치</td><td>회복 가능성과 기회비용 판단</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad" id="daily-report">
-      <div class="container">
-        <div class="section-heading split-heading">
-          <div>
-            <p class="eyebrow">Daily Report</p>
-            <h2>하루 10분 국장 마감 리포트 템플릿</h2>
-            <p>매일 시장을 감정이 아니라 기준으로 정리하는 기록 양식입니다. 입력 내용은 브라우저에 저장됩니다.</p>
-          </div>
-          <div class="report-actions">
-            <button class="button button-secondary" id="saveReport" type="button">저장</button>
-            <button class="button button-ghost" id="copyReport" type="button">텍스트 복사</button>
-            <button class="button button-ghost" id="clearReport" type="button">초기화</button>
-          </div>
-        </div>
-        <form class="report-form" id="reportForm">
-          <label>날짜<input name="date" type="date" /></label>
-          <label>코스피 흐름<textarea name="kospi" rows="3" placeholder="예: 갭상승 후 종가 유지, 대형주 중심"></textarea></label>
-          <label>삼성전자 흐름<textarea name="samsung" rows="3" placeholder="예: 외국인 수급 동반, 거래대금 증가"></textarea></label>
-          <label>외국인·기관 수급<textarea name="flow" rows="3" placeholder="코스피 외국인, 삼성전자 외국인, 연기금/투신 동조 여부"></textarea></label>
-          <label>환율·금리·미국 반도체<textarea name="macro" rows="3" placeholder="원달러, 미국 10년물, SOX, 엔비디아, 마이크론"></textarea></label>
-          <label>반도체·전력 인프라 확산 여부<textarea name="breadth" rows="3" placeholder="소부장, 후공정, 전력 인프라, 저평가 대형주"></textarea></label>
-          <label>오늘 시장 레짐<select name="regime">
-            <option value="">선택</option>
-            <option>공격 구간</option>
-            <option>상승 지속 구간</option>
-            <option>중립 구간</option>
-            <option>약화 구간</option>
-            <option>리스크오프 구간</option>
-          </select></label>
-          <label>오늘의 결론<textarea name="conclusion" rows="4" placeholder="예: 삼성전자 상승은 수급이 동반되지만 섹터 확산이 아직 완전하지 않아 눌림 확인 우선"></textarea></label>
-          <label>내일 봐야 할 것<textarea name="tomorrow" rows="3" placeholder="외국인 지속 여부, 환율 안정, SK하이닉스/소부장 동반 강세"></textarea></label>
-          <label>내 포지션 대응<textarea name="position" rows="3" placeholder="보유, 비중 조절, 신규 진입 대기, 현금 확보 등"></textarea></label>
-        </form>
-      </div>
-    </section>
-
-    <section class="section-pad section-dark final-cta">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">CTA Copy</p>
-          <h2>대본 마지막에 붙일 수 있는 자료 소개 문구</h2>
-        </div>
-        <div class="copy-box">
-          <p>이번 자료는 단순히 삼성전자 대응표 하나가 아닙니다. 삼성전자가 진짜 수급으로 가는 장인지, 뉴스 때문에 하루 반짝 오른 장인지, 외국인이 대형주를 다시 사는 장인지, 아니면 고점에서 물량이 나오는 장인지 구분할 수 있게 국장 레짐 진단표로 정리했습니다.</p>
-          <p>그리고 삼성전자 이후 돈이 어디로 번질 수 있는지도 볼 수 있게 반도체 밸류체인 순환매 지도, 소부장 팩터 스크리닝표, 미국 반도체 선행지표, 환율·금리 리스크 판단표, 급등·급락 대응 시나리오북, 포지션 비중 관리표까지 한곳에 묶었습니다.</p>
-          <p>필요하신 분들은 댓글에 <strong>전략노트</strong>라고 남겨주시고, 설명란 링크로 신청해서 받아두시면 됩니다.</p>
-        </div>
+        <div class="banner"><p class="eyebrow">CTA Message</p><h2>댓글에 “전략노트”를 남긴 분들에게 보여줄 자료실</h2><p>이 자료의 목적은 종목을 찍어주는 것이 아니라, 매일 봐야 할 기준을 줄여주고 감정 매매를 줄이는 데 있습니다. 신청 링크나 카카오 채널 링크는 이 영역에 연결하면 됩니다.</p></div>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>Strategy Note Hub</strong>
-        <p>삼성전자 중심 국장 레짐 전략노트 자료실</p>
-      </div>
-      <p class="disclaimer">본 자료는 투자 판단을 돕기 위한 시장 분석 참고자료이며, 특정 종목의 매수·매도 추천이나 수익 보장을 목적으로 하지 않습니다. 모든 투자 판단과 책임은 투자자 본인에게 있습니다.</p>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="container">© <span data-year></span> 국장 통합 전략노트. 본 자료는 투자 참고용이며 특정 종목의 매수·매도 추천이 아닙니다.</div></footer>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
