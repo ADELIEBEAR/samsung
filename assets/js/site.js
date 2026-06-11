@@ -1,11 +1,21 @@
 const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
 
+(function rebrand(){
+  document.title='국장 돈의 지도 | 오늘 시장과 자금 흐름';
+  const brandStrong=$('.brand strong'); if(brandStrong) brandStrong.textContent='국장 돈의 지도';
+  const brandSub=$('.brand em'); if(brandSub) brandSub.textContent='오늘 시장과 자금 흐름';
+  const mark=$('.brand-mark'); if(mark) mark.textContent='M';
+  const heroEyebrow=$('.hero .eyebrow'); if(heroEyebrow) heroEyebrow.textContent='K-Market Money Map';
+  const heroTitle=$('.hero h1'); if(heroTitle) heroTitle.innerHTML='오늘 국장,<br>돈이 어디로 움직이는지 봅니다.';
+  const heroLead=$('.hero .lead'); if(heroLead) heroLead.textContent='코스피·코스닥·환율·미국장·수급·섹터 로테이션을 한 화면에서 보고, 삼성전자와 주요 대형주는 시장 신호로 함께 확인하는 자료 사이트입니다.';
+})();
+
 (function loadChartFix(){
   if(!document.querySelector('link[href="assets/css/chart-force-large.css"]')){
     const link=document.createElement('link');
     link.rel='stylesheet';
-    link.href='assets/css/chart-force-large.css?v=2';
+    link.href='assets/css/chart-force-large.css?v=3';
     document.head.appendChild(link);
   }
 })();
@@ -64,29 +74,37 @@ function renderLiveDetail(data){
 }
 loadToday();
 
-const chartButtons=$$('[data-tv-symbol]');
-if(chartButtons.length){
-  chartButtons.forEach(btn=>btn.addEventListener('click',()=>{
-    chartButtons.forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    renderTV(btn.dataset.tvSymbol);
-  }));
-  renderTV(chartButtons[0].dataset.tvSymbol);
+function renderKoreaChartDashboard(){
+  const chartSection=document.getElementById('chart');
+  if(!chartSection) return;
+  const head=chartSection.querySelector('.section-head h2'); if(head) head.textContent='국장 차트 대시보드';
+  const desc=chartSection.querySelector('.section-head p'); if(desc) desc.textContent='국내 지수와 삼성전자·SK하이닉스는 네이버금융 차트로 안정적으로 확인합니다.';
+  const shell=chartSection.querySelector('.chart-shell'); if(!shell) return;
+  const charts={
+    kospi:{label:'KOSPI',title:'코스피 지수',src:'https://ssl.pstatic.net/imgfinance/chart/sise/siseMainKOSPI.png',link:'https://finance.naver.com/sise/sise_index.naver?code=KOSPI'},
+    kosdaq:{label:'KOSDAQ',title:'코스닥 지수',src:'https://ssl.pstatic.net/imgfinance/chart/sise/siseMainKOSDAQ.png',link:'https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ'},
+    samsung:{label:'삼성전자',title:'삼성전자 005930',src:'https://ssl.pstatic.net/imgfinance/chart/item/candle/day/005930.png',link:'https://finance.naver.com/item/main.naver?code=005930'},
+    hynix:{label:'SK하이닉스',title:'SK하이닉스 000660',src:'https://ssl.pstatic.net/imgfinance/chart/item/candle/day/000660.png',link:'https://finance.naver.com/item/main.naver?code=000660'}
+  };
+  shell.innerHTML=`<div class="chart-tabs" id="koreaChartTabs"></div><div class="korea-chart-panel"><div class="korea-chart-title"><strong id="koreaChartTitle"></strong><a id="koreaChartLink" target="_blank" rel="noopener noreferrer">네이버금융에서 크게 보기 →</a></div><div class="korea-chart-image-wrap"><img id="koreaChartImage" alt="국장 차트"></div><p class="korea-chart-help">차트가 늦게 보이면 새로고침하거나 네이버금융에서 크게 보기를 눌러 확인하세요.</p></div>`;
+  const tabs=document.getElementById('koreaChartTabs');
+  Object.entries(charts).forEach(([key,item],idx)=>{
+    const btn=document.createElement('button');
+    btn.className='chart-tab'+(idx===0?' active':'');
+    btn.type='button';
+    btn.textContent=item.label;
+    btn.addEventListener('click',()=>setChart(key));
+    tabs.appendChild(btn);
+  });
+  function setChart(key){
+    const item=charts[key]||charts.kospi;
+    $$('#koreaChartTabs .chart-tab').forEach(b=>b.classList.toggle('active',b.textContent===item.label));
+    document.getElementById('koreaChartTitle').textContent=item.title;
+    document.getElementById('koreaChartLink').href=item.link;
+    const img=document.getElementById('koreaChartImage');
+    img.src=item.src+'?ts='+Date.now();
+    img.alt=item.title+' 차트';
+  }
+  setChart('kospi');
 }
-
-function chartHeight(){
-  if(matchMedia('(max-width:620px)').matches)return 520;
-  if(matchMedia('(max-width:980px)').matches)return 620;
-  return 780;
-}
-function renderTV(symbol){
-  const box=$('#tvChart'); if(!box)return;
-  const h=chartHeight();
-  box.style.cssText=`width:100%;height:${h}px;min-height:${h}px;display:block;`;
-  box.innerHTML=`<div class="tradingview-widget-container" style="width:100%;height:${h}px;min-height:${h}px;"><div class="tradingview-widget-container__widget" style="width:100%;height:${h}px;min-height:${h}px;"></div></div>`;
-  const script=document.createElement('script');
-  script.src='https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
-  script.async=true;
-  script.innerHTML=JSON.stringify({autosize:false,width:'100%',height:h,symbol,interval:'D',timezone:'Asia/Seoul',theme:'dark',style:'1',locale:'kr',allow_symbol_change:true,calendar:false,hide_side_toolbar:false,support_host:'https://www.tradingview.com'});
-  box.querySelector('.tradingview-widget-container').appendChild(script);
-}
+renderKoreaChartDashboard();
