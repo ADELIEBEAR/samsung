@@ -10,6 +10,14 @@ const $$=(s,r=document)=>[...r.querySelectorAll(s)];
   const hl=$('.hero .lead'); if(hl) hl.textContent='코스피·코스닥·환율·미국장·수급·섹터 흐름을 한 화면에서 보고, 삼성전자와 주요 대형주는 시장 신호로 함께 확인하는 전략노트입니다.';
 })();
 
+(function removePublicAdminInfo(){
+  $$('.nav a').forEach(a=>{ if(a.getAttribute('href')==='admin.html') a.remove(); });
+  $$('main > section').forEach(section=>{
+    const text=(section.textContent||'').replace(/\s+/g,' ');
+    if(text.includes('이 사이트의 기준') && text.includes('자동 브리핑') && text.includes('방문자 권한')) section.remove();
+  });
+})();
+
 (function addInternalChartCss(){
   const css=`
   #chart .container{width:min(1500px,calc(100% - 40px))}
