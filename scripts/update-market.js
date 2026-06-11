@@ -84,8 +84,7 @@ function collectSources(data) {
     contents: [{ parts: [{ text: prompt }] }],
     tools: [{ google_search: {} }],
     generationConfig: {
-      temperature: 0.35,
-      responseMimeType: 'application/json'
+      temperature: 0.35
     }
   };
 
