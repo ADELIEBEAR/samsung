@@ -78,41 +78,60 @@ function renderLiveDetail(data){
 }
 loadToday();
 
-function makeSeries(base, moves){
+function sampleSeries(base){
+  const moves=[3,-2,5,4,-3,6,2,-1,7,3,-2,5,4,3,-1,4,6,-3,3,5,2,-2,4,5,3,-1,4,3,5,2];
   let v=base;
-  return moves.map((m,i)=>{v=Math.max(1,v+m);return {x:i,y:Math.round(v*100)/100,label:i%5===0?String(i+1):''};});
+  return moves.map((m,i)=>{v+=m;return {date:String(i+1),close:Math.round(v*100)/100};});
+}
+function fallbackCharts(){
+  return [
+    {key:'kospi',title:'KOSPI',desc:'코스피 지수',last:3017,changePct:5.2,points:sampleSeries(2860)},
+    {key:'kosdaq',title:'KOSDAQ',desc:'코스닥 지수',last:890,changePct:8.8,points:sampleSeries(810)},
+    {key:'samsung',title:'삼성전자',desc:'005930 추세',last:77800,changePct:7.61,points:sampleSeries(72000)},
+    {key:'hynix',title:'SK하이닉스',desc:'000660 추세',last:315400,changePct:10.2,points:sampleSeries(285000)}
+  ];
 }
 function pathFor(points,w,h,pad){
-  const ys=points.map(p=>p.y), min=Math.min(...ys), max=Math.max(...ys), span=max-min||1;
+  const values=points.map(p=>Number(p.close)).filter(Number.isFinite);
+  const min=Math.min(...values), max=Math.max(...values), span=max-min||1;
   return points.map((p,i)=>{
-    const x=pad+(i/(points.length-1))*(w-pad*2);
-    const y=h-pad-((p.y-min)/span)*(h-pad*2);
+    const x=pad+(i/(points.length-1||1))*(w-pad*2);
+    const y=h-pad-((Number(p.close)-min)/span)*(h-pad*2);
     return `${i?'L':'M'}${x.toFixed(1)} ${y.toFixed(1)}`;
   }).join(' ');
 }
-function renderSvgChart(item){
+function svgChart(item){
   const w=720,h=280,pad=34;
-  const path=pathFor(item.data,w,h,pad);
-  const ys=item.data.map(p=>p.y), last=ys[ys.length-1], first=ys[0], diff=last-first;
-  const cls=diff>0?'up':diff<0?'down':'flat';
+  const points=(item.points||[]).filter(p=>Number.isFinite(Number(p.close)));
+  if(points.length<2) return `<div class="internal-svg" style="display:grid;place-items:center;color:#94a8c7">데이터 업데이트 대기</div>`;
+  const path=pathFor(points,w,h,pad);
+  const values=points.map(p=>Number(p.close));
+  const last=values[values.length-1], min=Math.min(...values), max=Math.max(...values), span=max-min||1;
+  const lastX=w-pad;
+  const lastY=h-pad-((last-min)/span)*(h-pad*2);
   const grid=[0,1,2,3].map(i=>`<line x1="${pad}" x2="${w-pad}" y1="${pad+i*((h-pad*2)/3)}" y2="${pad+i*((h-pad*2)/3)}" stroke="#172843" stroke-width="1"/>`).join('');
-  return `<svg class="internal-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="${escapeHtml(item.title)} 추세 차트"><defs><linearGradient id="g-${item.key}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="rgba(109,225,255,.45)"/><stop offset="1" stop-color="rgba(109,225,255,0)"/></linearGradient></defs>${grid}<path d="${path} L ${w-pad} ${h-pad} L ${pad} ${h-pad} Z" fill="url(#g-${item.key})"/><path d="${path}" fill="none" stroke="#6de1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${w-pad}" cy="${h-pad-((last-Math.min(...ys))/(Math.max(...ys)-Math.min(...ys)||1))*(h-pad*2)}" r="6" fill="#a7f3d0"/><text x="${pad}" y="${h-10}" fill="#8fa3bf" font-size="12">최근 30거래일 흐름</text></svg>`;
+  return `<svg class="internal-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><defs><linearGradient id="g-${item.key}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="rgba(109,225,255,.45)"/><stop offset="1" stop-color="rgba(109,225,255,0)"/></linearGradient></defs>${grid}<path d="${path} L ${lastX} ${h-pad} L ${pad} ${h-pad} Z" fill="url(#g-${item.key})"/><path d="${path}" fill="none" stroke="#6de1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${lastX}" cy="${lastY}" r="6" fill="#a7f3d0"/><text x="${pad}" y="${h-10}" fill="#8fa3bf" font-size="12">최근 ${points.length}거래일 흐름</text></svg>`;
 }
-function renderInternalCharts(){
-  const chartSection=document.getElementById('chart');
-  if(!chartSection) return;
+function renderCharts(charts,updatedAt,isLive){
+  const chartSection=document.getElementById('chart'); if(!chartSection)return;
   const title=chartSection.querySelector('.section-head h2'); if(title) title.textContent='시장 차트 대시보드';
-  const desc=chartSection.querySelector('.section-head p'); if(desc) desc.textContent='외부 위젯이 아니라 사이트 내부에서 직접 그리는 차트입니다.';
-  const shell=chartSection.querySelector('.chart-shell'); if(!shell) return;
-  const items=[
-    {key:'kospi',title:'KOSPI',desc:'코스피 지수',data:makeSeries(2860,[8,-4,12,6,-9,14,10,-6,18,4,-5,12,7,9,-3,10,15,-8,6,11,4,-7,9,13,5,-4,8,6,12,4])},
-    {key:'kosdaq',title:'KOSDAQ',desc:'코스닥 지수',data:makeSeries(815,[3,5,-4,8,-2,6,5,-7,4,9,-3,5,8,2,-6,7,4,3,-5,9,2,-4,6,3,5,-2,4,7,-3,6])},
-    {key:'samsung',title:'삼성전자',desc:'005930 추세',data:makeSeries(72000,[300,-200,500,100,-400,600,300,-200,700,100,-300,500,200,400,-100,300,500,-200,200,400,100,-300,300,500,200,-100,400,200,500,300])},
-    {key:'hynix',title:'SK하이닉스',desc:'000660 추세',data:makeSeries(285000,[1200,-800,2200,1600,-2500,3000,1800,-1200,3600,900,-1600,2200,1800,2400,-900,1600,3000,-1700,1200,2800,700,-1900,2600,1800,2200,-900,1600,2400,-700,2000])}
-  ];
-  shell.innerHTML=`<div class="internal-chart-grid">${items.map(item=>{
-    const first=item.data[0].y,last=item.data[item.data.length-1].y,diff=last-first,pct=(diff/first*100).toFixed(2),cls=diff>0?'up':diff<0?'down':'flat';
-    return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${item.title}</strong><span>${item.desc}</span></div><div class="internal-chart-value">${last.toLocaleString('ko-KR')}<span class="internal-chart-change ${cls}">${diff>0?'+':''}${pct}%</span></div></div>${renderSvgChart(item)}<div class="internal-chart-foot"><span>샘플 기준 차트 · 자동 데이터 연동 전</span><span>업데이트 준비중</span></div></article>`;
+  const desc=chartSection.querySelector('.section-head p'); if(desc) desc.textContent='GitHub Actions가 갱신한 데이터를 사이트 내부 차트로 표시합니다.';
+  const shell=chartSection.querySelector('.chart-shell'); if(!shell)return;
+  shell.innerHTML=`<div class="internal-chart-grid">${charts.map(item=>{
+    const last=Number(item.last||0);
+    const change=Number(item.changePct||0);
+    const cls=change>0?'up':change<0?'down':'flat';
+    const lastText=last?last.toLocaleString('ko-KR'):'-';
+    return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.desc||item.symbol||'')}</span></div><div class="internal-chart-value">${lastText}<span class="internal-chart-change ${cls}">${change>0?'+':''}${change.toFixed(2)}%</span></div></div>${svgChart(item)}<div class="internal-chart-foot"><span>${isLive?'실제 데이터 연동':'샘플 차트'}</span><span>${escapeHtml(updatedAt||'업데이트 대기')}</span></div></article>`;
   }).join('')}</div>`;
+}
+async function renderInternalCharts(){
+  try{
+    const res=await fetch('data/charts.json?ts='+Date.now());
+    const data=await res.json();
+    const charts=(data.charts||[]).filter(c=>(c.points||[]).length>=2);
+    if(charts.length) return renderCharts(charts,data.updatedAt,true);
+  }catch(e){console.warn(e);}
+  renderCharts(fallbackCharts(),'자동 데이터 연동 전',false);
 }
 renderInternalCharts();
