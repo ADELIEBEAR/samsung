@@ -1,0 +1,33 @@
+name: Update Market Charts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 00 * * 1-5"
+    - cron: "40 07 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update-charts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update chart data
+        run: node scripts/update-charts.js
+
+      - name: Commit updated chart data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/charts.json
+          git commit -m "Update market chart data" || echo "No changes to commit"
+          git push
