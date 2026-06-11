@@ -111,7 +111,7 @@ function pathFor(points,w,h,pad){
 function svgChart(item){
   const w=720,h=280,pad=34;
   const points=(item.points||[]).filter(p=>Number.isFinite(Number(p.close)));
-  if(points.length<2) return `<div class="internal-svg" style="display:grid;place-items:center;color:#94a8c7">데이터 업데이트 대기</div>`;
+  if(points.length<2) return `<div class="internal-svg" style="display:grid;place-items:center;color:#94a8c7">업데이트 대기</div>`;
   const path=pathFor(points,w,h,pad);
   const values=points.map(p=>Number(p.close));
   const last=values[values.length-1], min=Math.min(...values), max=Math.max(...values), span=max-min||1;
@@ -123,23 +123,23 @@ function svgChart(item){
 function renderCharts(charts,updatedAt,isLive){
   const chartSection=document.getElementById('chart'); if(!chartSection)return;
   const title=chartSection.querySelector('.section-head h2'); if(title) title.textContent='시장 차트 대시보드';
-  const desc=chartSection.querySelector('.section-head p'); if(desc) desc.textContent='GitHub Actions가 갱신한 데이터를 사이트 내부 차트로 표시합니다.';
+  const desc=chartSection.querySelector('.section-head p'); if(desc) desc.textContent='주요 지수와 대표 대형주의 최근 흐름을 확인합니다.';
   const shell=chartSection.querySelector('.chart-shell'); if(!shell)return;
   shell.innerHTML=`<div class="internal-chart-grid">${charts.map(item=>{
     const last=Number(item.last||0);
     const change=Number(item.changePct||0);
     const cls=change>0?'up':change<0?'down':'flat';
     const lastText=last?last.toLocaleString('ko-KR'):'-';
-    return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.desc||item.symbol||'')}</span></div><div class="internal-chart-value">${lastText}<span class="internal-chart-change ${cls}">${change>0?'+':''}${change.toFixed(2)}%</span></div></div>${svgChart(item)}<div class="internal-chart-foot"><span>${isLive?'실제 데이터 연동':'샘플 차트'}</span><span>${escapeHtml(updatedAt||'업데이트 대기')}</span></div></article>`;
+    const foot=isLive ? escapeHtml(updatedAt||'업데이트') : '업데이트 대기';
+    return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.desc||item.symbol||'')}</span></div><div class="internal-chart-value">${lastText}<span class="internal-chart-change ${cls}">${change>0?'+':''}${change.toFixed(2)}%</span></div></div>${svgChart(item)}<div class="internal-chart-foot"><span>최근 흐름</span><span>${foot}</span></div></article>`;
   }).join('')}</div>`;
-}
-async function renderInternalCharts(){
+}\nasync function renderInternalCharts(){
   try{
     const res=await fetch('data/charts.json?ts='+Date.now());
     const data=await res.json();
     const charts=(data.charts||[]).filter(c=>(c.points||[]).length>=2);
     if(charts.length) return renderCharts(charts,data.updatedAt,true);
   }catch(e){console.warn(e);}
-  renderCharts(fallbackCharts(),'자동 데이터 연동 전',false);
+  renderCharts(fallbackCharts(),'업데이트 대기',false);
 }
 renderInternalCharts();
