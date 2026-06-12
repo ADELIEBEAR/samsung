@@ -1,18 +1,14 @@
 {
-  "updatedAt": "2026년 6월 11일 목요일 PM 8:58",
+  "updatedAt": "2026년 6월 12일 금요일 PM 1:59",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 7763.95,
-      "changePct": 33.66,
+      "last": 8420.89,
+      "changePct": 41.11,
       "points": [
-        {
-          "date": "2026-04-13",
-          "close": 5808.62
-        },
         {
           "date": "2026-04-14",
           "close": 5967.75
@@ -168,6 +164,10 @@
         {
           "date": "2026-06-11",
           "close": 7763.95
+        },
+        {
+          "date": "2026-06-12",
+          "close": 8420.89
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -177,13 +177,9 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 996.93,
-      "changePct": -9.36,
+      "last": 1047.35,
+      "changePct": -6.64,
       "points": [
-        {
-          "date": "2026-04-13",
-          "close": 1099.84
-        },
         {
           "date": "2026-04-14",
           "close": 1121.88
@@ -339,6 +335,10 @@
         {
           "date": "2026-06-11",
           "close": 996.93
+        },
+        {
+          "date": "2026-06-12",
+          "close": 1047.35
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -348,13 +348,9 @@
       "title": "삼성전자",
       "desc": "005930 추세",
       "symbol": "005930.KS",
-      "last": 299000,
-      "changePct": 48.76,
+      "last": 336250,
+      "changePct": 62.83,
       "points": [
-        {
-          "date": "2026-04-13",
-          "close": 201000
-        },
         {
           "date": "2026-04-14",
           "close": 206500
@@ -510,6 +506,10 @@
         {
           "date": "2026-06-11",
           "close": 299000
+        },
+        {
+          "date": "2026-06-12",
+          "close": 336250
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -519,13 +519,9 @@
       "title": "SK하이닉스",
       "desc": "000660 추세",
       "symbol": "000660.KS",
-      "last": 2101000,
-      "changePct": 102.02,
+      "last": 2288000,
+      "changePct": 107.43,
       "points": [
-        {
-          "date": "2026-04-13",
-          "close": 1040000
-        },
         {
           "date": "2026-04-14",
           "close": 1103000
@@ -681,6 +677,10 @@
         {
           "date": "2026-06-11",
           "close": 2101000
+        },
+        {
+          "date": "2026-06-12",
+          "close": 2288000
         }
       ],
       "source": "Yahoo Finance chart endpoint"
