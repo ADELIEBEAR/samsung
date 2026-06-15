@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 6월 15일 월요일 PM 2:25",
+  "updatedAt": "2026년 6월 15일 월요일 PM 10:36",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 8550.57,
-      "changePct": 40.37,
+      "last": 8545.98,
+      "changePct": 40.3,
       "points": [
         {
           "date": "2026-04-15",
@@ -167,7 +167,7 @@
         },
         {
           "date": "2026-06-15",
-          "close": 8550.57
+          "close": 8545.98
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -177,8 +177,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 1035.03,
-      "changePct": -10.19,
+      "last": 1034.03,
+      "changePct": -10.27,
       "points": [
         {
           "date": "2026-04-15",
@@ -338,7 +338,7 @@
         },
         {
           "date": "2026-06-15",
-          "close": 1035.03
+          "close": 1034.03
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -519,8 +519,8 @@
       "title": "SK하이닉스",
       "desc": "000660 추세",
       "symbol": "000660.KS",
-      "last": 2299000,
-      "changePct": 102.38,
+      "last": 2288000,
+      "changePct": 101.41,
       "points": [
         {
           "date": "2026-04-15",
@@ -680,7 +680,7 @@
         },
         {
           "date": "2026-06-15",
-          "close": 2299000
+          "close": 2288000
         }
       ],
       "source": "Yahoo Finance chart endpoint"
