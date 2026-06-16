@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 6월 15일 월요일 PM 10:36",
+  "updatedAt": "2026년 6월 16일 화요일 AM 10:19",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 8545.98,
-      "changePct": 40.3,
+      "last": 8622.53,
+      "changePct": 41.55,
       "points": [
         {
           "date": "2026-04-15",
@@ -166,8 +166,8 @@
           "close": 8123.62
         },
         {
-          "date": "2026-06-15",
-          "close": 8545.98
+          "date": "2026-06-16",
+          "close": 8622.53
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -177,8 +177,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 1034.03,
-      "changePct": -10.27,
+      "last": 1020.68,
+      "changePct": -11.43,
       "points": [
         {
           "date": "2026-04-15",
@@ -337,8 +337,8 @@
           "close": 1029.05
         },
         {
-          "date": "2026-06-15",
-          "close": 1034.03
+          "date": "2026-06-16",
+          "close": 1020.68
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -348,13 +348,9 @@
       "title": "삼성전자",
       "desc": "005930 추세",
       "symbol": "005930.KS",
-      "last": 337000,
-      "changePct": 59.72,
+      "last": 336000,
+      "changePct": 54.48,
       "points": [
-        {
-          "date": "2026-04-15",
-          "close": 211000
-        },
         {
           "date": "2026-04-16",
           "close": 217500
@@ -510,6 +506,10 @@
         {
           "date": "2026-06-15",
           "close": 337000
+        },
+        {
+          "date": "2026-06-16",
+          "close": 336000
         }
       ],
       "source": "Yahoo Finance chart endpoint"
@@ -519,13 +519,9 @@
       "title": "SK하이닉스",
       "desc": "000660 추세",
       "symbol": "000660.KS",
-      "last": 2288000,
-      "changePct": 101.41,
+      "last": 2328000,
+      "changePct": 101.56,
       "points": [
-        {
-          "date": "2026-04-15",
-          "close": 1136000
-        },
         {
           "date": "2026-04-16",
           "close": 1155000
@@ -681,6 +677,10 @@
         {
           "date": "2026-06-15",
           "close": 2288000
+        },
+        {
+          "date": "2026-06-16",
+          "close": 2328000
         }
       ],
       "source": "Yahoo Finance chart endpoint"
