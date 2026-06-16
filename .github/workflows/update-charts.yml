@@ -3,8 +3,9 @@ name: Update Market Charts
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 00 * * 1-5"
-    - cron: "40 07 * * 1-5"
+    - cron: "50 23 * * 0-4"
+    - cron: "0,15,30,45 0-6 * * 1-5"
+    - cron: "40 7 * * 1-5"
 
 permissions:
   contents: write
