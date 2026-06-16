@@ -1,0 +1,1 @@
+Public cleanup script added. If the homepage still shows old text, make sure index.html loads assets/js/fix-public.js after assets/js/site.js.
