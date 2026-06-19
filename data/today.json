@@ -1,93 +1,112 @@
 {
-  "updatedAt": "2026년 6월 19일 금요일 PM 5:39",
-  "session": "장 마감 브리핑",
-  "marketTitle": "혼조세 속 수급 관망세 짙어진 하루",
+  "updatedAt": "2026년 6월 19일 금요일 PM 7:55",
+  "session": "오늘 시장 브리핑",
+  "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국장 혼조세 영향 속 국내 증시도 방향성 탐색하며 주요 섹터별 차별화 장세 심화.",
-  "marketRegime": "오늘 한국 증시는 전일 미국 증시의 혼조세와 주말을 앞둔 관망 심리가 맞물리며 전반적으로 방향성 탐색 흐름을 보였습니다. 코스피는 대형주 위주로 외국인과 기관의 매도세가 출회되며 약보합 마감했으나, 코스닥은 일부 성장 섹터의 강세에 힘입어 상대적으로 견조한 흐름을 나타냈습니다. 환율은 소폭 상승하며 달러 강세 압력이 지속되는 모습이었습니다. 전반적으로 특정 주도 섹터가 시장 전체를 이끌기보다는 개별 종목 및 섹터별 차별화가 두드러진 하루였습니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 6월 19일 금요일 PM 7:55 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 9천선 안착, 코스닥 급락 양극화 심화\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 기술주 강세 영향 속 국내 증시 혼조세, 반도체 중심 수급 쏠림 심화되",
+  "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피는 외국인·기관 매도세에 약보합 마감, 코스닥은 성장주 중심 강세로 상대적 선방.",
-    "미국 증시의 기술주 강세와 여타 지수 약세가 국내 시장에도 혼조세로 반영.",
-    "원/달러 환율은 소폭 상승하며 달러 강세 흐름 지속, 외국인 수급에 부담 요인.",
-    "반도체 및 전력 인프라 섹터는 견조한 흐름 유지, 2차전지 및 바이오는 관망세 심화.",
-    "주말을 앞둔 투자자들의 관망 심리가 지배적이며, 대규모 자금 유입은 제한적."
+    "{\n  \"updatedAt\": \"2026년 6월 19일 금요일 PM 7:55 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 9천선 안착, 코스닥 급락 양극화 심화\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 기술주 강세 영향 속 국내 증시 혼조세, 반도체 중심 수급 쏠림 심화되며 코스닥은 급락 마감.\",\n  \"marketRegime\": \"오늘 한국 증시는 장 초반 미국 반도체주의 강세에 힘입어 코스피가 사상 최고치를 경신하는 등 강한 상승 흐름을 보였으나, 오후 들어 미국과 이란 간 휴전 협상 불확실성 증대와 국내 증시의 특정 업종 쏠림 현상에 따른 차익실현 매물이 출회되며 변동성이 확대되었다. 특히 코스닥 시장은 시가총액 상위 바이오 및 2차전지 섹터의 부진과 기관의 대규모 순매도에 3%대 급락하며 코스피와의 양극화가 심화되는 흐름을 보였다.\",\n  \"summary\""
   ],
   "dashboard": {
-    "indices": "코스피는 외국인과 기관의 동반 매도에 약보합으로 마감하며 2750선 부근에서 지지력을 테스트하는 모습이었습니다. 반면 코스닥은 개인과 일부 기관의 매수세에 힘입어 상승 마감하며 900선 안착을 시도했습니다. 대형주 중심의 코스피와 중소형 성장주 중심의 코스닥 간의 흐름 차이가 명확했습니다.",
-    "global": "전일 미국 증시는 엔비디아를 필두로 한 AI 관련 기술주가 강세를 보였으나, 다우존스 산업평균지수는 하락하며 혼조세를 나타냈습니다. 이는 국내 증시에도 기술주 강세와 여타 업종의 약세라는 차별화된 흐름으로 이어졌습니다. 필라델피아 반도체 지수의 견조함은 국내 반도체 섹터에 긍정적인 영향을 미쳤습니다.",
-    "fx": "원/달러 환율은 전일 대비 소폭 상승하며 1380원대 중반에서 마감했습니다. 이는 미국의 견조한 경제 지표와 연준의 금리 인하 기대감 후퇴가 달러 강세로 이어지는 흐름을 반영한 것으로 보입니다. 환율 상승은 외국인 투자자들의 국내 증시 순매수에 부담으로 작용할 수 있습니다.",
-    "flows": "유가증권시장에서는 외국인과 기관이 동반 순매도를 기록하며 지수 하락을 이끌었습니다. 특히 외국인은 전기전자 업종을 중심으로 매도 우위를 보였습니다. 코스닥 시장에서는 개인이 순매수를 기록했으며, 기관은 일부 성장주를 중심으로 매수세를 보였습니다. 프로그램 매매는 장중 혼조세를 보이다가 막판 매도 우위로 전환되었습니다."
+    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
+    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
+    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
+    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "강함",
-      "view": "미국 기술주 강세 영향으로 국내 반도체 관련주들도 견조한 흐름을 이어갔습니다. 특히 HBM 등 고대역폭 메모리 관련 종목들이 강세를 보였으며, AI 소프트웨어 및 데이터센터 관련주들도 긍정적인 흐름을 나타냈습니다."
+      "status": "확인 필요",
+      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "강함",
-      "view": "여름철 전력 수요 증가 기대감과 정부의 전력 인프라 투자 확대 정책 기대감에 힘입어 전력 설비 및 변압기 관련 종목들이 강세를 보였습니다. 안정적인 실적 기대감과 정책 모멘텀이 유효한 섹터입니다."
+      "status": "확인 필요",
+      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "글로벌 전기차 시장의 성장 둔화 우려와 주요 완성차 업체들의 재고 조정 이슈가 지속되며 전반적으로 약세를 면치 못했습니다. 일부 소재 기업은 낙폭을 확대하며 투자 심리가 위축되는 모습이었습니다."
+      "status": "확인 필요",
+      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "개별 기업의 임상 결과 발표나 기술 수출 기대감에 따라 등락이 엇갈렸습니다. 전반적으로 시장의 관심이 분산되며 섹터 전체의 강한 상승 모멘텀은 부재했습니다. 신약 개발 관련 소식에 따라 변동성이 확대될 수 있습니다."
+      "status": "확인 필요",
+      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "완성차 업체들은 견조한 실적에도 불구하고 글로벌 경기 둔화 우려와 환율 변동성 확대에 대한 부담으로 혼조세를 보였습니다. 전장 부품 관련주는 일부 종목을 중심으로 상승세를 보였으나, 섹터 전반의 강한 흐름은 아니었습니다."
+      "status": "확인 필요",
+      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
     },
     {
       "name": "조선·방산",
-      "status": "중립",
-      "view": "조선주는 신규 수주 소식에도 불구하고 차익 실현 매물 출회로 상승폭이 제한적이었습니다. 방산주는 지정학적 리스크와 수출 기대감에 따라 일부 종목이 강세를 보였으나, 섹터 전반의 강한 상승은 아니었습니다."
+      "status": "확인 필요",
+      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "금리 인하 기대감 후퇴와 정부의 밸류업 프로그램 관련 모멘텀 약화로 인해 전반적으로 약세를 보였습니다. 외국인과 기관의 매도세가 출회되며 지수 하락에 일조했습니다."
+      "status": "확인 필요",
+      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "확인 필요",
-      "view": "일부 로봇 관련주는 테마성 수급에 힘입어 강세를 보였으나, 지속적인 상승 모멘텀은 확인이 필요합니다. 소프트웨어 섹터는 AI 관련주를 제외하고는 전반적으로 관망세가 짙었습니다."
+      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
     }
   ],
   "watch": [
-    "다음 주 예정된 미국 주요 경제 지표 발표 및 연준 인사 발언.",
-    "글로벌 반도체 업황의 지속적인 개선 여부 및 AI 관련 기술 트렌드 변화.",
-    "원/달러 환율의 추가 상승 여부와 외국인 수급에 미치는 영향.",
-    "국내 기업들의 2분기 실적 발표 시즌을 앞둔 실적 기대감 변화.",
-    "주요 섹터 내 수급 쏠림 현상 지속 여부 및 새로운 주도 섹터 출현 가능성."
+    "코스피·코스닥 지수 방향",
+    "외국인·기관 수급",
+    "환율과 미국 반도체주 흐름",
+    "주도 섹터 확산 여부"
   ],
   "risks": [
-    "미국 연준의 매파적 스탠스 유지에 따른 글로벌 유동성 축소 우려.",
-    "중동 및 유럽 지역의 지정학적 리스크 고조에 따른 국제 유가 변동성 확대.",
-    "국내 부동산 프로젝트파이낸싱(PF) 관련 불확실성 지속 및 금융 시장 불안정성.",
-    "글로벌 경기 둔화 우려가 국내 수출 기업 실적에 미칠 부정적 영향.",
-    "환율 상승에 따른 외국인 투자 심리 위축 및 국내 증시 자금 유출 가능성."
+    "환율 급등",
+    "미국 기술주 조정",
+    "특정 섹터 쏠림 후 차익매물",
+    "외국인 수급 둔화"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 실적과 성장성이 견조한 종목은 지속 보유하며 시장 흐름을 관망하는 것이 좋습니다. 다만, 단기 급등한 종목은 일부 차익 실현을 고려하여 리스크 관리에 나설 필요가 있습니다.",
-    "newEntry": "신규 진입은 시장의 방향성이 명확해질 때까지 보수적인 접근이 유효합니다. 실적 개선 기대감이 높거나 구조적 성장이 예상되는 섹터 내에서 분할 매수 관점으로 접근하는 것이 바람직합니다.",
-    "cash": "현금 보유자는 시장의 불확실성이 높은 시기이므로 성급한 진입보다는 충분한 현금을 확보하며 관망하는 전략이 중요합니다. 시장의 변동성을 활용한 기회를 포착하기 위해 준비하는 것이 좋습니다."
+    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
+    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
+    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
   "sources": [
     {
-      "title": "주요 증권사 데일리 리포트",
-      "url": "https://www.example.com/daily_reports"
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETDcuX2HicrOk4VFBDVzDKBDloFgLthwkRuyGOKryEsbdQgKe9Nm3i-HKHAPEiOt2XraPa7-nKZOv5eAK0Q_dLRTZvl39VfkravYKO9qX52KivVoLoLd0lzdNuQDa9AvnvI1kltYBYQOWHm6eeEtOkn3Q="
     },
     {
-      "title": "경제 뉴스 채널",
-      "url": "https://www.example.com/economic_news"
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5s7bg5I6uJRXEYIVXDucASaLp8pXn6wNeB1LJsuiS08XnSPJkVYBhDQxVGjRE7N-0ZaGZ2Y05vKW9tYHCDHUwFm7A624pK308RINI5I2xRN-XmAGvup3CfklyrWb8UhFhlC-BRBVEcuN8"
+    },
+    {
+      "title": "etoday.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh-nTfE48JHFvSySkner6rQukMBtYvGM74OJnDDsvW0px6cah_JxXfwK_7-Vf8nlGx8T_UiAZXEoUtXBtIWlkgC1FO-lcp1hiE1t8Ck46JhGkLdK0wa_volZw0ldfId8NwDQ_O"
+    },
+    {
+      "title": "mt.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgp0ORIAOm7WxpiNV93tqYrmRhdz_SSDRK7NxssvmWPPomQyoOfX2L4XeSUgEulD7zArmL2dILUxt0y2Pw736xstVLrq1Jy_EKNjiQFJs1OrcsM_yi71LNN3rj17vPdPBrOfVISPRFxyfStFSI66aT03Ap"
+    },
+    {
+      "title": "etnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsHLGTCsk6kmJwG6WE27PeeHmJoyCMw2Xmi4hzENW6rI8qrWehGLGJj-G-u3ze6bWnksWOzNcmHxRLzDdMX6Rx8VeJi5ttfQ0bC2CLpIxC0kwl1rlr8QD05ryyE9cahA=="
+    },
+    {
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpQx3pJ5tj7GJ0zwLrg_1xw4CJLxaVWnEM6xvFdQPUq6sqrXilOCjRgVN6uaBXLJYDcv9-1rCHGS10eMqiKZbOd9YpO863uIxh-TQWhtG06K1EEO86wwbszFbg6zSVYcDb5g=="
+    },
+    {
+      "title": "kbthink.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTLV8TTnQe8O4sloRpqYbMD43IzFbLj6M5tEWqe9rdzBjF_YERe01SbwxRleO6CMO_S91FsPTE3ma9AYclMQaqyUKPKo1XFkLeU6hV2YKEK7_nYn_VfF7UzNV787k24IauZkRu5qwWq_zk1qaHqDcT0xUthrvM"
+    },
+    {
+      "title": "tistory.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAE4hqdD2cwPZFLWCoBSrvNuHl3LpLYdCD85daGLWbCBhruppXNqGM7eCjtCSGST3PQQ2QQ7QeoeJx8flgDWk7d5MZw-O0PTRZevaNHhMxM3q9aIggrkEWdXPHC2UudczcS-84uDUoJzb5z79prfM_OfTHxSTNxxqdzgCeP9LXp4FWLN4_EV1i8ky_nQBzHEh5kGpyfmw0hsU4I6jr7266syU6Fosovf-ExIHp7vUUTHK9Ommd67-6VrlRV40z-gRZTtH4ghr_SZHSSpf6PYk4NqysGZrnENGI3WHalyu_YCOYk1L9ekuU5noveqxUIE6kGhAkFW24h_b8YC97TQ0AxnWZBTFpIYLdj7HLCWW0Tw8lQ10Wm2BiYLPXh-BgIEUcqEnJH29JnFQkyGt7ZJ5dSx2iA_bOwuUgUUd9HaIkX-b81h3qHgN5VxmABUNcEanTpD6uGjgy5qTCTj6_ssAjf0GeFbP4AvyiPVyqNgi9hU9RqdO3_VS6YhGxMdbefKq1Gl-UMtP3Eize_jAxVwpOwQ=="
     }
-  ]
+  ],
+  "note": "JSON 파싱 실패"
 }
