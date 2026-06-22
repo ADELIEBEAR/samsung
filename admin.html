@@ -1,3 +1,64 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>관리 안내 | 국장 통합 레짐노트</title><link rel="stylesheet" href="assets/css/style.css"></head><body><header class="topbar"><div class="container topbar-inner"><a class="brand" href="index.html"><span class="brand-mark">M</span><span><strong>국장 통합 레짐노트</strong><em>자동 브리핑 설정</em></span></a><nav class="nav"><a href="index.html">홈</a><a href="live.html">오늘 브리핑</a></nav><button class="menu-btn" type="button">메뉴</button></div></header><main><section class="page-hero"><div class="container"><p class="eyebrow">Admin Setup</p><h1 class="page-title">Gemini 자동 브리핑 설정</h1><p class="page-lead">API 키는 사이트 코드에 넣지 않고 GitHub Actions Secret에만 저장합니다. 방문자는 키를 볼 수 없고, 생성된 브리핑만 읽습니다.</p></div></section><section class="section"><div class="container"><div class="admin-box"><h2>설정 순서</h2><ol><li>GitHub 저장소에서 <b>Settings → Secrets and variables → Actions</b>로 이동합니다.</li><li><b>New repository secret</b>을 누르고 이름을 <b>GEMINI_API_KEY</b>로 입력합니다.</li><li>값에는 Gemini API 키를 붙여넣습니다.</li><li><b>Actions → Update Daily Market Briefing → Run workflow</b>를 눌러 한 번 실행합니다.</li></ol><p>이후 예약된 시간에 <code>data/today.json</code>이 자동 갱신됩니다.</p><h3>워크플로 파일</h3><div class="code">.github/workflows/update-market.yml
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>운영 안내 | 국장 통합 전략노트</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">국</span>
+      <span><strong>국장 통합 전략노트</strong><em>자동 브리핑 설정</em></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">홈</a>
+      <a href="live.html">오늘 브리핑</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false">메뉴</button>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Admin Setup</p>
+      <h1 class="page-title">Gemini 자동 브리핑 설정</h1>
+      <p class="page-lead">API 키는 사이트 코드에 넣지 않고 GitHub Actions Secret에만 저장합니다. 방문자는 키를 볼 수 없고, 생성된 브리핑만 읽습니다. 이 페이지는 사이트 운영자를 위한 안내이며, 공개 메뉴에는 노출되지 않습니다.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="admin-box">
+        <h2>설정 순서</h2>
+        <ol>
+          <li>GitHub 저장소에서 <b>Settings → Secrets and variables → Actions</b>로 이동합니다.</li>
+          <li><b>New repository secret</b>을 누르고 이름을 <b>GEMINI_API_KEY</b>로 입력합니다.</li>
+          <li>값에는 Gemini API 키를 붙여넣습니다.</li>
+          <li><b>Actions → Update Daily Market Briefing → Run workflow</b>를 눌러 한 번 실행합니다.</li>
+        </ol>
+        <p>이후 예약된 시간에 <code>data/today.json</code>이 자동 갱신됩니다. 차트 데이터는 같은 방식으로 <code>Update Market Charts</code> 워크플로가 <code>data/charts.json</code>을 갱신합니다.</p>
+        <h3>관련 파일</h3>
+        <div class="code">.github/workflows/update-market.yml
+.github/workflows/update-charts.yml
 scripts/update-market.js
-data/today.json</div><p class="note">키를 채팅이나 공개 저장소 코드에 넣으면 안 됩니다. Secret에만 넣어야 합니다.</p></div></div></section></main><footer class="footer"><div class="container">관리 페이지는 안내용입니다. 실제 업데이트는 GitHub Actions에서 실행됩니다.</div></footer><script src="assets/js/site.js"></script></body></html>
+scripts/update-charts.js
+data/today.json
+data/charts.json</div>
+        <p class="note">키를 채팅이나 공개 저장소 코드에 넣으면 안 됩니다. Secret에만 넣어야 합니다.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">관리 페이지는 안내용입니다. 실제 업데이트는 GitHub Actions에서 실행됩니다.</div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
