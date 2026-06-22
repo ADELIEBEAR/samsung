@@ -31,9 +31,9 @@
     </div>
   </header>
 
-  <div class="ticker" aria-label="주요 지수 실시간 시세">
-    <div class="ticker-track" id="tickerTrack">
-      <span class="ticker-item"><span class="ticker-name">불러오는 중</span><b>-</b></span>
+  <div class="quote-strip" aria-label="주요 지수·종목 시세">
+    <div class="quote-row" id="quoteStrip">
+      <div class="quote-cell"><span class="q-name">불러오는 중</span><span class="q-value">-</span></div>
     </div>
   </div>
 
@@ -84,7 +84,7 @@
           <div>
             <p class="eyebrow">Live Chart</p>
             <h2>시장 차트 대시보드</h2>
-            <p>지수와 대표 대형주의 최근 추세를 확인합니다. GitHub Actions가 장중 주기적으로 갱신합니다.</p>
+            <p>지수와 대표 대형주의 최근 추세를 확인합니다. 시세는 장중 주기적으로 자동 갱신됩니다.</p>
           </div>
         </div>
 
@@ -106,15 +106,15 @@
             <p>특정 한 종목이 아니라 시장의 돈이 어느 섹터로 번지는지 확인합니다.</p>
           </div>
         </div>
-        <div class="sector-grid">
-          <article class="sector"><strong>반도체·AI</strong><span class="pill">대표 신호</span><p>대형주 수급과 HBM·장비·후공정 확산을 함께 봅니다.</p></article>
-          <article class="sector"><strong>전력·인프라</strong><span class="pill">AI 확장</span><p>데이터센터와 전력기기·변압기·전선 흐름을 봅니다.</p></article>
-          <article class="sector"><strong>2차전지</strong><span class="pill">반등/복귀</span><p>대형주 거래대금과 소재·장비 동조 여부를 확인합니다.</p></article>
-          <article class="sector"><strong>바이오</strong><span class="pill">개별/섹터</span><p>개별 재료인지, 업종 전체로 확산되는지 구분합니다.</p></article>
-          <article class="sector"><strong>자동차·전장</strong><span class="pill">수출/전장</span><p>환율, 실적, 전장 모멘텀을 같이 봅니다.</p></article>
-          <article class="sector"><strong>조선·방산</strong><span class="pill">수주/정책</span><p>수주 뉴스 이후 종가와 기관 수급을 확인합니다.</p></article>
-          <article class="sector"><strong>금융·지주</strong><span class="pill">밸류/배당</span><p>대형주 순환매와 밸류업, 배당 기대를 봅니다.</p></article>
-          <article class="sector"><strong>로봇·소프트웨어</strong><span class="pill">성장 테마</span><p>뉴스성 급등인지 거래대금이 붙는 주도 흐름인지 봅니다.</p></article>
+        <div class="sector-list">
+          <div class="sector-row"><strong>반도체·AI</strong><span class="pill">대표 신호</span><p>대형주 수급과 HBM·장비·후공정 확산을 함께 봅니다.</p></div>
+          <div class="sector-row"><strong>전력·인프라</strong><span class="pill">AI 확장</span><p>데이터센터와 전력기기·변압기·전선 흐름을 봅니다.</p></div>
+          <div class="sector-row"><strong>2차전지</strong><span class="pill">반등/복귀</span><p>대형주 거래대금과 소재·장비 동조 여부를 확인합니다.</p></div>
+          <div class="sector-row"><strong>바이오</strong><span class="pill">개별/섹터</span><p>개별 재료인지, 업종 전체로 확산되는지 구분합니다.</p></div>
+          <div class="sector-row"><strong>자동차·전장</strong><span class="pill">수출/전장</span><p>환율, 실적, 전장 모멘텀을 같이 봅니다.</p></div>
+          <div class="sector-row"><strong>조선·방산</strong><span class="pill">수주/정책</span><p>수주 뉴스 이후 종가와 기관 수급을 확인합니다.</p></div>
+          <div class="sector-row"><strong>금융·지주</strong><span class="pill">밸류/배당</span><p>대형주 순환매와 밸류업, 배당 기대를 봅니다.</p></div>
+          <div class="sector-row"><strong>로봇·소프트웨어</strong><span class="pill">성장 테마</span><p>뉴스성 급등인지 거래대금이 붙는 주도 흐름인지 봅니다.</p></div>
         </div>
       </div>
     </section>
@@ -130,15 +130,15 @@
           <label class="search"><span>검색</span><input id="materialSearch" type="search" placeholder="예: 환율, 2차전지, 반도체, 비중"></label>
         </div>
 
-        <div class="grid">
-          <article class="card" data-material-card data-keywords="코스피 코스닥 외국인 환율 금리 미국장 섹터"><span class="no">자료 01</span><h3>국장 흐름 진단표</h3><p>지금 시장이 공격 구간인지, 선별장인지, 리스크오프인지 먼저 판단하는 기준표</p><a href="materials/01-market-regime.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="미국장 SOX 환율 달러 외국인 기관 뉴스"><span class="no">자료 02</span><h3>하루 5분 시장 체크리스트</h3><p>장 시작 전과 마감 후 반드시 봐야 할 지표를 순서대로 정리한 체크표</p><a href="materials/02-daily-checklist.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="순환매 섹터 로테이션 주도주 후발주 대형주"><span class="no">자료 03</span><h3>국장 돈의 이동 지도</h3><p>반도체에서 전력, 조선, 방산, 금융, 자동차, 바이오까지 돈이 번지는 순서</p><a href="materials/03-money-flow-map.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="삼성전자 SK하이닉스 HBM 장비 소부장 후공정 기판"><span class="no">자료 04</span><h3>반도체·AI 밸류체인 관찰표</h3><p>삼성전자와 SK하이닉스는 신호로 보고, 장비·소부장·후공정·기판까지 확산을 확인</p><a href="materials/04-semiconductor-ai.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="전력 변압기 전선 데이터센터 LS HD현대일렉트릭 효성중공업"><span class="no">자료 05</span><h3>AI 전력 인프라 관찰표</h3><p>데이터센터와 AI 투자 흐름이 변압기, 전력기기, 전선, 배전 자동화로 이어지는지 보는 자료</p><a href="materials/05-ai-power-infra.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="갭상승 갭하락 급락 급등 본전 환율 외국인"><span class="no">자료 06</span><h3>급등·급락 시나리오 대응표</h3><p>갭상승, 갭하락, 장중 급락, 환율 급등, 외국인 매도 전환 때 감정 매매를 줄이는 표</p><a href="materials/06-crisis-scenario.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="비중 현금 물타기 분할매수 손절 손실"><span class="no">자료 07</span><h3>비중 관리·현금 비중 기준표</h3><p>몰빵과 물타기를 줄이고, 시장 흐름별 현금 비중과 분할 기준을 잡는 자료</p><a href="materials/07-position-sizing.html">자료 열기 →</a></article>
-          <article class="card" data-material-card data-keywords="보조지표 차트 RSI MACD 볼린저 거래량 이동평균"><span class="no">자료 08</span><h3>보조지표 활용 가이드</h3><p>이동평균선, 거래량, RSI, MACD, 볼린저밴드, 상대강도를 매수 버튼이 아닌 확인 도구로 쓰는 법</p><a href="materials/08-indicator-guide.html">자료 열기 →</a></article>
+        <div class="data-list">
+          <a class="data-row" data-material-card data-keywords="코스피 코스닥 외국인 환율 금리 미국장 섹터" href="materials/01-market-regime.html"><span class="data-no">01</span><div class="data-body"><h3>국장 흐름 진단표</h3><p>지금 시장이 공격 구간인지, 선별장인지, 리스크오프인지 먼저 판단하는 기준표</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="미국장 SOX 환율 달러 외국인 기관 뉴스" href="materials/02-daily-checklist.html"><span class="data-no">02</span><div class="data-body"><h3>하루 5분 시장 체크리스트</h3><p>장 시작 전과 마감 후 반드시 봐야 할 지표를 순서대로 정리한 체크표</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="순환매 섹터 로테이션 주도주 후발주 대형주" href="materials/03-money-flow-map.html"><span class="data-no">03</span><div class="data-body"><h3>국장 돈의 이동 지도</h3><p>반도체에서 전력, 조선, 방산, 금융, 자동차, 바이오까지 돈이 번지는 순서</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="삼성전자 SK하이닉스 HBM 장비 소부장 후공정 기판" href="materials/04-semiconductor-ai.html"><span class="data-no">04</span><div class="data-body"><h3>반도체·AI 밸류체인 관찰표</h3><p>삼성전자와 SK하이닉스는 신호로 보고, 장비·소부장·후공정·기판까지 확산을 확인</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="전력 변압기 전선 데이터센터 LS HD현대일렉트릭 효성중공업" href="materials/05-ai-power-infra.html"><span class="data-no">05</span><div class="data-body"><h3>AI 전력 인프라 관찰표</h3><p>데이터센터와 AI 투자 흐름이 변압기, 전력기기, 전선, 배전 자동화로 이어지는지 보는 자료</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="갭상승 갭하락 급락 급등 본전 환율 외국인" href="materials/06-crisis-scenario.html"><span class="data-no">06</span><div class="data-body"><h3>급등·급락 시나리오 대응표</h3><p>갭상승, 갭하락, 장중 급락, 환율 급등, 외국인 매도 전환 때 감정 매매를 줄이는 표</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="비중 현금 물타기 분할매수 손절 손실" href="materials/07-position-sizing.html"><span class="data-no">07</span><div class="data-body"><h3>비중 관리·현금 비중 기준표</h3><p>몰빵과 물타기를 줄이고, 시장 구간별 현금 비중과 분할 기준을 잡는 자료</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" data-material-card data-keywords="보조지표 차트 RSI MACD 볼린저 거래량 이동평균" href="materials/08-indicator-guide.html"><span class="data-no">08</span><div class="data-body"><h3>보조지표 활용 가이드</h3><p>이동평균선, 거래량, RSI, MACD, 볼린저밴드, 상대강도를 매수 버튼이 아닌 확인 도구로 쓰는 법</p></div><span class="data-go">열기 →</span></a>
         </div>
       </div>
     </section>
@@ -153,19 +153,9 @@
           </div>
         </div>
 
-        <div class="grid">
-          <article class="card">
-            <span class="no">확장 01</span>
-            <h3>돈의 이동 관찰 자료</h3>
-            <p>삼성전자 이후 시장의 돈이 어느 섹터와 후보군으로 번지는지 확인하는 확장 자료입니다.</p>
-            <a href="https://inspiring-phoenix-2dc7c7.netlify.app/" target="_blank" rel="noopener noreferrer">자료 열기 →</a>
-          </article>
-          <article class="card">
-            <span class="no">확장 02</span>
-            <h3>코스피 8000 책 자료</h3>
-            <p>국장 장기 시나리오와 시장 재평가 흐름을 더 크게 보기 위한 코스피 8000 책 사이트입니다.</p>
-            <a href="https://fascinating-llama-ff2a90.netlify.app/" target="_blank" rel="noopener noreferrer">책 자료 보기 →</a>
-          </article>
+        <div class="data-list">
+          <a class="data-row" href="https://inspiring-phoenix-2dc7c7.netlify.app/" target="_blank" rel="noopener noreferrer"><span class="data-no">E1</span><div class="data-body"><h3>돈의 이동 관찰 자료</h3><p>삼성전자 이후 시장의 돈이 어떤 섹터와 후보주로 번지는지 보여주는 확장 자료입니다.</p></div><span class="data-go">열기 →</span></a>
+          <a class="data-row" href="https://fascinating-llama-ff2a90.netlify.app/" target="_blank" rel="noopener noreferrer"><span class="data-no">E2</span><div class="data-body"><h3>코스피 8000 책 자료</h3><p>국장의 장기 시나리오와 시장 재평가 흐름을 큰 틀에서 짚어보는 코스피 8000 책 사이트입니다.</p></div><span class="data-go">열기 →</span></a>
         </div>
       </div>
     </section>
