@@ -244,6 +244,10 @@ img{max-width:100%}
 .doc h2:first-child{margin-top:0}
 .doc h3{margin:22px 0 9px;font-size:16px}
 .doc p{color:#3b4252}
+.doc ul{list-style:none;padding-left:2px;margin:14px 0 22px}
+.doc ol{padding-left:20px;margin:14px 0 22px}
+.doc ul li,.doc ol li{margin-bottom:10px;font-size:14.5px;line-height:1.6;color:#2b3344}
+.doc ul li strong,.doc ol li strong{color:#10131a}
 .table-wrap{overflow:auto;border:1px solid #dfe2e8;border-radius:var(--r-sm);margin:14px 0 22px}
 table{width:100%;border-collapse:collapse;min-width:660px}
 th,td{padding:12px 13px;border-bottom:1px solid #eceef2;text-align:left;vertical-align:top;font-size:13.5px}
