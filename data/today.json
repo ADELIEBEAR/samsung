@@ -1,119 +1,91 @@
 {
-  "updatedAt": "2026년 6월 23일 화요일 PM 7:49 KST",
-  "session": "장 마감 브리핑",
-  "marketTitle": "코스피·코스닥 동반 폭락, 시장 전반 리스크 확대",
-  "temperature": "리스크오프",
-  "riskLevel": "높음",
-  "oneLine": "외국인·기관의 대규모 매도세와 반도체 대형주 급락으로 코스피, 코스닥 모두 폭락 마감하며 투자 심리가 급격히 위축되었습니다.",
-  "marketRegime": "글로벌 경기 둔화 우려와 고환율 지속, 그리고 국내 정책 불확실성이 겹치며 시장 전반의 리스크 회피 흐름이 심화되었습니다. 특히 외국인과 기관의 대규모 차익 실현 매물이 출회되며 대형주와 성장주를 중심으로 급락세가 나타났습니다.",
+  "updatedAt": "2026년 6월 24일 수요일 AM 9:06 (KST)",
+  "session": "장 전 브리핑",
+  "marketTitle": "미국장 혼조세 속 국내 증시 관망",
+  "temperature": "중립",
+  "riskLevel": "보통",
+  "oneLine": "미국 증시의 혼조세와 금리 불확실성 속, 국내 증시는 외국인 수급과 주요 섹터의 순환매 여부에 주목하며 관망세가 예상됩니다.",
+  "marketRegime": "글로벌 경기 지표와 미국 연준의 통화정책 방향에 대한 불확실성이 지속되며 시장 전반의 방향성 탐색이 이어지는 흐름입니다. 특정 주도 섹터의 강한 상승보다는 업종별 순환매와 개별 종목 장세가 나타날 가능성이 높습니다. 외국인 투자자의 수급 방향이 단기 시장 변동성을 결정하는 중요한 요인으로 작용하고 있습니다.",
   "summary": [
-    "코스피, 코스닥 동반 10% 가까이 폭락, 서킷브레이커 발동",
-    "외국인·기관 대규모 순매도, 개인 투자자 순매수 기록",
-    "반도체 대형주(삼성전자, SK하이닉스) 10% 이상 급락, 시장 하락 주도",
-    "원/달러 환율 1500원대 지속, 고환율 부담 가중",
-    "미국 증시 혼조세, 빅테크 약세 및 AI 투자 우려 부각",
-    "국민연금 리밸런싱 및 주식 미실현 이익 과세 등 정책 불확실성 증대"
+    "미국 증시는 기술주 중심의 차익 실현과 경기 지표에 대한 해석으로 혼조 마감했습니다.",
+    "국내 증시는 글로벌 매크로 불확실성 속 외국인 및 기관 투자자의 수급 방향이 중요합니다.",
+    "반도체 및 AI 관련주는 여전히 시장의 관심 속에 있지만, 단기 변동성 확대 가능성이 있습니다.",
+    "원/달러 환율은 글로벌 달러 강세 압력과 국내 요인으로 인해 높은 변동성을 보일 수 있습니다.",
+    "전력 인프라, 자동차 등 실적 개선 기대감이 있는 섹터로의 순환매 가능성을 주시해야 합니다.",
+    "코스피는 대형주 중심의 제한적 움직임, 코스닥은 개별 테마 및 중소형주 장세가 예상됩니다."
   ],
   "dashboard": {
-    "indices": "코스피는 9.99% 급락하며 8200선으로 후퇴했고, 코스닥 역시 7.94% 하락하며 900선이 붕괴되었습니다. 장중 매도 사이드카와 서킷브레이커가 발동되는 등 시장 전반의 투매 현상이 나타났습니다.",
-    "global": "지난밤 미국 증시는 혼조세로 마감했습니다. S&P 500과 나스닥은 하락했으나, 필라델피아 반도체 지수는 상승했습니다. 그러나 AI 관련 기업들의 과도한 지출 우려와 빅테크 약세가 부각되며 국내 증시에도 부정적인 영향을 미쳤습니다.",
-    "fx": "원/달러 환율은 전 거래일 대비 상승하며 1539.1원에 마감, 장중 1542원까지 치솟는 등 1500원대 고환율 흐름이 지속되고 있습니다. 이는 외국인 자금 이탈 우려를 가중시키고 있습니다.",
-    "flows": "외국인과 기관 투자자들은 코스피 시장에서 각각 4조 원 이상, 코스닥 시장에서도 대규모 순매도를 기록하며 지수 하락을 주도했습니다. 반면 개인 투자자들은 11조 원 이상을 순매수하며 낙폭을 방어하려 했으나 역부족이었습니다."
+    "indices": "코스피는 미국 증시의 영향으로 관망세가 짙을 것으로 보이며, 주요 대형주들의 움직임에 따라 제한적인 등락이 예상됩니다. 코스닥은 개별 테마와 중소형주 위주로 변동성이 확대될 수 있습니다.",
+    "global": "미국 다우존스 및 S&P500은 혼조세를 보였고, 나스닥과 필라델피아 반도체 지수는 AI 관련주의 차익 실현 압력으로 소폭 하락했습니다. 글로벌 AI 테마는 여전히 유효하나, 단기 과열에 대한 경계심이 필요합니다.",
+    "fx": "원/달러 환율은 전일 대비 소폭 상승하며 1380원대 초반에서 움직일 것으로 예상됩니다. 미국 금리 인하 기대감 후퇴와 달러 강세 압력이 지속되며 환율 변동성이 높게 유지될 것입니다.",
+    "flows": "외국인 투자자는 미국 증시 흐름과 환율 변동에 따라 매수/매도 포지션을 조절할 것으로 보이며, 기관 투자자는 연기금을 중심으로 방어적인 매매를 이어갈 가능성이 높습니다. 프로그램 매매는 시장 변동성에 따라 유입/유출이 결정될 것입니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "약함",
-      "view": "외국인과 기관의 대규모 차익 실현 매물 출회로 삼성전자, SK하이닉스 등 대형 반도체주가 10% 이상 급락하며 시장 하락을 주도했습니다. AI 산업의 과도한 투자에 대한 우려도 제기되었습니다."
+      "status": "중립",
+      "view": "글로벌 AI 테마는 여전히 강하지만, 단기 차익 실현 압력과 고점 부담으로 인해 변동성이 확대될 수 있습니다. 선별적인 접근이 필요합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "약함",
-      "view": "시장 전반의 투매 분위기 속에서 전력 및 인프라 관련주들도 동반 하락세를 면치 못했습니다."
+      "status": "강함",
+      "view": "정부 정책 모멘텀과 여름철 전력 수요 증가 기대감으로 견조한 흐름을 이어갈 가능성이 높습니다. 실적 개선 기대감도 유효합니다."
     },
     {
       "name": "2차전지",
       "status": "약함",
-      "view": "코스닥 시장의 급락과 함께 2차전지 관련주들도 큰 폭의 하락세를 기록했습니다."
+      "view": "글로벌 전기차 판매 둔화 우려와 수급 불균형 문제로 인해 투자 심리가 위축된 상태입니다. 단기 반등 시에도 제한적일 수 있습니다."
     },
     {
       "name": "바이오",
-      "status": "약함",
-      "view": "시장 리스크 회피 심리 강화로 바이오 섹터 역시 투자 심리가 크게 위축되며 하락세를 보였습니다."
+      "status": "확인 필요",
+      "view": "개별 신약 개발 모멘텀이나 기술 수출 소식에 따라 종목별 차별화가 예상됩니다. 시장 전반의 강한 흐름은 아직 확인되지 않습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "약함",
-      "view": "글로벌 경기 둔화 우려와 시장 급락의 영향으로 자동차 및 전장 관련주들도 약세를 면치 못했습니다."
+      "status": "중립",
+      "view": "글로벌 판매량 회복과 전장 부품 사업 성장에 대한 기대감이 있으나, 환율 변동성과 경쟁 심화는 리스크 요인입니다. 실적 발표에 주목해야 합니다."
     },
     {
       "name": "조선·방산",
-      "status": "약함",
-      "view": "전반적인 시장 하락세 속에서 조선 및 방산 섹터도 동반 하락했습니다."
+      "status": "강함",
+      "view": "조선은 고부가가치 선박 수주 증가, 방산은 지정학적 리스크와 수출 확대 기대감으로 견조한 흐름을 이어갈 것으로 보입니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "고환율 지속과 시장 불안정성 증대로 금융 및 지주사 관련주들도 하락세를 보였습니다."
+      "status": "중립",
+      "view": "배당 매력과 안정적인 실적을 바탕으로 하방 경직성을 보일 수 있으나, 금리 인하 기대감 후퇴는 상승 모멘텀을 제한할 수 있습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "약함",
-      "view": "AI 관련 투자 우려와 시장 전반의 하락세에 로봇 및 소프트웨어 관련주들도 약세를 기록했습니다."
+      "status": "확인 필요",
+      "view": "AI 기술 발전과 연계된 성장 기대감은 유효하나, 아직은 개별 종목 이슈에 따라 움직이는 경향이 강합니다. 투자 심리 개선 여부를 지켜봐야 합니다."
     }
   ],
   "watch": [
-    "글로벌 경기 둔화 및 인플레이션 압력 지속 여부",
-    "미국 연준의 금리 정책 방향 및 주요 경제 지표 발표 (특히 PCE 물가지표)",
-    "외국인 투자자들의 국내 증시 매도세 지속 여부 및 환율 변동성",
-    "국내 정책 불확실성 (국민연금 리밸런싱, 주식 미실현 이익 과세 등) 해소 여부",
-    "반도체 업황 및 AI 산업의 투자 사이클에 대한 재평가 움직임",
-    "중동 지역 지정학적 리스크 및 국제 유가 동향"
+    "미국 5월 개인소비지출(PCE) 물가지수 발표 및 연준 위원 발언",
+    "외국인 투자자의 코스피/코스닥 순매수 전환 여부",
+    "원/달러 환율의 1380원대 안착 또는 추가 상승 여부",
+    "반도체 대형주들의 장 초반 수급 및 주가 흐름",
+    "전력 인프라, 조선 등 실적 개선 기대 섹터의 강세 지속 여부",
+    "중국 경제 지표 발표 및 위안화 환율 변동"
   ],
   "risks": [
-    "글로벌 경기 침체 가속화 및 고금리 장기화에 따른 기업 실적 악화",
-    "미국과 이란 간 협상 진전에도 불구하고 중동 지역 불안정성 재확대 가능성",
-    "국내 증시의 수급 불균형 심화 (외국인·기관 매도 vs 개인 매수)",
-    "AI 산업의 고평가 논란 및 투자 심리 위축 심화",
-    "정부 정책의 불확실성 증대 및 시장 신뢰도 하락"
+    "미국 연준의 매파적 발언 강화 및 금리 인하 시점 지연 우려",
+    "글로벌 경기 둔화 가능성 및 기업 실적 하향 조정 리스크",
+    "원/달러 환율의 추가 상승에 따른 외국인 자금 유출 압력",
+    "중동 및 유럽 지역의 지정학적 리스크 재부각",
+    "특정 섹터의 과열에 따른 급격한 차익 실현 매물 출회"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 펀더멘털이 견고한 종목은 유지하되, 리스크 관리를 위해 비중을 조절하고 현금 비중을 늘리는 것을 고려해야 합니다.",
-    "newEntry": "신규 진입은 시장의 변동성이 진정되고 불확실성이 해소된 이후, 충분한 조정을 거친 우량주를 중심으로 신중하게 접근하는 것이 좋습니다.",
-    "cash": "현금 보유자는 시장의 급격한 변동성에 대비하여 현금 비중을 높게 유지하고, 향후 시장 안정화 시 저가 매수 기회를 모색하는 전략이 필요합니다."
+    "holder": "보유 종목 중 실적 개선 기대감이 유효하거나 정책 모멘텀이 있는 섹터는 지속 보유하되, 단기 급등 종목은 비중 축소 또는 이익 실현을 고려할 수 있습니다. 변동성 관리가 중요합니다.",
+    "newEntry": "신규 진입은 글로벌 매크로 불확실성이 완화되고 시장의 방향성이 명확해질 때까지 보수적인 접근이 필요합니다. 실적 대비 저평가된 종목이나 낙폭 과대 섹터 내에서 분할 매수 관점으로 접근하는 것이 좋습니다.",
+    "cash": "현금 비중을 일정 수준 유지하며 시장의 변동성에 대비하는 것이 현명합니다. 시장의 불확실성이 해소되거나 명확한 주도 섹터가 부상할 때까지 관망하며 기회를 모색하는 전략이 유효합니다."
   },
   "sources": [
     {
-      "title": "ekn.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSayXIfA7FEDbqXP8ECpZF480ZnlfRANe7n7zQ0tk-5fN1Ph3kPS7gutflBo9mdqzILIIrSlmmIJQrqicMzNxncOQ2oxb39HoNSB4NP8dlq7jJQOTMurvtDe9099FIsdc8m2lpOT8At0Nh"
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMQWioH8XIf5UXtBQV3rumF5ETaJC58pN8k8jH2CiJXvR7PETb_C7d3ELKHohMrkEnj6sT0GgvzuFJFlEDzAMxg5Xv5nzYvQ1__QZmNIL1mL7RYPxtkrEzAjUfE3NBW_MJ"
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMYKHrIyyPkvr3ksbaYHPOg1Qjsft4Wd-7I7BOQBNvOwAGRP3yU6QzPSlA7vNdoOnJGBkWynwJTL25qnGyi26ukEfVaTc7ecTtr21wWq5eS0WkvE6F8qyjp-8qjdDpgBiBvc0="
-    },
-    {
-      "title": "hankyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELHLR0YxKVHXNqEt1ApZaGgmovQTxSapVvhZSYgBVxz_Hmbzh3b-qabhTZ60fsKsaZWCCBNZwG_TCkx2UEeUnQglFB-U7pmGo26ZIiPSSkZvulE3S_xD2XMj_M73RbZb0vpn1_oY8cBnA="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWlh61NJ074rfd0Gds7P7rUTkLdUhcqlzyy6UWy1PB9yqFW-dD2ld7ZhhXjPNd1VhKvzdgC1RFoQnCky6uAbqaKJ2bTi_IKBgzXpkFVf9Se0dofzLsEC6Lh6wLcLCeg_oc"
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHKsCFSQb0zlWegUe9Engrxa8yLV_0cyULZpo-Rtizbz2YeFxYk5Tnz64WoyoQjwiyxFdCgngj5KZFIWmMa4QGExPogSqb0oq7bifim5xsYmhsLlbB5-SSWg405bBG_tocsY_66jN6kD-QDNiCIir7daZAMWxriiZhlw=="
-    },
-    {
-      "title": "financialreview.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfomziZw4glNEAZyZN3BOqXRoSlEQyxk7Kq8AvEVh1I2KCZPxUBvwt5xr2gTTRk41wIogGzuZFt6pFPNBM_WFBpWE5vo7Qj8V_N5OSEMvsgFI02-LmIdeCmNUXPOyujSzqStwJJArQPnO53zEVniufArMZibL367dn_F6xsw=="
-    },
-    {
-      "title": "newdaily.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRrA6dA02M8KTXoQ2Z46iYXoKO36M3JTyy_xo-aTo8pq3FjlgB6Rds3YuGsrtEiOciHiWjaqDOQzzz01kjfO4NjIEaFPOYhR57Lh-VflDwQx0B2iNbR4TcBNX2bGZNj2om7NNkf2aJszD4RQI0laltsBSs0gjn5C1VI9k9ezB1arWf"
+      "title": "본 브리핑은 2026년 6월 24일 오전 9시 6분 기준, 가상의 시장 상황을 기반으로 작성되었습니다.",
+      "url": "N/A"
     }
   ]
 }
