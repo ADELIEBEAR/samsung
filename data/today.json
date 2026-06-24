@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 6월 24일 수요일 PM 3:56",
+  "updatedAt": "2026년 6월 24일 수요일 PM 6:48",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "{\n  \"updatedAt\": \"2026년 6월 24일 수요일 PM 3:56 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"반도체 급락 후 강한 반등, 환율은 고공행진\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"전일 급락했던 코스피와 코스닥이 반도체 대형주 중심의 저가 매수세에 힘입어 강",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 6월 24일 수요일 PM 6:48\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"변동성 확대 속 숨고르기 장세\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"전일 급락에 대한 기술적 반등이 나타났으나, 외국인 매도세와 환율 급등, 미국 기술주 약세 우려가 ",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "{\n  \"updatedAt\": \"2026년 6월 24일 수요일 PM 3:56 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"반도체 급락 후 강한 반등, 환율은 고공행진\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"전일 급락했던 코스피와 코스닥이 반도체 대형주 중심의 저가 매수세에 힘입어 강하게 반등했으나, 고환율과 매파적 연준 우려는 여전했습니다.\",\n  \"marketRegime\": \"전일 국내 증시의 급락이 미국 기술주 시장에까지 영향을 미치는 등 이례적인 변동성이 나타났습니다. 오늘은 반도체 대형주 중심의 저가 매수세가 유입되며 기술적 반등을 시도했으나, 고환율과 미국 연방준비제도(Fed)의 매파적 기조 유지 우려가 상존하며 시장 전반의 경계심은 여전히 높습니다. 특정 섹터로의 수급 쏠림 현상이 심화되며 시장 변동성을 키우는 흐름이 이어지고 있습니다.\",\n  \"summary\":"
+    "{\n  \"updatedAt\": \"2026년 6월 24일 수요일 PM 6:48\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"변동성 확대 속 숨고르기 장세\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"전일 급락에 대한 기술적 반등이 나타났으나, 외국인 매도세와 환율 급등, 미국 기술주 약세 우려가 겹치며 시장의 변동성이 크게 확대된 하루였습니다.\",\n  \"marketRegime\": \"최근 글로벌 AI 및 반도체 랠리에 대한 과열 우려가 확산되며 단기적인 차익 실현 압력이 커지는 시장 흐름입니다. 국내 증시는 전일 폭락에 대한 저가 매수세 유입으로 반등을 시도했으나, 외국인 투자자들의 대규모 순매도와 원/달러 환율의 급등세가 지속되며 투자 심리는 여전히 불안정한 모습입니다. 특정 주도 섹터의 강한 상승보다는 종목별 순환매가 나타나는 가운데, 주요 매크로 지표 발표와 미국 마이크론 실적 발표를"
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -76,36 +76,36 @@
   },
   "sources": [
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWiuxmiC3BWOwVufbVYNqbNZGaO0YtmwE9pIQywBrJUzilhlXfBKBXRMI3HNUX-1vJJ2iAuS9eil-muUsymDwUdcZbhyj6d9UI42bnlhM28ork99dIOvQF1hxdY56zcdJMN2uxQajZGcGDytYebV8KqcpOqzRs1Calw0oyM7X9Dnczqgyvfvt3Sb4H"
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOKlQK5MDXaQ-qTZiTsQqcTsCQb--TG8c1f3KvmAajhJi_EPDLr1QwMwN_H2elYsam-NNHGfMINlng1X05uUYhHLVP_yiJDu8P8_YH91261dcxTZs05xGgJSKozzIa6o7o-JlwX1NC99n"
     },
     {
-      "title": "ekn.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu6E3q8Sk7PNyBXNJVSari5ASMW9ua3M36bghRlHr4NIALhYUxIkifyL1BlkCMM808z-Dickm5RlzIP-euBWCIvxz0OfAj1E49C1jFPhk3lbE-X0e4LnIwtv_6C-1KYIP8oDX6XdwIqlU="
+      "title": "donga.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtK7bDXpI_bYcQdTzmodrJSg4x22CpNMMj4JhraMxW4h6mljYOKQE3zzYhNAqmGo9KzpcEiT0o_zfa7vmeZh6ru4lfGHpattTY6dtJE0-IB0UYC_siRHTaFBipjZhA5TYcfGLfIWls4VEboDjMuUo78p0FrebOAC3jnZwYrYk="
     },
     {
-      "title": "hani.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlrqVrcs2NJm3WMs-8kkOZD7EEuetARLBOf6sihd0tNe-gdmlLzt75OWt-8N_gKzGB7FbwbMY46MsBPysmir4JOUDyPAY2MmoJVnf2oWBRQqR0AGNmXD1q3tBTomaPf2aXPB82PSqTiOt-Sb2i74uppwI="
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGyBji199anV6yBO_arZWWiA8uizPBofE64dpFgTvWhUsRYV93S8GufrLIaDlZ2gk9hGgmLyPKyuaeYXV_Mcmmq2ybM4YSL5plzff3T6n-Y7nY3pA8V14NkJe4PcxJm5hUx20nXBHxbyK"
     },
     {
-      "title": "seoul.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQx4HkpsdFJS0gSzfCxlbbRCFsr7f_VWozVQbuicoXOZvi3VOABTAEeeJyUbmHLYxZ1oYw522wFBnemUpcbdtKpqjJfHmrDwGXtbbcpIUXW4i5bAPFflY69KguMdH1BrFUpmJSQ6PmZhdeI9pBD4EiPLspwdylCegEUaYMmdUHtjTQBw=="
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqgUfLxtXrxBDfC_ovznt5x9uyQWWQRT24bq_nrMlXseKJ5FOdOHmU1yr8ZwRWiXWcMy-XGBecIWHQKsQmpSKeQyPWo0uDD9XQcsHzQQarUTvHsqeYGWMZLLsIR1PxoHu-OTxrOELpOAA4"
     },
     {
-      "title": "twig24.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIRrL5LSN8NzUpvl2usmPXhN2kKAFVdmWnX5F_1SwPwFm14Mlqd2Yu7M8Qqv-bL1jConJoG_B9EpKEaXerN_SweE2h84Pxc_ty1axsgbUQMM4-oH_et40q5vx6tpw72fxYnsQuPEb2TFQhOUJojWk="
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzWeitufTaFy1kmsxrN1jJFlQeKU0GoE8NC08AiJ_qDyfd8SwuhG6uQO5l8t9xNne7h98di6UCZKp-81UTI5xvwLuu0FHVjpmjftGjdbzJOByBzqKVMCAQa8W3orYOnyjQpiZUYxFs31OoTHPtA9_qaQoJICVIEgd0"
+      "title": "mt.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENYckQqkH-_IIF7OPyWFE3g3w1LpT5XisNQXqUMPddSXE0Ep2N0kxu6mwW3llvyl14ts8BvopbEGE5scKUvWLd_jIWH73l8WjEE8Ex88-K8Hgf9lK1x7I8TX4pi9b0tGccmmvVdphTzfLnGboZ4doibIq2XA=="
     },
     {
       "title": "einfomax.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoBpLsDSq7DT3CQvDl1M7zMiXc_bbvo6sSBKP05koh6kb0fmqdXyJSHcttqB6R9j8v-Zy57lPVBaXHIOuKTuq9spqrOtVogI-Cgh39-aRYxCDj4MfRDivUfFlPDwHxBBUMDNgiY57HL0n4VC3rWBC90HvQf9x0bjDX"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2oHMBHYhmuXZxqsU10yylz-39fJZhn4gjcjyMNqCCSWcXGnstQ4I6pF1PFydmMq0FsR5_vCQZ9RSJt4Vo1IGnEb46trRrO4W-kkHQToEZ-DcS0ySexcb2jTVo7WvoRXUtlRwen1TSUCjtghptCNBtVSUCwZIW4WYdTg=="
     },
     {
-      "title": "newsis.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHkZ2Zxng0OWK1D-BVhYioi00Mb2p73MvPHLWFoMRkwmQXoUKL-pAvAVt9SRHSFkolRAg2PBzfkTb0XdURWRUIcYaNlR3gYu2lkyLhYw5gHl5K_FTV2LpKwSJlDhrty22spAEFfBxFDTS7VVdn"
+      "title": "snmnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4GopsFK-y0jsps9w7MAg-WinhdG6x6-oG8OhDIwHOVbFyMpBZ4smAOiQVXQ98sgi5FzorU5WiEjbhAm3wxN_zC9docjQ8bej4fFYMrWBCyzB38QRgXG5qQMFpG74ouvUlqZkwoHECYyOI9jih1GvDeHa10nU="
+    },
+    {
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZcR7wIw2U6MbNRUCVKdlkefHxrWoemAcx44yueO2E-C2pi5FVFwxDw6npPr5-5U0JXDKYhGZ1eQd5QVnGrzF4WkNgNVDe_XB3VJXqk4QFMdyullsIPSJXLWo8toYs3Xp7WzZ0bUXEGNJeqj4Qvr8OrWhK"
     }
   ],
   "note": "JSON 파싱 실패"
