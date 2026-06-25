@@ -1,97 +1,117 @@
 {
-  "updatedAt": "2026년 6월 25일 목요일 PM 3:55 (KST)",
+  "updatedAt": "2026년 6월 25일 PM 6:39 (KST)",
   "session": "장 마감 브리핑",
-  "marketTitle": "코스피 상승 마감, 반도체·전력주 강세",
-  "temperature": "상승 지속",
+  "marketTitle": "코스피 5%대 급등, 반도체 랠리 재개 속 코스닥 하락",
+  "temperature": "공격",
   "riskLevel": "보통",
-  "oneLine": "글로벌 기술주 강세와 국내 반도체·전력 인프라 섹터의 견인으로 코스피와 코스닥 모두 상승 마감했습니다.",
-  "marketRegime": "글로벌 경기 회복 기대감과 AI 산업 성장에 대한 낙관론이 지속되며 성장주 중심의 시장 흐름이 이어지고 있습니다. 다만, 인플레이션 압력과 통화 정책 불확실성은 여전히 시장의 변동성을 키우는 요인으로 작용하고 있습니다. 국내 증시는 외국인 수급에 따라 주도 섹터의 순환매가 활발하게 나타나는 양상입니다.",
+  "oneLine": "미국 마이크론 실적 호조에 코스피 반도체 중심 5%대 급등, 코스닥은 하락하며 시장 차별화 심화.",
+  "marketRegime": "미국 마이크론의 예상치를 뛰어넘는 실적 발표가 국내 증시의 인공지능(AI) 및 반도체 섹터에 대한 투자 심리를 강하게 회복시키며 코스피가 급등세를 보였습니다. 그러나 코스닥은 하락 전환하며 시장 내 업종별 차별화가 심화되는 흐름을 나타냈습니다. 고환율 기조는 지속되며 외국인 매도세의 한 요인으로 작용했으나, 기관의 적극적인 매수세가 코스피 상승을 견인했습니다.",
   "summary": [
-    "코스피, 외국인 순매수 유입에 힘입어 상승 마감.",
-    "미국 기술주 강세 영향으로 국내 반도체 섹터 동반 상승.",
-    "정부 정책 기대감에 전력 인프라 관련주 강세 지속.",
-    "코스닥은 제약·바이오 및 일부 성장주 중심으로 상승.",
-    "원/달러 환율은 소폭 하락하며 안정적인 흐름.",
-    "기관은 차익 실현 매물 출회하며 혼조세."
+    "코스피, 반도체 랠리 재개에 5.42% 급등하며 8930.30에 마감, 장중 9000선 돌파 시도.",
+    "코스닥, 2.36% 하락하며 887.81에 마감, 900선 재이탈하며 업종별 차별화 심화.",
+    "외국인 코스피 8천억 원대 순매도 지속, 기관은 3조 3천억 원대 순매수로 시장 방어.",
+    "원/달러 환율 0.7원 상승한 1542.7원에 마감, 1540원대 고환율 장기화 우려 여전.",
+    "미국 마이크론의 예상 상회 실적 발표가 AI 반도체 투자 심리 회복을 견인.",
+    "JP모건, 코스피 강세장 목표 1만5천p 제시하며 반도체 주도 강세장 전망."
   ],
   "dashboard": {
-    "indices": "코스피는 외국인 매수세에 힘입어 상승 마감하며 긍정적인 흐름을 이어갔습니다. 코스닥 또한 기술 성장주와 바이오 섹터의 강세에 힘입어 동반 상승하며 시장 전반의 투자 심리가 개선되는 모습을 보였습니다.",
-    "global": "지난밤 미국 증시는 엔비디아를 필두로 한 AI 관련 기술주들의 강세가 두드러지며 나스닥과 필라델피아 반도체 지수가 상승했습니다. 이는 국내 반도체 섹터에 긍정적인 영향을 미쳤으며, 글로벌 AI 산업 성장에 대한 기대감이 여전히 유효함을 보여주었습니다.",
-    "fx": "원/달러 환율은 글로벌 달러 약세와 외국인 국내 증시 순매수 유입에 힘입어 소폭 하락하며 안정적인 흐름을 보였습니다. 이는 외국인 투자 심리 개선에 긍정적인 영향을 미치는 요인입니다. 금리 변동성은 제한적인 수준을 유지했습니다.",
-    "flows": "외국인은 코스피 시장에서 순매수를 기록하며 시장 상승을 견인했습니다. 특히 반도체, 전력 인프라 등 핵심 성장 섹터에 집중적인 매수세가 유입되었습니다. 기관은 프로그램 매매를 중심으로 차익 실현성 매물이 출회되며 혼조세를 보였습니다."
+    "indices": "코스피는 미국 마이크론발 훈풍에 힘입어 5% 넘게 급등하며 9천선에 육박했으나, 코스닥은 2%대 하락하며 대형주 중심의 시장 쏠림 현상이 두드러졌습니다.",
+    "global": "미국 증시는 전일 혼조세(다우 상승, 나스닥/S&P500 하락)를 보였으나, 마이크론의 예상치를 상회하는 실적 발표가 AI 반도체 섹터의 투자 심리를 회복시키며 아시아 증시 전반의 반등을 이끌었습니다. 필라델피아 반도체 지수는 전일 소폭 하락했으나, 마이크론 실적 발표 이후 반도체주 전반의 상승 기대감이 커졌습니다.",
+    "fx": "원/달러 환율은 전 거래일 대비 0.7원 상승한 1542.7원에 마감하며 1540원대 고환율 기조가 지속되었습니다. 이는 미국 연준의 추가 금리 인상 가능성과 달러 강세에 기인하며, 외국인 자금 이탈의 한 요인으로 작용하고 있습니다.",
+    "flows": "유가증권시장에서 기관은 3조 3천억 원 넘게 순매수하며 시장을 방어했으나, 개인과 외국인은 각각 2조 4천억 원, 8천억 원 이상 순매도했습니다. 외국인은 이달 들어 누적 30조 원 이상 순매도하며 5거래일 연속 '팔자'를 이어갔습니다. 코스닥에서는 개인과 외국인이 순매수, 기관이 순매도하며 수급이 엇갈렸습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "미국 기술주 강세와 AI 산업 성장 기대감에 힘입어 국내 반도체 대형주 및 소부장 기업들이 동반 강세를 보였습니다. 외국인 매수세가 집중되며 주도 섹터로서의 위상을 공고히 했습니다."
+      "view": "마이크론의 견조한 실적 발표와 SK하이닉스의 나스닥 상장 계획 소식에 삼성전자(+5.29%), SK하이닉스(+13.06%) 등 반도체 대형주가 급등하며 시장을 주도했습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "강함",
-      "view": "정부의 전력망 확충 및 에너지 효율화 정책 기대감이 지속되며 관련 인프라 및 기자재 기업들이 강세를 이어갔습니다. 중장기적인 성장 모멘텀이 유효하다는 평가입니다."
+      "status": "확인 필요",
+      "view": "직접적인 언급은 없으나, AI 데이터센터 투자 확대에 따른 관련 산업재 이익 증가가 기대된다는 JP모건의 분석이 있었습니다."
     },
     {
       "name": "2차전지",
-      "status": "중립",
-      "view": "글로벌 전기차 시장의 성장 둔화 우려와 소재 가격 변동성으로 인해 전반적으로는 중립적인 흐름을 보였습니다. 일부 기업은 개별 모멘텀으로 상승했으나, 섹터 전반의 강한 상승세는 제한적이었습니다."
+      "status": "약함",
+      "view": "코스닥 시가총액 상위 종목인 에코프로비엠(-5.57%), 에코프로(-5.29%)가 5% 이상 하락하며 부진한 모습을 보였습니다."
     },
     {
       "name": "바이오",
       "status": "중립",
-      "view": "개별 기업의 임상 결과 발표나 기술 수출 소식에 따라 등락이 엇갈렸습니다. 전반적으로는 투자 심리가 소폭 개선되는 모습을 보였으나, 아직 강한 주도 섹터로 부상하기에는 확인이 필요한 구간입니다."
+      "view": "코스닥에서 알테오젠이 소폭 상승(+0.94%)했으나, 전반적인 바이오 섹터의 강세는 확인되지 않았습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려와 전기차 전환 속도 조절 가능성으로 인해 혼조세를 보였습니다. 다만, 전장 부품 및 자율주행 관련 기술력을 보유한 기업들은 상대적으로 견조한 흐름을 유지했습니다."
+      "status": "확인 필요",
+      "view": "LG전자가 0.73% 하락했으나, 섹터 전반의 흐름은 명확하지 않습니다."
     },
     {
       "name": "조선·방산",
-      "status": "중립",
-      "view": "수주 잔고 증가와 지정학적 리스크에 따른 방산 수요 증가 기대감은 유효하나, 단기적인 차익 실현 매물 출회로 상승폭은 제한적이었습니다. 중장기적인 관점에서는 긍정적인 시각이 유지됩니다."
+      "status": "확인 필요",
+      "view": "오늘 시장에서 특별한 언급은 없었습니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "금리 인하 기대감 후퇴와 정부의 밸류업 프로그램 관련 불확실성으로 인해 전반적으로 약세를 보였습니다. 시장의 관심이 성장주로 쏠리면서 상대적으로 소외되는 흐름이 나타났습니다."
+      "status": "강함",
+      "view": "KB금융, 삼성생명 등 금융주가 강세를 보였습니다. JP모건은 자산가격 상승에 따른 소비 확대와 금융주의 순이자마진(NIM) 개선을 상승 동력으로 꼽았습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "중립",
-      "view": "AI 산업 성장과 맞물려 로봇 및 소프트웨어 섹터에 대한 관심은 지속되었으나, 단기적인 급등에 따른 피로감으로 인해 숨 고르기 양상을 보였습니다. 개별 기업의 기술력과 성장성에 따른 차별화가 예상됩니다."
+      "status": "확인 필요",
+      "view": "개별 로봇주 언급은 있었으나, 섹터 전반의 강세는 확인되지 않았습니다."
     }
   ],
   "watch": [
-    "다음 주 예정된 미국 주요 경제 지표 발표 결과.",
-    "글로벌 AI 산업의 새로운 기술 동향 및 투자 소식.",
-    "외국인 투자자들의 국내 증시 순매수 기조 지속 여부.",
-    "원/달러 환율의 추가적인 하락 또는 상승 전환 가능성.",
-    "정부의 추가적인 정책 발표 및 규제 변화."
+    "미국 마이크론 실적 발표 이후 AI 반도체 섹터의 추가 상승 여부 및 지속성.",
+    "코스피와 코스닥 간의 극심한 차별화 지속 여부 및 코스닥 시장의 반등 모멘텀.",
+    "외국인 투자자들의 코스피 대규모 순매도 지속 여부와 원/달러 환율 동향.",
+    "미국 연준의 통화정책 스탠스 변화 가능성 및 금리 인상 우려.",
+    "JP모건이 제시한 코스피 1만5천p 목표의 현실화 가능성과 그에 따른 시장 반응."
   ],
   "risks": [
-    "예상보다 높은 인플레이션 지속에 따른 통화 정책 불확실성 증대.",
-    "글로벌 경기 둔화 우려 재부각 및 기업 실적 하향 조정 가능성.",
-    "지정학적 리스크 고조에 따른 투자 심리 위축.",
-    "특정 섹터 쏠림 현상 심화에 따른 시장 변동성 확대."
+    "고환율 장기화에 따른 외국인 자금 이탈 심화 우려.",
+    "미국 연준의 매파적 통화정책 유지 및 추가 금리 인상 가능성.",
+    "코스피 대형주 쏠림 심화에 따른 시장 전반의 변동성 확대 및 중소형주 소외.",
+    "글로벌 지정학적 긴장(중동 등) 재부각 시 유가 및 인플레이션 압력 재상승 가능성."
   ],
   "actionPlan": {
-    "holder": "주도 섹터 내 우량주 보유자는 긍정적인 시장 흐름을 즐기되, 과열된 종목은 비중 조절을 고려할 수 있습니다. 비주도 섹터 보유자는 개별 모멘텀 확인 및 포트폴리오 리밸런싱을 검토하는 시점입니다.",
-    "newEntry": "신규 진입자는 글로벌 트렌드에 부합하는 성장 섹터 내 저평가 우량주를 중심으로 분할 매수 전략을 고려할 수 있습니다. 다만, 단기 급등 종목 추격 매수는 지양하고 충분한 조정을 기다리는 것이 바람직합니다.",
-    "cash": "현금 보유자는 시장의 변동성에 대비하여 유동성을 확보하는 동시에, 조정 시 매수 기회를 포착하는 전략이 유효합니다. 주도 섹터 내 핵심 종목의 눌림목을 활용하는 것도 좋은 방법입니다."
+    "holder": "반도체 등 주도 섹터 보유자는 추가 상승 여력을 기대하며 보유 전략을 유지하되, 높은 변동성에 대비한 리스크 관리가 필요합니다.",
+    "newEntry": "조정 시 반도체, AI 관련 기술주 및 실적 개선이 기대되는 금융주 등 코스피 대형주 중심으로 분할 매수 관점에서 접근하는 것이 유리할 수 있습니다.",
+    "cash": "고환율 및 시장 변동성 확대를 고려하여 현금 비중을 일정 부분 유지하며, 시장의 방향성이 명확해질 때까지 신중한 접근이 요구됩니다."
   },
   "sources": [
     {
-      "title": "주요 증권사 리서치 보고서",
-      "url": "https://www.google.com/search?q=주요+증권사+리서치+보고서"
+      "title": "newsis.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy1qIXL7czoO6LVikkii9QC_iFBkl8RFuPBrXW8EiaGKPUZF5K0nUedAz22Gx-9JmTJiIqfA1NUWIPQ4mUPyWryMkQmC2Cu2Y_GqyjCrhVOM6Li0Rzk5XeqDvWvDOsCFGhR0MUrsL-urQnHKx_i3lMHg=="
     },
     {
-      "title": "한국거래소 시장 동향",
-      "url": "http://www.koreaex.com/main/main.jsp"
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG55D_CFlWjkmgnaSXXIye6BJW-VPg7cG2vnd1ab95QOth1y3Qwcgb1EaF1QGYDVr0eC7ozlCYt_NjOsu8OdAgpqHVqbllmO2Zv2hDVtW3awlXPJDkvKHdRPz2GsyQ26pvdeyV19BX9fwGFM8SNh7CEqCdC"
     },
     {
-      "title": "글로벌 경제 지표 발표",
-      "url": "https://www.investing.com/economic-calendar/"
+      "title": "einfomax.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBlKI-JHMbsmovXEz3MnXaBs6l41Tdkl0qhoofxFpfsWW2bltV8kEUDc4xxx0y-k6HtrxfES8xGF6Jrjs5axTOggPVUJ4V5Wi1N6XQSw0tyXex6Oen9q2XxYnB9-frts72gC70YiU9lQB8iQs7RdQW5MguiiQwY-hYFQ=="
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHILy37_P5VaKOBimgfEbj_-2OVP2i-S3DqlOH_-3FjSm1DrjtiuXbukpK72vefbaz6dq44nYhwy_RBNsSW0PpPiEq_jNFdIcneVsqUoOw6TG3A9CVK4Mpac0bcYZa35Lt0FXu5ZEVz5tI="
+    },
+    {
+      "title": "infostockdaily.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXwuQ-Yp8_VDCNF4H5qVkt44ZsrgiZKjSHSZF4LdNwmNxMwzhPc6iy9e51OSybzPcLx1tZVEbunFdMy2sS8nYbkbR002gZOim9SXbW2pKuZ2qjG8e9SQeOqKHZbEOsgvgcmGEx9FTA2z--8Hz-_H32Jsrzg2nAl23tFspRyJ4="
+    },
+    {
+      "title": "financialreview.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWQ7fu94Dm3b7ltuFMl3z7IaoEXmqWkZUiMDL6gCRJ51H6tBa0jm7IpTSk8lOyDUwojGrTOkPJyVbni2WNpC2NeXf9Crx3Oy5lMPrtpOVZ_qarVvl6A_w-mWPIr08cUM4P6sc2veQ7CRCDqgnzx1aJE_Xavb9jMr5e443K4w=="
+    },
+    {
+      "title": "mt.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZr4v-SPEojRX8eFFSEy9jFo7idycm7TeCtx3I968gSRg0qh4p0jsvQfTXvr4iWzNSlRkn1M02a9bBjrptP5QN2GTNCe8jpxAcvxyH3lbF5hjbbK0gd1bfSKU_2xggPQMD10V6eu2jyhNAoHysDs_NNVsXcQJk"
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfzJ4u9Orc69mlLQPVKXdZCe5qrMZfQCydevNIgvzLHsoWNFmemy5zGdEah_Y2PwMchxj7P0_EDmzfPvf4zvWS7QUcTTPOao8wSLJHYTakPX8NwJJRE-opRDKlTf76yqRSC5CNtJ10Hq0YCi6BQH4NoV1Os9x8gckjAgLC5Foq6yIEuiYd0gr2EcA="
     }
   ]
 }
