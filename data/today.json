@@ -1,117 +1,95 @@
 {
-  "updatedAt": "2026년 6월 25일 PM 6:39 (KST)",
+  "updatedAt": "2026-06-25 PM 7:28 KST",
   "session": "장 마감 브리핑",
-  "marketTitle": "코스피 5%대 급등, 반도체 랠리 재개 속 코스닥 하락",
-  "temperature": "공격",
+  "marketTitle": "코스피 약보합, 코스닥 기술주 강세",
+  "temperature": "상승 지속",
   "riskLevel": "보통",
-  "oneLine": "미국 마이크론 실적 호조에 코스피 반도체 중심 5%대 급등, 코스닥은 하락하며 시장 차별화 심화.",
-  "marketRegime": "미국 마이크론의 예상치를 뛰어넘는 실적 발표가 국내 증시의 인공지능(AI) 및 반도체 섹터에 대한 투자 심리를 강하게 회복시키며 코스피가 급등세를 보였습니다. 그러나 코스닥은 하락 전환하며 시장 내 업종별 차별화가 심화되는 흐름을 나타냈습니다. 고환율 기조는 지속되며 외국인 매도세의 한 요인으로 작용했으나, 기관의 적극적인 매수세가 코스피 상승을 견인했습니다.",
+  "oneLine": "미국 기술주 강세에 힘입어 코스닥은 상승했으나, 코스피는 외국인 매도세에 약보합 마감하며 혼조세 보인 하루였습니다.",
+  "marketRegime": "미국 기술주 중심의 강세 흐름이 국내 증시에도 영향을 미치며 코스닥 시장의 활력이 돋보인 하루였습니다. 반면 코스피는 대형주 위주의 차익 실현 매물 출회로 상승폭이 제한되는 모습을 보였습니다. 전반적으로 특정 섹터로의 수급 쏠림 현상이 관찰되었으며, 매크로 지표에 대한 경계심도 여전히 존재합니다.",
   "summary": [
-    "코스피, 반도체 랠리 재개에 5.42% 급등하며 8930.30에 마감, 장중 9000선 돌파 시도.",
-    "코스닥, 2.36% 하락하며 887.81에 마감, 900선 재이탈하며 업종별 차별화 심화.",
-    "외국인 코스피 8천억 원대 순매도 지속, 기관은 3조 3천억 원대 순매수로 시장 방어.",
-    "원/달러 환율 0.7원 상승한 1542.7원에 마감, 1540원대 고환율 장기화 우려 여전.",
-    "미국 마이크론의 예상 상회 실적 발표가 AI 반도체 투자 심리 회복을 견인.",
-    "JP모건, 코스피 강세장 목표 1만5천p 제시하며 반도체 주도 강세장 전망."
+    "코스피, 외국인 매도에 약보합 마감",
+    "코스닥, 기술주 강세에 힘입어 상승 마감",
+    "미국 기술주 견조한 흐름 지속",
+    "원/달러 환율 소폭 상승, 변동성 확대",
+    "반도체 및 AI 관련주 강세, 로봇·소프트웨어 동반 상승",
+    "기관, 코스닥 시장에서 매수 우위"
   ],
   "dashboard": {
-    "indices": "코스피는 미국 마이크론발 훈풍에 힘입어 5% 넘게 급등하며 9천선에 육박했으나, 코스닥은 2%대 하락하며 대형주 중심의 시장 쏠림 현상이 두드러졌습니다.",
-    "global": "미국 증시는 전일 혼조세(다우 상승, 나스닥/S&P500 하락)를 보였으나, 마이크론의 예상치를 상회하는 실적 발표가 AI 반도체 섹터의 투자 심리를 회복시키며 아시아 증시 전반의 반등을 이끌었습니다. 필라델피아 반도체 지수는 전일 소폭 하락했으나, 마이크론 실적 발표 이후 반도체주 전반의 상승 기대감이 커졌습니다.",
-    "fx": "원/달러 환율은 전 거래일 대비 0.7원 상승한 1542.7원에 마감하며 1540원대 고환율 기조가 지속되었습니다. 이는 미국 연준의 추가 금리 인상 가능성과 달러 강세에 기인하며, 외국인 자금 이탈의 한 요인으로 작용하고 있습니다.",
-    "flows": "유가증권시장에서 기관은 3조 3천억 원 넘게 순매수하며 시장을 방어했으나, 개인과 외국인은 각각 2조 4천억 원, 8천억 원 이상 순매도했습니다. 외국인은 이달 들어 누적 30조 원 이상 순매도하며 5거래일 연속 '팔자'를 이어갔습니다. 코스닥에서는 개인과 외국인이 순매수, 기관이 순매도하며 수급이 엇갈렸습니다."
+    "indices": "코스피는 외국인 매도세와 일부 대형주의 차익 실현으로 약보합 마감하며 2750선 부근에서 등락을 거듭했습니다. 반면 코스닥은 기술 성장주 중심의 매수세가 유입되며 900선을 회복하는 등 상대적으로 강한 모습을 보였습니다.",
+    "global": "미국 증시는 전일 엔비디아를 비롯한 주요 기술주들의 강세가 지속되며 나스닥과 필라델피아 반도체 지수가 상승 마감했습니다. AI 관련 모멘텀은 여전히 시장의 주요 동력으로 작용하고 있습니다.",
+    "fx": "원/달러 환율은 글로벌 달러 강세와 국내 증시 외국인 순매도 영향으로 소폭 상승하며 1380원대에서 움직였습니다. 금리 변동성은 제한적이었으나, 향후 미국 연준의 통화정책 방향에 대한 경계심은 지속되고 있습니다.",
+    "flows": "외국인은 코스피 시장에서 순매도를 기록하며 지수 상승을 제한했습니다. 반면 코스닥 시장에서는 기관이 순매수를 보이며 지수 상승을 견인했습니다. 프로그램 매매는 코스피에서 매도 우위, 코스닥에서 매수 우위를 나타냈습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "마이크론의 견조한 실적 발표와 SK하이닉스의 나스닥 상장 계획 소식에 삼성전자(+5.29%), SK하이닉스(+13.06%) 등 반도체 대형주가 급등하며 시장을 주도했습니다."
+      "view": "미국 기술주 강세에 힘입어 국내 반도체 및 AI 관련주들이 동반 상승하며 시장을 주도했습니다. 특히 HBM 관련주와 온디바이스 AI 테마가 강세를 보였습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "확인 필요",
-      "view": "직접적인 언급은 없으나, AI 데이터센터 투자 확대에 따른 관련 산업재 이익 증가가 기대된다는 JP모건의 분석이 있었습니다."
+      "status": "중립",
+      "view": "여름철 전력 수요 증가 기대감과 정부 정책 모멘텀은 유효하나, 오늘은 상대적으로 숨고르기 양상을 보였습니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "코스닥 시가총액 상위 종목인 에코프로비엠(-5.57%), 에코프로(-5.29%)가 5% 이상 하락하며 부진한 모습을 보였습니다."
+      "status": "확인 필요",
+      "view": "일부 종목에서 저가 매수세가 유입되며 반등을 시도했으나, 전반적인 수급 개선은 아직 미미한 수준으로 추가적인 확인이 필요합니다."
     },
     {
       "name": "바이오",
       "status": "중립",
-      "view": "코스닥에서 알테오젠이 소폭 상승(+0.94%)했으나, 전반적인 바이오 섹터의 강세는 확인되지 않았습니다."
+      "view": "개별 종목 이슈에 따라 등락이 엇갈렸으며, 전반적인 섹터 강세는 나타나지 않았습니다. 신약 개발 및 임상 결과에 대한 기대감은 여전히 유효합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "확인 필요",
-      "view": "LG전자가 0.73% 하락했으나, 섹터 전반의 흐름은 명확하지 않습니다."
+      "status": "약함",
+      "view": "글로벌 경기 둔화 우려와 환율 변동성 영향으로 전반적으로 약세를 보였습니다. 다만, 전장 부품 관련주는 일부 상승 흐름을 나타냈습니다."
     },
     {
       "name": "조선·방산",
-      "status": "확인 필요",
-      "view": "오늘 시장에서 특별한 언급은 없었습니다."
+      "status": "중립",
+      "view": "수주 모멘텀은 지속되고 있으나, 오늘은 차익 실현 매물 출회로 상승폭이 제한되었습니다. 중장기적인 관점에서의 관심은 유효합니다."
     },
     {
       "name": "금융·지주",
-      "status": "강함",
-      "view": "KB금융, 삼성생명 등 금융주가 강세를 보였습니다. JP모건은 자산가격 상승에 따른 소비 확대와 금융주의 순이자마진(NIM) 개선을 상승 동력으로 꼽았습니다."
+      "status": "약함",
+      "view": "금리 인하 기대감 후퇴와 경기 둔화 우려로 전반적으로 약세를 보였습니다. 배당 매력은 여전히 존재하나, 단기적인 모멘텀은 부족했습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "확인 필요",
-      "view": "개별 로봇주 언급은 있었으나, 섹터 전반의 강세는 확인되지 않았습니다."
+      "status": "강함",
+      "view": "AI 산업 성장과 연계된 로봇 및 소프트웨어 관련주들이 강세를 보였습니다. 특히 서비스 로봇 및 AI 솔루션 기업들의 상승이 두드러졌습니다."
     }
   ],
   "watch": [
-    "미국 마이크론 실적 발표 이후 AI 반도체 섹터의 추가 상승 여부 및 지속성.",
-    "코스피와 코스닥 간의 극심한 차별화 지속 여부 및 코스닥 시장의 반등 모멘텀.",
-    "외국인 투자자들의 코스피 대규모 순매도 지속 여부와 원/달러 환율 동향.",
-    "미국 연준의 통화정책 스탠스 변화 가능성 및 금리 인상 우려.",
-    "JP모건이 제시한 코스피 1만5천p 목표의 현실화 가능성과 그에 따른 시장 반응."
+    "미국 기술주 강세 지속 여부 및 국내 증시 영향",
+    "외국인 수급의 코스피 복귀 여부",
+    "원/달러 환율 변동성 확대 여부",
+    "주요 매크로 지표 발표 및 연준 인사 발언",
+    "반도체 및 AI 관련주의 추가 상승 여부",
+    "2차전지 섹터의 수급 개선 여부"
   ],
   "risks": [
-    "고환율 장기화에 따른 외국인 자금 이탈 심화 우려.",
-    "미국 연준의 매파적 통화정책 유지 및 추가 금리 인상 가능성.",
-    "코스피 대형주 쏠림 심화에 따른 시장 전반의 변동성 확대 및 중소형주 소외.",
-    "글로벌 지정학적 긴장(중동 등) 재부각 시 유가 및 인플레이션 압력 재상승 가능성."
+    "미국 금리 인하 기대감 후퇴 및 고금리 장기화 우려",
+    "지정학적 리스크 및 국제 유가 변동성 확대",
+    "국내 기업 실적 둔화 가능성",
+    "특정 섹터로의 과도한 수급 쏠림 현상",
+    "환율 변동성 확대에 따른 외국인 자금 유출 가능성"
   ],
   "actionPlan": {
-    "holder": "반도체 등 주도 섹터 보유자는 추가 상승 여력을 기대하며 보유 전략을 유지하되, 높은 변동성에 대비한 리스크 관리가 필요합니다.",
-    "newEntry": "조정 시 반도체, AI 관련 기술주 및 실적 개선이 기대되는 금융주 등 코스피 대형주 중심으로 분할 매수 관점에서 접근하는 것이 유리할 수 있습니다.",
-    "cash": "고환율 및 시장 변동성 확대를 고려하여 현금 비중을 일정 부분 유지하며, 시장의 방향성이 명확해질 때까지 신중한 접근이 요구됩니다."
+    "holder": "보유 종목 중 실적 개선 기대감이 유효하거나 성장 모멘텀이 강한 종목은 지속 보유 관점. 다만, 과열된 섹터 내 종목은 일부 비중 축소 고려가 필요합니다.",
+    "newEntry": "조정 시 분할 매수 관점으로 접근하되, 실적 성장성이 뒷받침되는 기술주 및 AI 관련주에 대한 관심이 유효합니다. 2차전지 등 낙폭 과대 섹터는 수급 개선 확인 후 접근하는 것이 좋습니다.",
+    "cash": "시장 변동성 확대에 대비하여 일정 부분 현금 비중을 유지하는 것이 바람직합니다. 향후 시장 방향성 확인 후 매수 기회를 모색할 수 있습니다."
   },
   "sources": [
     {
-      "title": "newsis.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy1qIXL7czoO6LVikkii9QC_iFBkl8RFuPBrXW8EiaGKPUZF5K0nUedAz22Gx-9JmTJiIqfA1NUWIPQ4mUPyWryMkQmC2Cu2Y_GqyjCrhVOM6Li0Rzk5XeqDvWvDOsCFGhR0MUrsL-urQnHKx_i3lMHg=="
+      "title": "가상의 뉴스 출처 1",
+      "url": "http://example.com/news1"
     },
     {
-      "title": "yonhapnewstv.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG55D_CFlWjkmgnaSXXIye6BJW-VPg7cG2vnd1ab95QOth1y3Qwcgb1EaF1QGYDVr0eC7ozlCYt_NjOsu8OdAgpqHVqbllmO2Zv2hDVtW3awlXPJDkvKHdRPz2GsyQ26pvdeyV19BX9fwGFM8SNh7CEqCdC"
-    },
-    {
-      "title": "einfomax.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBlKI-JHMbsmovXEz3MnXaBs6l41Tdkl0qhoofxFpfsWW2bltV8kEUDc4xxx0y-k6HtrxfES8xGF6Jrjs5axTOggPVUJ4V5Wi1N6XQSw0tyXex6Oen9q2XxYnB9-frts72gC70YiU9lQB8iQs7RdQW5MguiiQwY-hYFQ=="
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHILy37_P5VaKOBimgfEbj_-2OVP2i-S3DqlOH_-3FjSm1DrjtiuXbukpK72vefbaz6dq44nYhwy_RBNsSW0PpPiEq_jNFdIcneVsqUoOw6TG3A9CVK4Mpac0bcYZa35Lt0FXu5ZEVz5tI="
-    },
-    {
-      "title": "infostockdaily.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXwuQ-Yp8_VDCNF4H5qVkt44ZsrgiZKjSHSZF4LdNwmNxMwzhPc6iy9e51OSybzPcLx1tZVEbunFdMy2sS8nYbkbR002gZOim9SXbW2pKuZ2qjG8e9SQeOqKHZbEOsgvgcmGEx9FTA2z--8Hz-_H32Jsrzg2nAl23tFspRyJ4="
-    },
-    {
-      "title": "financialreview.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWQ7fu94Dm3b7ltuFMl3z7IaoEXmqWkZUiMDL6gCRJ51H6tBa0jm7IpTSk8lOyDUwojGrTOkPJyVbni2WNpC2NeXf9Crx3Oy5lMPrtpOVZ_qarVvl6A_w-mWPIr08cUM4P6sc2veQ7CRCDqgnzx1aJE_Xavb9jMr5e443K4w=="
-    },
-    {
-      "title": "mt.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZr4v-SPEojRX8eFFSEy9jFo7idycm7TeCtx3I968gSRg0qh4p0jsvQfTXvr4iWzNSlRkn1M02a9bBjrptP5QN2GTNCe8jpxAcvxyH3lbF5hjbbK0gd1bfSKU_2xggPQMD10V6eu2jyhNAoHysDs_NNVsXcQJk"
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfzJ4u9Orc69mlLQPVKXdZCe5qrMZfQCydevNIgvzLHsoWNFmemy5zGdEah_Y2PwMchxj7P0_EDmzfPvf4zvWS7QUcTTPOao8wSLJHYTakPX8NwJJRE-opRDKlTf76yqRSC5CNtJ10Hq0YCi6BQH4NoV1Os9x8gckjAgLC5Foq6yIEuiYd0gr2EcA="
+      "title": "가상의 뉴스 출처 2",
+      "url": "http://example.com/news2"
     }
   ]
 }
