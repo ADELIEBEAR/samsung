@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="삼성전자 3분할 매수 타점, 세력 평균단가, 무효화 라인, 목표가를 자동 계산하는 엑셀 계산기 사용 가이드입니다.">
+<title>삼성전자 3분할 세력단가 계산기 | 국장 통합 전략노트</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">국</span>
+      <span><strong>국장 통합 전략노트</strong><em>자료실</em></span>
+    </a>
+    <nav class="nav">
+      <a href="../index.html">홈</a>
+      <a href="../live.html">오늘 브리핑</a>
+      <a href="../index.html#materials">자료실</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false">메뉴</button>
+  </div>
+</header>
+
+<div class="topbar" style="position:static;background:var(--bg-soft);border-bottom:1px solid var(--border-soft)">
+  <div class="container" style="padding:12px 0">
+    <p class="breadcrumb" style="margin:0">홈 / 자료실 / 자료 10</p>
+  </div>
+</div>
+
+<div class="page-hero" style="background:var(--bg-soft);border-bottom:1px solid var(--border-soft)">
+  <div class="container">
+    <p class="eyebrow">엑셀 계산기</p>
+    <h1 class="page-title">삼성전자 3분할 세력단가 지지선 계산기</h1>
+    <p class="page-lead">현재가·추정 세력 평균단가·최근 고저점·예산을 입력하면 1~3차 매수 타점, 체결 후 평균단가, 무효화 라인, 기준 목표가를 자동 계산합니다.</p>
+  </div>
+</div>
+
+<div class="material-body">
+  <div class="container">
+    <div class="material-layout">
+      <aside class="toc">
+        <strong>목차</strong>
+        <a href="#s1">계산기 개요와 사용 순서</a>
+        <a href="#s2">핵심 해석 기준</a>
+        <a href="#s3">시나리오 비교 (보수/기본/공격)</a>
+        <a href="#s4">수급 체크리스트 기록법</a>
+        <a href="#s5">계산기 다운로드</a>
+      </aside>
+
+      <article class="doc">
+        <h2 id="s1">계산기 개요와 사용 순서</h2>
+        <p>이 계산기는 삼성전자에 분할 매수를 할 때 1차·2차·3차 타점을 기계적으로 계산하기 위한 도구입니다. 투자 판단 보조용이며, 수익 보장이나 특정 종목 매수·매도 추천을 목적으로 하지 않습니다.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>입력값</th><th>설명</th><th>비고</th></tr></thead>
+            <tbody>
+              <tr><td>현재가</td><td>매수 시점의 삼성전자 현재가</td><td>직접 입력 (노란 셀)</td></tr>
+              <tr><td>추정 세력 평균단가</td><td>기관·외국인 평균 매입 단가 추정치</td><td>직접 입력</td></tr>
+              <tr><td>최근 기준 고가 / 저가</td><td>최근 단기 고점과 저점</td><td>직접 입력</td></tr>
+              <tr><td>총 매수 예산</td><td>3분할에 쓸 총 금액</td><td>직접 입력</td></tr>
+              <tr><td>1차/2차/3차 비중</td><td>각 분할 매수 비중 (합산 1.0)</td><td>기본값 0.3 / 0.3 / 0.4</td></tr>
+              <tr><td>기본 이격률</td><td>타점 간격 기준 (기본 2.5%)</td><td>시나리오별 조정 가능</td></tr>
+              <tr><td>무효화 기준</td><td>손절 기준선 이격률 (기본 4%)</td><td>직접 입력</td></tr>
+              <tr><td>목표 반등률</td><td>기준 목표가 산출 반등률 (기본 7%)</td><td>직접 입력</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>입력 후 자동으로 계산되는 항목은 1차·2차·3차 매수 타점, 각 회차별 투입금과 예상 수량, 체결 후 평균단가, 무효화 라인, 기준 목표가, 위험/보상 비율입니다.</p>
+
+        <h2 id="s2">핵심 해석 기준</h2>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>현재가 위치</th><th>해석</th><th>대응</th></tr></thead>
+            <tbody>
+              <tr><td>현재가 &gt; 1차 타점</td><td>추격 구간 가능성</td><td>매수보다 관망·눌림 확인 우선</td></tr>
+              <tr><td>1차~2차 구간</td><td>첫 분할 후보</td><td>거래량 감소 + 지지 확인이 같이 나오면 품질 상승</td></tr>
+              <tr><td>2차~3차 구간</td><td>심리적 공포 구간</td><td>외국인 수급 회복 여부가 핵심</td></tr>
+              <tr><td>3차 이하</td><td>무조건 매수 구간 아님</td><td>무효화 라인 이탈 여부를 먼저 확인</td></tr>
+              <tr><td>무효화 라인 이탈</td><td>계획 재설계 필요</td><td>리스크 관리가 계산보다 우선</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note">3차 타점 이하에 들어갔다고 해서 무조건 매수 구간이 아닙니다. 무효화 라인을 먼저 확인하세요. 무효화 라인을 이탈하면 계산 결과보다 리스크 관리가 우선입니다.</div>
+
+        <h2 id="s3">시나리오 비교 (보수형/기본형/공격형)</h2>
+        <p>시나리오 비교 시트에서 기본 이격률만 바꾸면 세 가지 타점 플랜을 바로 비교할 수 있습니다.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>시나리오</th><th>기본 이격률</th><th>특징</th><th>적합한 상황</th></tr></thead>
+            <tbody>
+              <tr><td><strong>보수형</strong></td><td>1.8%</td><td>하락폭을 짧게 보고 빠른 반등 확인</td><td>지수 자체가 강하고 단기 조정으로 판단될 때</td></tr>
+              <tr><td><strong>기본형</strong></td><td>2.5%</td><td>중간 깊이 눌림 기준값</td><td>일반적인 시장 환경, 기본 계산기와 동일</td></tr>
+              <tr><td><strong>공격형</strong></td><td>3.5%</td><td>깊은 눌림까지 기다리는 방어형 접근</td><td>외국인 매도가 강하거나 리스크오프 우려가 있을 때</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="s4">수급 체크리스트 기록법</h2>
+        <p>엑셀 파일 안의 "수급 체크리스트" 시트는 외국인·기관·프로그램 수급 흐름을 날짜별로 직접 기록하는 공간입니다. 매일 업데이트하면 삼성전자 재유입 신호를 흐름으로 파악할 수 있습니다.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>기록 항목</th><th>확인 위치</th><th>해석 포인트</th></tr></thead>
+            <tbody>
+              <tr><td>삼성전자 현재가</td><td>HTS / MTS 시세</td><td>3분할 타점 대비 현재 위치 확인</td></tr>
+              <tr><td>외국인 순매수 (억원)</td><td>KRX 또는 HTS 수급</td><td>음수 지속 시 유출 확인, 감소 추세 확인</td></tr>
+              <tr><td>기관 순매수 (억원)</td><td>KRX 또는 HTS 수급</td><td>기관과 외국인 방향이 같은지 다른지 확인</td></tr>
+              <tr><td>프로그램 순매수</td><td>KRX 프로그램 매매</td><td>차익 vs 비차익 구분, 매도 감소 여부 확인</td></tr>
+              <tr><td>코스피 등락률</td><td>코스피 지수</td><td>지수 대비 삼성전자 상대강도 계산용</td></tr>
+              <tr><td>필라델피아 반도체</td><td>Yahoo Finance / Bloomberg</td><td>SOX 강세인데 삼성 약하면 자금 이동 의심</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="s5">계산기 다운로드</h2>
+        <p>아래 버튼으로 엑셀 파일을 다운로드하세요. 파일을 열면 기본 예시값(2026년 7월 1일 기준 삼성전자 시세 구간)이 입력되어 있습니다. 노란 셀만 수정하면 자동으로 타점이 계산됩니다.</p>
+
+        <div class="note">이 파일은 투자 판단 보조용입니다. 계산된 타점이 실제 시장에서 지지된다는 보장이 없으며, 수익·승률을 보장하지 않습니다. 모든 투자 판단과 책임은 투자자 본인에게 있습니다.</div>
+
+        <div class="page-nav">
+          <a class="btn btn-secondary" href="09-ai-capital-rotation.html">← 이전 자료</a>
+          <a class="btn btn-primary" href="../index.html#materials">자료실로 돌아가기</a>
+          <span></span>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">본 자료는 시장 분석 참고자료이며 특정 종목의 매수·매도 추천이나 수익 보장을 목적으로 하지 않습니다.</div>
+</footer>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
