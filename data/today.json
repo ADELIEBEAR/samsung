@@ -1,118 +1,79 @@
 {
-  "updatedAt": "2026년 7월 1일 수요일 PM 7:56",
-  "session": "장 마감 브리핑",
-  "marketTitle": "코스피 반도체 약세에 하락, 코스닥은 상승 마감",
-  "temperature": "약화",
-  "riskLevel": "높음",
-  "oneLine": "외국인과 기관의 동반 순매도, 특히 반도체 대형주의 약세로 코스피는 하락 마감했으나, 코스닥은 정책 기대감과 순환매 속 상승했습니다.",
-  "marketRegime": "오늘 한국 증시는 코스피와 코스닥이 엇갈린 흐름을 보였습니다. 코스피는 전일 미국 증시의 기술주 강세에도 불구하고, 외국인과 기관의 대규모 순매도와 반도체 대형주의 차익 실현 매물 출회로 하락했습니다. 반면, 코스닥은 개장 30주년 기념 행사와 활성화 정책 기대감에 힘입어 상승 마감하며 업종별 순환매 양상이 나타났습니다. 원/달러 환율은 외국인 매도세와 달러 강세로 연일 최고치를 경신하며 투자 심리를 위축시켰습니다.",
+  "updatedAt": "2026년 7월 2일 목요일 AM 9:17",
+  "session": "오늘 시장 브리핑",
+  "marketTitle": "오늘 시장 흐름 점검",
+  "temperature": "중립",
+  "riskLevel": "보통",
+  "oneLine": "{\n  \"updatedAt\": \"2026-07-02 09:17 KST\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"미국장 강세 속 국내 증시 개장 준비\",\n  \"temperature\": \"상승 지속\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 기술주 강세와 반도체 훈풍에 힘입어 국내 증시도 긍정적 출발이 예상되나, 환율 변동성과 외",
+  "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피, 외국인·기관 동반 순매도 및 반도체 대형주 약세로 2.04% 하락 마감.",
-    "코스닥, 개장 30주년 기념 행사 및 활성화 정책 기대감에 1.44% 상승 마감.",
-    "원/달러 환율, 1554.9원으로 마감하며 연일 최고치 경신, 외국인 매도세 영향.",
-    "미국 증시, 기술주 강세로 2분기 최고 성적 기록했으나 국내 증시와는 디커플링.",
-    "전력 인프라, 조선, 방산, 건설 등 일부 비반도체 섹터 강세.",
-    "개인 투자자, 코스피에서 1조 7천억원 이상 순매수하며 지수 하단 방어."
+    "{\n  \"updatedAt\": \"2026-07-02 09:17 KST\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"미국장 강세 속 국내 증시 개장 준비\",\n  \"temperature\": \"상승 지속\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 기술주 강세와 반도체 훈풍에 힘입어 국내 증시도 긍정적 출발이 예상되나, 환율 변동성과 외국인 수급은 주시해야 합니다.\",\n  \"marketRegime\": \"글로벌 기술주 중심의 상승 흐름이 이어지는 가운데, 국내 증시는 대형주와 특정 성장 섹터 위주로 시장 에너지가 집중되는 경향을 보이고 있습니다. 매크로 지표의 안정화 기대감과 기업 실적 개선 기대가 맞물려 투자 심리가 우호적으로 작용하고 있으나, 단기 과열에 대한 경계심도 상존하는 시장 흐름입니다.\",\n  \"summary\": [\n    \"미국 증시, 기술주 중심의 강세 지속하며 국내 증시에 긍정적 영향 예상.\",\n    \"외국인 "
   ],
   "dashboard": {
-    "indices": "코스피는 반도체 대형주(삼성전자 -5.84%, SK하이닉스 -3.40%)의 급락과 외국인 및 기관의 대규모 순매도(각각 1조 7천억원, 700억원 이상)로 2.04% 하락한 8303.41에 마감했습니다. 반면, 코스닥은 개장 30주년을 맞아 활성화 정책 기대감과 함께 1.44% 상승한 929.35에 마감하며 코스피와는 대조적인 흐름을 보였습니다.",
-    "global": "전일 미국 증시는 AI에 대한 우려가 줄어들고 기업 실적에 대한 기대감으로 S&P500이 0.8%, 나스닥이 1.5% 상승하며 2분기를 6년 만에 최고 성적으로 마감했습니다. 특히 반도체주가 이틀 연속 시장을 이끌었으며, AI 관련 산업에 대한 긍정적인 전망이 지속되고 있습니다.",
-    "fx": "원/달러 환율은 전일 대비 5.5원 오른 1,554.9원에 마감하며 연일 최고치를 경신했습니다. 이는 국내 증시에서 외국인의 대량 매도가 이어지고 미국의 기준금리 인상 기대감으로 달러화가 강세를 보이는 것이 주요 원인으로 분석됩니다. 국고채 금리도 상승세를 보였습니다.",
-    "flows": "외국인 투자자는 코스피 시장에서 1조 7천억원 이상, 기관 투자자는 700억원 이상 순매도하며 지수 하락을 주도했습니다. 특히 외국인은 9거래일 연속 순매도 행진을 이어갔습니다. 반면 개인 투자자는 코스피에서 1조 7천억원 이상 순매수하며 외국인 매도 물량을 받아냈습니다. 코스닥 시장에서는 외국인이 2천억원 이상 순매수했습니다."
+    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
+    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
+    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
+    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "약함",
-      "view": "역대급 반도체 수출 실적에도 불구하고 삼성전자와 SK하이닉스 등 대형 반도체주가 외국인과 기관의 차익 실현 매물 출회 및 국민연금 리밸런싱 우려로 큰 폭 하락했습니다. 반면, 일부 반도체 장비주는 강세를 보였습니다."
+      "status": "확인 필요",
+      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "강함",
-      "view": "정부의 메가 프로젝트에 따른 전력 인프라 수요 확대 기대감 지속에 LS ELECTRIC, 효성중공업, HD현대일렉트릭 등 전력설비 관련주가 큰 폭으로 상승했습니다."
+      "status": "확인 필요",
+      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "에코프로비엠의 유상증자 발표와 에코프로 그룹주들의 큰 폭 하락으로 섹터 전반이 약세를 보였습니다."
+      "status": "확인 필요",
+      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "코스닥 시장 활성화 정책 기대감 속에서 제약·바이오 산업 컨퍼런스가 개최되었으나, 섹터 전반의 강한 상승은 제한적이었습니다."
+      "status": "확인 필요",
+      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "약함",
-      "view": "현대차 등 완성차 업종은 하락했으며, 전반적으로 약세를 보였습니다."
+      "status": "확인 필요",
+      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
     },
     {
       "name": "조선·방산",
-      "status": "강함",
-      "view": "HD현대중공업, 한화에어로스페이스 등 조선 및 방산주는 견조한 수주 모멘텀과 함께 강세를 보였습니다."
+      "status": "확인 필요",
+      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
     },
     {
       "name": "금융·지주",
-      "status": "중립",
-      "view": "삼성생명, 삼성물산 등 삼성그룹 지분 가치 상승 기대감으로 강세를 보였던 종목들이 하락했으며, 금융주는 혼조세를 보였습니다."
+      "status": "확인 필요",
+      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "강함",
-      "view": "AI 산업 확산과 맞물려 일부 로봇주 및 AI 기반 소프트웨어 기업들이 상승 흐름을 보였습니다."
+      "status": "확인 필요",
+      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
     }
   ],
   "watch": [
-    "외국인 투자자의 매도세 지속 여부 및 환율 변동성 추이.",
-    "미국 증시 기술주 흐름과 국내 반도체 섹터의 디커플링 해소 여부.",
-    "코스닥 활성화 정책의 구체적인 내용과 시장 반응.",
-    "국민연금 리밸런싱에 따른 기관 수급 변화.",
-    "글로벌 경기 지표 및 인플레이션 관련 데이터 발표."
+    "코스피·코스닥 지수 방향",
+    "외국인·기관 수급",
+    "환율과 미국 반도체주 흐름",
+    "주도 섹터 확산 여부"
   ],
   "risks": [
-    "지속적인 원/달러 환율 상승에 따른 외국인 자금 이탈 심화.",
-    "미국 기술주 과열 논란 및 차익 실현 매물 출회에 따른 국내 증시 영향.",
-    "국민연금 리밸런싱에 따른 국내 주식 비중 축소 가능성.",
-    "글로벌 인플레이션 재점화 및 금리 인하 지연 가능성.",
-    "개인 투자자들의 '빚투' 증가 및 반대매매 위험 확대."
+    "환율 급등",
+    "미국 기술주 조정",
+    "특정 섹터 쏠림 후 차익매물",
+    "외국인 수급 둔화"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 시장 주도 섹터(전력 인프라, 조선, 방산 등)에 속한 종목은 추세 확인이 필요합니다. 반도체 대형주 보유자는 수급 동향을 면밀히 관찰하며 변동성에 대비해야 합니다.",
-    "newEntry": "코스닥 시장의 정책 모멘텀과 업종별 순환매 가능성을 고려하여 실적 성장성이 뒷받침되는 중소형주에 대한 관심이 유효합니다. 단, 환율 및 수급 변동성을 고려한 신중한 접근이 필요합니다.",
-    "cash": "높아진 시장 변동성과 환율 리스크를 고려하여 현금 비중을 일정 부분 유지하는 것이 좋습니다. 주도 섹터의 조정 시 분할 매수 기회를 활용하거나, 코스닥 활성화 정책의 구체화에 따른 투자 기회를 모색할 수 있습니다."
+    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
+    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
+    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [
-    {
-      "title": "metroseoul.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyVrK4cpTnMFP9agJiCs3K4ZR0rHzyGwe5DfYC9RPoZ8TxW-xUEgleIpd8yXaNCKVuDGnRytTgTkJEYSmUHf3HmTEmN5IPINN-qAdM4IunJ5R3Qt1rclRZ3gWKrzpRG14d6tCF0qdMhw_1Db_5_A=="
-    },
-    {
-      "title": "infostockdaily.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS21-g7S3uqx_eCt8gmg8mVncuqhyJBjnDEFHUEFFIw22T3NwKQPMrbgy1d_tyQoFEwKcTVnfvg1lFa8Uu_EstZMfuy24gt0tvSfO-EtM8KZumZiEzZdGNi-GzMVJCjzAU5s1_zqBc44nmuG9z0yFfDqd3wjmWdK0dZ2U-VBI="
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZmx9xg13JUfhlaBHva1BcsfVLQn0pBwFvoA9XeHX0nFozgdm02x0Fe6JSESLLVFeVveG4Oo2lNDk9HTytwqRKltqw83TXC6FBuDxYwIGL2ew0oGLaGs0fakcTpBsh6VmnisYVtmXkMzpNS97uXqMVDmyIt6w70HBrEyrRIzmvxgYmzyWPxXblSs7Mng=="
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH9fL-JnG4BXMGMpaetpsJJ3WofdMmC5DK9xLwAq7ls1k8c1Fg9RELApGr2f5zMJlKoDt_RDab4yW94Ikq-05H2CwxiNnEqPkxJmiLVYUWAxtuHmBeVwv-990CLUsmG3z5_m0="
-    },
-    {
-      "title": "heraldcorp.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfSvSAA9qPkGd_bvRj3CU5UEMjTmO9h8ai4yzdam61SAbkp_7_SFKr8DvEQsH4UVI_AupqkGxJF6pugf_-v2aiWAtkQ_dGeZIZ8q4FAmiLT6trMHEX5VXytlTsdF7gwT7llvFyH1U="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsUDjfcNUXFZKc_MvuJ3S2K3KABF1jgphqJQUW-3Pc5LrP0GwyU4zH9dZHNfp6R6M93CQwFSh4BWjLyLYi-Z4Q8d5hMiZFJg6QlnwuRlYgGvQPxAQAHD36p3XiWCedNwZL"
-    },
-    {
-      "title": "ekn.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEff7-R-zi3sa6FPJ2XFaUWKCscziNTtxAvR7eLRM3QLofhfdB77xKBj7ZVi88BoUG_030byhB2rW_-2SJSnUdvg3Y9WcK-9hP-Op4TaDODm56Ft7oSFkzjhxMN-g4rEj8lpGpqtLfKq6m21-igd1-V"
-    },
-    {
-      "title": "seoul.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUsuCModuIrRy32otoNelACPbRrrXDO3t1sTlKivPiI1dgABfWbGfkz4V6Je16MkjeR5PUIGK_lmz9oLHRzJ7n4QcJeWr9NneF6Gzed5HK2Esllq8-PUS9qquym9CWBy9b5auistNR0Y_MEqc0-z-Hxd9i281NzNyc"
-    }
-  ]
+  "sources": [],
+  "note": "JSON 파싱 실패"
 }
