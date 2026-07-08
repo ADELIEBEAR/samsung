@@ -1,112 +1,119 @@
 {
-  "updatedAt": "2026년 7월 8일 수요일 AM 9:08",
-  "session": "오늘 시장 브리핑",
-  "marketTitle": "오늘 시장 흐름 점검",
-  "temperature": "중립",
-  "riskLevel": "보통",
-  "oneLine": "{\n  \"updatedAt\": \"2026년 7월 8일 수요일 AM 9:08\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"반도체 쇼크 속 변동성 확대\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"삼성전자 호실적에도 반도체주 급락과 외국인 매도세가 시장 전반의 변동성을 키우며 투자심리 위축이 심화된 ",
-  "marketRegime": "시장 흐름은 확인 중입니다.",
+  "updatedAt": "2026년 7월 8일 수요일 PM 3:06 (KST)",
+  "session": "장중 브리핑",
+  "marketTitle": "중동 리스크·반도체 우려에 코스피·코스닥 급락, 변동성 확대",
+  "temperature": "리스크오프",
+  "riskLevel": "높음",
+  "oneLine": "중동 지정학적 리스크와 반도체 고점 논란이 겹치며 코스피와 코스닥이 급락, 매도 사이드카가 발동되는 등 시장 변동성이 크게 확대된 하루입니다.",
+  "marketRegime": "글로벌 지정학적 긴장 고조와 반도체 업황 피크아웃 우려가 맞물리며 시장 전반에 걸쳐 투자 심리가 급격히 위축되는 시장 흐름입니다. 특히 외국인 매도세가 지속되며 지수 하방 압력이 커지고 있으며, 코스닥은 800선이 붕괴되는 등 중소형주도 큰 타격을 받고 있습니다. 대형 반도체주의 장중 반등 시도가 있었으나, 전반적인 약세 흐름을 뒤집기에는 역부족인 상황입니다.",
   "summary": [
-    "{\n  \"updatedAt\": \"2026년 7월 8일 수요일 AM 9:08\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"반도체 쇼크 속 변동성 확대\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"삼성전자 호실적에도 반도체주 급락과 외국인 매도세가 시장 전반의 변동성을 키우며 투자심리 위축이 심화된 장 전입니다.\",\n  \"marketRegime\": \"전일 한국 증시는 삼성전자의 역대급 2분기 실적 발표에도 불구하고 '뉴스에 팔자' 심리가 강하게 작용하며 반도체 섹터가 급락, 코스피 매도 사이드카가 발동되는 등 극심한 변동성을 보였습니다. 외국인 투자자의 대규모 순매도가 이어지며 지수 하락을 주도했고, 개인 투자자들이 매수세를 방어했으나 역부족이었습니다. 미국 증시 역시 삼성전자 급락의 영향으로 반도체 지수가 크게 하락했으나, 헬스케어 및 금융주로의 순환매가 나타나는 등 업종별 차별화가 진행되"
+    "코스피, 장 초반 급락 후 낙폭 일부 만회했으나 오후 들어 재차 하락하며 매도 사이드카 발동.",
+    "코스닥, 10개월 만에 800선 붕괴 및 매도 사이드카 발동으로 투자 심리 위축 심화.",
+    "외국인, 코스피 14거래일 연속 순매도 지속하며 시장 하방 압력 가중.",
+    "미국 증시, 삼성전자 실적 발표에도 반도체주 급락 및 국제유가 급등으로 3대 지수 모두 하락 마감.",
+    "중동 지정학적 리스크(호르무즈 해협 선박 공격, 미-이란 군사 충돌)가 국제유가 급등과 글로벌 증시 불안을 야기.",
+    "원/달러 환율, 경상수지 흑자에도 외국인 주식 매도세로 1500원대 불안정한 흐름 지속."
   ],
   "dashboard": {
-    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
-    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
-    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
-    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
+    "indices": "코스피는 장 초반 2%대 급락 후 7,400선 초반까지 밀렸으며, 오후 들어 4~5%대 하락률을 기록하며 7,300선까지 위협받고 있습니다. 매도 사이드카가 발동되는 등 변동성이 극심합니다. 코스닥은 개장 직후 800선이 붕괴된 후 780선대까지 밀리며 10개월 만에 최저치를 기록했습니다.",
+    "global": "간밤 미국 증시는 삼성전자의 예상치 상회 실적 발표에도 불구하고 반도체 업종의 투자 심리 위축과 중동 지정학적 리스크로 인한 유가 급등에 다우, S&P500, 나스닥 3대 지수 모두 하락 마감했습니다. 특히 필라델피아 반도체 지수는 4.65% 급락하며 AI 관련주 전반에 대한 우려를 키웠습니다.",
+    "fx": "원/달러 환율은 장 초반 1522.5원으로 하락 출발했으나, 외국인 주식 매도세가 지속되면서 1510원대 중반에서 1520원대 초반의 불안정한 흐름을 보이고 있습니다. 5월 경상수지 흑자가 역대 최대치를 기록했음에도 환율은 36거래일 연속 1500원대를 유지하며 외환 시장의 불안감을 반영하고 있습니다.",
+    "flows": "코스피 시장에서는 외국인과 개인이 동반 순매도하며 지수 하락을 주도하고 있으며, 외국인은 14거래일 연속 '셀 코리아'를 이어가고 있습니다. 기관은 홀로 1조원 이상 순매수하며 저가 매수세를 보였으나, 시장 전체의 하방 압력을 상쇄하기에는 역부족입니다. 코스닥 시장에서도 외국인 매도세가 우위를 보였습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "확인 필요",
-      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
+      "status": "약함",
+      "view": "삼성전자 실적 발표에도 불구하고 미국 반도체주의 급락과 국내 반도체 고점 논란이 겹치며 전반적인 약세를 보였습니다. 삼성전자와 SK하이닉스가 장중 낙폭을 줄이며 반등을 시도했으나, 여전히 투자 심리는 위축된 상태입니다."
     },
     {
       "name": "전력·인프라",
       "status": "확인 필요",
-      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
+      "view": "직접적인 언급은 적으나, AI 인프라 투자 기대감은 여전히 유효할 수 있으나, 전반적인 시장 리스크 오프 분위기 속에서 강한 상승세를 기대하기는 어렵습니다."
     },
     {
       "name": "2차전지",
-      "status": "확인 필요",
-      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
+      "status": "약함",
+      "view": "코스닥 시장의 약세와 함께 에코프로비엠, 에코프로 등 주요 2차전지 종목들이 하락세를 보이며 투자 심리가 좋지 않습니다."
     },
     {
       "name": "바이오",
-      "status": "확인 필요",
-      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
+      "status": "약함",
+      "view": "코스닥 대장주 알테오젠을 비롯해 에이비엘바이오, 리가켐바이오 등 주요 바이오 종목들이 큰 폭의 하락을 기록하며 약세를 면치 못했습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "확인 필요",
-      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
+      "status": "약함",
+      "view": "현대차 등 주요 자동차 관련주들이 시장 전반의 약세와 함께 하락세를 보였습니다."
     },
     {
       "name": "조선·방산",
-      "status": "확인 필요",
-      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
+      "status": "약함",
+      "view": "중동 리스크 고조에도 불구하고 시장 전반의 약세에 동반 하락하는 모습을 보였습니다."
     },
     {
       "name": "금융·지주",
-      "status": "확인 필요",
-      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
+      "status": "중립",
+      "view": "전반적인 시장 약세 속에서 상대적으로 방어적인 성격을 보일 수 있으나, 큰 폭의 상승보다는 관망세가 예상됩니다. 일부 금융주는 전일 상승세를 보이기도 했습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "확인 필요",
-      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
+      "status": "약함",
+      "view": "코스닥 시장의 급락과 함께 레인보우로보틱스 등 로봇 관련주도 하락세를 보였습니다. 중국 AI 스타트업의 자체 칩 개발 소식은 엔비디아 등 AI 관련주에 대한 기대감을 흔들 수 있습니다."
     }
   ],
   "watch": [
-    "코스피·코스닥 지수 방향",
-    "외국인·기관 수급",
-    "환율과 미국 반도체주 흐름",
-    "주도 섹터 확산 여부"
+    "중동 지정학적 리스크의 추가 확전 여부 및 국제유가 변동성.",
+    "미국 FOMC 6월 회의 의사록 공개 (8일 예정) 및 연준의 금리 인상 스탠스.",
+    "외국인 투자자의 국내 증시 매도세 지속 여부 및 반도체 대형주 수급 변화.",
+    "SK하이닉스의 나스닥 ADR 상장 결과 및 글로벌 반도체 업황에 미칠 영향.",
+    "원/달러 환율의 1500원대 안착 여부 및 외환 시장 안정화 동향.",
+    "국내 기업들의 2분기 실적 발표 시즌 진행 상황 및 가이던스 변화."
   ],
   "risks": [
-    "환율 급등",
-    "미국 기술주 조정",
-    "특정 섹터 쏠림 후 차익매물",
-    "외국인 수급 둔화"
+    "중동 지정학적 리스크 심화로 인한 국제유가 급등 및 글로벌 경기 둔화 우려.",
+    "글로벌 반도체 업황 '피크아웃' 논란 지속 및 AI 관련주 고평가 우려.",
+    "미국 금리 인상 기조 장기화 가능성 및 달러 강세 심화로 인한 외국인 자금 유출.",
+    "국내 증시의 높은 변동성 지속 및 프로그램 매매 사이드카 발동에 따른 투자 심리 위축.",
+    "국내 기업 실적 전망치 하향 조정 가능성 및 경기 둔화 압력."
   ],
   "actionPlan": {
-    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
-    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
-    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
+    "holder": "높은 변동성에 대비하여 포트폴리오 내 현금 비중을 점검하고, 지정학적 리스크에 취약한 섹터 비중을 조절하는 것이 중요합니다. 실적 기반의 우량주라도 단기 변동성에 노출될 수 있으므로 장기적인 관점에서 접근해야 합니다.",
+    "newEntry": "시장의 불확실성이 높은 시기이므로 신규 진입은 보수적인 관점에서 접근하는 것이 바람직합니다. 충분한 가격 조정 이후 분할 매수 전략을 고려하거나, 시장 안정화 신호를 기다리는 것이 좋습니다.",
+    "cash": "현금 보유는 시장의 급격한 변동성 속에서 기회를 포착할 수 있는 유연성을 제공합니다. 리스크 관리에 집중하며, 향후 시장 안정화 시 저가 매수 기회를 모색하는 전략이 유효합니다."
   },
   "sources": [
     {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDtwDomu9kAQPsJ_pEiL_w7NTPhDLnHxGpp7Qk7wBe-2B7ta2zCLpHkJlyGngXHgKl655T8Hz0zKxZQDg0cL5R6TKpEcpLGYi9Uu_UKCRMWGsaw9tNDBIwMsKIwU667mMF5i4="
+      "title": "kbthink.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCAyPLzzDEgf9z19OnsBQLWnZ_7d24wrtC5M_-vZDwzvKDj9DCDgHhWOREVbWE06V06ZgmkZZa09wdkVekRMfBrpQi0vJ7Iq-7hO84k_rSa0VyMeC16JBdflE8fnYOfeDA8ad0OvkpPq3x2gk1sWaxdw6yClejeXXCKnw="
     },
     {
-      "title": "futurechosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUkJvueaVWujGHFnB49NphJ4cBKgtgZgXyi3Hbuhc_GIXp9GGsf3E2nbJyxe9hV11slV7GQF9g4jO2RuVWTI-j_2WNLhl9kM40hfCUIo-e6493PbCyJiUu-j8FXFO2NY2UC8w="
-    },
-    {
-      "title": "youtube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1M_PDo6r3VkA6kAQ8l3OLTTA1C8PKz6QVwPVDz6dx6gqw4eQu22XpP3X7jSZI9SgmyhfjAs8HOPyvz2Lpz52IgiAKqe2wSZsBnnUy5-q6u6YgrKX-RdUR9PuhXuaRWwZfzZFXisc="
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKg8Mly1pCns8FH3YYtzKrwWnypfMYyifGrlFSkLiufW1hG7LGsFetNGcbHXsebcCXlIfxEPKgNJMvOwtNWUig4mrk8hcYq2_Ipe0bEBSxsAHj-5Iw1E-7KYlsEs_Mnm9wRumj3uR68Iowy3FXg-xbtVQ3ietnD-UWAy694CSWq8YXN3AFoAXTtynCLA=="
+      "title": "dailyan.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhG_KZuIyWESCmWMdIupkyb_SeLhWcCBS5OXFUi0NrVJ7v1c4wIQLqQdirTjqwimtfYhRMNy_eP_jCKVSBr0qxhxfP4KYOB64fsWIC8_qqgAkOR5AZ4suATkrOTPJZFWOypfLY13Ld26gT"
     },
     {
       "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFob7UWjRpEMbgc9Q7i4NR_KyVECZVfBwOK3mG9adoktsPRzh4B9x5CUwmO7NHavNG4IEr-x_1AVDzXFXOw00rWYFNafMhCtGJlX_yLnyTXI7Nf21NHjda03wWsFhwD0QNbfJ-yuccIwz8Qwg=="
-    },
-    {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkXoFBt9ik3SZxKCM42wHJB1dykHY1rNIho8Ongv9HVyAQo1zBij0nVT5g-gL49JD-K0YpsESBhHYl1y2FP08Rc-WjnHWwguXCbk6Jf4QLerbOTWd67g7XN0oHFCUzk4vtqcXiL1Foj5Lh"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNqKRlrZ736CtocIjBxe8GchkAEY7wbhCGXoSudZshCO6MDuXMYGqHIKEuaC8KzAFwLC_yXhuJJXkW-nURyB8i54Ln4Em6SOJif4tntRPGNJm_WirvdhrGJ2gi6wtu_wzmdsVoMisjK7B_PA=="
     },
     {
       "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD5dB09w7oTZ-ozpkLzYQpKiTa4p350TVampLwEx3lqs1r2X5spdWcW9lb9umruzHRdhD2mDLwr3QWixxEaEs4sgEOAd47FySQhaTu90UoupM1eq-Dxd7J88sUMUZY"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu7V4kQMEUT8hfDJJwTobjZg_l8wRKrgST-hQzORa5G9JcP_9W_UpSHUdBEjfaZmEfg9_PwW_-WcptKYZY79v7Lc7Kx7bZRv2jhe4mqH99x9it0iNKsSd-Fbs2MwDkDbBY"
     },
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPD6pXAq1FRFC_u6T5213ueXWnc61KMou5LaRkFFxhT2zG8roCrBtzCgDw-Erh29Er2NIExXHmKcC0swQTOzhLceRB7v9nABFUpWwrLvg5gBlmdD8iaMXtBCJQVuLPUjGa5uFmZRa_XcKMUyv76xOILwYqXHQ3hS4paAyQC4xT3IR589hxu8HvBo0="
+      "title": "munhwa.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETHKhCqlms0HwhFpxnQYxtP2U-f3zW77M6PmucEzT6GyEMMN5eCmOHMQlLbBbEjfFwsfdz4blw1p_TkO1f3W1uWCTPpD7eKFB3QR95743d5b5vDCWFVqoFt-aDpPhg5h-hpg=="
+    },
+    {
+      "title": "newsis.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI9Wg74K0ocjBB7IJFylLl3M7jQMkILrDgK0OEtqApCS0K6dGmK3vJe8IRHtT5eW-utrwU136TaA3_ytPEmmYcGw_7fViWHuS-YjkwlQ7OpPD226fQEBJXKILsbwLzlmLnVo7zCl9LsrBHFHI4UrqpgQ=="
+    },
+    {
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzLBTDD_m8PqoLhRZe0yiKPZhq1WYYB9SquFWAGEQxlnH9tU9AjfRz_50jhAv9BF43x_B_mAvxxIqDokCvV044EqzVmQZdxpbZbvNbzx7iRzOK6aarEE75K-mbaEBiIiSObhWxFbnM2-2ZwsQ8kzmnkeEs"
+    },
+    {
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuEKj6Q1GsvxKrOEPm1zlGSmmkmetWP6onH1-iVi1kCIkE4_VAemuflKsoPAy4UaqfZ1Yh2K2lCGKRmRvLs5GkzPK0u7YhMj9dDaPV51x9vXXXJIBBUugJiThKWoWQKv0uvxl39ykngm-X"
     }
-  ],
-  "note": "JSON 파싱 실패"
+  ]
 }
