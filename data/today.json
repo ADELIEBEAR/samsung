@@ -1,119 +1,119 @@
 {
-  "updatedAt": "2026-07-13 PM 6:45 KST",
+  "updatedAt": "2026년 7월 13일 19:41 KST",
   "session": "장 마감 브리핑",
-  "marketTitle": "반도체 급락에 코스피 7000선 붕괴, '검은 월요일' 마감",
+  "marketTitle": "중동 리스크·반도체 급락에 '검은 월요일'",
   "temperature": "리스크오프",
   "riskLevel": "높음",
-  "oneLine": "중동 지정학적 리스크와 반도체 피크아웃 우려가 겹치며 코스피는 9% 가까이 급락, 코스닥도 4%대 하락하며 '검은 월요일'을 기록했습니다.",
-  "marketRegime": "글로벌 지정학적 리스크와 주요 기술 기업의 실적 불확실성으로 인해 투자 심리가 급격히 위축된 시장 흐름입니다. 특히 반도체 업황에 대한 우려가 커지면서 대형 기술주 중심의 하락세가 두드러졌으며, 전반적인 시장의 변동성이 극대화되었습니다.",
+  "oneLine": "중동 지정학적 리스크 고조와 반도체 대형주 급락으로 코스피·코스닥 동반 폭락, 서킷브레이커 발동.",
+  "marketRegime": "미국과 이란 간의 무력 충돌 재점화로 중동 지정학적 리스크가 고조되며 글로벌 투자 심리가 급격히 위축되었습니다. 국내 증시는 반도체 대형주를 중심으로 한 외국인 및 기관의 대규모 매도세가 쏟아지며 '검은 월요일'을 기록, 변동성이 극대화되는 시장 흐름을 보였습니다.",
   "summary": [
-    "코스피는 전 거래일 대비 8.95% 급락한 6,806.93에 마감하며 7,000선이 붕괴되었고, 코스닥은 4.55% 하락한 799.36으로 800선을 내줬습니다.",
-    "외국인과 기관은 코스피 시장에서 각각 1조 7천억 원, 2조 2천억 원 이상을 순매도하며 지수 하락을 주도했습니다.",
-    "삼성전자와 SK하이닉스는 각각 10.70%, 15.37% 폭락하며 반도체 섹터 전반의 약세를 이끌었습니다.",
-    "원/달러 환율은 전 거래일 대비 2.0원 오른 1,503.40원에 마감하며 외국인 자금 유출 우려를 키웠습니다.",
-    "미국 증시는 지난주 금요일 혼조세를 보였으나, SK하이닉스 ADR은 나스닥 상장 첫날 13% 급등하는 등 반도체 투심은 일부 유지되었습니다.",
-    "중동 지정학적 리스크 고조와 반도체 피크아웃 우려가 시장 전반의 투자심리를 급격히 악화시켰습니다."
+    "코스피, 8.95% 급락하며 6,806.93 마감, 두 달 만에 7,000선 붕괴.",
+    "코스닥, 4.55% 하락한 799.36 마감, 800선 하회.",
+    "외국인과 기관, 코스피에서 각각 1.7조원, 2.2조원 이상 순매도.",
+    "원/달러 환율, 2.0원 오른 1,503.4원 기록하며 1,500원대 유지.",
+    "삼성전자 10.7%, SK하이닉스 15.4% 폭락하며 반도체 섹터 급락 주도.",
+    "매도 사이드카 및 서킷브레이커 발동, 올해 들어 7번째."
   ],
   "dashboard": {
-    "indices": "코스피는 외국인과 기관의 대규모 매도세에 8.95% 급락하며 6,806.93에 마감, 두 달 만에 7,000선이 붕괴되었습니다. 코스닥 또한 4.55% 하락한 799.36으로 마감하며 800선이 무너지는 등 전반적인 시장의 공포 심리가 확산되었습니다.",
-    "global": "지난밤 미국 증시는 다우존스, S&P500, 나스닥 지수 모두 소폭 상승하며 혼조세를 보였습니다. 특히 SK하이닉스 ADR은 나스닥 상장 첫날 공모가 대비 13% 급등하며 반도체 투심을 일부 지탱했습니다. 그러나 주말 사이 미국과 이란 간의 지정학적 긴장이 고조되면서 글로벌 시장의 하방 압력이 커졌습니다.",
-    "fx": "원/달러 환율은 전 거래일 대비 2.0원 상승한 1,503.40원에 마감했습니다. 이는 외국인 매도세와 중동 지정학적 리스크에 따른 달러 강세 압력의 영향으로 풀이됩니다. 고환율 상황이 지속될 경우 외국인 자금 유출 우려가 커질 수 있습니다.",
-    "flows": "외국인 투자자들은 코스피 시장에서 1조 7천억 원 이상을 순매도하며 지수 하락을 주도했습니다. 기관 투자자 역시 2조 2천억 원 이상을 순매도하며 매도세를 강화했습니다. 개인 투자자들은 3조 8천억 원 이상을 순매수하며 매물을 받아냈으나, 지수 하락을 막기에는 역부족이었습니다."
+    "indices": "코스피는 중동 지정학적 리스크와 반도체 대형주 급락 여파로 8.95% 폭락하며 6,800선 초반에서 마감했습니다. 코스닥 역시 4.55% 하락하며 800선이 무너지는 등 양 시장 모두 극심한 하락세를 보였습니다. 특히 코스피 시장에서는 매도 사이드카에 이어 서킷브레이커까지 발동되며 시장의 충격이 컸습니다.",
+    "global": "지난 주말 미국 증시는 SK하이닉스 ADR 상장 흥행과 AI 반도체주 강세에 힘입어 다우존스, S&P 500, 나스닥 3대 지수 모두 상승 마감했습니다. 필라델피아 반도체 지수(SOX)도 3.06% 상승하며 반도체 섹터가 반등을 주도했습니다. 그러나 중동 정세 불안감은 여전히 상존했습니다.",
+    "fx": "원/달러 환율은 미국-이란 무력 충돌로 인한 위험 회피 심리 강화와 외국인 투자자의 국내 주식 순매도 영향으로 2.0원 상승한 1,503.4원에 마감하며 1,500원대를 유지했습니다. 다만 SK하이닉스의 국내 AI 설비 투자 목적 달러 환전 기대감이 환율 상승 폭을 일부 제한하는 요인으로 작용했습니다.",
+    "flows": "코스피 시장에서 외국인은 1조7천억원, 기관은 2조2천억원 이상을 순매도하며 지수 하락을 주도했습니다. 개인 투자자들은 3조8천억원 이상 순매수하며 저가 매수에 나섰지만 지수 방어에는 역부족이었습니다. 코스닥 시장에서는 외국인이 순매도한 반면, 개인과 기관은 순매수를 기록했습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "약함",
-      "view": "삼성전자(-10.70%)와 SK하이닉스(-15.37%) 등 대형 반도체주가 급락하며 섹터 전반의 투자심리가 크게 위축되었습니다. SK하이닉스 ADR의 미국 상장 성공에도 불구하고 국내에서는 차익 실현 매물과 피크아웃 우려가 겹치며 폭락세를 보였습니다. 다만, 일부 중소형 AI 관련주는 견조한 흐름을 보였습니다."
+      "view": "삼성전자(-10.70%)와 SK하이닉스(-15.37%)를 필두로 반도체 대형주들이 급락하며 섹터 전체가 큰 폭의 조정을 받았습니다. SK하이닉스 ADR 상장 이후 차익 실현 매물 출회와 2분기 실적 우려가 복합적으로 작용했습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "확인 필요",
-      "view": "시장 전반의 급락 속에서 전력 및 인프라 관련주는 상대적으로 방어적인 모습을 보였을 가능성이 있으나, 전반적인 투자 심리 악화로 인해 상승 모멘텀은 제한적일 수 있습니다."
+      "status": "중립",
+      "view": "시장의 전반적인 약세 속에서 뚜렷한 주도력을 보이지 않았습니다. 개별 종목 이슈에 따라 등락이 엇갈릴 수 있습니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "글로벌 전기차 시장 둔화 우려와 반도체 섹터의 급락이 맞물리며 동반 약세를 보였을 것으로 예상됩니다. 투자 심리 회복까지는 시간이 필요할 것으로 보입니다."
+      "status": "중립",
+      "view": "대형 반도체주의 급락 속에서 LG에너지솔루션(0.77%) 등 일부 종목은 상승 마감하며 상대적으로 선방하는 모습을 보였습니다. 하지만 섹터 전반의 강세는 아니었습니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "시장 급락에도 불구하고 개별 기업의 임상 결과나 기술 수출 등 긍정적인 이슈가 있는 종목은 차별화된 흐름을 보였을 수 있습니다. 전반적인 섹터의 강세는 기대하기 어렵습니다."
+      "status": "약함",
+      "view": "HLB 그룹주를 포함한 제약/바이오 관련주들이 큰 폭으로 하락하며 섹터 전반이 약세를 면치 못했습니다."
     },
     {
       "name": "자동차·전장",
       "status": "약함",
-      "view": "글로벌 경기 둔화 우려와 환율 변동성 확대가 부담으로 작용하며 약세 흐름을 보였습니다. 현대차는 2.95% 하락했습니다."
+      "view": "현대차(-2.95%), 기아(-2.71%) 등 주요 자동차 관련주들이 하락하며 섹터 전반이 약세를 보였습니다. 글로벌 경기 둔화 우려가 영향을 미쳤습니다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "지정학적 리스크 고조는 방산주에 긍정적인 요인으로 작용할 수 있으나, 전반적인 시장의 급락세로 인해 상승폭은 제한적일 수 있습니다. 조선주는 수주 기대감에 일부 견조함을 유지했을 수 있습니다."
+      "view": "전반적인 시장 약세 속에서 뚜렷한 주도력을 보이지 않았습니다. 중동 리스크 고조에도 불구하고 방산주의 강세는 제한적이었습니다."
     },
     {
       "name": "금융·지주",
-      "status": "중립",
-      "view": "시장 급락 속에서도 KB금융(+0.98%)과 하나금융지주(+3.19%) 등 일부 금융주는 배당 매력이 부각되며 상승 마감했습니다. 이는 시장 방어적인 성격을 보여줍니다."
+      "status": "강함",
+      "view": "KB금융(0.98%) 등 일부 금융주는 시장의 급락 속에서 상대적으로 견조하거나 상승 마감하며 '피난처' 역할을 했습니다. 금리 인상 기대감 약화에도 불구하고 방어적인 성격이 부각되었습니다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "약함",
-      "view": "AI 관련 소프트웨어는 일부 강세를 보였으나, 시장 전반의 급락과 기술주 약세의 영향으로 로봇 관련주는 동반 약세를 보였을 가능성이 높습니다. 코스닥 기술성장기업부가 6.3% 하락했습니다."
+      "view": "반도체 섹터 급락의 영향으로 로봇 관련주들도 하락세를 보였습니다. 소프트웨어 섹터는 특별한 모멘텀 없이 전반적으로 약세였습니다."
     }
   ],
   "watch": [
-    "이번 주 발표될 미국 소비자물가지수(CPI) 및 생산자물가지수(PPI) 결과",
-    "미국 연방준비제도(Fed) 위원들의 발언 및 금리 인하 시점에 대한 시장의 기대 변화",
-    "글로벌 반도체 기업들의 2분기 실적 발표 및 가이던스 변화 (특히 미국 빅테크 기업들)",
-    "원/달러 환율의 추가적인 상승 여부 및 외국인 수급 동향",
-    "중동 지정학적 리스크의 추가적인 전개 양상 및 국제 유가 변동성",
-    "국내 기업들의 2분기 실적 발표 시즌 돌입에 따른 어닝 서프라이즈/쇼크 여부"
+    "미국 2분기 기업 실적 발표 시즌 본격화, 특히 빅테크 기업들의 실적 및 가이던스에 주목.",
+    "미국 6월 CPI 발표 및 연방준비제도(Fed)의 통화정책 스탠스 변화 가능성.",
+    "중동 지정학적 리스크의 추가 확산 여부 및 국제 유가 동향.",
+    "외국인 투자자들의 국내 증시 수급 방향성 지속 확인.",
+    "원/달러 환율의 1,500원대 유지 여부 및 변동성.",
+    "중국 2분기 GDP 발표 및 경기 부양책 기대감."
   ],
   "risks": [
-    "예상보다 높은 인플레이션 지표 발표에 따른 금리 인하 시기 추가 지연 가능성",
-    "중동 지정학적 리스크 고조에 따른 국제 유가 급등 및 공급망 불안정 심화",
-    "글로벌 경기 둔화 심화 및 기업 실적 악화 우려 확산",
-    "외국인 투자자들의 국내 증시 이탈 가속화 및 환율 변동성 확대",
-    "반도체 업황 피크아웃 우려 지속 및 대형 기술주 추가 조정 가능성"
+    "중동 지역의 지정학적 긴장 고조에 따른 글로벌 경기 침체 및 공급망 불안 우려.",
+    "글로벌 인플레이션 재점화 및 미국 연준의 매파적 통화정책 유지 가능성.",
+    "국내외 주요 기업들의 2분기 실적 부진 가능성 (특히 반도체 업황 피크아웃 우려).",
+    "외국인 및 기관의 국내 증시 대규모 매도세 지속 가능성.",
+    "환율 변동성 확대 및 외국인 자본 유출 우려."
   ],
   "actionPlan": {
-    "holder": "기존 보유 종목 중 실적 개선 기대감이 높은 종목은 중장기 관점에서 접근하되, 단기 급등 종목은 비중 축소를 고려할 수 있습니다. 변동성 확대에 대비하여 포트폴리오 리밸런싱 및 현금 비중 확보를 검토하는 것이 중요합니다.",
-    "newEntry": "신규 진입은 극도로 신중한 접근이 필요합니다. 매크로 지표와 기업 실적을 면밀히 분석하고, 시장의 불확실성이 완화되는 시점을 기다리며 저평가된 우량주나 성장성이 높은 섹터 내 종목을 분할 매수 관점으로 접근하는 것이 유리합니다.",
-    "cash": "현금 비중을 높게 유지하며 시장의 급격한 변동성에 대비하는 것이 중요합니다. 시장 조정 시 매수 기회를 포착하거나, 안정적인 자산에 투자하여 리스크를 관리하는 전략이 유효합니다."
+    "holder": "높은 변동성 장세에 대비하여 포트폴리오 내 리스크 관리를 강화하고, 실적 방어력이 높은 업종이나 종목으로의 비중 조절을 고려하는 것이 중요합니다.",
+    "newEntry": "시장 불확실성이 높은 만큼 신규 진입은 신중하게 접근해야 합니다. 급락 시 저가 매수 기회를 탐색하되, 분할 매수 전략을 활용하고 기업의 펀더멘털을 면밀히 분석하는 것이 필요합니다.",
+    "cash": "현금 비중을 일정 수준 유지하며 시장의 추가 하락 가능성에 대비하는 것이 현명합니다. 주요 경제 지표 발표와 기업 실적을 확인하며 투자 기회를 모색하는 관망세가 유효합니다."
   },
   "sources": [
     {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpU1V5x3jdWfjx1kQAUJRZxGCVIfSTlyvnJasP_PIAXPQJuQHLlwJZg_M5TL3dxcNFTFHeZyrnqvF1vlRVp8eeEJHAuxxO7SBr7Old9g0nYqSILLnnXQEELt0EdE4QpmE7wXvPBd2mxHch3D854kirhj4Yw5EgRGJDkJ9UyuvtQOH6CmXrVGqNaJI="
+    },
+    {
       "title": "yonhapnewstv.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkLgoQk60MR1MqqFkZ-6PVcnCR_MuGMIZnGn15VXwpm61dH1rRq7xNKQSL26y2wd1-iSjNRlPcEqRrhgG3BI4am8f6Dc17xxVX1rCqqYW-cAJg4em2085FehS3C3aIgo92ccKkTAdYgLyFoQIcFwyZxBzL"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd38vOWWLbS6kiQsd00ixMWXApruvRflCj8CzepmWty-Gm9ASKuq3cVKko5kNi8cQZ255GYjGzUI4faST8iZqsxIz-nrDLEUJtq9ku26KJhddj0yRA_YjQAllU8Osii1Hb5G91I4F1c6f_-3qd6-nW3cZi"
+    },
+    {
+      "title": "infostockdaily.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIlTTrQn-0DiuQlBkP0dWdSxOAsZ1W2lgiQNP1U89hc3G-odpxmM_ToZ05tkJuONXpg7wHt86VOqqAJox6yzuZfurdmOyzCCZjKHDUrvRv007qgpKclTWIDZTxAP299qK_iZN8oVIEvMtrvVB2peHqXaR-weXO3uorV_0kWnc="
     },
     {
       "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFjIRyNYEmEKZeXFEKhtluCbw2eD9nm33zDrgO7us-xuRoKwahx_ZAkSfhZo1u6L7jUsMjbbD6w0hY0Elpqd1lsOIRkeEQK0jR0Z9PNpcOvE5fImRDcMyfO7L2h6_Cb6YxMZkE_38wlb3y4g=="
-    },
-    {
-      "title": "hankyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtOd6r2KS9ctV-kk57UVUTN2jHHTTgrqABahF4-ZD75qOjcu4PIBvdul5uJjpoY_ee7UpRliT1n4qThLGPLB20uv9yKQ0SonsM0pubiaQ2JUUX_KD1bo7qw-NoGo1ZAQH8Bz20wHVK758="
-    },
-    {
-      "title": "ekn.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTgARGcjhj96gbkOOEy8rPkxqEqKFEAT2xeRT4RZ_jAwocKRMhUswnuibf35LhYpSr_IYdvh_kctn38JiAmIpvZVF_TaQgKgnoLxY-6EK6yGgrhqquBE2LkrbTm6xauVHHf4aSaox2JW71BOJhPAHA"
-    },
-    {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEGwKX2zqm-pdJKCZDIzJOuiZxJW_z4At4dR2IVFq35B1R02ZBgYB7YIymak1e9WIx28-5ZdLUAELc_zEIJdrD3XduW-y4BviC2EDMrco8h7LUMKcSoMiWzRQ16Nw-4kQwK2UNs7qEJu4w"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEokbxcD8lJco-_vocppJmgqB62fMHKdigBWLc5mGPVKuhu_E8xhrWXrbOfuuNtaPeDkrg980toEJ0Ttigs4630vs7rbkPFQYuuq9S4P_jO0i-0VgqDMbdib-XWoSwVNPGl6yTnJzc6aevn_g=="
     },
     {
       "title": "mt.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR0J0yxZcUykyJ3FRzva2IKCvxSUlbLOO_7rnv1BHL1Fe-7aeIfzmOi-V2SdziFUqwzwSlIanMeFd0JMpaG9wtIOF_pXLOlRWVGb1cY3e9DDZKMFJenQ1QAFIOjee_8KTdTfw705QJISFRFvpWUK_35nukDA=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjYqHPL0O-zxZVHB3ZfMNy2zlMz7Ptz9anikoLFX05ybXyJxMt1exYmFTDqJ0JI9Bgt6UhTstvSeryLyh-cFsCkKwnLK_SDp_ac-cYwmkb4tG_A9kEwVpEaqrYoj9ZnSufZX_xgNJvJiOMx8iDqu680SwkSA=="
     },
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0aYqV-bu2EfVY5wSY7gQUa8mXoG3O8YDJ4T55HiOamNrjn_wwqBQVjRB6Vo0vIXc0LBZ9V3LvW-tp_aAPVaByjOaB8CodTsZoW1GwHwZRXV8LBU4O9y7VnEJ-59YIg3nHs3tDB5yOuxVJJyzIghv-a6s9nX2XOwMQntmd43MMViOs_OSzg=="
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdqurpKaxcl6Zum_28LLZ7-HxEG3ywvjgcVZriqAxFa9sfmvCu0TZECGifs3ki-ju1HSY83JdfWbijvuGk_4d5gTjhbpsUnM8-FH_BCzDlRiBT1u3sCClZ-krepIFJMqxD81FHWshHaXSe3SXG8uhhriG0O4oMJsOwPA=="
     },
     {
-      "title": "ekn.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcv9i4eGiD7oNhH1Rc_WktVQp4SgONVDq_YpjTgoR7kLY4uKf43JV0eHN0uF0iUIlHaLbRUbzBArp-y6_0TGek31RsMZjDB0kW12JcM1H2PeaHr1Hbwkrsc7pMk8eDprZOrGM4phhZo-S2MPbUu50D"
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEckC_960h29cBd5FdhFWPiEpYutSc9_7yYerbJIRVpeF68QFuJXszrpUm5OPIqr1bKVx5mZyXXgr1Q4VMA2R5VnIjpJiAETsfch-EjlM2xqx9TS_WoWWrOiq4ntE6dn0-cdsBt5WCnmcU9s8FRXQDJAYnAR7qIvQ=="
+    },
+    {
+      "title": "imbc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv1reJUq4_Pmok1gQOXo3z6J2ziqRUi5dcPTrendClFWwOP5DqhYYkl460zK_6cQiua9ryvPenV7zAaDEC6Cfco9j_AUowDHQqUXSCZhVkvaoHe1RUSGpd0nMf4CgHCosg_xXuU_3U0zV44jXkXMGV8U4VW0pIxQTk5NGJYA=="
     }
   ]
 }
