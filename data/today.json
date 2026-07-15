@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 7월 15일 수요일 PM 5:31",
+  "updatedAt": "2026년 7월 15일 수요일 PM 6:32",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 7월 15일 수요일 PM 6:32\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"美 물가 둔화·반도체 랠리, 코스피·코스닥 급등\",\n  \"temperature\": \"상승 지속\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 물가 지표 둔화와 반도체주 강세에 힘입어 외국인 매수세가 유입되며 국내",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z7X5Z3Z"
+    "{\n  \"updatedAt\": \"2026년 7월 15일 수요일 PM 6:32\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"美 물가 둔화·반도체 랠리, 코스피·코스닥 급등\",\n  \"temperature\": \"상승 지속\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 물가 지표 둔화와 반도체주 강세에 힘입어 외국인 매수세가 유입되며 국내 증시가 동반 급등했습니다.\",\n  \"marketRegime\": \"미국 소비자물가지수(CPI) 둔화로 인한 금리 인상 우려 완화와 SK하이닉스 ADR 급등이 촉발한 반도체 섹터의 강력한 랠리가 시장 전반의 위험 선호 심리를 회복시키며 상승 흐름을 주도했습니다. 외국인과 기관의 동반 순매수가 지수를 견인했으며, 특히 반도체와 AI 관련 기술주들이 시장의 중심에 섰습니다.\",\n  \"summary\": [\n    \"코스피, 코스닥 모두 6%대 급등하며 강세 마감, 매수 사이드카 발동.\",\n    \"미국 "
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -74,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpXRy0ZhiL8xdkANN6GAvHWDWw-ITlQfvl1rGTjMZmymGxQQaHxSUCcUYPxYeee_DNMQSNG1XQuplnLvGVJTc5jZEJ-HcsCR_uzqpzwXRMGID0frS2LUlejMwFehlgxW4K"
+    },
+    {
+      "title": "kbthink.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWKNIJhmkkmy4Um3Aa6-lmYnlkKrY4DJA-Bw-FFwa9ybrB5HTJUYjCkrdcZSlz1rAqVLdasRwrZC-zDeuQ3GluV8-zmmn5_cxy-KtJdUd6bKBDqannW_gWK_HLwMjBtEqZV9GG9UKUGYl99TkGvWIRsX-2MQRFfw=="
+    },
+    {
+      "title": "infostockdaily.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Yk47MnhPIX1AdAqp_LO0V-KfXgEtaDIOQ3HtB3fhLqF6leYf0pOB_w4uleCU1bVYIRE0EecEgKse_hcjCSslxfuOuu6xNcztEAsxo2ekSv8a8hb2JxzGPEQ2syiXCa_1t2IdwvZRPK5kmlfIvozuGaQ5eQDMcuNq6FT6PbU="
+    },
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbhoEqzq1KRlvORvt_Q47eOhCRdJS3W--y_OkZ_V9taJGHr2_oczyqHUDH2kBbZE7-HZ7XP2Ns7piseTmgOIfuU3Lx0B8DzFF4mr36W9Jobs1_kjUODDZT5480hTILNnLI"
+    },
+    {
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEedtveQKvsf1ADBUlzp_po8I2Aml-oyz8xJqe0CADu7YnTuQ0WTear7LNzfIN130F5-N4wZmZTzzXpwmfkUBD6iuY1e5EklLJ3NqNjBsgrRUDE7EAk5UUFFQz0LP6NWfcOeRU="
+    },
+    {
+      "title": "milaelo.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSoqjuW-5MS8h9JMrrxkZQ9JIiDDEpqFLQK6NiuhYQwvyqWR0SblNVpQZrrhPoIGeCcXC7fYYLe-aFPFpS_HfxgUhPvrOchjDh1UE-GypJcavaY3uB"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnH4TQXzhlj1fOb3yg1VkP-UnDZ4-1ZzLwDmq-RGx1jJ639oL1y0xmQJDB5gxVxX1bhh8pRa3uzqK3colSn71_bZx_APixQf8Q15hRj1KdAI6rVOh1HOhiNmGSFkdkL3QHp0M_kQ=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe6QGCwI_uxfwm_DPQBhwFA4d4ABP5MJc64mJLadr6Hku6HRwJFRJgyJYatbQn7AaY0MfQ_CecQspUcokfFUWLxnmir0wIyAxuKst56vuoWQMu72OD11Z_NhG9xU2axIY8syst16k="
+    }
+  ],
   "note": "JSON 파싱 실패"
 }
