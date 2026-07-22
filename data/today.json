@@ -1,91 +1,119 @@
 {
-  "updatedAt": "2026년 7월 22일 AM 9:02",
-  "session": "장 전 브리핑",
-  "marketTitle": "글로벌 훈풍 속 국내 증시 기대감",
+  "updatedAt": "2026년 7월 22일 오후 3시 03분",
+  "session": "장중 브리핑",
+  "marketTitle": "반도체 랠리 속 코스피 7천선 회복, 외국인 대규모 순매수",
   "temperature": "상승 지속",
   "riskLevel": "보통",
-  "oneLine": "미국 기술주 강세와 국내 정책 기대감에 힘입어 코스피, 코스닥 모두 상승 출발이 예상됩니다.",
-  "marketRegime": "글로벌 기술주 강세 흐름이 국내 증시에도 긍정적인 영향을 미치고 있으며, 정부의 특정 산업 육성 정책에 대한 기대감이 더해져 주도 섹터 중심의 상승 흐름이 이어지고 있습니다. 다만, 환율 변동성과 매크로 지표에 대한 경계심은 여전히 존재합니다.",
+  "oneLine": "미국 반도체주의 강한 반등에 힘입어 코스피가 7천선을 회복하고 외국인 대규모 순매수가 유입되며 시장 전반의 투자심리가 개선되고 있습니다.",
+  "marketRegime": "간밤 미국 증시의 반도체 섹터 강세가 국내 증시로 이어지며 코스피가 7천선을 재탈환했습니다. 외국인 투자자의 대규모 순매수가 유입되며 시장의 하방 경직성을 확보하고 있으며, 중동발 지정학적 리스크에도 불구하고 기업 실적 기대감과 AI 투자 모멘텀이 시장 흐름을 주도하는 양상입니다. 다만, 코스닥은 코스피 대비 상승폭이 제한적이며 수급 불균형이 나타나고 있습니다.",
   "summary": [
-    "미국 증시는 기술주 중심의 강세가 지속되며 투자 심리를 개선했습니다.",
-    "외국인 투자자들의 국내 증시 순매수 기조가 유지될지 주목됩니다.",
-    "정부의 전력 인프라 및 AI 산업 육성 정책 발표가 관련 섹터에 긍정적입니다.",
-    "코스피는 대형주 중심의 안정적인 흐름, 코스닥은 성장주 중심의 변동성 확대가 예상됩니다.",
-    "원/달러 환율의 추가 상승 여부가 외국인 수급에 중요한 변수가 될 것입니다.",
-    "반도체, 전력 인프라 섹터의 강세가 예상되며, 2차전지 섹터는 수급 개선 여부가 관건입니다."
+    "미국 반도체주의 급등에 힘입어 코스피 7천선 회복 및 매수 사이드카 발동이 있었습니다.",
+    "외국인 투자자가 코스피에서 1조원 이상의 대규모 순매수를 기록하며 12주 만에 순매수 우위로 전환했습니다.",
+    "반도체 대형주 중심의 강세가 두드러졌으며, 로봇 및 AI 인프라 관련주도 동반 상승했습니다.",
+    "원/달러 환율은 중동 리스크로 인한 안전자산 선호 심리로 1480원대 초반에서 상승 압력을 받고 있습니다.",
+    "글로벌 매크로는 AI 수요 및 견조한 미국 소비로 성장세가 유지되고 있으나, 중동 지정학적 리스크는 상존하고 있습니다.",
+    "향후 미국 빅테크 기업들의 실적 발표와 AI 투자 지속 여부가 시장의 핵심 변수로 작용할 전망입니다."
   ],
   "dashboard": {
-    "indices": "코스피는 글로벌 경기 회복 기대감과 대형 수출주의 실적 개선 전망에 힘입어 견조한 흐름을 보일 것으로 예상됩니다. 코스닥은 성장 잠재력이 높은 기술주와 정책 수혜주를 중심으로 개별 종목 장세가 펼쳐질 가능성이 높습니다.",
-    "global": "미국 증시는 엔비디아를 필두로 한 AI 관련 기술주들의 강세가 두드러졌으며, 나스닥과 필라델피아 반도체 지수(SOX)가 상승 마감했습니다. 이는 국내 반도체 및 AI 관련 섹터에 긍정적인 영향을 미칠 것으로 보입니다.",
-    "fx": "원/달러 환율은 미국 금리 인하 기대감 후퇴와 달러 강세 압력으로 소폭 상승 마감했습니다. 환율의 추가적인 상승은 외국인 투자자들의 국내 증시 유입에 부담으로 작용할 수 있어 면밀한 관찰이 필요합니다.",
-    "flows": "지난 거래일 외국인 투자자들은 코스피 시장에서 순매수를 기록하며 시장을 지지했습니다. 기관 투자자들은 일부 차익 실현 매물을 내놓았으나, 프로그램 매매는 중립적인 흐름을 보였습니다. 오늘 장에서도 외국인과 기관의 수급 방향성이 시장의 주요 변수가 될 것입니다."
+    "indices": "코스피는 미국 반도체주의 강한 반등에 힘입어 장 초반 7천선을 가볍게 넘어섰으며, 매수 사이드카가 발동될 정도로 강한 상승 흐름을 보였습니다. 오후 들어 상승폭이 다소 줄었으나 견조한 흐름을 유지하고 있습니다. 코스닥 또한 동반 상승했으나 코스피 대비 상승폭은 다소 제한적입니다.",
+    "global": "간밤 뉴욕 증시는 다우, S&P500, 나스닥 모두 상승 마감했으며, 특히 필라델피아 반도체 지수가 5% 이상 급등하며 국내 증시의 반도체 랠리를 견인했습니다. AI 관련 투자 심리가 회복되는 모습입니다.",
+    "fx": "원/달러 환율은 중동 지역의 지정학적 불안정성으로 인해 1480원대 초반에서 상승 압력을 받고 있습니다. 다만, 국내 증시로의 외국인 자금 유입이 환율 상승폭을 제한할 수 있다는 분석도 있습니다.",
+    "flows": "외국인 투자자가 코스피 시장에서 1조원 이상의 대규모 순매수를 기록하며 지수 상승을 주도하고 있습니다. 이는 12주 만의 순매수 전환으로, 시장에 긍정적인 신호입니다. 반면 기관과 개인은 코스피에서 순매도, 코스닥에서는 개인이 순매수, 외국인과 기관이 순매도하는 상이한 수급을 보이고 있습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "글로벌 AI 및 반도체 산업의 성장 기대감과 미국 기술주 강세에 힘입어 국내 관련 기업들의 주가 흐름이 긍정적일 것으로 예상됩니다."
+      "view": "미국 반도체주의 급등과 국내 대형 반도체주의 강세로 시장을 주도하고 있으며, AI 투자 모멘텀이 지속되고 있습니다."
     },
     {
       "name": "전력·인프라",
       "status": "강함",
-      "view": "정부의 전력망 확충 및 인프라 투자 확대 정책 발표로 관련 기업들의 수주 기대감이 높아지며 강세를 보일 것으로 전망됩니다."
+      "view": "AI 인프라 확충에 대한 기대감으로 전력 및 관련 인프라 섹터에 대한 관심이 이어지고 있습니다."
     },
     {
       "name": "2차전지",
       "status": "확인 필요",
-      "view": "전기차 판매 둔화 우려가 여전하지만, 일부 기업의 신기술 개발 소식과 저가 매수세 유입 여부에 따라 변동성이 확대될 수 있습니다. 수급 개선 여부를 지켜봐야 합니다."
+      "view": "전반적인 시장 강세 속에서 일부 종목은 상승했으나, 주도적인 흐름은 확인되지 않고 있습니다."
     },
     {
       "name": "바이오",
       "status": "중립",
-      "view": "개별 기업의 임상 결과 발표나 기술 수출 소식에 따라 등락이 엇갈릴 수 있습니다. 전반적인 시장 흐름에 편승하기보다는 개별 모멘텀에 집중할 필요가 있습니다."
+      "view": "시장 전반의 상승 흐름 속에서 개별 종목 장세가 나타날 수 있으나, 섹터 전반의 강세는 제한적입니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려 속에서도 신차 효과와 전장 부품 사업의 성장에 대한 기대감이 공존합니다. 환율 변동성이 실적에 미치는 영향에 주목해야 합니다."
+      "status": "강함",
+      "view": "최근 낙폭 과대에 따른 저가 매수세가 유입되며 대형 자동차 및 전장 부품주가 반등하고 있습니다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "조선업은 친환경 선박 수주 증가세가 이어지고 있으나, 방산업은 지정학적 리스크 완화 여부에 따라 변동성이 있을 수 있습니다. 장기적인 관점에서 접근이 필요합니다."
+      "view": "중동 지정학적 리스크가 유가 상승으로 이어지며 일부 조선주에 대한 관심이 있을 수 있으나, 전반적인 강세는 제한적입니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "금리 인하 기대감 후퇴와 부동산 시장 불확실성으로 인해 투자 심리가 위축될 수 있습니다. 배당 매력은 여전하나, 단기적인 상승 모멘텀은 제한적일 수 있습니다."
+      "status": "중립",
+      "view": "시장 전반의 상승 흐름에 동반 상승하는 경향을 보이나, 주도적인 역할은 미미합니다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "강함",
-      "view": "AI 기술 발전과 맞물려 로봇 산업의 성장 기대감이 커지고 있으며, 소프트웨어 기업들도 클라우드 및 AI 솔루션 도입 확대로 긍정적인 흐름을 이어갈 것으로 예상됩니다."
+      "view": "삼성전자의 로봇 사업 확대 기대감에 중소형 로봇주들이 강세를 보이고 있으며, AI 관련 소프트웨어에 대한 관심도 지속됩니다."
     }
   ],
   "watch": [
-    "오늘 발표될 국내외 주요 경제 지표 (예: 미국 주간 실업수당 청구건수)",
-    "외국인 투자자들의 코스피, 코스닥 순매수/순매도 규모 및 방향성",
-    "원/달러 환율의 1380원 선 돌파 여부 및 추가 상승 압력",
-    "반도체, 전력 인프라 등 주도 섹터 내 대장주들의 움직임",
-    "장 초반 기관 투자자들의 프로그램 매매 동향",
-    "중국 증시 개장 이후 흐름 및 위안화 환율 변동성"
+    "미국 빅테크 기업들의 2분기 실적 발표, 특히 알파벳 실적 발표 결과가 시장에 미칠 영향.",
+    "글로벌 AI 투자 확대 기조 지속 여부 및 반도체 업황 개선 속도.",
+    "외국인 투자자의 국내 증시 순매수 기조 지속 여부 및 규모.",
+    "원/달러 환율의 추가 상승 압력 완화 여부.",
+    "중동 지역 지정학적 리스크의 전개 양상 및 국제 유가 변동성.",
+    "코스피 7천선 안착 및 추가 상승 여부, 코스닥의 동반 강세 전환 여부."
   ],
   "risks": [
-    "예상보다 강한 미국 인플레이션 지표 발표 시 금리 인하 기대감 추가 후퇴",
-    "지정학적 리스크 재부각으로 인한 투자 심리 위축",
-    "원/달러 환율의 급격한 상승으로 외국인 자금 이탈 가속화",
-    "특정 섹터로의 쏠림 현상 심화에 따른 시장 전반의 변동성 확대",
-    "기업 실적 발표 시즌 돌입에 따른 어닝 쇼크 발생 가능성"
+    "중동 지정학적 리스크 장기화 및 국제 유가 급등에 따른 인플레이션 압력 재확대 가능성.",
+    "미국 연준의 통화정책 불확실성 재부각 및 금리 인상 가능성.",
+    "반도체 섹터의 단기 급등에 따른 차익 실현 매물 출회 가능성 및 변동성 확대.",
+    "미국 관세 정책 등 보호무역주의 강화에 따른 글로벌 교역 둔화 우려.",
+    "국내 기관 및 개인 투자자의 차익 실현 매물 출회 지속 가능성."
   ],
   "actionPlan": {
-    "holder": "현재 보유하고 있는 주도 섹터 종목들은 글로벌 시장 흐름과 정책 모멘텀을 주시하며 지속 보유 관점이 유효합니다. 비주도 섹터 종목은 개별 모멘텀을 확인하며 대응하는 것이 좋습니다.",
-    "newEntry": "신규 진입을 고려한다면, 글로벌 트렌드와 국내 정책 수혜가 명확한 반도체, AI, 전력 인프라 섹터 내 우량주를 중심으로 분할 매수 관점에서 접근하는 것이 바람직합니다.",
-    "cash": "현금 비중이 높은 투자자는 시장의 변동성을 활용하여 주도 섹터 내 조정 시 매수 기회를 모색하거나, 리스크 관리 차원에서 현금 비중을 일정 수준 유지하는 전략이 필요합니다."
+    "holder": "보유 종목 중 반도체, AI, 로봇, 자동차 등 주도 섹터 내 우량주는 지속 보유하며 시장 흐름을 관망하고, 비주도 섹터는 비중 축소 또는 리밸런싱을 고려할 수 있습니다.",
+    "newEntry": "미국 빅테크 실적 발표 전후로 반도체 및 AI 관련 섹터의 조정 시 분할 매수 기회를 모색하고, 낙폭 과대 우량주에 대한 관심도 유효합니다. 다만, 중동 리스크를 주시하며 신중한 접근이 필요합니다.",
+    "cash": "현금 비중을 일정 수준 유지하며 시장의 변동성에 대비하고, 주도 섹터 내 조정 시 매수 기회를 활용하거나, 중동 리스크 완화 시점을 기다리는 전략이 유효합니다."
   },
   "sources": [
     {
-      "title": "가상 시장 분석 보고서",
-      "url": "https://example.com/virtual-market-analysis-20260722"
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGovsOguNLlFH4J9nNs4cjiZxu3IGpo8qe31WFD-NKAt4CsMoVQu698Xf_wLpbRIwmF71wa-OTLIBqPtjWLq29OwYwvfaXkAzt0o3MQYxPJf3JuqiJ2_lm-GMUwz6vOlhId"
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSBqGsEu5k6Tv_mu6uOias3cVX_O1dr_IqTlmTRjUzcpqjvqPOMdYT_MddwtIefLOiNbIOzHZTEuRKcmc4XganW5zVRKyCew3oPS6xj3LT0gEBMA-eB9qnhyiV3valzajAj1xGNx1nK8IpJDHV_DUMwqEBH1Siu1z-3C54ETAsThNXvKxlquvfnHsdTA=="
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAq6davieacljCFwJRu674i7ApukFrzwtYKX9r5Hs1WN3NfeXa7Oqg7_DN9o7hSkQDGEykPFVhMyqdXLw1LtIh1aRwRrlHLBbIpsZP6EfaHzTKtS85zF-yA3PO-uLh0KvkX0iMHCHSHw6dnO7dPRR-riVI-AcGmWnVPcBV_3ttJHHtuEE7XpdCTlHtCw=="
+    },
+    {
+      "title": "wowtv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAo7W-b5qay0QRv7CvRzmXai2Va6pX8Pnsr5WT2-a2CO9jcBlt6SvvC9Rkg-su-e0cp5EHkqKKag_95wfntaduLO2LuqKLttJhl8dBwnxmbVlCYQA1uh5TVbfFWulcrE5FtdAW7D9bkUI8fbemQ9ysSFWwO5NalPEWFzn9xg=="
+    },
+    {
+      "title": "donga.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw39xn9tYmCj_JQwiwDFxbJOlzHWynxDwxrdaKMlEz3bZJSuzgJseu_hllLreTyfXPlcCPpm4e7U3bdAh2bd_qVIb8uQ-Vbij-J2Z4uoQBLsK1VYnkzLQx3BYLh4Co4FOBRpwPlV0sys28mK0Q_PmUGf8FaqeMGGKBAzyWc64="
+    },
+    {
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-6mw5782wt-GHNFAH0andtEz6GltRCJGeQzSjbNAauL_SHlI6mP4eYFG2T95tdXcELS2K1yp1JHp9EuCwk7E8plsThT38h-31D_2fO1IkOSspk0b_E8wWVVUTZDv3iHvN7zo="
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcjLns36XJr-O0xtCon0BCs1qi_eB-PNXvEjOYpmzKtWWRUCV35Z3w3sOUcFAD6u0UEQMOQHpxkvFAg-wMgxzfoDqh3LGQr5_FJ3g3bU7zBEl90RXIV76K1XGEY4lCqlis3-c6Om6nUlpbMA=="
+    },
+    {
+      "title": "hsbc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJjRPVM7wKFHdfi7JS3sFGIFLbRK9qHke4l_0EeemNU85BghpMPNOR7DpB-QFQ-5eS2x7jYZNFgEBoit2u97FRrWYQpV7EEfAp3cUvDm9LPU0xNeEjpTo9gCcduoCPups6dEapIfD5rmXiShNPFnFxEjZLYAwjdgrxV8gMUPtHCcnXi7NS"
     }
   ]
 }
