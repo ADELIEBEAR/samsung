@@ -1,86 +1,119 @@
 {
-  "updatedAt": "2026년 7월 23일 목요일 PM 5:42 KST",
+  "updatedAt": "2026년 7월 23일 PM 7:03",
   "session": "장 마감 브리핑",
-  "marketTitle": "미국 기술주 강세 속 국내 증시 혼조 마감",
-  "temperature": "중립",
+  "marketTitle": "반도체·AI 주도 코스피 급등, 환율 하락",
+  "temperature": "상승 지속",
   "riskLevel": "보통",
-  "oneLine": "미국 기술주 강세와 AI 모멘텀이 국내 증시를 지지했으나, 외국인과 기관의 차익 실현으로 코스피는 약보합, 코스닥은 강보합으로 혼조 마감했습니다.",
-  "marketRegime": "글로벌 기술주 강세 흐름 속에서 국내 증시는 특정 섹터 중심으로 순환매가 나타나며 지수 전반의 상승 탄력은 제한적인 흐름을 보였습니다. 외국인 투자자들은 선별적인 매수세를 보였고, 기관은 차익 실현에 나서는 모습이었습니다.",
+  "oneLine": "알파벳 실적 호조와 AI 투자 확대 기대감에 반도체주가 강세를 보이며 코스피와 코스닥이 동반 급등 마감했다.",
+  "marketRegime": "오늘 한국 증시는 전일 미국 증시의 하락에도 불구하고, 구글 모회사 알파벳의 시장 예상치를 뛰어넘는 2분기 실적 발표와 AI 인프라 투자 확대 계획에 힘입어 반도체 업종을 중심으로 강한 상승 흐름을 보였다. 특히 외국인 투자자들의 대규모 순매수가 지수 상승을 견인했으며, 이는 AI 투자 사이클 지속에 대한 기대감을 반영한 것으로 풀이된다. 다만, 중동 지정학적 리스크와 국제 유가 상승은 여전히 시장의 잠재적 리스크로 남아있다.",
   "summary": [
-    "미국 기술주 강세 및 AI 관련 모멘텀 지속",
-    "코스피는 외국인·기관 매도에 약보합 마감",
-    "코스닥은 개별 성장주 중심으로 강보합세 유지",
-    "반도체, 전력인프라 섹터 강세, 2차전지 혼조세",
-    "환율은 소폭 상승하며 달러 강세 압력 지속",
-    "매크로 지표는 안정적이나, 하반기 금리 인하 기대감은 다소 후퇴"
+    "코스피는 4.40% 상승한 7,096.89에 마감하며 7천선을 회복했고, 코스닥도 5.22% 급등한 790.28에 마감했다.",
+    "외국인은 유가증권시장에서 2조 5천억원 이상 순매수하며 지수 상승을 이끌었으며, 특히 삼성전자와 SK하이닉스 등 반도체 대형주에 집중되었다.",
+    "원/달러 환율은 알파벳 실적 호조와 외국인 순매수에 힘입어 전 거래일 대비 13.3원 내린 1,466.8원에 마감하며 두 달 내 최저 수준을 기록했다.",
+    "미국 증시는 전일 유가 상승과 중동 긴장 고조로 혼조세를 보였으나, 반도체 업종은 강세를 나타냈다.",
+    "반도체·AI 섹터가 시장 상승을 주도했으며, 특히 삼성전자와 SK하이닉스가 각각 3%대, 4%대 상승했다.",
+    "국내 2분기 실질 국내총생산(GDP) 속보치 발표와 현대차 노조 파업 계획 논의 등 주요 경제 이벤트가 있었다."
   ],
   "dashboard": {
-    "indices": "코스피는 외국인과 기관의 동반 매도세에 밀려 소폭 하락 마감했습니다. 반면 코스닥은 개인 투자자들의 매수세와 일부 성장주 강세에 힘입어 강보합세를 유지하며 차별화된 흐름을 보였습니다.",
-    "global": "간밤 미국 증시는 기술주를 중심으로 강세를 보였으며, 특히 AI 관련 기업들의 실적 기대감이 시장 전반의 투자 심리를 개선했습니다. 나스닥과 필라델피아 반도체 지수는 상승 마감하며 국내 증시에 긍정적인 영향을 미쳤습니다.",
-    "fx": "원/달러 환율은 글로벌 달러 강세 기조와 국내 증시 외국인 순매도 영향으로 소폭 상승하며 1380원대에서 마감했습니다. 금리 시장은 연준의 매파적 스탠스 유지 가능성에 하반기 금리 인하 기대감이 다소 약화되는 모습입니다.",
-    "flows": "외국인 투자자들은 코스피 시장에서 전기전자 업종을 중심으로 매수세를 보였으나, 전체적으로는 순매도 전환하며 지수 하락을 이끌었습니다. 기관 투자자 또한 차익 실현에 나서며 매도 우위를 보였습니다. 코스닥 시장에서는 개인 투자자들이 순매수하며 지수를 방어했습니다."
+    "indices": "코스피는 7,096.89로 4.40% 상승하며 7천선을 회복했고, 코스닥은 790.28로 5.22% 급등하며 동반 강세를 보였다. 이는 알파벳의 AI 투자 확대 기대감에 따른 반도체주 강세가 주요했다.",
+    "global": "전일 미국 증시는 중동 긴장 고조와 유가 상승 부담으로 다우존스(-0.01%), S&P500(-0.14%), 나스닥(-0.57%) 등 주요 지수가 하락 마감했다. 그러나 장 마감 후 발표된 알파벳의 호실적과 AI 인프라 투자 확대 계획이 국내 증시에 긍정적인 영향을 미쳤다. 필라델피아 반도체 지수는 5.21% 급등하며 강세를 보였다.",
+    "fx": "원/달러 환율은 전 거래일 대비 13.3원 하락한 1,466.8원에 마감하며 원화 강세를 나타냈다. 이는 외국인 투자자의 국내 증시 순매수와 구글 실적 발표에 따른 위험자산 선호 심리 회복에 기인한다.",
+    "flows": "유가증권시장에서 외국인은 2조 5192억원을 순매수하며 지수 상승을 견인했고, 기관도 741억원을 순매수했다. 반면 개인은 2조 5709억원을 순매도했다. 코스닥 시장에서는 외국인과 기관이 동반 순매수를 기록했다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "글로벌 AI 모멘텀과 미국 기술주 강세에 힘입어 국내 반도체 관련주들이 강세를 보였습니다. 특히 HBM 등 고대역폭 메모리 관련 종목들이 시장을 주도했습니다."
+      "view": "알파벳의 AI 투자 확대 발표에 힘입어 삼성전자(3.65%), SK하이닉스(4.86%) 등 대형주가 시장 상승을 주도했다. AI 반도체 슈퍼사이클 기대감이 지속되고 있다."
     },
     {
       "name": "전력·인프라",
-      "status": "강함",
-      "view": "여름철 전력 수요 증가 기대감과 정부의 에너지 정책 기대감에 힘입어 전력 설비 및 인프라 관련주들이 견조한 상승세를 이어갔습니다."
+      "status": "중립",
+      "view": "AI 인프라 투자 확대는 장기적으로 전력 수요 증가로 이어질 수 있으나, 단기적인 직접적인 강세는 제한적이었다."
     },
     {
       "name": "2차전지",
-      "status": "중립",
-      "view": "전반적으로 혼조세를 보였습니다. 일부 종목은 반등을 시도했으나, 여전히 수급 불균형과 실적 우려가 상존하며 강한 상승 모멘텀을 찾기 어려웠습니다."
+      "status": "강함",
+      "view": "코스닥 시장에서 에코프로와 에코프로비엠이 각각 9%대 상승하는 등 강세를 보였다. LG에너지솔루션도 8%대 상승했다."
     },
     {
       "name": "바이오",
-      "status": "확인 필요",
-      "view": "개별 임상 결과 발표나 기술 수출 기대감이 있는 일부 종목을 중심으로 강세를 보였으나, 섹터 전반의 방향성은 확인이 필요합니다."
+      "status": "강함",
+      "view": "코스닥 시장에서 알테오젠이 14% 이상 급등하는 등 일부 대형주를 중심으로 강세를 나타냈다."
     },
     {
       "name": "자동차·전장",
       "status": "중립",
-      "view": "글로벌 경기 둔화 우려와 신차 효과 감소 가능성으로 인해 전반적으로 보합권에 머물렀습니다. 전장 부품 관련주는 일부 강세를 보였습니다."
+      "view": "현대차가 3%대 상승했으나, 현대차 노조의 추가 파업 계획 논의 등 불확실성이 존재한다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "견조한 수주 잔고에도 불구하고 단기적인 차익 실현 매물 출회로 상승세가 제한적이었습니다. 장기적인 관점에서는 긍정적인 시각이 유지됩니다."
+      "view": "HD현대중공업이 7%대 상승하는 등 일부 종목은 강세를 보였으나, 중동 지정학적 리스크가 지속되는 가운데 전반적인 섹터 강세는 제한적이었다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "금리 인하 기대감 후퇴와 증시 변동성 확대에 따른 투자 심리 위축으로 전반적으로 약세를 보였습니다."
+      "status": "중립",
+      "view": "시장 전반의 상승 흐름에 동참했으나, 주도적인 강세는 보이지 않았다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "강함",
-      "view": "AI 기술 발전과 산업 자동화 트렌드에 힘입어 로봇 및 소프트웨어 관련 기업들이 강세를 나타냈습니다."
+      "view": "코스닥 시장에서 레인보우로보틱스가 6%대 상승하는 등 AI 관련 기대감에 힘입어 강세를 보였다. NAVER도 11% 이상 급등했다."
     }
   ],
   "watch": [
-    "다음 주 발표될 미국 고용지표 및 물가지표",
-    "글로벌 반도체 기업들의 실적 발표와 가이던스",
-    "외국인 투자자들의 국내 증시 순매수 전환 여부",
-    "원/달러 환율의 1380원대 안착 여부",
-    "국내 기관 투자자들의 포트폴리오 리밸런싱 동향",
-    "주요 산업별 정책 변화 및 정부 지원책"
+    "미국 주요 기술 기업들의 향후 실적 발표 및 AI 투자 계획의 실제 이행 여부.",
+    "중동 지정학적 리스크의 전개 양상 및 국제 유가 변동성.",
+    "연방준비제도(Fed)의 통화 정책 스탠스 변화 및 금리 인상 가능성.",
+    "외국인 투자자들의 국내 증시 순매수 기조 지속 여부.",
+    "국내 2분기 GDP 성장률 발표에 따른 경제 상황 평가.",
+    "주요 기업들의 노사 갈등 해결 여부 (예: 현대차 노조)."
   ],
   "risks": [
-    "미국 연준의 매파적 스탠스 유지로 인한 금리 인하 기대감 추가 후퇴",
-    "지정학적 리스크 재부각 및 유가 변동성 확대",
-    "글로벌 경기 둔화 우려 심화 및 기업 실적 하향 조정 가능성",
-    "국내 증시 외국인 투자자들의 매도세 심화",
-    "특정 섹터 쏠림 현상 심화에 따른 시장 변동성 확대"
+    "중동 지역의 지정학적 긴장 고조로 인한 국제 유가 및 원자재 가격 상승 압력.",
+    "미국 연방준비제도(Fed)의 매파적 기조 강화 및 예상보다 빠른 금리 인상 가능성.",
+    "글로벌 경기 둔화 우려 및 주요국 경제 지표 부진.",
+    "AI 인프라 투자 과열에 대한 우려 재부각 가능성.",
+    "국내 기업들의 노사 갈등 심화로 인한 생산 차질 및 실적 악화."
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 실적 개선 기대감이 높은 성장주와 주도 섹터 내 대장주는 지속 보유 관점이 유효합니다. 다만, 단기 급등 종목은 비중 축소를 고려할 수 있습니다.",
-    "newEntry": "신규 진입은 글로벌 트렌드에 부합하는 주도 섹터 내 저평가 우량주나 실적 턴어라운드가 기대되는 종목을 중심으로 분할 매수하는 전략이 바람직합니다.",
-    "cash": "현금 보유자는 시장의 변동성을 활용하여 조정 시마다 분할 매수 기회를 모색하고, 리스크 관리에 집중하며 보수적인 접근을 유지하는 것이 좋습니다."
+    "holder": "보유 종목 중 반도체 및 AI 관련주는 긍정적인 시장 흐름을 활용하여 수익을 극대화하는 전략을 고려할 수 있다. 비주도 섹터는 시장 흐름을 주시하며 포트폴리오 리밸런싱을 검토한다.",
+    "newEntry": "신규 진입자는 AI 투자 사이클의 핵심 수혜주인 반도체 대형주 및 관련 소프트웨어, 로봇 섹터에 대한 관심이 유효하다. 다만, 단기 급등에 따른 변동성에 유의하며 분할 매수 관점으로 접근하는 것이 좋다.",
+    "cash": "현금 보유자는 시장의 불확실성(중동 리스크, 금리 인상 가능성 등)에 대비하여 일정 수준의 현금 비중을 유지하는 것이 바람직하다. 시장 조정 시 매수 기회로 활용할 수 있다."
   },
-  "sources": []
+  "sources": [
+    {
+      "title": "dgmbc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgtB5wv_RUTgdBmUauiwKiB4QrvwET5VLfNc45qlQRrpj02znQujPHN-OvLRs__J_JVgHl77jznYCLDiR-Vjy7fmAyntME6xQ_qk6cDdTQBIAo_GQ9lWMvh2nF2TXEEw=="
+    },
+    {
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6pVfTeBZkGa7vXv83bys0J1D5yKWH4NoA6gbwAe2UkuQ-HPwtSjphXvNPA9buhQ1-VTyfNadadAgkZ8mxPCBqzeirl4JxQnKSYM_kzsoxWB-4GUfSkoXV2YfXRnos4dwnCQSQn5Y1A0fnnNEuryZ8vQ=="
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEenNqwqxdGHIYeMMe8ioNSCqmhDCmJNRZkEWutWTuiFmNjbUA4CHVBX1hos521_MPZF0qOgozjJYR0CICR03BbzMSf_4lbDczdHkr14FG5Sb6jCg5yeb7d2nqANgrLYCy_q7mLnRYOopdSoLjYm86l4t3Y_lEg6YUWDUtCdaHc8hHMri5y5gwus-f8Yw=="
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrlp_qHWB5ok5eqhaaTJvGzDDvtky0LXue73y7fBQGzLXeo7vExEbwID57N5OJM5oFE437B1rqaIfL3CiLPG2xe5ZcbIN-eUkh1YV_p3jn1gZ3MztZTxENlZKNfUtJptYuajZOjGzgPRK_ryhk4rw1AxMvH6RlHwyAf8VdXr2Snjs9T9LcGm4R4f8="
+    },
+    {
+      "title": "kbthink.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQMHO57fnVIGvDDS98jbnHgS3i-HEc8iAOjlh9iUrxwZlQ7l_tkekdw-VAXsOJg7nU2xNZmdDtJFvlUzu5tqcVBpgZ1gATcHYcQAIGdVfU0EF4usZy9YvckISp4d3E6PmrW_Qgr0NwvEzBfmgAW3nhSVJg0ooMeVN8m7w="
+    },
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEAUEnxiEWQmWidzkWppX7KDKcCPmQprrdD0ZartelfQXK9JZfwoPy5gTq4cctw7LbLdljzOUg9av9el3OxEtAPXbcwvQligYPhJBtX9ybHzCmMaTQi5s68KMEDqZgfnw9"
+    },
+    {
+      "title": "mt.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUsqW7tlclK5M1KB-kAo_GSO6QZ6bBCXkHQu6oF9qI52se5uPMLmfTX1cQEOdmQoY7YFj81bQvJ__aooQ35U6tocMpUBaR9e_yb3FwdtA96iGHUvtlmR6MGFIqZ5PKTZQelnx7_IKDGMN14W1cy8Kb0ayeiXF5"
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE30EA5zvmwEBrWrJ15W1Zmbk7xqycNN_TKsF-R3lsW6DQdA_qp1z8FT5TlzrqhW9lcJrxG432I4m_Paxl5kH5Qxe3FJD9ehRlUpl2drFPktsc5DwDq0hhRqxE8LdOhN5p50ckdS1g6GO4euQ=="
+    }
+  ]
 }
