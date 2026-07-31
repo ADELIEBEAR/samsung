@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 7월 31일 금요일 PM 3:32",
+  "updatedAt": "2026년 7월 31일 금요일 PM 6:32",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 6618.42,
-      "changePct": -18.9,
+      "last": 6595.45,
+      "changePct": -19.18,
       "points": [
         {
           "date": "2026-06-05",
@@ -167,7 +167,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 6618.42
+          "close": 6595.45
         }
       ]
     },
@@ -176,8 +176,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 721.19,
-      "changePct": -28.06,
+      "last": 719.76,
+      "changePct": -28.2,
       "points": [
         {
           "date": "2026-06-05",
@@ -337,7 +337,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 721.19
+          "close": 719.76
         }
       ]
     },
@@ -346,8 +346,8 @@
       "title": "삼성전자",
       "desc": "005930 추세",
       "symbol": "005930.KS",
-      "last": 265000,
-      "changePct": -19.45,
+      "last": 262500,
+      "changePct": -20.21,
       "points": [
         {
           "date": "2026-06-05",
@@ -507,7 +507,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 265000
+          "close": 262500
         }
       ]
     },
