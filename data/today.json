@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 8월 3일 월요일 PM 3:32",
+  "updatedAt": "2026년 8월 3일 월요일 PM 7:02",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "{\n  \"updatedAt\": \"2026년 8월 3일 월요일 오후 3시 32분 (KST)\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 급락, 코스닥 급등…극심한 변동성\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"지난주 금요일 급등했던 코스피는 차익실현과 반도체 업황 우려로 급락한 반면,",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 8월 3일 PM 7:02\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 급락, 코스닥 급등 '디커플링'\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"반도체 대형주 차익 실현에 코스피는 급락했으나, 제약/바이오와 로봇주 강세에 코스닥은 급등하며 시장",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "{\n  \"updatedAt\": \"2026년 8월 3일 월요일 오후 3시 32분 (KST)\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 급락, 코스닥 급등…극심한 변동성\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"지난주 금요일 급등했던 코스피는 차익실현과 반도체 업황 우려로 급락한 반면, 코스닥은 강한 반등세를 보이며 시장의 극심한 변동성을 시사했습니다.\",\n  \"marketRegime\": \"글로벌 매크로 불확실성 속에서 국내 증시는 단기 급등에 따른 차익실현과 수급 재편이 맞물리며 높은 변동성을 보였습니다. 미국 국채 금리 상승과 반도체 업황에 대한 복합적인 우려가 대형주에 부담으로 작용했으며, 코스닥 시장으로의 순환매가 활발하게 나타나는 시장 흐름입니다.\",\n  \"summary\": [\n    \"코스피, 지난주 금요일 폭등 이후 차익실현 매물 출회로 3%대 이상 급락 마감.\","
+    "{\n  \"updatedAt\": \"2026년 8월 3일 PM 7:02\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 급락, 코스닥 급등 '디커플링'\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"반도체 대형주 차익 실현에 코스피는 급락했으나, 제약/바이오와 로봇주 강세에 코스닥은 급등하며 시장이 엇갈린 흐름을 보였습니다.\",\n  \"marketRegime\": \"지난주 금요일 급등했던 코스피는 반도체 대형주를 중심으로 외국인과 기관의 대규모 차익 실현 매물이 출회되며 급락했습니다. 반면, 코스닥은 개인과 기관의 매수세에 힘입어 제약/바이오 및 로봇 관련주가 강세를 보이며 상승 마감했습니다. 중동 지정학적 리스크 완화 기대감에도 불구하고 환율은 외국인 주식 매도와 실수요성 달러 매수 영향으로 소폭 상승했습니다.\",\n  \"summary\": [\n    \"코스피는 반도체 대형주 중심의 차익 실현"
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -76,36 +76,36 @@
   },
   "sources": [
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjTTxVpWYwBg_4y-u6F8Oo6v699Si03jSeZxP8CqrKcR7cpzyTFW_I-TMS2atCxEgFyI2qmsN9YF77ZIHMT4WrxrWXQL8FwmMaVAv6xOo7uHKdVzYOzwfr1XPoV9qnJbSLVDejc446WwapRX6Z_RFD3FrT0ZyR8aZNyioJ-AI3DV_U_nbUeBUYt-SkiHI="
+      "title": "infostockdaily.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdUzRCV-Jrb2uRCnUkcbm7eNsZNu840kNUyl6QxV7beBgS2Nu3uFSXtzB1PAPuBS3s99F72Ab4SW3r_mlP9bNjrxiOO_iwogLJa3zMeQjSQIc8dU2jU5WxFaF2OJ1mwj5oPuBNDZxwQWi_KQWLntRIB-Z8qdO_OFRLPonGCQ=="
     },
     {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNBm2TuG-v-q1ttwEWZhtuaw2usFjPLISkE9DEp4r2Og--7dK2MQQNySsqmUnNjvimF8ii_xa4IGGUcEofFsihX1n3p78mqZQ9105inNn_aTY67IfwGEV-qKfu35WOF4dEvFE61EY5QNA="
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMFoNLpm4LnaSWJW5WZKYa4PIf79txb9TP5k0fTvdwVJHxmpXOkG9BZndE700IX8T22T0gR3jKc5zDhOvyG2oZ_Vje0WvsohJ1s8wpqh_Pz4TEVPgS7-uBx1e7qBXJiMZzMTktZ-j-Dt5a"
     },
     {
-      "title": "cbci.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu91EoOGXNItdCgrue_NhNva5fOZDVEm6nfn4Xx1zSuXy97Uo6pa2GPnEc9DWNUWmvnUPC58uhlT3IkcKNMyYWH74CK2tn3a9H5qO5fPBHHi_WrKEVHupdKKG-j3gSs5QwvkFKDUw6rpxWCTijOC8H6UT8"
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpcqTD7g3S_PFR2UzWaPZqtk8AzK2MQy-fAdYxPQSW4RLoluRzWrFkQXibYYdL_UaTbhLnOnzE-cVnhTP2Vc9ErEGegufDZeI2J2UJubgRSQ5ziotWjjeKOYQpVzztSM6A7fTT37TAuQ=="
     },
     {
-      "title": "newsis.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHloCRWWvJS5fcnSkLZJkBWb7d0aqkhZHbrkvRA8OJUZflESQ1rqFeG4dQ3kuad2jLQCxdK6RRTBlacTrU5YXQZeCh6I3iReiPFJB3cU9tx4kRknN_-liG-7H2mGrBDZ6gK2k5dnlWad04zukGvUYrd"
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLqj4r61DCM-xHq0x-4fDIsC9oSEG14LZ6YjUb1NVODmAu_EpFfWy9LWrwT4sqQDNanAjrGthi-wwYPaXMHwCQGhX1KgcLsQ1iLYmfkhO3J-KP6efT2i6p1KrhEmxzMf_hG03aKfEuMA=="
     },
     {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukIQ65D3okydmRwpv8ZijljlovLLlSp5C75M-2fxpnCL1L2zmk8aypEcRTqBbnQmhTzbuYXwBUn_44Sa7HiwJDpVTiOlgdE85bv83Ckt5cbV7mG3kvdlwfD1FCwO65DBUtA=="
+      "title": "etnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkPIlklEcSi4KCpmSgfLmV7bFarqeaq36UITysdDD9fWN9J6yJ-rK4-cKKDqSKS11PG4aaEhcYJjKdQ5xu5i4vDMpfutvS9ridbFXFUKHjNcZBgO_-i-hcX8O2Iea7lQ=="
     },
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb03n-eQakkBr6F7Kvwel8gp0e-ugZWN_387DQ2ryY5CIQTn6XCwvyx5JLXMY3nL3RKAq0uSQv3elSyWP7e4hpmxtPHFMv3QZFCEiMEEvBfhLytE076UGJwEuIwxnB4DC3dp9I_vqlYyXco0HnyQFW6TgoxmVMNDiehPa3RfnsMsq_g94e"
+      "title": "kookje.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxxQb9fhoFgtvBEB72yTitop2AVAhe0F16hxTPeNPuPme0RcZtaLk7Ba0P6das7663849Xud3kkrDzPVB5Pr0cbyWnGu6uM2p59ZbJ0QRkI5qnVicl25CjeYhrgoxirRKKNNK9LtLtATA3RVVeSv2xXREFtyk7G8385Q82GoaAbGWL8LNrIK0kZaVk8IY="
     },
     {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqlnAToNQYhSif3mf0HwHTod-GuaxqxwV6b14V70kjrBYhRfj57_agZhSGG4_TT0kh-V8RE5GE8Zwgy2DqnvtdhtJnQDAcXlh2HneY4OR8O0r8fyFJ9qjsz-5E2P-utC5uzzF2Dcv5Z8o="
+      "title": "dgmbc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOjmR-DtTcSje-GjtdzJovAAAn4gB6PFJnd5jzO0o6w9xIHoP3wTlVJzUBSwovYx_fCsWxbFi8oJLQbG8YSsoGqXOG66zO9G1SvrjajcIKBSG7Sth9oZ_U7Nl9vxvA"
     },
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfa91EuEsFaVtCy9_-d6XT0D57hHvGscX5fec_e32YGlPqnsS60Te_rayjgZxXYCTVKzYohRFjp-E9JQozL8wLajiruYt0SYHSHTlKK3yzW8if9gG97WKyYSTarfV33YjEyUTploTVhEISYM0uRBwCo3XHJ35X4byGYc-1rN6k1rhiKxPi1j3TbQ=="
+      "title": "einfomax.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjxdOqESUY38p2vL7VyjsJ2H6N7mDZQvQWU3oie-pVLqUq2cPQBlnLB-Sq4K_VN2r88jyKt8w5MB2zJa-A3oV-cK8E5k5s5xFOIS2cV2uGocxhni3TZKGgw0CndeHD3e68QseG_iBcmrviWcqJ1U1q1NYpoG39H3LP"
     }
   ],
   "note": "JSON 파싱 실패"
