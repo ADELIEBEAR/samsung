@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 8월 24일 월요일 PM 4:15",
+  "updatedAt": "2026년 8월 24일 월요일 PM 5:24",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 8월 24일 월요일 PM 5:24 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"삼성전자 실망 매물에 코스피 급락, 코스닥은 선방\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"삼성전자의 주주환원 실망감으로 코스피가 급락했으나, 코스닥은 외국인·기관",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다."
+    "{\n  \"updatedAt\": \"2026년 8월 24일 월요일 PM 5:24 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"삼성전자 실망 매물에 코스피 급락, 코스닥은 선방\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"삼성전자의 주주환원 실망감으로 코스피가 급락했으나, 코스닥은 외국인·기관 순매수에 힘입어 상승 마감하며 시장별 차별화가 심화된 하루였습니다.\",\n  \"marketRegime\": \"금일 한국 증시는 삼성전자의 주주환원 정책에 대한 시장의 기대치 미달로 인한 대규모 실망 매물이 출회되며 코스피가 큰 폭으로 하락했습니다. 외국인과 기관은 코스피 시장에서 동반 순매도세를 보였고, 개인 투자자들이 저가 매수에 나섰으나 역부족이었습니다. 반면 코스닥 시장은 외국인과 기관의 순매수 전환에 힘입어 상승 마감하며 견조한 실적을 바탕으로 한 중소형주 중심의 순환매 흐름이 나타났습니다."
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -74,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFhAoYmU3MXD82eWxuszqMsK4JN6zctFcbGUFRX5CCxLTAr4FzAKVz_eFSdxvn86VsLpmRX6jcQp8SQH-zHw9lFboTRZAQ218IhggQY8e5Ns3PW5R1MROupd7A4SH5xuUJi4WlUq1OnTPVIiKUKNv16s77"
+    },
+    {
+      "title": "foeconomy.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF9KBGJG8lni2O6q4IZ3I3R5D5nlQpHowLVH-ruutNLkrRekIqUQPTZP4eHAUsReMPHO9uvzPY3_MUTy1tvwN4N69KTGE1LSWfuyCmf8PE_DlDRrwdWk2FviShoeIvjuxxs_u7AZWdfg2Ev9M="
+    },
+    {
+      "title": "wikitree.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_u_KshNlqqCLS8zwkJwD7q0uqOlKEQYItLbfCSv2MvOCFpUFfsRGxxOhxQoN9DSnelukGSSXEN6XOjgh5hVgVOrmhzvE8pwVKMwq_6cGBtPpNiQN0M2C2ZwdrBZbcPTeQgFwSPnM="
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiZqU8lzS4R3tILaEh3IiSvKsYjejWs4ms1D8f-rtbfuk2WlEg0SIMMI8ft22Q3ZQbyiuPcdzdfblSS7A3hMtVHuuSj2TQx0VYjeHc9V2EmMXLlXvFOOL9QuBIYmOiNqACveOgfepsAmQXSg=="
+    },
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUrZ7tp1peNHS5KWfPY_dUev0t2wKCsOOQACFpTLU9nmKuunBqA1i1rYKDgeIkLcx5mW5jtcviCWUQzlxKrMXO5l6MrA3ZF2of8ciWukyC0T8ZlUKpOWkGxs9vlJJlSGhw"
+    },
+    {
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnmKNXLJNAQW7ZDGT6oJa5CDK2ubssDJy9LO1Ar2sLJl_2JgDonsuUTtfoxI2n9jS2_dE_JG1gid0OXnNnGsU7qg5ktKiolizIbib4XLmAUbXjf_P0NQD4d97dYvK22lberCl77H-fEbY="
+    },
+    {
+      "title": "kfm.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdd9RcJafcRXnoYKGtsIl2mG-ksWL-2iayH3s7PG2kI1PmKuV9ZCrt8XKgI09d5sHm1KAaD3u84re5rymOWbtO1I8eXfgUs2bj6PjpuETfLJSqu3nclkDiOBvAFdnJEivR8tk="
+    },
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix0KoKwZrMdCMDn-VaMBMVDWX9veyw-kl_i-z5ReSyRTfuHSmS02dzJDTKesDrTH7iahK9rQtoA3Ejp9rYO5CND6cn-3WeHrF4OmE6QSkbwrYiLqnWWmKyed95fdXwMEC"
+    }
+  ],
   "note": "JSON 파싱 실패"
 }
