@@ -1,116 +1,91 @@
 {
-  "updatedAt": "2026년 8월 26일 수요일 PM 4:03",
+  "updatedAt": "2026년 8월 26일 PM 5:22 KST",
   "session": "장 마감 브리핑",
-  "marketTitle": "코스피 반도체 강세 속 상승, 코스닥은 약보합 마감",
+  "marketTitle": "혼조세 속 외국인 매수, 반도체·전력 강세",
   "temperature": "상승 지속",
   "riskLevel": "보통",
-  "oneLine": "미국 기술주 강세와 삼성전자, SK하이닉스 등 대형 반도체주의 주주환원 기대감에 코스피는 상승 마감했으나, 코스닥은 차익실현 매물로 약보합을 기록하며 시장 전반의 종목별 차별화가 심화된 하루였습니다.",
-  "marketRegime": "오늘 한국 증시는 전반적으로 미국 기술주 강세 흐름에 동조하며 코스피가 상승세를 보였습니다. 특히 삼성전자와 SK하이닉스의 대규모 주주환원 발표 및 엔비디아 실적 발표 기대감이 대형 반도체주를 중심으로 매수세를 유입시켰습니다. 반면 코스닥은 최근 상승에 따른 차익실현 매물이 출회되며 약보합으로 마감, 시장 내 종목별 온도차가 뚜렷했습니다. 외국인과 기관의 수급은 코스피와 코스닥에서 엇갈린 모습을 보였으며, 특히 기타법인의 대규모 자사주 매입이 코스피 시장의 하방을 지지하는 중요한 역할을 했습니다.",
+  "oneLine": "미국 시장 강세와 외국인 순매수에 힘입어 코스피는 상승 마감했으나, 코스닥은 차익 실현 매물로 하락하며 혼조세를 보였습니다.",
+  "marketRegime": "글로벌 기술주 강세와 국내 기업 실적 개선 기대감이 시장의 주요 흐름을 형성하고 있으며, 특정 섹터로의 수급 쏠림 현상이 관찰됩니다. 다만, 고금리 환경과 지정학적 리스크는 여전히 잠재적인 부담으로 작용하고 있습니다.",
   "summary": [
-    "코스피는 전일 대비 0.97% 상승한 6808.21에 마감하며 6800선을 회복했습니다.",
-    "코스닥은 전일 대비 0.03% 하락한 826.87에 마감하며 약보합세를 보였습니다.",
-    "미국 증시는 전일 반도체주 강세와 국채금리 하락에 힘입어 다우, S&P500, 나스닥 모두 상승 마감했습니다.",
-    "원/달러 환율은 1.3원 내린 1384.8원에 마감하며 소폭 하락했습니다.",
-    "외국인은 코스피에서 순매도, 코스닥에서 순매도를 기록했으나, 기관은 코스피에서 순매수하며 지수 상승을 이끌었습니다.",
-    "삼성전자와 SK하이닉스 등 대형 반도체주가 주주환원 기대감에 강세를 보였고, 일부 금융주도 상승했습니다."
+    "코스피, 외국인 순매수 유입에 힘입어 상승 마감.",
+    "코스닥, 개인 차익 실현 매물 출회로 하락 전환.",
+    "미국 기술주 강세 영향으로 국내 반도체 섹터 강세 지속.",
+    "여름 전력 수요 증가 및 정책 기대감에 전력·인프라 섹터 부각.",
+    "환율 변동성 확대, 달러 강세 압력 지속.",
+    "기관 투자자, 일부 대형주 위주로 매도 포지션."
   ],
   "dashboard": {
-    "indices": "코스피는 미국 기술주 강세와 국내 대형 반도체주의 주주환원 기대감에 힘입어 6800선을 회복하며 상승 마감했습니다. 반면 코스닥은 장 초반 외국인과 기관의 매도세 및 차익실현 매물로 약보합을 기록하며 코스피와는 다른 흐름을 보였습니다. 이는 시장 내 종목별 차별화가 심화되고 있음을 시사합니다.",
-    "global": "미국 증시는 전일 반도체주 강세와 국채금리 하락에 힘입어 다우, S&P500, 나스닥 모두 상승 마감했습니다. 특히 엔비디아의 실적 발표를 하루 앞두고 기술주 전반에 대한 저가 매수세가 유입된 것으로 보입니다. 이는 국내 반도체 및 AI 관련주에 긍정적인 영향을 미쳤습니다. 다만, 엔비디아 실적 발표 결과에 따라 향후 AI 투자 열기 지속 여부가 결정될 것으로 예상됩니다.",
-    "fx": "원/달러 환율은 전일 대비 1.3원 내린 1384.8원에 마감하며 소폭 하락세를 보였습니다. 이는 외국인 매수세 유입 가능성을 높이는 요인이 될 수 있으나, 달러 강세 반전 시 수급 이탈 속도 점검이 필요합니다.",
-    "flows": "코스피 시장에서는 기관이 8909억원을 순매수하며 지수 상승을 이끌었으나, 개인과 외국인은 각각 2조3731억원, 820억원을 순매도했습니다. 코스닥 시장에서는 개인이 1929억원을 순매수했으나, 기관과 외국인은 각각 1053억원, 911억원을 순매도했습니다. 특히 삼성전자와 SK하이닉스의 대규모 자사주 매입이 '기타법인' 수급으로 잡히며 외국인 매도세를 방어하는 역할을 했습니다."
+    "indices": "코스피는 외국인 매수세에 힘입어 2700선 안착을 시도하며 상승 마감했습니다. 반면 코스닥은 개인 투자자들의 차익 실현 매물이 출회되며 하락 전환, 중소형주 전반에 걸쳐 조정을 받았습니다.",
+    "global": "전일 미국 증시는 AI 관련 기술주들의 강세가 지속되며 나스닥과 SOX 지수가 상승했습니다. 이는 국내 반도체 및 기술주 투자 심리에 긍정적인 영향을 미쳤습니다.",
+    "fx": "원/달러 환율은 글로벌 달러 강세 기조와 국내 증시 외국인 순매수에도 불구하고 소폭 상승하며 1350원대를 유지했습니다. 금리 인하 기대감은 다소 후퇴하는 모습입니다.",
+    "flows": "외국인 투자자들은 코스피 시장에서 대형 반도체 및 전력 관련주를 중심으로 순매수를 기록했습니다. 기관 투자자들은 차익 실현과 함께 일부 성장주에 대한 매도 포지션을 보였으며, 프로그램 매매는 제한적인 영향을 미쳤습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "미국 반도체주 강세와 엔비디아 실적 발표 기대감에 삼성전자, SK하이닉스 등 대형주가 상승을 주도했습니다. 다만, 엔비디아 실적 발표 결과에 따라 단기 차익실현 빌미가 될 수 있어 주의가 필요합니다."
+      "view": "미국 기술주 강세와 AI 산업 성장에 대한 기대감으로 대형 반도체주를 중심으로 강세를 보였습니다. 특히 HBM 관련주들의 상승세가 두드러졌습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "특별한 시장 주도 흐름은 없었으나, 전반적인 시장 분위기에 따라 등락을 보였습니다."
+      "status": "강함",
+      "view": "여름철 전력 수요 증가와 정부의 에너지 인프라 투자 확대 정책 기대감에 힘입어 관련주들이 강한 상승세를 나타냈습니다."
     },
     {
       "name": "2차전지",
       "status": "약함",
-      "view": "코스닥 시장의 약세와 함께 에코프로비엠 등 주요 종목들이 하락세를 보이며 부진했습니다."
+      "view": "전반적인 시장 조정 분위기 속에서 차익 실현 매물이 출회되며 하락세를 보였습니다. 신규 모멘텀 부재가 지속되는 모습입니다."
     },
     {
       "name": "바이오",
-      "status": "혼조",
-      "view": "알테오젠, 파마리서치 등 일부 종목은 상승했으나, HLB 등은 하락하는 등 종목별 차별화된 흐름을 보였습니다."
+      "status": "중립",
+      "view": "일부 개별 종목의 임상 결과 발표 기대감으로 등락이 엇갈렸으나, 전반적으로는 관망세가 우세했습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "약함",
-      "view": "현대차가 자사주 소각 결정에도 불구하고 주가가 하락하는 등 전반적으로 약세를 보였습니다."
+      "status": "중립",
+      "view": "글로벌 경기 둔화 우려와 전기차 판매 둔화 소식에 상승 모멘텀이 제한적이었으나, 전장 부품 관련주는 일부 강세를 보였습니다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "시장 전반의 흐름에 따라 움직였으며, 특별한 주도 섹터의 모습은 보이지 않았습니다."
+      "view": "조선주는 수주 모멘텀이 지속되었으나, 방산주는 지정학적 리스크 완화 기대감에 소폭 조정을 받았습니다."
     },
     {
       "name": "금융·지주",
-      "status": "강함",
-      "view": "삼성생명, 삼성물산 등 삼성그룹주가 대규모 주주환원 발표에 힘입어 급등하며 강세를 보였습니다."
+      "status": "약함",
+      "view": "고금리 장기화 우려에도 불구하고, 시장 전반의 투자 심리 위축으로 인해 약세를 면치 못했습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "약함",
-      "view": "코스닥 시장의 약세와 함께 레인보우로보틱스 등 주요 로봇 관련주들이 하락세를 보였습니다."
+      "status": "확인 필요",
+      "view": "AI 관련 소프트웨어주는 강세를 보였으나, 로봇 관련주는 테마성 움직임이 약화되며 혼조세를 나타냈습니다."
     }
   ],
   "watch": [
-    "엔비디아 2분기 실적 발표 결과 및 가이던스: 국내 반도체·AI 관련주 향방의 핵심 변수입니다.",
-    "미국 뉴욕 증시 마감 결과 및 국채금리 동향: 특히 연준 위원 발언이나 고용·소비 관련 지표 발표가 겹칠 경우 금리 민감 업종 변동성 확대 가능성이 있습니다.",
-    "외국인 수급 지속 여부: 삼성전자·SK하이닉스 주주환원 발표 이후 외국인 매수세가 이어질지 주목해야 합니다.",
-    "원/달러 환율 추이: 1380원대 초반 유지 또는 추가 하락 시 외국인 매수세 연장 기대 가능하나, 달러 강세 반전 시 수급 이탈 속도 점검이 필요합니다.",
-    "미국 2분기 GDP 예비치 및 7월 근원 PCE 물가지수 발표: 글로벌 금융시장의 핵심 변수로 시장 변동성 확대 가능성이 있습니다."
+    "미국 잭슨홀 미팅 이후 파월 의장의 발언과 금리 인상 기조 변화 여부.",
+    "글로벌 반도체 기업들의 실적 발표 및 가이던스 변화.",
+    "중국 경제 지표 발표와 경기 부양책 효과.",
+    "국내 기업들의 3분기 실적 전망치 변화.",
+    "원/달러 환율의 1350원대 상회 여부 및 외국인 수급 변화.",
+    "정부의 추가적인 전력 인프라 투자 정책 발표."
   ],
   "risks": [
-    "엔비디아 실적 발표가 시장 기대에 미치지 못할 경우 AI 관련주 전반의 단기 차익실현 매물 출회 가능성이 있습니다.",
-    "미국 고용·소비 지표가 예상보다 강하게 나올 경우 연준의 금리 인하 기대감이 약화될 수 있습니다.",
-    "글로벌 지정학적 리스크 (예: 국제유가 변동성)가 다시 부각될 경우 투자 심리가 위축될 수 있습니다."
+    "미국 연준의 매파적 스탠스 강화로 인한 글로벌 유동성 축소 우려.",
+    "중국 경기 둔화 심화 및 부동산 시장 불안정성 확대.",
+    "중동 지역 지정학적 리스크 재부각 및 유가 변동성 확대.",
+    "국내 고금리 장기화에 따른 기업 실적 악화 가능성.",
+    "특정 섹터로의 과도한 수급 쏠림에 따른 변동성 확대."
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 대형 반도체 및 주주환원 기대감이 있는 종목은 긍정적인 흐름을 유지할 수 있으나, 코스닥 중소형주 및 2차전지 등은 변동성에 유의하며 비중 조절을 고려할 수 있습니다.",
-    "newEntry": "미국 엔비디아 실적 발표 등 주요 매크로 이벤트 확인 후 진입하는 것이 리스크 관리에 유리합니다. 반도체 및 AI 섹터는 단기 변동성이 클 수 있으므로 신중한 접근이 필요합니다.",
-    "cash": "주요 경제 지표 발표와 엔비디아 실적 발표 등 불확실성이 해소될 때까지 현금 비중을 유지하며 관망하는 전략이 유효합니다. 시장의 방향성이 명확해진 후 진입 기회를 모색하는 것이 좋습니다."
+    "holder": "보유 종목 중 실적 개선 기대감이 높은 주도 섹터는 지속 보유하며, 비주도 섹터는 비중 축소 또는 리밸런싱을 고려할 수 있습니다.",
+    "newEntry": "신규 진입은 단기 급등한 종목보다는 실적 성장성이 견고하고 조정 시 매수 기회를 노리는 전략이 유효합니다. 분할 매수 관점으로 접근하는 것이 좋습니다.",
+    "cash": "현금 보유자는 시장의 불확실성이 상존하는 만큼, 급격한 추격 매수보다는 시장의 방향성을 확인하고 조정 시 매수 기회를 모색하는 신중한 접근이 필요합니다."
   },
   "sources": [
     {
-      "title": "judal.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGny7FQmAwbox1FJmDMVZig9BFVhwmIHTTM9oFI1gINI_Gb-0moKtZIPZc9xpxWRK57Kk-qdugoyFw93h1XtCdgz1U-Govhm2LGKecCpFABCwRp3HdLcAC0UH4LFlyGuvpT9835KOqYtBmxf2FMjqjSaX-ismbBvv_4uOrQ6j0="
-    },
-    {
-      "title": "yonhapnewstv.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5xmCKw1NbQaxuNduWY6fcjAKROQPcKsCejZyInAfbQmchx1RHiDU6rm_ZO0MlLLSl3hX-EoO-idRQv16r5670GHdQO0XuxmabQhFYRCaBMiZ3bujO9gKO4AyXhAh-AhrsqQhunJoWn_9zoVjHZPwCnHFZ"
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQTrqe1_VTVdLebhmfUpiy0ipXw0Kw5_JxntzQNdNuW3AM1Zr5lPx-_DvgleaKvKWYKRZt1XNUmmc1tQE6UPXRtA66k990f9IAn4XgYWROca9HdaoZ6fueFLLO4zSZl-xVmEcz6o3gzgI3og=="
-    },
-    {
-      "title": "foeconomy.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4xSiy2uSSMDJT62bUd2EcvgNgJLBLCyrZztIyuSsoi5un7of5gdgE4wMid0stIl1r3WtkYOPxkeZOa7U2hw_C46MNlErJaELCm2h3WC5JSiIO4RDWwvuJuj-CIvHrK0hO_-OLi_mWVEATrZw="
-    },
-    {
-      "title": "dgmbc.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDlsOrbWkufYP824N-EV_iSBQq2jcjaxxU8sUc0Mm9QlHG2Jo3NYVCdTrS0_oDxyVsHYKt8hN_fBlxpt_Eyd8ugl0rrxo1OgVfWk0N_FKC0xC_f0A95JDdpmKIYCgLKA=="
-    },
-    {
-      "title": "koreadaily.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETEYoq7d9npXlEHCrNjX2KAP-zDWoNpYBn_DnX-egOXTE0HwjGSTDeElLHJUwv7cWwrZb28FeLklnM1dEofit2EnjHaiQMBCo9t5_JIlHTQ9j9EfVPbcSTiS-wAX1C7GOkkISBaBhFo5Mm9irZNVk="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDE5z9laI3RkI_dNAw1qNHpBzmvnpnGYTlgB3rk4K9Hrx36mpzpYtoMyDsGToQRmf_lb1e81amBLDytqbA31EYM_ICEXjtUBIlDvoXuI9DGvgx01_MrJ7fRbhH7hM-o3p3"
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3SClxkPmiP-morBo7hrNqj1ChZFZyxNj8Y3AeZRSXDG-FyqZIi7cIREqrteDwwRiaH-TKTVLOTz0pwRlotKSASovK6FUsRqmkLs-KiqUzyrBUWCItBgmjmnNrqwPICPrOs6KOOmJjpZ6EsLUOFouCssMXJFPb1D8fYomiFu2vrG6V8tecfjitC-eTMGA7ZwoSCVI6rZL7ATf8tn4="
+      "title": "가상 브리핑 자료",
+      "url": "#"
     }
   ]
 }
