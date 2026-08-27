@@ -1,119 +1,118 @@
 {
-  "updatedAt": "2026-08-27 PM 1:28",
-  "session": "장중 브리핑",
-  "marketTitle": "엔비디아 훈풍에 반도체 강세, 코스피 7천선 도전",
+  "updatedAt": "2026년 8월 27일 목요일 오후 11시 08분",
+  "session": "장 마감 브리핑",
+  "marketTitle": "엔비디아 훈풍 속 코스피·코스닥 동반 상승 마감",
   "temperature": "상승 지속",
   "riskLevel": "보통",
-  "oneLine": "엔비디아 호실적에 힘입어 반도체주가 강세를 보이며 코스피가 7천선에 근접했고, 한국은행의 금리 인상에도 불구하고 시장은 긍정적인 흐름을 이어가고 있습니다.",
-  "marketRegime": "미국 엔비디아의 어닝 서프라이즈가 국내 증시에 강력한 훈풍으로 작용하며 반도체 섹터가 시장 상승을 주도하고 있습니다. 한국은행의 기준금리 인상 결정에도 불구하고 외국인과 기관의 매수세가 유입되며 코스피는 7천선에 바짝 다가섰습니다. 다만 미국 물가 지표 부담은 여전히 존재하며, 일부 섹터에서는 차익 실현 매물이 출회되는 등 종목별 차별화가 나타나고 있습니다.",
+  "oneLine": "엔비디아 실적 호조에 힘입어 반도체주가 강세를 보이며 코스피와 코스닥이 동반 상승 마감했으나, 한국은행의 기준금리 인상으로 상승폭이 일부 제한되었습니다.",
+  "marketRegime": "오늘 한국 증시는 전일 미국 증시의 기술주 강세와 엔비디아의 호실적 발표에 대한 기대감으로 긍정적인 흐름을 보였습니다. 특히 반도체 섹터가 강한 매수세를 받으며 지수 상승을 견인했습니다. 그러나 한국은행의 기준금리 인상 발표로 인해 장중 상승폭이 다소 줄어들며 시장 전반에 경계심리가 유입되는 모습이었습니다. 외국인과 기관은 동반 순매수를 기록하며 시장을 지지했고, 개인은 차익 실현에 나섰습니다.",
   "summary": [
-    "미국 엔비디아의 호실적 발표에 국내 반도체 대형주 강세, 코스피 7천선 근접.",
-    "한국은행, 기준금리 25bp 인상 결정에도 원/달러 환율 하락 및 증시 긍정적 반응.",
-    "코스피 외국인·기관 동반 순매수, 코스닥은 개인 매수세 유입.",
-    "반도체, 전력·인프라, 일부 2차전지 대형주 강세, 인터넷·화장품 등 일부 업종 약세.",
-    "미국 7월 PCE 물가 예상치 상회, 연준 통화정책 경계감 지속.",
-    "고금리 장기화 우려 속 금융주가 방어적 대안으로 부각."
+    "코스피는 전 거래일 대비 1.53% 상승한 6912.37에 마감했으며, 코스닥은 1.30% 오른 837.65에 장을 마쳤습니다.",
+    "외국인과 기관은 유가증권시장에서 각각 2151억원, 1564억원을 순매수하며 지수 상승을 견인했습니다. 코스닥 시장에서도 외국인과 기관이 각각 892억원, 612억원을 순매수했습니다.",
+    "개인은 유가증권시장에서 1조9513억원을 순매도하며 차익 실현에 나섰고, 코스닥에서도 1484억원을 순매도했습니다.",
+    "원/달러 환율은 전 거래일 대비 3.90원 하락한 1380.90원에 마감하며 원화 강세를 보였습니다.",
+    "반도체와 2차전지 섹터가 강세를 보였으며, 특히 삼성전자, SK하이닉스 등 반도체 대형주가 상승을 주도했습니다.",
+    "한국은행은 기준금리를 두 차례 연속 인상하며 3.00%로 올렸습니다."
   ],
   "dashboard": {
-    "indices": "코스피는 엔비디아발 반도체 훈풍에 힘입어 2%대 상승하며 7천선에 근접한 강세를 보이고 있습니다. 코스닥 또한 상승 흐름을 이어가며 830선 위에서 움직이고 있습니다.",
-    "global": "미국 증시는 전일 물가 지표 부담과 엔비디아 실적 관망세에 혼조세로 마감했으나, 장 마감 후 발표된 엔비디아의 어닝 서프라이즈로 AI 관련 기대감이 살아나며 미국 주식 선물은 상승세를 보였습니다. 이는 국내 반도체 및 AI 관련주에 긍정적인 영향을 미치고 있습니다.",
-    "fx": "원/달러 환율은 한국은행의 2연속 기준금리 인상 결정(3.00%)에 힘입어 장중 1,370원대로 하락하며 원화 강세를 보였습니다. 다만 미국의 7월 PCE 물가지수가 예상치를 소폭 상회하며 달러 강세 압력은 여전히 존재합니다.",
-    "flows": "코스피 시장에서는 외국인과 기관이 동반 순매수하며 지수 상승을 견인하고 있으며, 개인은 순매도세를 보이고 있습니다. 코스닥 시장에서는 개인이 순매수를 주도하고 있으나, 외국인과 기관은 혼조세를 보입니다."
+    "indices": "코스피는 엔비디아의 긍정적인 실적 발표에 힘입어 반도체주를 중심으로 상승 출발했으나, 한국은행의 기준금리 인상 발표로 상승폭이 일부 제한되며 6912.37에 마감했습니다. 코스닥 또한 외국인과 기관의 순매수에 힘입어 837.65로 상승 마감하며 견조한 흐름을 이어갔습니다.",
+    "global": "간밤 미국 증시는 엔비디아 실적 발표를 앞두고 기술주 중심의 매수세가 유입되며 다우존스, S&P 500, 나스닥 3대 지수 모두 상승 마감했습니다. 특히 AI 반도체 관련주에 대한 기대감이 국내 증시의 반도체 섹터 강세로 이어졌습니다.",
+    "fx": "서울 외환시장에서 원/달러 환율은 전일 대비 3.90원 하락한 1380.90원에 마감하며 원화 강세 흐름을 보였습니다. 이는 외국인 순매수 유입과 한국은행의 기준금리 인상 결정이 복합적으로 작용한 결과로 풀이됩니다.",
+    "flows": "유가증권시장에서 외국인과 기관은 각각 2151억원, 1564억원을 순매수하며 지수 상승을 견인했습니다. 코스닥 시장에서도 외국인 892억원, 기관 612억원 순매수를 기록하며 양 시장 모두 외국인과 기관의 동반 매수세가 돋보였습니다. 개인은 양 시장에서 대규모 순매도를 기록하며 차익 실현에 나섰습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "엔비디아 호실적에 따른 AI 인프라 투자 기대감으로 삼성전자, SK하이닉스 등 대형주 및 HBM 관련주가 시장 상승을 주도하고 있습니다."
+      "view": "엔비디아 실적 호조와 미국 기술주 강세에 힘입어 삼성전자, SK하이닉스 등 대형 반도체주와 소부장 종목들이 강세를 보이며 시장 상승을 주도했습니다. AI 인프라 확대 기대감이 지속되고 있습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "강함",
-      "view": "AI 데이터센터 확충에 따른 전력 수요 증가 기대감으로 KBI메탈, 빛과전자, 가온전선 등 관련주가 강세를 보이고 있습니다."
+      "status": "중립",
+      "view": "미국의 노후 송전망 교체 및 데이터센터 전력망 구축 수요에 대한 긍정적인 전망이 있으나, 오늘은 상대적으로 차분한 흐름을 보였습니다."
     },
     {
       "name": "2차전지",
-      "status": "중립",
-      "view": "일부 대형주(LG에너지솔루션, 삼성SDI, 포스코퓨처엠)는 상승세를 보이고 있으나, 전반적인 섹터는 종목별 차별화가 나타나며 중소형주는 변동성이 확대되고 있습니다."
+      "status": "강함",
+      "view": "코스피와 코스닥 시장에서 LG에너지솔루션, 에코프로, 에코프로비엠 등 주요 2차전지 종목들이 상승하며 반도체와 함께 시장을 이끌었습니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "개별 종목 이슈에 따라 등락이 엇갈리며 섹터 전반의 뚜렷한 방향성은 부재합니다."
+      "status": "약함",
+      "view": "일부 종목은 하락세를 보였으며, 시장의 주요 수급이 반도체와 2차전지로 쏠리면서 상대적으로 소외되는 흐름을 나타냈습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "현대차 등 일부 종목은 보합 또는 약세를 보이며 시장 전반의 분위기에 영향을 받고 있습니다."
+      "status": "약함",
+      "view": "현대차 등 일부 자동차 관련주는 하락 마감하며 약세를 보였습니다. 신사업 기대감 약화가 목표주가 하향으로 이어지는 모습입니다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "안정적인 수주 잔고를 바탕으로 견조한 흐름을 유지하고 있으나, 시장 주도력은 제한적입니다."
+      "view": "HD현대중공업, 한화에어로스페이스 등 일부 종목은 상승했으나, 전체적으로는 강한 주도력을 보이지는 않았습니다. 부유식 해상 데이터센터 등 신사업 기대감이 있으나 실제 투자 확대 여부 확인이 필요합니다."
     },
     {
       "name": "금융·지주",
-      "status": "강함",
-      "view": "고금리 환경 장기화 우려 속에서 방어적 성격과 배당 매력이 부각되며 견조한 흐름을 이어가고 있습니다."
+      "status": "중립",
+      "view": "신한지주 등 일부 금융주는 상승했으나, 한국은행의 기준금리 인상에도 불구하고 시장 전반의 금리 인상 경계심리가 작용하며 제한적인 움직임을 보였습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "중립",
-      "view": "AI 관련 기대감은 유효하나, 최근 상승에 따른 차익 실현 매물 출회 가능성이 있어 변동성에 유의해야 합니다."
+      "status": "강함",
+      "view": "AI 관련 산업 성장 기대감에 힘입어 레인보우로보틱스 등 일부 로봇 및 소프트웨어 관련주가 강세를 나타냈습니다."
     }
   ],
   "watch": [
-    "미국 7월 PCE 물가지수 발표 이후 연준의 통화정책 스탠스 변화 여부.",
-    "외국인 및 기관의 코스피 순매수 지속 여부와 프로그램 매매 동향.",
-    "원/달러 환율의 1,370원대 지지 여부 및 추가 하락 가능성.",
-    "반도체 섹터의 강세가 다른 기술주 및 성장주로 확산될지 여부.",
-    "코스닥 시장의 개인 매수세 지속 여부와 중소형주 변동성 관리.",
-    "글로벌 경기 둔화 우려 속 기업 실적 발표 및 가이던스 변화."
+    "미국 증시의 기술주 흐름 및 엔비디아 등 주요 AI 관련 기업들의 추가 동향",
+    "한국은행의 추가 금리 인상 가능성 및 이에 따른 시장 금리 변화",
+    "외국인 및 기관 투자자들의 순매수 지속 여부와 특정 섹터로의 자금 이동",
+    "원/달러 환율의 추가 하락 여부 및 국내 증시 수급에 미치는 영향",
+    "주요 기업들의 3분기 실적 발표 시즌을 앞둔 기대감과 경계심리"
   ],
   "risks": [
-    "미국 7월 PCE 물가 예상치 상회에 따른 연준의 추가 금리 인상 가능성 및 고금리 장기화 우려.",
-    "글로벌 경기 둔화 심화 및 기업 실적 하향 조정 가능성.",
-    "중국 경제 지표 부진 및 부동산 시장 불안정성 심화.",
-    "지정학적 리스크 고조에 따른 투자 심리 위축 가능성.",
-    "국내 증시 조정 시 '서학개미'의 해외 주식 투자 확대에 따른 원화 약세 압력."
+    "글로벌 인플레이션 장기화 및 주요국 중앙은행의 추가 긴축 가능성",
+    "지정학적 리스크 고조로 인한 국제 유가 및 원자재 가격 변동성 확대",
+    "국내외 경기 둔화 우려 지속 및 기업 실적 하향 조정 가능성",
+    "개인 투자자들의 차익 실현 매물 출회에 따른 단기 조정 압력",
+    "특정 섹터 쏠림 현상 심화에 따른 시장 변동성 확대"
   ],
   "actionPlan": {
-    "holder": "반도체 등 주도 섹터 내 우량주는 보유 관점을 유지하되, 단기 급등 종목은 차익 실현을 고려하며 포트폴리오 리밸런싱을 검토하는 것이 좋습니다.",
-    "newEntry": "엔비디아발 훈풍으로 시장 분위기는 개선되었으나, 매크로 불확실성이 상존하므로 신규 진입은 충분한 조정 시 분할 매수 관점으로 접근하는 것이 유효합니다.",
-    "cash": "시장 변동성에 대비하여 일정 수준의 현금 비중을 유지하고, 향후 시장의 명확한 방향성이 확인될 때까지 관망하며 기회를 모색하는 것이 현명합니다."
+    "holder": "보유 종목 중 반도체, 2차전지 등 주도 섹터는 긍정적 흐름을 유지할 수 있으나, 금리 인상에 따른 변동성 확대에 대비하여 포트폴리오 점검이 필요합니다.",
+    "newEntry": "신규 진입 시에는 미국 기술주 흐름과 연동되는 반도체, AI 관련주에 대한 관심이 유효하나, 단기 급등에 따른 조정 가능성을 염두에 두고 신중한 접근이 요구됩니다.",
+    "cash": "현금 보유자는 시장의 변동성을 활용하여 분할 매수 관점에서 접근하거나, 다음 주 미국 증시의 흐름과 국내 수급 동향을 추가로 확인하며 기회를 모색하는 것이 좋습니다."
   },
   "sources": [
     {
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGlj-5twgLXcxZbpdeEZNyssJIzQMkLkEHi6g8XtFSI8dW_O8BvzWYWJa15sv-IfDb6j04mDKsoV3ewoBd58dgFoqFpUwvqc96PjKfzI3xMkceBJ6VwCtDgUoNT8VbRt-6Jtq_q7yOJvqOqEZv2oZeaIhczsPmDelkUw=="
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJHYroyhUwJ7xwdOrZWq2rKBGFOwpJuP9uUkosM-8psHbtXTe55H8o4hZ0r4OlK0-zeZVl3y_xyOUw-MITDY2BbwYycSSG0HhXjxwbBt8smvWjUB00KYvB9JcFAhy-qH2_Lk0XYvNjiZ3UOw=="
+    },
+    {
       "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqumFbnlLVzl1TJX_pJAZTJHrPH0Pe8sxKBo2TRx2U5zWzMX-kI1qUBRFt48MxbWUXcvC8nqiqjfHxm6Rp8M3JDnwCGO1OjggkvNOSq1mCmjM1TJaYHW6PNnpi5MxHN640EKRmaIVOtiaI-0ZE8WsPu9OSBChAi48HIOQK2Wtx32v5gPKRh7kP5b9zow=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgXdCL9oDdXoxRHToy88Zc3mpCVRbhzmehIVm0xatxhYCbtZr8AHoOjoA8LFkFhDmSVoa9nJ8WFJ7C0OB8R1GeSabrEDsMRHAGSMQkRxPMJnx78shvEjvuBXRU1Bb1SUxPJjjSsCua86lX4qLvJW1ds1LU0X-K2LxAOOkOWh94zCthn6885dLA0QsuGbn_gM4QAUn9hkYfLXcKbEY="
     },
     {
-      "title": "etoday.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEriFdGDyXrIx1A6jLzVo2E78hrVhU1Y5JghKGKaLH88_ibVenwBJZDXwX0JGzquFqzx5Ee7NrGqCVbyzq6Qde6UrvM6qjbqZRSq-PgDqWmRkDyTq3UOGEu4vWhZGvSg5qU9JKgFQ=="
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY2e_L7BfGHvPtOhmSzVcUjg3yLazDWD7T9F2unbGORV-NHvF7QsyTnHXqPkPLF88Y8vOUU6aHZxAkfbZ2gjNR8oFFg1sdsZpTiGPQ52QoXHFkmDoQ7c1ZyDZc1x9Uwky9NkERmpE="
     },
     {
-      "title": "tf.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWuIDb6qxC5hMCmGOXkGdPUt8tyrjzWvQ5KkzsMO-CzxI3JcFaMRfHRV-OGHVwv0icedD6tPanOmz11ded-f6TvqNTVwEGFzHKA1Jh7VNiJuuyS6QaZhxPlTvoNMAtj_3qjc080aPSp3A="
+      "title": "news1.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa29zNfhbRhq3VyWERrZHVdrQU0uU5UcMMBAz3DUSFzVuhZQXKdwSj3QlflduFZ2TFyQQGhw0X3qEolpHguHEZzEQJJ4WcFHEDHsGB06_VkcFSPgPmWZcT1rUwMGMf"
     },
     {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO2eHRXqrR2AsL1hYypYFINixNtbo_d_p4KKIs039IO6aUe0N7UK-micc3Dr-vanoZi9i9ONnw9kWY5SdzMs6y2W0ExFns1lIb-eoC3jui2V31ttOHuNK_hguzE2ghFzwM"
+      "title": "snmnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTWdVXhWrfqYkiRfHMRcMio_WyuVhCFFXiWfeeALV9OaKhgOgBSV0-c5jdlBj3u2L9DzuqFsif9JaCg5jggmQq_-btMqRFaHVeeaLScpFVzHlXks60QTIgQ7SmdYc6B5LLcge4Cu2zA0WV5z535tTiLIT15G0="
     },
     {
-      "title": "ebn.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAn1aoqddWsrJ6NutB_lqs4GlFt0asn65DUxCE616x_yg85VpW-YTh956jFRxpiZzsEcMfJPzUUyxs8x9btBA8T-nv42Sc5P8P3Avii7UhtGa0qhY9rpm8Rnexgu3QnOGb81bjRa-zDiqX2IdrVtUz5UCyAA=="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLUZIac2Y4OQu_ckrxEFMzVVN0a-oogQlOZMAuRKP0R5RObIMOiVhxlUXqjl7mPcPK5kkIrj8aXPPmOdqR2qjSIzVVQC4uGhnMuYOFuvDWHBnYWpwcyA46XiCZk85MbX6"
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyb3Q8MTMhy1LtBZq0Lw4pbkUDzl7r4lMMZWLgf34BP4-b9qqcO8h4pBKRWLiiQRg9_plr_ZcfbFu41gFvFenP5ZM3IhAXuRIJuz4K4MhCUXT3iALbqB9_E9ilzo595bNo5Z49a7_0iepf"
     },
     {
       "title": "einfomax.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt6QYGDpXKqunvmi8fBwdtGqtUxn3xEe14tsqCU5_bpm-Vb1KFa-TlBrOxjftfXJihEV9tQq3sFE3s1D1bAeOzoflbm6xbg9lO2W3e-0EUVYC5mIaS2n5NAn8ejnyXSraVK3unx5JzQ0KoJSs8xjLqcqfTGVqlQT7jCQ=="
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmnsDwxv-xHNw42k7rpwAFiYBJZ_0kiqzxIvvFUWjxAEtrZcslc2oYm-crBoEyz65ij3FMxh4AWUf2DTRoI7I7_sat75uT7QxA6gI60OMT1fwhTgAw4GT6e42pEpzI8po4g1iqopkt_v7hXUARl45DheDm_gx2YYTrmQ=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaZCrI5dABpauFFJDYQOyEo-l4SgMQqWa4tmM0cMyWdkq_mJ7x-Cwr1YW7LsLpdUWih9d04IiigAqSXk6k2TYw0HyV8YF_3KgvuFvLCuDZkFN3L1AAq7AbkLzhgQuLMZUVPgnScWaCUJ6JwDsgT9yO__7yiPsP5-E0tw=="
     }
   ]
 }
