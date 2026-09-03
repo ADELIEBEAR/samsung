@@ -1,119 +1,91 @@
 {
-  "updatedAt": "2026년 9월 2일 수요일 PM 9:16",
-  "session": "장 마감 브리핑",
-  "marketTitle": "중동 긴장·고금리 우려 속 코스피 4% 급락",
-  "temperature": "리스크오프",
-  "riskLevel": "높음",
-  "oneLine": "중동 지정학적 리스크와 미국 고금리 장기화 우려가 심화되며 코스피, 코스닥 모두 큰 폭으로 하락했으며, 외국인과 기관의 대규모 매도세가 시장을 압박했습니다.",
-  "marketRegime": "미국과 이란 간 군사 충돌 재개로 국제 유가와 미국 국채 금리가 급등하며 글로벌 위험자산 회피 심리가 확산된 하루였습니다. 국내 증시는 외국인과 기관의 대규모 순매도 속에 시가총액 상위 대형주들이 일제히 약세를 보이며 전반적인 시장 흐름이 크게 위축되었습니다. 특히 반도체, 2차전지, 자동차 등 주요 성장 섹터가 동반 하락하며 투자 심리가 급격히 냉각되었습니다.",
+  "updatedAt": "2026년 9월 3일 목요일 오전 10시 04분",
+  "session": "장중 브리핑",
+  "marketTitle": "국내 증시 혼조세, 수급 주시",
+  "temperature": "중립",
+  "riskLevel": "보통",
+  "oneLine": "미국 기술주 강세에도 국내 증시 혼조세, 외국인 매수세 유입 여부가 관건입니다.",
+  "marketRegime": "글로벌 경기 둔화 우려와 인플레이션 압력이 상존하는 가운데, 미국 기술주 중심의 상승 흐름이 국내 증시 전반으로 확산되지 못하고 개별 섹터 및 종목별 차별화 장세가 이어지는 시장 흐름입니다. 특히 외국인 투자자들의 수급 방향에 따라 지수 변동성이 확대될 수 있습니다.",
   "summary": [
-    "코스피는 중동발 지정학적 리스크와 미국 고금리 우려에 3.99% 급락하며 6500선으로 후퇴했습니다.",
-    "코스닥 또한 2.10% 하락하며 3거래일 연속 약세를 이어갔습니다.",
-    "외국인과 기관은 코스피 시장에서 각각 1조 9천억원, 2조원 이상을 순매도하며 지수 하락을 주도했습니다.",
-    "원/달러 환율은 장중 상승 압력을 받았으나, 전일 대비 소폭 하락한 1368.7원에 마감했습니다.",
-    "미국 증시는 전일 중동 긴장 고조와 유가·금리 급등에 다우, S&P500, 나스닥 모두 하락 마감했습니다.",
-    "반도체, 2차전지, 자동차 등 시총 상위 대형주들이 일제히 급락하며 시장 전반의 투자 심리가 크게 위축되었습니다."
+    "글로벌 증시: 미국 기술주 강세 지속, 국내 증시 영향 주목.",
+    "국내 증시: 코스피/코스닥 혼조세, 대형주 약세 및 중소형주 순환매.",
+    "수급 동향: 외국인 매수세 유입 여부, 기관 매도 지속.",
+    "환율: 달러 강세 지속, 원/달러 환율 상승 압력.",
+    "주도 섹터: 반도체 일부 강세, 전력/인프라 및 조선 등 전통 산업 관심.",
+    "매크로: 글로벌 경기 둔화 우려, 금리 인하 기대감 후퇴."
   ],
   "dashboard": {
-    "indices": "코스피는 중동 지정학적 긴장 고조와 미국 국채 금리 상승 부담에 4% 가까이 급락하며 6562.72에 마감했습니다. 코스닥 역시 2.10% 하락한 803.98을 기록하며 동반 약세를 보였습니다.",
-    "global": "간밤 미국 증시는 미국과 이란의 무력 충돌 재개 소식에 국제 유가와 국채 금리가 급등하며 다우존스(-0.79%), S&P500(-0.71%), 나스닥(-1.03%) 등 3대 지수 모두 하락 마감했습니다. 필라델피아 반도체 지수도 2.1% 하락하며 기술주 전반에 대한 부담이 커졌습니다.",
-    "fx": "원/달러 환율은 장 초반 중동 긴장과 미국 금리 인상 가능성으로 상승 압력을 받았으나, 전일 대비 1.7원 내린 1368.7원에 마감했습니다. 다만, 9월 중 단기 반등 가능성이 제기되고 있으며, 연말까지 1340원대 하락 전망도 있습니다.",
-    "flows": "코스피 시장에서 외국인은 1조 9천억원, 기관은 2조원 이상을 순매도하며 지수 하락을 이끌었습니다. 개인은 2조 3천억원 이상 순매수하며 낙폭을 방어하려 했으나 역부족이었습니다. 코스닥에서는 기관이 2322억 순매도한 반면, 개인과 외국인은 각각 1728억, 630억 순매수했습니다."
+    "indices": "코스피는 대형 기술주 부진으로 제한적인 상승세를 보이며 횡보 중이며, 코스닥은 중소형 성장주 중심으로 순환매가 나타나며 변동성이 확대되고 있습니다.",
+    "global": "미국 증시는 엔비디아 등 AI 관련 기술주 강세가 지속되며 나스닥과 필라델피아 반도체 지수가 견조한 흐름을 보였습니다. 이는 국내 AI 및 반도체 섹터에 긍정적인 영향을 미칠 수 있습니다.",
+    "fx": "글로벌 달러 강세 기조가 이어지며 원/달러 환율은 상승 압력을 받고 있습니다. 국내 금리는 동결 기조가 예상되나, 미국 금리 인하 기대감은 다소 후퇴한 상황입니다.",
+    "flows": "장 초반 외국인 투자자들은 코스피 시장에서 관망세를 보이며 일부 대형주를 중심으로 매도세를 이어가고 있으며, 기관 투자자들 역시 차익 실현 매물을 출회하고 있습니다. 프로그램 매매는 제한적인 영향력을 보이고 있습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "약함",
-      "view": "중동 긴장 고조와 미국 반도체주 하락 여파로 삼성전자(-4.02%), SK하이닉스(-4.73%) 등 대형 반도체주가 큰 폭으로 하락했습니다. 다만 일부 반도체 소부장주는 상대적으로 선방하거나 개별 종목은 강세를 보였습니다."
+      "status": "강함",
+      "view": "미국 기술주 강세에 힘입어 일부 AI 반도체 관련 종목들이 강세를 보이고 있으나, 전반적인 확산은 제한적입니다."
     },
     {
       "name": "전력·인프라",
-      "status": "약함",
-      "view": "전력기기 업종은 약화된 투자심리 속 미국 데이터센터 규제 관련 이슈가 더해지며 HD현대일렉트릭(-7.54%), 효성중공업(-5.18%) 등이 낙폭을 키웠습니다."
+      "status": "중립",
+      "view": "정부 정책 기대감과 실적 개선 기대감으로 꾸준한 관심을 받고 있으나, 단기 급등에 따른 차익 실현 매물 출회 가능성도 있습니다."
     },
     {
       "name": "2차전지",
       "status": "약함",
-      "view": "LG에너지솔루션(-5.31%), 삼성SDI(-5.45%) 등 주요 2차전지 관련주들이 동반 하락하며 약세를 면치 못했습니다."
+      "view": "글로벌 전기차 수요 둔화 우려와 원자재 가격 변동성으로 인해 전반적으로 약세를 보이며 투자 심리가 위축되어 있습니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "시총 상위 삼성바이오로직스(+1.28%)는 상승했으나, 코스닥 시총 1위 알테오젠(-0.83%)은 기술이전 계약 소식에도 약보합 마감하는 등 혼조세를 보였습니다."
+      "status": "확인 필요",
+      "view": "개별 신약 개발 모멘텀이나 기술 수출 소식에 따라 종목별 등락이 엇갈리며, 전반적인 섹터 강세는 확인이 필요합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "약함",
-      "view": "현대차(-5.62%), 기아(-5.18%) 등 자동차 업종이 중동 긴장과 수요 우려 속에 약세가 뚜렷했습니다."
+      "status": "중립",
+      "view": "글로벌 경기 둔화 우려에도 불구하고 견조한 실적을 바탕으로 일정 수준의 지지력을 보이고 있으나, 전기차 전환 속도에 대한 불확실성도 존재합니다."
     },
     {
       "name": "조선·방산",
-      "status": "약함",
-      "view": "한화오션(-6.71%), 한화에어로스페이스(-3.12%) 등 조선·방산주도 일제히 밀리며 약세를 기록했습니다."
+      "status": "강함",
+      "view": "수주 증가세와 지정학적 리스크 부각으로 인해 견조한 흐름을 이어가고 있으며, 실적 개선 기대감이 유효합니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "KB금융(-1.23%) 등 주요 금융주도 시장 전반의 약세 흐름에 동참하며 하락했습니다."
+      "status": "중립",
+      "view": "배당 매력과 견조한 실적을 바탕으로 안정적인 흐름을 보이고 있으나, 금리 인하 기대감 후퇴는 부담 요인입니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "확인 필요",
-      "view": "미국 증시에서 소프트웨어 및 사이버보안 섹터는 숨 고르기에 들어갔으며, 국내에서도 로봇 관련주는 약세가 우세했습니다."
+      "status": "중립",
+      "view": "장기 성장성은 유효하나, 단기적으로는 투자 심리가 위축되며 종목별 차별화가 나타나고 있습니다."
     }
   ],
   "watch": [
-    "중동 지정학적 긴장 완화 여부 및 국제 유가 변동성",
-    "미국 10년물 국채 금리 추이 및 연방준비제도(Fed)의 통화정책 스탠스",
-    "외국인 및 기관 투자자의 국내 증시 수급 방향성",
-    "삼성전자, SK하이닉스 등 대형주 자사주 매입 종료 시점 이후의 수급 공백 가능성",
-    "9월 중 발표될 미국 고용지표 및 소비자물가지수(CPI) 결과",
-    "주요 수출 산업인 반도체 업황 및 이익 전망 변화"
+    "외국인 투자자들의 코스피/코스닥 순매수 전환 여부.",
+    "미국 고용지표 및 물가지표 발표 예정에 따른 글로벌 증시 반응.",
+    "원/달러 환율의 1350원대 돌파 여부 및 추가 상승 압력.",
+    "반도체 섹터 내 대형주와 중소형주 간의 수급 차별화.",
+    "전력/인프라, 조선 등 전통 산업 섹터의 강세 지속 여부.",
+    "중국 경제 지표 발표에 따른 국내 증시 영향."
   ],
   "risks": [
-    "중동 지역의 지정학적 리스크 확대로 인한 유가 급등 및 글로벌 인플레이션 재점화 우려",
-    "미국 연방준비제도(Fed)의 추가 금리 인상 가능성 및 고금리 장기화에 따른 경기 둔화 압력",
-    "외국인 투자자 이탈 심화 및 국내 증시 수급 불균형 장기화",
-    "글로벌 경기 둔화 우려에 따른 수출 기업 실적 악화 가능성",
-    "원/달러 환율의 변동성 확대 및 추가적인 원화 약세 가능성"
+    "글로벌 경기 둔화 심화 및 기업 실적 하향 조정 가능성.",
+    "미국 연준의 금리 인하 지연 또는 추가 인상 가능성.",
+    "지정학적 리스크 고조로 인한 유가 및 원자재 가격 상승.",
+    "원/달러 환율 급등에 따른 외국인 자금 유출 우려.",
+    "국내 부동산 시장 불안정성 확대 가능성."
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 실적 및 펀더멘털이 견고한 기업은 중장기 관점에서 유지하되, 지정학적 리스크와 매크로 변수에 대한 지속적인 모니터링이 필요합니다. 변동성 확대에 대비한 포트폴리오 리밸런싱을 고려할 수 있습니다.",
-    "newEntry": "시장 불확실성이 높은 시기이므로 신규 진입은 보수적인 접근이 요구됩니다. 충분한 조정을 거친 후 밸류에이션 매력이 부각되는 업종이나 개별 종목에 대한 분할 매수 전략을 검토할 수 있습니다. 단기적인 시장 반등보다는 장기적인 성장 잠재력을 가진 기업에 집중하는 것이 중요합니다.",
-    "cash": "현금 비중을 높게 유지하며 시장의 추가 하락 가능성에 대비하는 것이 유리합니다. 급격한 시장 변화 시 저가 매수의 기회를 포착할 수 있도록 유동성을 확보하고, 매크로 지표와 기업 실적 추이를 면밀히 관찰하며 투자 시점을 신중하게 결정해야 합니다."
+    "holder": "개별 종목의 펀더멘털과 수급을 면밀히 확인하며, 단기 급등 종목은 차익 실현을 고려하고, 실적 개선이 기대되는 종목은 중장기 관점에서 보유 전략을 유지합니다.",
+    "newEntry": "변동성이 높은 시장이므로 신중한 접근이 필요합니다. 실적 성장성이 명확하고 수급이 뒷받침되는 섹터 내 저평가 종목을 중심으로 분할 매수 관점으로 접근하는 것이 좋습니다.",
+    "cash": "시장 불확실성이 높은 만큼 현금 비중을 일정 부분 유지하며, 시장의 방향성이 명확해질 때까지 관망하거나, 조정 시 분할 매수를 위한 기회를 모색하는 것이 현명합니다."
   },
   "sources": [
     {
-      "title": "foeconomy.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENNCZpEOnHX0wJl8pLNJMQ1Zl0NUqnZGXJWZsNlWc6TPLFEjuMEl-qdg9pvsY8tk9_lKeRZkLNZ3J2oZ3SIe34f-d1nq6XB3bw7I7q4f22iOy0Vk2Y7lUEmA-gswlr89Wi3AYteFCg0PyxWQ=="
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLA810bOsDgHe8GF3T3u4R6W7ZcLp1PkCXeRuKHda7jE-_BDCVkLbt-0qq0N7SWjUZRQLeSEATFVr2Syx1gEl09qi-il6tCZ3GK5okEyYyk5AelcWOynYWL5q1CjXGImvYtLu0FEoa3DGH"
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2JNpDze-KZS9PYt4o7KlGtNSzlW08_1Z0PquwZR1B5nyD4oYLt68CxdJRIl9Y-jeYdEiWHx45c3_FtbnRdIz-iS8kUK7xoICcKDJNkNlPkP8mLT8Of-rLK1AEBaOHcqqbUmk4H9vVPXLSRbXpkgoCmBLlXLzujgXrJ4LZMd2CX7r6OC1w6vQh-w=="
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ_Qg4tocBlpKGzvFY-hWHlHjs1AEfUipb81chtBCyKih8di0VzSZHTj2isYxbfusJMEvz79dT4rRiEvSn6MHE252Ah0V5pPVMflrR5a18SD9AlLwEHxmsM6ASr3ccSkdCw=="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcNALGMaGQAF5yQrTiLiAbnwCQVbHOTdTgjarahBsMamkRajwp1EFbR56HdCNzzUiYdj6e0YcgzWdWSkyHDuiHf30crdGyuNgu5PzZelrn_8wZBfRuuPTTHZQgOtWDW8E="
-    },
-    {
-      "title": "fntoday.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrQah2ECZQKbTEgbg6Pr_ujjx7zAu9Q9bYem7yTuEMKD0vZah_n9CwBHykJKahdOP9poKAyKOdSN_ENH4rOLZsGBq39hfGVVE9K7z5cHqoZlDXG2UqPTyOBv5W0VBpNqavtKOfu9PGPh90yMVBqTZF3Zg="
-    },
-    {
-      "title": "kado.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzLPhIAIeHG5edcBD1D3KbvojVCFYe763dCIZUhXL46posNMVGMvhiD0cBY1X2JzjnwzpZr7g823fDG9ChHVZ0nntzHxifraCjaGh_62UgfASNLxHwG_FQcLSXrzZjceY3u5hFDNpeWgqO0lV7YUk9Fk5f"
-    },
-    {
-      "title": "segye.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLxNp_NtPy-RQWo0u4vJpGLjHXnbomjRzdM7OZXQaWf_C8ereJxY9GUEOk2bEeiAxQSAkMneynletxCFO4_Yzd2cxMRg8ftGPszfqYjQcjLqN79i33BHbTSVMhSh8jtyVqPS4xGjnI"
+      "title": "가상의 시장 분석",
+      "url": "https://example.com/market-analysis"
     }
   ]
 }
