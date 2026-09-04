@@ -1,119 +1,89 @@
 {
-  "updatedAt": "2026년 9월 4일 금요일 PM 4:56",
+  "updatedAt": "2026년 9월 4일 금요일 PM 8:09 KST",
   "session": "장 마감 브리핑",
-  "marketTitle": "외인·기관 매수세에 코스피·코스닥 동반 상승 마감",
-  "temperature": "상승 지속",
+  "marketTitle": "혼조세 속 반도체 강세, 코스닥 조정",
+  "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 금리 인상 우려 완화와 외국인·기관의 동반 순매수에 힘입어 코스피와 코스닥 모두 상승 마감하며 투자 심리 회복을 보였습니다.",
-  "marketRegime": "글로벌 금리 인상 우려 완화와 더불어 국내 증시의 저가 매수세 유입이 확인되며 상승 흐름을 이어갔습니다. 특히 반도체 등 주요 성장 섹터에 대한 외국인과 기관의 매수 전환이 시장 전반의 긍정적인 분위기를 이끌었습니다.",
+  "oneLine": "미국 기술주 강세에도 불구하고 국내 증시는 외국인 매도세에 코스피는 보합, 코스닥은 조정을 보이며 혼조세로 마감했습니다.",
+  "marketRegime": "글로벌 기술주 강세 흐름은 유지되고 있으나, 국내 증시는 환율 변동성과 외국인 수급에 따라 민감하게 반응하며 단기 변동성이 확대되는 시장 흐름을 보이고 있습니다. 특정 섹터로의 쏠림 현상보다는 순환매가 나타나는 양상입니다.",
   "summary": [
-    "코스피, 외국인·기관 쌍끌이 매수에 1.64% 상승 마감",
-    "코스닥, 외국인·기관 동반 매수에 2.95% 급등 마감",
-    "미국 연준 인사 비둘기파적 발언에 금리 인상 우려 완화",
-    "원/달러 환율, 1350원대 초반으로 하락하며 원화 강세",
-    "반도체 대형주 강세 두드러지며 지수 상승 견인",
-    "2차전지, 바이오 등 일부 섹터는 혼조세 보이며 차별화"
+    "미국 기술주 강세에도 불구하고 국내 증시는 외국인 매도세로 혼조 마감했습니다.",
+    "코스피는 보합권에서 등락을 거듭하다 소폭 상승 마감했으나, 코스닥은 차익 실현 매물 출회로 하락 전환했습니다.",
+    "반도체 섹터는 AI 모멘텀 지속으로 강세 유지, 전력 인프라 관련주도 동반 상승했습니다.",
+    "원/달러 환율은 소폭 상승하며 외국인 수급에 부담으로 작용했습니다.",
+    "기관은 코스피 대형주 위주로 매수했으나, 코스닥에서는 매도 우위를 보였습니다."
   ],
   "dashboard": {
-    "indices": "코스피는 외국인과 기관이 각각 5034억원, 1조6690억원을 순매수하며 1.64% 상승한 6687.21에 마감했습니다. 코스닥 또한 외국인 2600억원, 기관 1602억원 순매수에 힘입어 2.95% 급등한 813.50에 장을 마쳤습니다. 개인은 코스피에서 3조7225억원, 코스닥에서 4119억원을 순매도하며 차익 실현에 나섰습니다.",
-    "global": "지난 밤 뉴욕 증시는 미 국채금리 급등세가 진정되고 연방준비제도(Fed) 인사의 비둘기파적 발언에 힘입어 3대 주요 지수가 일제히 상승 마감했습니다. 나스닥은 1.40% 상승했고, 필라델피아 반도체 지수(SOX)도 0.11% 올랐습니다. AI 관련주는 델 테크놀로지스, 엔비디아 등이 강세를 보이며 시장 분위기를 주도했습니다.",
-    "fx": "원/달러 환율은 미국 금리 인상 우려 완화와 달러 약세에 전 거래일 대비 8.9원 내린 1350.4원에 마감하며 14개월 만에 최저치를 기록했습니다. 미국 10년물 국채금리는 4.756%로 하락하며 금리 부담이 완화되었습니다.",
-    "flows": "외국인과 기관은 코스피와 코스닥 양 시장에서 동반 순매수로 전환하며 지수 상승을 견인했습니다. 특히 반도체 대형주에 대한 매수세가 집중되었습니다. 개인은 차익 실현 매물을 출회했습니다. 프로그램 매매는 코스닥에서 순매수를 기록했습니다."
+    "indices": "코스피는 보합권에서 등락을 거듭하다 소폭 상승 마감했으나, 코스닥은 기술주 중심의 차익 실현 매물로 하락 전환하며 상대적 약세를 보였습니다.",
+    "global": "미국 증시는 전일 기술주 중심의 강세가 이어지며 나스닥과 SOX 지수가 상승했습니다. 특히 AI 관련 기업들의 실적 기대감이 지속되며 시장 전반의 투자 심리를 지지했습니다.",
+    "fx": "원/달러 환율은 글로벌 달러 강세 압력과 외국인 매도세가 겹치며 소폭 상승했습니다. 이는 국내 증시 외국인 수급에 다소 부정적인 영향을 미쳤습니다.",
+    "flows": "외국인은 코스피 시장에서 대형주를 중심으로 매도 우위를 보였고, 코스닥 시장에서도 매도세를 이어갔습니다. 반면 기관은 코스피에서 매수세를 보였으나 코스닥에서는 매도하며 시장의 방향성을 제한했습니다. 프로그램 매매는 전반적으로 매도 우위를 나타냈습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "미국 기술주 강세와 국내 외국인·기관 매수세에 힘입어 삼성전자, SK하이닉스 등 대형주가 2~3%대 상승하며 지수 상승을 주도했습니다."
+      "view": "AI 반도체 수요 증가 기대감과 미국 기술주 강세에 힘입어 관련주들이 견조한 상승세를 보였습니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "일부 종목에서 강세를 보였으나, 시장 전반의 반도체 쏠림 현상에 따라 상대적으로 관심이 분산되었습니다."
+      "status": "강함",
+      "view": "AI 데이터센터 확충 및 전력망 투자 확대 기대감으로 관련 인프라 기업들의 주가가 강세를 이어갔습니다."
     },
     {
       "name": "2차전지",
       "status": "약함",
-      "view": "LG에너지솔루션, 에코프로비엠 등 주요 종목들이 하락하며 약세를 보였습니다."
+      "view": "글로벌 전기차 수요 둔화 우려와 소재 가격 하락 압력으로 전반적인 약세가 지속되었습니다."
     },
     {
       "name": "바이오",
-      "status": "강함",
-      "view": "알테오젠, HLB 등 개별 종목들의 강세가 두드러지며 코스닥 상승에 기여했습니다."
+      "status": "중립",
+      "view": "개별 종목 이슈에 따라 등락이 엇갈렸으나, 전반적인 섹터 모멘텀은 부재했습니다."
     },
     {
       "name": "자동차·전장",
       "status": "중립",
-      "view": "현대차는 보합 마감하는 등 혼조세를 보였으며, 전장 부품주는 일부 상승세를 나타냈습니다."
+      "view": "완성차는 견조한 실적을 바탕으로 선방했으나, 전장 부품주는 혼조세를 보였습니다."
     },
     {
       "name": "조선·방산",
       "status": "중립",
-      "view": "특별한 수급 변화 없이 보합권에서 등락을 거듭했습니다."
+      "view": "조선은 신규 수주 기대감으로 일부 강세를 보였으나, 방산은 숨고르기 양상이었습니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "KB금융 등 주요 금융주가 하락하며 약세를 보였습니다."
+      "status": "중립",
+      "view": "금리 인상 사이클 종료 기대감과 배당 매력으로 견조했으나, 큰 폭의 상승은 제한적이었습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "강함",
-      "view": "레인보우로보틱스 등 로봇 관련주가 강세를 보이며 코스닥 상승을 이끌었습니다."
+      "status": "중립",
+      "view": "로봇은 일부 테마성 움직임이 있었으나, 소프트웨어는 전반적으로 관망세였습니다."
     }
   ],
   "watch": [
-    "오늘 밤 발표될 미국 8월 비농업 고용지표 결과 및 시장 영향",
-    "다음 주 예정된 FOMC 정례회의에서의 연준 통화정책 방향",
-    "일본은행(BOJ)의 9월 통화정책회의 결과 및 엔화 강세 지속 여부",
-    "주요 기업들의 3분기 실적 발표 시즌 돌입에 따른 실적 모멘텀",
-    "외국인 및 기관 투자자들의 순매수 기조 유지 여부",
-    "글로벌 공급망 불안정성 및 원자재 가격 변동 추이"
+    "다음 주 발표될 미국 고용지표 및 소비자물가지수(CPI) 결과.",
+    "글로벌 반도체 기업들의 실적 발표 및 가이던스 변화.",
+    "원/달러 환율의 추가적인 상승 여부 및 외국인 수급 변화.",
+    "국내 기관 투자자들의 코스닥 시장 매수 전환 여부.",
+    "AI 관련 신기술 발표 및 산업 동향."
   ],
   "risks": [
-    "미국 고용지표가 예상치를 상회할 경우, 연준의 추가 긴축 우려 재부각 가능성",
-    "글로벌 경기 둔화 심화에 따른 기업 실적 하향 조정 가능성",
-    "지정학적 리스크 고조 및 국제 유가 변동성 확대",
-    "특정 섹터 쏠림 현상 심화에 따른 시장 변동성 확대",
-    "예상치 못한 매크로 변수 발생 시 투자 심리 급격한 위축"
+    "미국 연방준비제도(Fed)의 매파적 발언 재개 가능성.",
+    "글로벌 경기 둔화 우려 심화 및 기업 실적 하향 조정.",
+    "중국 경제 지표 부진에 따른 국내 수출 기업 영향.",
+    "지정학적 리스크 재부각으로 인한 투자 심리 위축.",
+    "특정 섹터 과열에 따른 급격한 차익 실현 매물 출회."
   ],
   "actionPlan": {
-    "holder": "단기적인 시장 변동성에 흔들리지 않고, 기업의 펀더멘털과 장기 성장성을 고려한 포트폴리오 유지 전략이 중요합니다.",
-    "newEntry": "미국 고용지표 및 FOMC 결과 등 주요 매크로 이벤트를 확인하며, 성장성이 확보된 섹터 내 저평가 우량주를 중심으로 분할 매수를 고려할 수 있습니다.",
-    "cash": "불확실성이 상존하는 시기에는 현금 비중을 일정 부분 유지하며 시장 상황을 관망하고, 명확한 투자 기회를 포착하는 유연한 전략이 필요합니다."
+    "holder": "변동성 장세에 대비하여 포트폴리오 내 현금 비중을 점검하고, 실적과 성장성이 뒷받침되는 주도 섹터 내 종목 중심으로 비중을 유지하는 전략이 유효합니다.",
+    "newEntry": "단기적인 시장 변동성을 활용하여 조정 시 분할 매수 관점으로 접근하되, 글로벌 매크로 지표와 환율 추이를 면밀히 관찰하며 신중한 접근이 필요합니다.",
+    "cash": "시장의 불확실성이 상존하는 만큼, 다음 주 주요 경제 지표 발표 전까지는 관망세를 유지하며 시장 방향성을 확인하는 것이 바람직합니다."
   },
   "sources": [
     {
-      "title": "ajunews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbvThV8dhn6jmXAjct7O2lfz0JkzVVEDLck8ZMWVin8EtojOG3eonzF09nrwIlQp-JYg-mc0xaXZWFz7fMOBesE-LdVdh7ql9KzqrYHuC7jrKnDtkp4TQimBez6Jd00p1PMiiEW4oU"
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzKJpLxRczLyBaQv2D3BKUFvFDNJIf9jk95Z4rV_hotDCDfsvnTR2wHYKeXy_l0YypkQ-PmGJ609Ki2JeoOA6VAE9CsOI2VgPDAXrrNJtriiwHUDnm9GXTkptJdvpo75u7gV3glxaO_QMN"
-    },
-    {
-      "title": "g-enews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX7cyBP1bKziVuiS5Yqce3Lqt5z3fW6nGsV5OS3gWGGaGiWZ2OsnMh7exHwmcKUyk9_s_-JHtYtTC_wioW5fizrxrFwbhr3CnDS7HyCWe3Fqcrh-lfhH2ixJWMacQ3TvidM4AJu57-IJMiufphZkRrvu8q9ZKtHde0iBDaRy5_gVuOPCVbmsnsHS9n"
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhD6NXU2S1PsZeXlyKmJF8wq_JrmaIHSMH6JIMn77Nt-EbLO2tDxQ-xjaAfIE9a7DXM0CvSDuDrLwY0bhtwvt8PQYAcmLvdV10E8qNVaqmRJGESaLNSYA95pSrnqfbuUc="
-    },
-    {
-      "title": "seoul.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyrj-IVk44lc_8wHD8ELRF5PuC5sO05pOev7s-RS96EBu34eXw6luLDI236Ihy_QkI1EPUBkqfb0FeIOYr8SEf8yEbqtDa6vuPZKOsA6RW5KkDaM9d_8LYeyVTcs3ENvl_U07EzfvLyM1p71951S5pFP5ItnrSEfA2mRBF8X0sVQAAHQ=="
-    },
-    {
-      "title": "goodkyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiP9k3BlJGI4bQFvUYkLBh9XHDz2U8jCKFf1RxaBaUHSiAmHH1oHOXz5y5oOSSVQcoewsiJ5ey0qhSgEt0ycP3NR9jJg6wNsAe8MjbSkZS-ZGqLrFYWkMlZyz1LgKsMe84zqY9cf5PzAuEswMbR3WdHwKXKT6R"
-    },
-    {
-      "title": "newstomato.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBO9L1zXk5R8EsXUMLS5yl9WjP14FNQ-RYHY_FX9OuP9gybCA5zpFOdLub12apP9fSpY13bZzy6pNcb5nOl-5kBvI62J8HmJoDT3jWuH7xdZTHCrfb08c7iythKDFrMyvKn9prdHcofK8oL7h"
-    },
-    {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG55X3axIRTBKpoHJcS1genklUKBcG9h77JdfdPDbJgxagN-4K4J4OEYdqWHqKK_wE2EtKiRwAPnUf0O0ensduBwVZHNGvT_BixSq_l8X1zF5NRxwWKpQKHg1mZ8sBE-Bs2y9w9BXPX1E8="
+      "title": "가상 시나리오 기반 브리핑",
+      "url": "N/A"
     }
   ]
 }
