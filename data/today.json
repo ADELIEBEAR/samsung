@@ -1,118 +1,95 @@
 {
-  "updatedAt": "2026년 9월 11일 금요일 PM 5:00 KST",
+  "updatedAt": "2026년 9월 11일 금요일 PM 8:10",
   "session": "장 마감 브리핑",
-  "marketTitle": "혼조세 속 성장주 강세, 환율 안정",
-  "temperature": "상승 지속",
+  "marketTitle": "9월 11일 한국 증시 마감: 관망세 속 혼조 마감",
+  "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 CPI 발표를 앞두고 관망세가 짙었으나, AI 및 전력 인프라 관련 성장주 중심으로 강세가 나타났으며, 원/달러 환율은 안정적인 흐름을 보였습니다.",
-  "marketRegime": "글로벌 경기 회복 기대감과 AI 기술 혁신이 시장을 견인하는 가운데, 인플레이션 우려와 고금리 장기화 가능성이 상존하며 변동성을 키우는 시장 흐름입니다. 국내 증시는 수출 개선과 기업 실적 기대감에 힘입어 점진적인 상승 흐름을 보이고 있으나, 외국인 수급과 환율 변동성에 민감하게 반응하는 양상입니다.",
+  "oneLine": "미국 증시의 방향성 탐색과 외국인 수급 변화 속에서 한국 증시는 주요 섹터별 차별화된 움직임을 보이며 혼조세로 마감했습니다.",
+  "marketRegime": "오늘 한국 증시는 전반적으로 관망세가 짙은 가운데, 미국 증시의 기술주 흐름과 매크로 지표 발표를 앞두고 투자자들의 신중한 태도가 두드러졌습니다. 특정 주도 섹터가 부재한 상황에서 개별 종목 및 테마별 순환매가 나타나는 시장 흐름을 보였습니다.",
   "summary": [
-    "코스피는 소폭 하락 마감했으나 코스닥은 성장주 강세에 힘입어 상승 마감하며 차별화된 흐름을 보였습니다.",
-    "외국인은 코스피에서 매도 우위를 보였으나, 코스닥에서는 순매수를 기록하며 성장주에 대한 관심을 드러냈습니다.",
-    "미국 8월 CPI 발표를 앞두고 연준의 금리 인상 가능성이 제기되며 글로벌 증시의 경계심이 유지되었습니다.",
-    "AI 반도체 및 전력 인프라 관련 섹터가 견조한 상승세를 보이며 시장을 주도했습니다.",
-    "원/달러 환율은 1340원대 중반에서 등락하며 비교적 안정적인 흐름을 이어갔습니다.",
-    "유럽중앙은행(ECB)은 인플레이션 지속 우려에 금리를 0.25%p 인상하며 긴축 기조를 유지했습니다."
+    "코스피와 코스닥은 장중 등락을 거듭하며 혼조세로 마감했습니다.",
+    "외국인 투자자는 코스피 시장에서 매도 우위를 보였으나, 기관은 일부 매수세를 유지했습니다.",
+    "미국 증시는 전일 기술주 중심의 조정 이후 반등을 시도했으나, 여전히 방향성 탐색 중입니다.",
+    "환율은 달러 강세 압력 속에서 소폭 상승하며 변동성을 보였습니다.",
+    "반도체, 전력 인프라 섹터는 견조한 흐름을 이어갔으나, 2차전지, 바이오 등은 약세를 보였습니다.",
+    "다음 주 예정된 주요 경제 지표 발표에 대한 경계감이 시장 전반에 깔려 있었습니다."
   ],
   "dashboard": {
-    "indices": "코스피는 대형주 중심의 차익 실현 매물 출회로 소폭 하락했으나, 코스닥은 AI, 로봇 등 성장 테마가 강세를 보이며 상승 마감했습니다. 이는 시장의 관심이 개별 성장 모멘텀이 있는 종목으로 이동하고 있음을 시사합니다.",
-    "global": "미국 증시는 전일 혼조세로 마감했으며, 특히 기술주는 AI 관련 투자 확대 기대감에도 불구하고 일부 차익 실현 매물이 출회되었습니다. 필라델피아 반도체 지수는 씨티의 긍정적인 전망에 힘입어 상승세를 보였습니다. 8월 CPI 발표와 연준의 금리 인상 가능성이 다음 주 시장의 주요 변수가 될 전망입니다.",
-    "fx": "원/달러 환율은 1345.98원으로 전일 대비 소폭 하락하며 1340원대 중반에서 안정적인 흐름을 보였습니다. 이는 수출업체의 달러 매도 물량과 글로벌 달러 약세 가능성에 기인한 것으로 보입니다. 다만, 연준의 긴축 경계감과 국민연금의 환헤지 중단 소식은 환율 하방 경직성을 지지할 수 있습니다. 주요국 중앙은행의 금리 인상 기조가 지속되며 글로벌 금리 변동성에 대한 경계가 필요합니다.",
-    "flows": "외국인은 코스피에서 순매도, 코스닥에서 순매수를 기록하며 대형주보다는 성장주에 대한 선별적인 접근을 보였습니다. 기관은 코스피에서 매수 우위를 보이며 시장 하단을 지지하려는 움직임을 나타냈습니다. 프로그램 매매는 코스닥 시장의 활발한 거래를 이끌었습니다."
+    "indices": "코스피는 장 초반 상승 출발했으나 외국인 매도세에 밀려 보합권에서 마감했으며, 코스닥은 개인 매수세에 힘입어 상대적으로 견조한 흐름을 보였으나 상승폭은 제한적이었습니다.",
+    "global": "미국 증시는 전일 기술주 조정 이후 엔비디아 등 일부 AI 관련주가 반등을 시도했으나, 전반적으로는 다음 주 CPI 발표를 앞두고 관망세가 짙었습니다. 필라델피아 반도체 지수는 소폭 상승하며 견조함을 유지했습니다.",
+    "fx": "원/달러 환율은 글로벌 달러 강세 흐름과 외국인 매도세의 영향으로 소폭 상승하며 1350원대 중반에서 마감했습니다. 국내 금리는 보합권에서 큰 변동 없이 유지되었습니다.",
+    "flows": "외국인 투자자는 코스피 시장에서 대형주를 중심으로 매도 우위를 보였고, 코스닥에서는 매수 전환했습니다. 기관 투자자는 코스피에서 소폭 매수, 코스닥에서 매도 우위를 보였으며, 프로그램 매매는 제한적인 영향을 미쳤습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "AI 인프라 투자 확대와 HBM 중심의 메모리 업황 개선 기대감에 힘입어 견조한 상승세를 이어갔습니다. 일부 종목은 차익 실현 매물이 나왔으나, 전반적인 시장의 관심은 여전히 높습니다."
+      "view": "미국 기술주 반등 시도와 AI 산업 성장 기대감에 힘입어 일부 종목 중심으로 견조한 흐름을 이어갔습니다."
     },
     {
       "name": "전력·인프라",
       "status": "강함",
-      "view": "AI 수요 증가에 따른 전력 부족 우려와 에너지 전환 정책에 힘입어 전력기기, 그리드 관련주가 강세를 보였습니다. 원전 및 SMR 관련주도 장기적인 수주 모멘텀 기대감에 상승했습니다."
+      "view": "정부 정책 기대감과 실적 개선 전망에 힘입어 꾸준한 매수세가 유입되며 강세를 보였습니다."
     },
     {
       "name": "2차전지",
-      "status": "중립",
-      "view": "개별 종목별 등락이 엇갈리며 혼조세를 보였습니다. 전반적인 섹터의 강한 모멘텀은 부재했으나, 일부 기술력 있는 기업들은 견조한 흐름을 유지했습니다."
+      "status": "약함",
+      "view": "글로벌 수요 둔화 우려와 수급 불균형에 대한 부담으로 약세 흐름을 이어갔습니다."
     },
     {
       "name": "바이오",
-      "status": "확인 필요",
-      "view": "뚜렷한 섹터 전반의 움직임보다는 개별 기업의 임상 결과 발표나 기술 수출 등 뉴스에 따라 주가 변동성이 확대되었습니다. 전반적인 방향성 확인이 필요합니다."
+      "status": "중립",
+      "view": "개별 임상 결과 및 기술 수출 소식에 따라 종목별 차별화된 움직임을 보였으나, 전반적으로는 관망세가 우세했습니다."
     },
     {
       "name": "자동차·전장",
       "status": "중립",
-      "view": "글로벌 경기 회복 기대감에도 불구하고, 전장 부품을 제외한 완성차 부문은 관망세가 짙었습니다. 전기차 시장의 경쟁 심화 우려가 상존합니다."
+      "view": "글로벌 판매량 둔화 우려와 전기차 전환 속도 조절 이슈로 혼조세를 보였으나, 전장 부품 관련주는 상대적으로 견조했습니다."
     },
     {
       "name": "조선·방산",
       "status": "강함",
-      "view": "글로벌 지정학적 리스크와 방산 수출 확대, 친환경 선박 발주 증가에 힘입어 견조한 상승세를 이어갔습니다. 수주 잔고 증가가 긍정적인 영향을 미쳤습니다."
+      "view": "수주 모멘텀 지속과 지정학적 리스크 부각으로 견조한 흐름을 유지했습니다."
     },
     {
       "name": "금융·지주",
       "status": "중립",
-      "view": "고금리 장기화 가능성에도 불구하고, 경기 둔화 우려와 부동산 시장 불확실성으로 인해 제한적인 움직임을 보였습니다. 배당 기대감은 유효합니다."
+      "view": "금리 인상 기대감 약화와 부동산 PF 리스크 우려가 상존하며 보합권에서 움직였습니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "강함",
-      "view": "AI 기술의 산업 응용 확대와 자동화 수요 증가에 따라 로봇 관련주와 AI 소프트웨어 기업들이 강세를 보였습니다. 성장 잠재력이 부각되었습니다."
+      "status": "중립",
+      "view": "미래 성장 기대감은 유효하나, 단기적인 모멘텀 부재로 종목별 등락이 엇갈렸습니다."
     }
   ],
   "watch": [
-    "다음 주 예정된 미국 8월 CPI 발표 결과 및 연준의 금리 정책 방향",
-    "외국인 투자자들의 코스피/코스닥 수급 동향 및 주도 섹터 변화",
-    "글로벌 인플레이션 압력 지속 여부와 유가 등 원자재 가격 변동성",
-    "AI 및 전력 인프라 관련 섹터의 지속적인 성장 모멘텀 유지 여부",
-    "원/달러 환율의 1340원대 지지 여부 및 추가 변동성 확대 가능성"
+    "다음 주 발표될 미국 CPI 등 주요 경제 지표 결과",
+    "미국 기술주 특히 AI 관련주의 추가적인 방향성",
+    "외국인 투자자의 코스피 대형주 수급 변화",
+    "원/달러 환율의 1350원대 지지 여부",
+    "주요 섹터 내 순환매 양상 지속 여부",
+    "글로벌 지정학적 리스크 변화"
   ],
   "risks": [
-    "미국 연준의 추가 금리 인상 가능성 및 이에 따른 글로벌 유동성 축소 우려",
-    "중동 지역 지정학적 리스크 장기화에 따른 에너지 가격 불안정 및 공급망 교란",
-    "글로벌 경기 둔화 가능성 및 주요국 경제 지표 부진",
-    "국내 기업 실적 발표 시즌을 앞둔 불확실성 확대",
-    "환율 변동성 확대에 따른 외국인 자금 유출입 변화"
+    "예상치를 상회하는 미국 인플레이션 지표 발표 가능성",
+    "글로벌 경기 둔화 심화 우려",
+    "외국인 투자자의 국내 증시 이탈 가속화",
+    "중동 등 지정학적 리스크 확대로 인한 유가 상승 압력",
+    "특정 섹터 쏠림 현상 심화에 따른 시장 변동성 확대"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 AI, 전력 인프라, 조선·방산 등 주도 섹터 내 성장 모멘텀이 유효한 종목은 지속 보유 관점 유지. 다만, 단기 급등 종목은 일부 차익 실현을 고려하며 리스크 관리가 필요합니다.",
-    "newEntry": "신규 진입은 미국 CPI 발표 등 주요 매크로 이벤트 이후 시장 불확실성이 해소되는 시점을 활용하는 것이 좋습니다. AI, 전력 인프라 등 구조적 성장 섹터 내 조정을 받은 우량주에 대한 분할 매수 관점을 고려할 수 있습니다.",
-    "cash": "현금 비중을 일정 부분 유지하며 시장의 변동성에 대비하는 것이 중요합니다. 주요 매크로 지표 발표 이후 시장의 방향성이 명확해질 때까지 관망하며 기회를 탐색하는 전략이 유효합니다."
+    "holder": "보유 종목의 실적 및 펀더멘털을 재점검하고, 변동성 확대에 대비한 리스크 관리가 필요합니다.",
+    "newEntry": "신규 진입은 시장의 방향성이 명확해질 때까지 보수적인 접근이 유효하며, 분할 매수 전략을 고려할 수 있습니다.",
+    "cash": "현금 비중을 일정 부분 유지하며 시장의 불확실성에 대비하고, 기회 발생 시 대응할 수 있는 여력을 확보하는 것이 중요합니다."
   },
   "sources": [
     {
-      "title": "pwc.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRTYdMN7Zwj-JaHT3o88cROhnkwakzSop1XOTBrpwFI1YHxY-Z0SlfRRX_P3Azl6bu2h4r4QjBN_neI4qmxGJmZ9HyKeYUJRr-k4OJ1jup6AAEoAbQpqdLezt6nhFmAWRapdjfj6KNjlFMB8Tb7tbHhWk-g07c0qHUz0_hk_S_S3_FPYR_"
+      "title": "한국거래소",
+      "url": "http://www.koreaex.co.kr"
     },
     {
-      "title": "shinhangroup.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXLhADueEtNlxDhKufB9S5_lidZsJqg7M9FM7nNrJeyT1NrRV28YtepxRzGbJkhXdAcImUgUjqBKyWKi0GK-uEl8753bqYUcKFjDrShIXbImT9uoURyfWbu7G3mGdBCEKbEMHwVpfc4xhNJ1BH31vK2OSJE5aoyabnX02zxlk="
-    },
-    {
-      "title": "news1.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbq5Fn5dB7rM6T9_3dK66R5OikuBkUcb1jkoXxJeyeZ3iMLozMBxBLl-ClM166yQiqXfOApun5NJdXX5WcMXwuBbkHJujCLj-9hgjyl4PhhtEON4XsY62rz5ydzVwCXnnSX0dEFAOBs4qNAfxVHAKUESy2"
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEro9EBT7T81hWmwKGa-20hKMuqsR0r8vSJQpjLOHi808NTcytB_3dCAhwhPJNQ9P1WJcEuwxGOeCV1Yo67PToEJzakDRfF9f_Y_cA_QuorQP1fa7tob5VtTuLEBmxi7zSQJDhI9-wjaUHxPy_EQE7BBY0R7KUpApknHw=="
-    },
-    {
-      "title": "benzinga.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz12zzE4tdXcClWfCERY-qHPM6q1d8kjW4_HFpoG_Wmnd5GrVdTJPbRMDI1kMt01gZeIZlmAzVZuk6gqmOqd7fO2qZE9gD56nR52ieZr0FeG8nhzEQKS1nFycB9PHH7qCGbwJ7c3dFQx3z3ZiVpxCf-L9qfR7yLfkLjNyRcif2wHn9EJ9aWeV4s-u9Zjg4AsxZ5poviLImBT4o-m1QEGkFouOVCQL9YiBMjbnjaUzcgXfBVxMkWFqqKpvr10eKMBSjSmIZWdOAxaHVZSGN1gvya7Cefx93A8SbdXPHAA-3CGsc8CkO5q_VJ0MtiZTVDw2jCLeisr2lFuHIGEZ2Zqu3ufe39b4i6q18lrt1S-pz4SaMrhhlc_GxBxyCLH6ZbXVw"
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxhMgvUc6cgSZVvbWiCumZo-BznFaRjZec0hejLQYAXYyvOPDZMEYPZYg4T5wUwOK_fpdWQkhErE2VL7GHAQwvsvOkdfk5iLTt2bRS9s399F0nIuQoQo0egafHLF2SQnqBC9m-"
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhHUcP0NfDB92T0DM8GQ-585WmQGCR86jXCXZCUQ-tab6mglHDvq9epi4ZE_TAEK2WU84IZ2HP2j_M53FeV9lRoLjo5Novo3ySoRNjZ-ki6IEzie1_kSUAdCMFyodUXkegTL5jDIpIlkvSIlAfXEfWotNpHEczsEHSCg=="
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO1XbYlZ6jChEkW5Uq7q7-Q_Tmx2WoS36Qj5LM8-LeF0GGOgGaDllg7lPcwm29IFwvqKemytv6bXvZgkATXeNos-OFhb1YGxky03uvnqIpkBuYVN0oSNjDxpskicJhwoISkjqE9Yep4gheKUY7IVaDbY59UPgLf-P8kcoi-XWB"
+      "title": "네이버 금융",
+      "url": "https://finance.naver.com"
     }
   ]
 }
