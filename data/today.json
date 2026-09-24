@@ -1,16 +1,13 @@
 {
-  "updatedAt": "2026년 9월 23일 수요일 PM 9:59",
+  "updatedAt": "2026년 9월 24일 목요일 AM 10:18",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 9월 24일 목요일 AM 10:18 (KST)\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"추석 연휴 앞둔 관망세 속 섹터별 차별화\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"추석 연휴를 앞두고 국내 증시는 관망세가 짙은 가운데, 미국 증시 혼조세와 환율",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.",
-    "환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.",
-    "외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.",
-    "반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다."
+    "{\n  \"updatedAt\": \"2026년 9월 24일 목요일 AM 10:18 (KST)\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"추석 연휴 앞둔 관망세 속 섹터별 차별화\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"추석 연휴를 앞두고 국내 증시는 관망세가 짙은 가운데, 미국 증시 혼조세와 환율 변동성 속에서 섹터별 차별화 흐름이 지속되고 있습니다.\",\n  \"marketRegime\": \"글로벌 경기 지표와 주요국 통화 정책 변화에 대한 경계감이 지속되는 가운데, 국내 증시는 외국인 및 기관 투자자의 수급 방향성에 따라 개별 섹터의 순환매가 활발하게 나타나는 시장 흐름을 보이고 있습니다. 특정 주도 섹터의 강력한 상승보다는 단기적인 모멘텀에 반응하는 경향이 큽니다.\",\n  \"summary\": [\n    \"미국 증시는 전일 혼조세로 마감했으나, 나스닥은 기술주 강세에 힘입어 사상 최고치를 "
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -77,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
-  "note": "Gemini API 오류: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u"
+  "sources": [
+    {
+      "title": "cbci.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErFaip_6EB6T3i5xZ2w95zdLSss3YYDTNKu_W6TMSdU9Se1QQpdjycNI58K-6TIicReCuJ2T-rP7Ld_KbS9CFM-w0eT2QWUqRJQgUgZHpQHQ7WWajNcsN2jFEg26Ktjq-KOFq1vSgaifkX0g4mZry_xj4K"
+    },
+    {
+      "title": "newdaily.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6R04-4OoaYt2d49no4M1nCOKhTT0ysLuO66PMtrMgj6TqZTlQvVypnUn2ge5q8CFDrPBHML88eBSa9MhGHTIcbHK6eniUkkB3Cf_JMZ0r1_w4fKqIrsIRDvYtwUrkpdrj3LuAd_KiIIwsRQbNqM39VIbQ4-QunFyBpa18DRJEjSw="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpAyegXVtMw0711AKwJW_v13euHaf0G8n5R7I-R_DGXga3Ox3OFWtTNlPS6IzsDjW1u950d6Z1fI2x0x6EdVLJZT_0xwAv7flCPQMIaxiXVEJRU3wUfX3alAbtC2_rjqUhEb65NQ=="
+    },
+    {
+      "title": "daum.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd-Vq2ZlXGS-CeAry-fN8hHI_irKiFB49P_a4tJdGYB8K0w2ehy1-0mIuNVJwHEuTmn1yO9Fl4XVRMJGFKi_J7Kx0Cj9HNdSk172CQGNhXIUZl5NeR8mGnj86gPNlKJyM="
+    },
+    {
+      "title": "tistory.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhH_JwBHK720Uzxv0SVH98jaBXgIv9IF--Hgd1njwMoMuWAjQCD8wvWpm-TJqkjn9W-ZQkybEgn07KClsUskNCxTOp46QvIB0vJ4swqJ8oOyPiKJgDhUkImO-tnA9fR_lixE2R66-w93HyhyZPEShrO2ypZds9gn-8aaOjcI0tLUVigvL01oZFNPXv_SMma0_Z03Mjw1boFfoUtAtbZoYEoPX-2mBC8Y5SaLyK2gPvyNMLd9zkJLPYW-pJccL6f7jrCw-ZhnWguoGB1vdgUfu5JxCxffcHp1OrTN_T1sLuEo9BToIERtVKH7Qh88tsp0VWMdW3Z2JPz7FW14TysCoySuN6JOKJLAedKSGOK1TAhNW34lYHVapHHE2ASnjBfoMmuwuc5mUtICIvfhmG0WrOsn4hfLEFNIGO-Jo3CiQekMf4NGI0DGTWrlh5tFGDveQXP06aWJfO0kQdvP4Rke4yZleAKahz6h4mLAyF8Wu3b89Tw4d39mBRYTE="
+    },
+    {
+      "title": "benzinga.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKPdrKFwr_CecEAkQmTLrJywZzSx71RTN18AKdx-Fce_2IF_PzLLtTtaBsU_hSDUf_K1SXxguMF931Jx7_z_Rr5V5knYPo8y3-yx1JkNtP6bpEcGQ_v811eel0sWtmU0sQKMj2-8nm89ySh1WQ_f79WbH4n1GKy9eTgmrWmq9rek30GdPJhqsL0GCTAeCho2JbtmeGOeMqAg3RmlZd_eKbkrimj4x7Y3x-kss6lUzHAxxCc10Kze9STGY-dWqzf316ScuNPmQScLPvePShX2VbffKRIhkhXYXZzPdB9_IZNWD8qCVe4vhDzkrrGwYDKNXxh02WMByPUfbk9TpQYXbID75v1EKZ6xhg1beGfLWP7BIpASAg3Qw="
+    },
+    {
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi1gkCNkKe1TfzvCFQXmz4ns5T0XqrjTZEFaRW1Nik9NgGlWx5rfUqJUdhJM9KbDnAliKLGlFK5FuH-pPGbaZYw3tuygEQceWDMzFgR7Uo1x8L2xqd0hfaoGChME9yTmyt4AaJKQ16biM="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMaS6h6AmeIFRQbxlFUM-DXChMoDZmy4CGsIOjkYtBFDup5DH5H7Jz_XTQes0pC25ftO4W3YgzctBTDj1nDSQNqqw7tS81Ty1wGA06chHqm1cn1DKzfaQ63EYrxwRkdZJh788ihQ=="
+    }
+  ],
+  "note": "JSON 파싱 실패"
 }
