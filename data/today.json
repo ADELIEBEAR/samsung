@@ -1,118 +1,79 @@
 {
-  "updatedAt": "2026년 9월 24일 목요일 PM 9:53 KST",
-  "session": "장 마감 브리핑",
-  "marketTitle": "미중 회담 기대 속 반도체 강세, 환율 변동성 확대",
+  "updatedAt": "2026년 9월 25일 금요일 AM 10:24",
+  "session": "오늘 시장 브리핑",
+  "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 기술주 강세와 미중 정상회담 기대감에 국내 증시 상승 마감했으나, 원화 약세 압력과 고금리 우려가 상존하며 변동성 장세 지속.",
-  "marketRegime": "글로벌 경기 둔화 우려와 고금리 장기화 가능성 속에서 투자자들은 주요국 통화정책과 매크로 지표에 민감하게 반응하는 시장 흐름을 보였습니다. 특히, 미중 정상회담을 앞두고 첨단 기술 관련 업종의 기대감이 커졌으나, 환율 변동성 확대와 중동 지정학적 리스크는 여전히 시장의 부담으로 작용했습니다.",
+  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "미국 증시 반도체 및 AI 기술주 강세, 국내 증시 긍정적 영향.",
-    "코스피, 코스닥 동반 상승 마감하며 긍정적인 흐름.",
-    "원/달러 환율 1370원대 중반으로 상승, 원화 약세 압력 지속.",
-    "미중 정상회담 임박, 첨단 반도체 및 AI 관련 논의 주목.",
-    "국제유가 급등 및 미국 국채금리 상승으로 매크로 부담 가중.",
-    "외국인, 기관 수급은 혼조세 속 개별 종목 장세 심화."
+    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다."
   ],
   "dashboard": {
-    "indices": "코스피는 0.90% 상승한 7,080.92로 마감하며 7,000선 위에서 견조한 흐름을 보였습니다. 코스닥 또한 1.21% 상승한 844.48을 기록하며 동반 강세를 나타냈습니다. 이는 미국 기술주 강세와 미중 정상회담에 대한 기대감이 반영된 것으로 풀이됩니다.",
-    "global": "미국 증시는 반도체주 급등에 힘입어 나스닥 지수가 사상 최고치를 경신하는 등 강세를 보였습니다. AI 관련 기술주 랠리가 지속되며 국내 증시에도 긍정적인 투자 심리를 제공했습니다.",
-    "fx": "원/달러 환율은 미국 국채 수익률 급등과 글로벌 달러 강세의 영향으로 1371.11원까지 상승하며 원화 약세 압력이 지속되었습니다. 중동 리스크 재부각으로 국제유가도 상승하여 환율 변동성을 키웠습니다.",
-    "flows": "외국인 투자자들은 코스피 시장에서 매도 우위를 보였으나, 기관 투자자들은 일부 매수세를 나타내며 지수 방어에 기여했습니다. 전반적으로 특정 대형주보다는 개별 종목 중심의 수급이 나타났습니다."
+    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
+    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
+    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
+    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "강함",
-      "view": "미국 기술주 강세와 미중 정상회담의 AI 관련 논의 기대감에 힘입어 강세 지속."
+      "status": "확인 필요",
+      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "글로벌 에너지 전환 및 인프라 투자 확대 기대감은 유효하나, 단기적인 모멘텀은 제한적."
+      "status": "확인 필요",
+      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "글로벌 전기차 시장 둔화 우려와 공급 과잉 논란이 지속되며 투자 심리 위축."
+      "status": "확인 필요",
+      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "개별 신약 개발 및 기술 수출 모멘텀 보유 종목 중심의 등락, 전반적인 강세는 미미."
+      "status": "확인 필요",
+      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려 속 완성차 판매 둔화 가능성 상존, 전장 부품주는 AI 및 자율주행 기대감에 일부 관심."
+      "status": "확인 필요",
+      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
     },
     {
       "name": "조선·방산",
-      "status": "중립",
-      "view": "수주 잔고 증가 기대감은 있으나, 국제유가 변동성 및 원자재 가격 부담 상존."
+      "status": "확인 필요",
+      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
     },
     {
       "name": "금융·지주",
-      "status": "약함",
-      "view": "고금리 장기화 우려와 다중채무자 증가 소식에 건전성 우려 부각, 배당 매력은 유효."
+      "status": "확인 필요",
+      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "중립",
-      "view": "AI 기술 발전과 산업 자동화 기대감은 높으나, 아직 실적 가시성 부족으로 변동성 확대."
+      "status": "확인 필요",
+      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
     }
   ],
   "watch": [
-    "미중 정상회담 결과 및 첨단 기술 관련 합의 내용.",
-    "미국 10년물 국채금리 변동성 및 연준의 추가 금리 인상 시그널.",
-    "국제유가 동향 및 중동 지정학적 리스크 변화.",
-    "원/달러 환율의 추가 상승 여부 및 외국인 수급 방향성.",
-    "글로벌 경기 둔화 가능성 속 주요 경제 지표 발표."
+    "코스피·코스닥 지수 방향",
+    "외국인·기관 수급",
+    "환율과 미국 반도체주 흐름",
+    "주도 섹터 확산 여부"
   ],
   "risks": [
-    "미국 국채금리 상승 및 고금리 장기화에 따른 기업 실적 악화 가능성.",
-    "중동 지정학적 리스크 재부각 및 국제유가 급등에 따른 인플레이션 압력.",
-    "원/달러 환율의 가파른 상승으로 인한 외국인 자금 이탈 및 국내 물가 상승 압력.",
-    "글로벌 경기 둔화 가능성 및 주요국 통화정책 불확실성 지속.",
-    "국내 다중채무자 증가 및 부동산 시장 불안정성."
+    "환율 급등",
+    "미국 기술주 조정",
+    "특정 섹터 쏠림 후 차익매물",
+    "외국인 수급 둔화"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 실적 성장성이 견고한 기업은 지속 보유하되, 매크로 변수에 민감한 종목은 비중 조절 고려.",
-    "newEntry": "미중 정상회담 결과에 따라 변동성이 확대될 수 있으므로, 신규 진입은 보수적으로 접근하고 조정 시 성장성 높은 섹터 내 대장주 분할 매수 관점 유효.",
-    "cash": "시장 불확실성에 대비하여 현금 비중을 일정 수준 유지하고, 주요 이벤트 결과 확인 후 대응 전략 수립."
+    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
+    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
+    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [
-    {
-      "title": "tradingeconomics.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy1-IZF6iib0XJKx7TZxKaGG2bl3VaR5Qa-pp5VCveS6xeEmO_7A7HGUjA3gEmGwD7AKHKMHxLpRJPZZSVJjzqUZCTQrLQsdbgxPr5-rdtJRlTPFuP36iypHe_qF3kbb1HNlNZPQ5hBRIMR_at1cgtWeC4"
-    },
-    {
-      "title": "infostockdaily.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn6RSO6XsmdGNnFR02GhzGlcRGcBt7B30CVphdWyrxIElkGoY3JSWMg30NDr_5XvL33ywurJGpcQY7M3I7kDf6DCGGusDEyrOGGlngqK3zlmJKXXhz0XfOuKDBIn8-pa1bcTbOh8V0OBgLyTjCDDwA-G8RbSKoFj-rdKbEu0w="
-    },
-    {
-      "title": "alphasquare.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy4-nImwQk77Z565ox9iYdiGyUpndNrkAUdbkkVKki2rCcWNEgcl-NJMT6YqN6PFkwYK7R-2i4b7wzuz4EOHb_3vBvGCt-QdM4BsoeKtiE2aFiRvY-kYCwrIhYHV48QpOaq9uE2n-d2Q=="
-    },
-    {
-      "title": "wonforecast.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1P9wCdqJ2C31ExlCwdvp7c2vOm_0U9gjm4MnHEZ_Iy_UV92lVBNtpjysohbXPRU85qXDiNe5gKEgKhsY-WOpTOEWEos4UP0tKxMKlPzOOxF4lw_SxLojs18rZgWKr-NSI2c1WTz4cpeTGkuWqsHRq3_T742_0hEW8qQopNoWRSX93EGaz65e8CFVU"
-    },
-    {
-      "title": "tradingeconomics.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-scTdwuB-PiIXlRDg_6izg2jQ_AQiVXMDgBzjmm5mCIedSQF6JQY7R8cpT_b1FhkQ2ico8V-jHpLoUtMSUt-NTNr_pPQovW8iL1sqPPI0UT8jFvXN_ZPj05BDRaPvG4j-c_3iVR5hcythviJVUKs="
-    },
-    {
-      "title": "ledesk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtEP_wvZ32n7YKlBEt5ROguB5HsRChwF1INrT9UK0fAiDaqQUydzLScHItZRKyUb8YdhmqGt-AzK61Ni6A7Y3bx3hkMcylUpomaUuwa-mOfDxuR5NcLkvKjWDGb0JRBDMGfwyx-AM="
-    },
-    {
-      "title": "hankyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWRl9XCIdLLdNyBg1j68pTLlFrk-9LNJJxD1r04ToATX-cZHqRCum80d5_2-lE0qB3i2EvEcRUGVceuixAqoYdg1iWBUQvpW1SmG4NNLYDTOd07uDd45KYMNiPyG7HMainhBAugjIlFXU="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7rVcsK2-_ifJ-LfCoWS2K5FkqKsjyxAYMFmQaqcVTgxW-A3OqiIOfncA5TaDiRGDZQYxBq-mJc22O1a92UxHYH6JLTjL2rcsVduCyIb1WUcwy1JhR1covaz-XD96A"
-    }
-  ]
+  "sources": [],
+  "note": "JSON 파싱 실패"
 }
