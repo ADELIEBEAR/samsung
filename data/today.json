@@ -1,118 +1,119 @@
 {
-  "updatedAt": "2026년 9월 25일 금요일 PM 5:46 KST",
-  "session": "추석 연휴 국내 증시 휴장 브리핑",
-  "marketTitle": "추석 연휴, 美 국채금리 급등 속 국내 증시 재개장 변수 점검",
-  "temperature": "확인 필요",
+  "updatedAt": "2026년 9월 25일 금요일 PM 8:43 KST",
+  "session": "장 마감 브리핑 (추석 연휴 휴장)",
+  "marketTitle": "추석 연휴 국내 증시 휴장, 재개장 변수 점검",
+  "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "추석 연휴 기간 미국 증시는 국채금리 급등 속 혼조세를 보였으며, 국내 증시 재개장 시 대외 변수 영향에 주목해야 합니다.",
-  "marketRegime": "추석 연휴로 국내 증시가 9월 24일과 25일 휴장한 가운데, 미국 국채금리 급등과 연방준비제도(Fed)의 추가 금리 인상 가능성 등 대외 거시 경제 변동성이 확대되는 흐름을 보였습니다. 연휴 이후 국내 증시의 방향성을 결정할 주요 변수들을 점검하는 시기입니다.",
+  "oneLine": "추석 연휴로 국내 증시 휴장, 연휴 중 글로벌 시장 동향 및 재개장 수급 변화에 주목합니다.",
+  "marketRegime": "추석 연휴로 국내 증시가 9월 24일과 25일 휴장한 가운데, 연휴 기간 중 해외 증시 동향과 환율 변동성, 그리고 연휴 이후 외국인 및 기관의 수급 변화가 시장 흐름을 결정할 주요 변수로 부상하고 있습니다. 특히 코스닥 시장에서는 시가총액 미달로 인한 상장폐지 이슈가 부각되며 밸류업 정책의 영향이 가시화되고 있습니다.",
   "summary": [
-    "국내 증시, 9월 24일과 25일 추석 연휴로 휴장했습니다.",
-    "미국 증시는 30년물 국채금리 급등 속 혼조세로 마감하며 연준의 추가 금리 인상 가능성에 대한 경계감이 고조되었습니다.",
-    "원/달러 환율은 연휴 기간 중 해외 시장 변동에 따라 움직일 수 있으며, 재개장 시 환율 변동성에 대한 주의가 필요합니다.",
-    "외국인 수급은 국내 증시 재개장 후 방향성을 결정하는 주요 변수가 될 것으로 전망됩니다.",
-    "코스닥 시장은 상장유지 시가총액 기준 강화로 인한 일부 종목 퇴출 우려가 지속되고 있습니다.",
-    "AI 및 반도체 섹터는 미국 시장에서 금리 인상 우려 속에서도 일부 반등을 시도하는 모습을 보였습니다."
+    "국내 증시, 추석 연휴로 9월 24일~25일 휴장.",
+    "미국 뉴욕 증시, 24일(현지 시각) 국채금리 급등 속 혼조세 마감.",
+    "코스닥 시장, 시가총액 미달로 인한 상장폐지 종목 증가 및 추가 우려.",
+    "연휴 이후 외국인 수급 복귀 여부 및 반도체 업황이 증시의 최대 변수로 지목됩니다.",
+    "반도체 장비, 로봇, 바이오 등 코스닥 주요 테마에 대한 관심이 지속되고 있습니다.",
+    "원/달러 환율, 연휴 직전 1360원대 중반에서 움직임을 보였습니다."
   ],
   "dashboard": {
-    "indices": "국내 증시는 추석 연휴로 휴장했으며, 연휴 전 마지막 거래일인 23일 코스피는 0.90% 상승한 7080.92에, 코스닥은 1.21% 오른 844.48에 마감했습니다. 재개장 시 대외 변수 영향이 클 것으로 예상됩니다.",
-    "global": "미국 뉴욕증시는 24일(현지 시각) 미 국채금리 급등 속 혼조세로 마감했습니다. 다우존스30 산업평균지수는 0.31% 하락했고, 스탠더드앤드푸어스(S&P) 500지수도 0.02% 소폭 내렸으나, 기술주 중심의 나스닥 종합지수는 0.01% 소폭 상승하며 보합권에서 장을 마쳤습니다. 특히 30년물 국채금리가 2004년 6월 이후 최고 수준으로 치솟으며 연방준비제도(Fed)의 추가 금리 인상 가능성에 대한 경계감이 커졌습니다. AI 및 반도체 관련주는 금리 인상 우려 속에서도 일부 반등을 시도하는 모습을 보였습니다.",
-    "fx": "원/달러 환율은 추석 연휴 기간 중 해외 시장 변동에 따라 움직일 수 있으며, 최근 1360원대 후반에서 1370원대 초반의 흐름을 보였습니다. 미국 국채금리 급등은 달러 강세 요인으로 작용할 수 있어 국내 증시 재개장 시 환율 변동성에 대한 주의가 필요합니다.",
-    "flows": "국내 증시 휴장으로 외국인 및 기관의 실질적인 수급은 없었으나, 연휴 전 외국인은 KOSPI200 선물을 순매도하며 관망세를 보였습니다. 재개장 이후 외국인 수급이 국내 증시 방향성을 결정하는 주요 변수가 될 것으로 전망됩니다."
+    "indices": "추석 연휴로 코스피와 코스닥 시장은 휴장했습니다. 연휴 직전인 9월 23일 코스피는 7080.92, 코스닥은 844.48로 마감했습니다. 연휴 이후 시장은 대형주 중심의 코스피 강세가 예상되나, 반도체 장비, 로봇, 바이오 등 코스닥 주요 테마를 중심으로 코스닥의 반전 가능성도 제기됩니다.",
+    "global": "미국 뉴욕 증시는 24일(현지 시각) 미 국채금리 급등 속 혼조세로 마감했습니다. 다우존스30 산업평균지수는 하락했으나, S&P500지수와 나스닥지수는 각각 상승하며 기술주 강세가 이어졌습니다. 특히 AI 관련 종목 및 반도체주의 흐름이 주목됩니다.",
+    "fx": "원/달러 환율은 연휴 직전 1360원대 중반에서 움직였습니다. 미국 국채금리 급등과 유가 상승이 달러 강세 압력으로 작용할 수 있어 연휴 이후 환율 변동성에 대한 주의가 필요합니다.",
+    "flows": "국내 증시 휴장으로 금일 수급 데이터는 없습니다. 연휴 직전 외국인과 기관은 코스피에서 혼조세를 보였으며, 특히 삼성전자와 SK하이닉스의 자사주 매입 종료가 임박하면서 기타법인 수급 공백 우려가 제기되고 있습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "확인 필요",
-      "view": "미국 시장에서 AI 및 반도체 관련주가 금리 인상 우려 속에서도 일부 반등을 시도한 점은 긍정적이나, 국내 증시 재개장 시 외국인 수급에 따라 변동성이 확대될 수 있습니다."
+      "status": "강함",
+      "view": "미국 기술주 강세 및 국내 반도체 업황 개선 기대감으로 연휴 이후에도 긍정적인 흐름이 예상됩니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "글로벌 에너지 전환 및 인프라 투자 확대 기조는 유효하나, 연휴 기간 유가 변동성 및 금리 인상 우려가 투자 심리에 영향을 줄 수 있습니다."
+      "status": "확인 필요",
+      "view": "AI 데이터센터 전력 수요 증가 기대감은 있으나, 미국 국채금리 급등에 따른 유틸리티 섹터 약세 우려도 존재합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "연휴 전후 특별한 모멘텀은 부재하며, 전반적인 시장 분위기와 수급에 따라 움직일 것으로 예상됩니다. 코스닥 시장의 시총 기준 강화로 인한 일부 종목 퇴출 우려도 시장 전반에 영향을 미칠 수 있습니다."
+      "status": "중립",
+      "view": "연휴 직전 혼조세를 보였으며, 시장 전반의 수급 상황에 따라 변동성이 확대될 수 있습니다."
     },
     {
       "name": "바이오",
-      "status": "확인 필요",
-      "view": "코스닥 시장의 주요 테마 중 하나로, 연말 대주주 양도세 회피 매도 영향 가능성이 있으나, 정책 모멘텀 및 개별 기업 이슈에 따라 차별화될 수 있습니다."
+      "status": "중립",
+      "view": "코스닥 시장에서 테마 형성 가능성이 언급되고 있으며, 정부의 코스닥 활성화 정책과 함께 관심이 지속될 수 있습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려 및 고금리 환경이 소비 심리에 영향을 줄 수 있으나, 전장 부문 등 신사업 모멘텀은 지속될 수 있습니다."
+      "status": "약함",
+      "view": "연휴 직전 일부 종목에서 하락세가 관찰되었으며, 전반적인 시장 심리에 영향을 받을 것으로 보입니다."
     },
     {
       "name": "조선·방산",
-      "status": "강함",
-      "view": "3분기 실적 시즌을 앞두고 실적 개선 기대감이 유효하며, 지정학적 리스크는 방산 섹터에 긍정적일 수 있습니다."
+      "status": "확인 필요",
+      "view": "특별한 시장 동향이 관찰되지 않았으며, 연휴 이후 시장 전반의 흐름에 연동될 가능성이 높습니다."
     },
     {
       "name": "금융·지주",
       "status": "중립",
-      "view": "금리 인상 기조는 은행 등 금융주에 긍정적일 수 있으나, 경기 둔화 우려가 복합적으로 작용할 수 있습니다."
+      "view": "특별한 시장 동향이 관찰되지 않았으며, 금리 변동성 및 시장 전반의 흐름에 영향을 받을 것으로 예상됩니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "중립",
-      "view": "AI와 연계된 로봇 및 소프트웨어 테마는 지속적인 관심이 예상되나, 코스닥 시장 전반의 수급 상황에 영향을 받을 수 있습니다."
+      "status": "강함",
+      "view": "코스닥 시장의 주요 테마로 부상하며 외국인들의 관심이 조금씩 형성되는 중입니다."
     }
   ],
   "watch": [
-    "미국 국채금리 및 연방준비제도(Fed)의 통화정책 스탠스 변화",
-    "재개장 후 외국인 및 기관의 국내 증시 수급 동향",
-    "원/달러 환율의 변동성 확대 여부",
-    "글로벌 경기 둔화 우려 및 유가 등 원자재 가격 추이",
-    "3분기 실적 시즌을 앞둔 기업들의 실적 전망 변화",
-    "코스닥 시장의 상장유지 시가총액 기준 강화에 따른 추가 퇴출 종목 발생 여부"
+    "추석 연휴 이후 국내 증시 재개장 시 외국인 및 기관의 순매수 전환 여부.",
+    "미국 국채금리 및 유가 변동성 지속 여부와 글로벌 증시 영향.",
+    "원/달러 환율의 1360원대 지지선 유지 여부 및 추가 변동성.",
+    "반도체 업황 개선 기대감의 실제 지수 및 개별 종목 반영 여부.",
+    "코스닥 시장의 시가총액 미달 상장폐지 이슈 진행 상황 및 투자 심리 영향.",
+    "정부의 코스닥 활성화 정책 및 외국인 통합계좌를 통한 ETF 투자 확대 효과."
   ],
   "risks": [
-    "미국 국채금리 급등 지속 및 연방준비제도(Fed)의 추가 긴축 가능성",
-    "글로벌 경기 둔화 심화 및 지정학적 리스크 고조",
-    "원/달러 환율의 급격한 상승에 따른 외국인 자금 유출 우려",
-    "코스닥 시장의 밸류업 정책에 따른 일부 중소형주 상장폐지 리스크"
+    "미국 국채금리 추가 급등 및 글로벌 유동성 위축 가능성.",
+    "삼성전자, SK하이닉스 자사주 매입 종료에 따른 단기적인 수급 공백 발생 우려.",
+    "코스닥 시장의 상장폐지 종목 증가에 따른 전반적인 투자 심리 위축.",
+    "예멘 후티 반군과 사우디아라비아 간 적대 행위 재개로 인한 유가 급등 등 지정학적 리스크.",
+    "중국 경제 지표 둔화 등 대외 불확실성 지속."
   ],
   "actionPlan": {
-    "holder": "연휴 기간 대외 변수 변화를 주시하며, 보유 종목의 펀더멘털을 재점검하고 리스크 관리에 집중하는 것이 중요합니다.",
-    "newEntry": "불확실성 확대 구간에서는 신규 진입에 신중한 접근이 필요하며, 재개장 이후 시장의 방향성과 주도 섹터 확인 후 분할 매수를 고려할 수 있습니다.",
-    "cash": "현금 비중을 유지하며 시장 변동성에 대비하고, 대외 불확실성 해소 및 명확한 시장 흐름 확인 후 투자 기회를 모색하는 것이 바람직합니다."
+    "holder": "연휴 기간 발생한 대외 변수를 면밀히 분석하고, 보유 종목의 펀더멘털을 재점검하며 시장 재개장 시 변동성에 대비하는 것이 중요합니다.",
+    "newEntry": "불확실성이 높은 시기이므로, 시장 재개장 이후 주요 지표와 수급 동향을 확인하며 신중하게 접근하는 것이 바람직합니다. 실적 개선이 기대되는 주도 섹터 내 우량주에 대한 관심은 유효합니다.",
+    "cash": "현금 비중을 유지하며 시장의 방향성이 명확해질 때까지 관망하는 전략이 유리할 수 있습니다. 급격한 시장 변화에 대응할 수 있는 유연성을 확보하는 것이 중요합니다."
   },
   "sources": [
     {
       "title": "cbci.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-hBJOy9vGZOUBrD84ChR73q6YCBaApUUlqIy34VXvoGphIr98exXszomVvjZnOMZRZVa3CGTExK_RI3XkcHlrKNNDXptkSIiVYvl9dEpbSLzSBSxRKkUJqjfuYqjHNDkqteA9cL4cxqBPwvunbmqrUh5f7Q=="
-    },
-    {
-      "title": "tistory.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUeBr65fxo0Ajo3I0VnXKjjjLkgeJWI5UcpktDBR4m6WoRCPwInPtD6SfEb2cZMFx38Xzo1FsSqV26N_rIcBl2OJN-YGdyCFHohWKmYV4iAcART8XY9RVVcP1RoRQxzg=="
-    },
-    {
-      "title": "dpi1004.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUEz-e31LHIw1rL5PIa8btqKFVqqYi_hkOsri3RR3-HNyGY1-mk1sjy1iuizHt9FaxGQTHeRPc_XReeUOU8B2_O0HXozvw6iEu18slGFNchl0EpEpXqWCF"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFs4qODKS2UHiHxvjabNOg7n_D4OtV9bnaU9dH92Bf-IIO0sol0SJtueNoDAH0T9d7k0FxQr92_CEyXKBr9capoXhc3SsuVM9mOGXNOjti9aZ9I1i7DCs3YmLNsJWaUCCWvw0Gp92V7kR-mis3qNWE8cCZ8w=="
     },
     {
       "title": "tossinvest.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGIUQh3EMlK-VoJXBUTO4vi_HKJjogr1Wg07Y4bwPxSx7V8dSxrqyKTBDGUWqfP6ZczBleBix0GN1lvrx0mZkaq38VrlQyhLlLzuBqw3TK6MJhZ05-ccjI0aEA0frFU6jqpwNDTPMe6rTxGPe_ffOj5K-PW8cv1aq_DJhw66y6"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1KF__3LN-u1p77D1-DaaeFV7gTpdM1nfDA6R1ys2wNzSwumKCkGliGWC9SndYbEN9yDFPCORLc9HWZN1g9NPXdNRDWhaIaOQNDG11yFEffofrh09gZA4DE833g8XFrqh3fCwVirkJb8WPItafthifynvFM-9zJ-XcngT9SrB7"
     },
     {
-      "title": "koreadaily.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hV8nzIgDEFCIX7WL_RsrwFVQShEwQyZ3hZ2cmzuDfkGX59SQhHbKoTQoBEzgTc0Ogal9EOwBq-3bRNcr7BdRN_SN6473l8wHJipn81A-JsCoiGSIPrrL-54TW1ahH6_bSKzO-WXd0Y10yAp1ass="
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1foEjv5EmU4K-lFAunu5mT9W4XvhraaYV5zZS7asrrOjFIjtvOUh4Dowh9_7M3UpPOohCcjfbQbJlAYJ6XAXqTPPVT5t07ffGJFHbjc56tQ3qD-UJKMjS3WRLZN3chdDqRUg="
+    },
+    {
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Vc_ZNlRTb32Yrdhlw50O6_pWyPq_NmmUrwZ7NSfL-tD9FRXvWmmrberzpbwhWdqpYGUniX2Tgf6uDQRnrfreE7zbGayf53pd7GsVK8Icqzx3BHFqzHCj3b_svQG7LSRGmpXxTYonlRk="
     },
     {
       "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVtE_F7-XO8Ut2LTaEYGB9BKc-AbDw61huZ3otHlowfjZjilwJNjjU1ErwNrfjn_NNfw8Ar7uvvB77dfE-3n3lPIS_NcqKSSyIm1D5KxIkI1fLTKyfyGqoOsCqdmrNJvTddZF51bdV3ZlXmDNV60AXf0tcyc9iyDKrTFiZHFtSepc8m9asgkhTDwcNp9e7cZBajTBDk_vIuleHEJM="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0v9PFXVF4THE1NczSoDl4KmWZFHNrPiuHJqKxuKGDpGmhJvV_4sothA7QtuB15kpXnOcezGHmeiaVvtiuC1P_oUwSuy8k0mIVBCUVxRYfP3nLjq5pD-HqmiocJFeR-e1KfIP0ops5IzahfDF-eV0VzF7Q-004EC2gvtJgBuzqhg2snuKxTxU3nC2pd23712BO1XCxunsaYbJdQYg="
     },
     {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE174X9GmAKnvdn9mbl25P2w2UfSS-KnxcvMeUHxOcRuRJGDzGiOa1mL0GuyRK-Ek3mhrXa6V9U3R1QcGFFk9LBSKc1i4WaeVpqFRuVICtnMzjHRmCRlgahf4C3XXPHu2bgJMmMdul7uSXqgKDlGPqjG9A9HuPqM9q15g4iB9DipXnmyeR5Kl2OpyYhQ=="
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTPydXe5uOp9hJVn4JCewnznHJN4pQPDPiuReVTWbntSK72XXYhDjOYKxI969e_J4SIUbpScoI2K-hOCxCjovfcMxDNbQcYt0TezYSYbdXaQO6maJApUIicrJZqxv3fTqZNF6-V3Apei3G8UcPIiadfh5madu103TfuA=="
     },
     {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9PQ5NOZR9KllRiOKfN64C4R2nc1ALfUj1r3erthJV3nrq21jsO2KNoOdvwL-LdzBainfIiKc4meTbcehL0qcwwR2qxtTeMqvgiuKs7l10vgoFkt7ohKm9gHi4lf3w3YUZCdLBKRpEVo7OqA=="
+      "title": "donga.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrV-Q-u76GagunBIrKu4kOifC2Ccur9zJ5kl04hSmXobpjUr-uYPK-dstW0NYo8MbsmpoRd3yzTsGS-X9DGLCbPhECZkdsEHOtsVLijcA76rVO0l2vPnwXAAaep6baCpFcQQoNcqJm93afoa3qeTsr7Z2BqfMj06ChNBoiHuE="
+    },
+    {
+      "title": "newsway.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesFWwzsDAYg_tI9IYEAlwHrYJZKH4UBV5PQI6eoS1SDu0Nk2Hha6D7jC5vPMo3H3OjC92g9hZoWHD5I_qvvzVMXM0eDuOa-BsPKu41XHzexUemuCAwG6qAaYGdSmhyl9Di5a2qC-j4uveT43An8AODRnqdX4="
     }
   ]
 }
