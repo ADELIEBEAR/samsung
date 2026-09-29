@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 9월 29일 화요일 PM 6:45",
+  "updatedAt": "2026년 9월 29일 화요일 PM 9:42",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026-09-29 21:42:00 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"혼조세 속 반도체 강세, 코스피 하락 마감\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 국채금리 상승과 국제유가 부담 속에 코스피는 하락하고 코스닥은 반도체 및 AI 하드",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다."
+    "{\n  \"updatedAt\": \"2026-09-29 21:42:00 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"혼조세 속 반도체 강세, 코스피 하락 마감\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 국채금리 상승과 국제유가 부담 속에 코스피는 하락하고 코스닥은 반도체 및 AI 하드웨어 밸류체인 강세에 힘입어 상승 마감하며 혼조세를 보였습니다.\",\n  \"marketRegime\": \"오늘 한국 증시는 미국 국채금리 급등과 국제유가 상승에 따른 매크로 부담으로 전반적인 투자 심리가 위축된 하루였습니다. 코스피는 외국인의 대규모 순매도에 하락했으나, 코스닥은 반도체 및 AI 관련주의 강세에 힘입어 상승 전환하며 차별화된 흐름을 보였습니다. 특히 HBM, 첨단 반도체 기판, 유리기판, 온디바이스 AI 등 차세대 반도체 하드웨어 라인업이 강력한 시장 주도력을 입증했습니다. 환율은 달"
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -74,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
+  "sources": [
+    {
+      "title": "yonhapnewstv.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3RK4LZE6f68W101jM717rWKfrB8e26NF_-36ykw6Gj2tE9NvfmUs8rmf06i6GtdSefOzkw7j94LQk6I0IRlOO4TrL6IrkrYjt_OeaRT9qZNnSZ_5w6MZ2XurgOZsU-CrgP_yGnfRqDdkZxkw7i6p_6g8="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKFZfIKwNB9gA_rfoE3OoQy9YC2jCU1cz9ZMK924ajV2sfPkFKICnz8bGwOn5C8GLFswzWhKdVraCFMQdFYOuac307G_UsGVyx1qEJHYTDiXoVJyWay2ZjddkmILkY6WiSr9qp0SShzaQRYrtovroKN6CupJp4y8THsY="
+    },
+    {
+      "title": "freezine.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2DPWdclYpO3KGM6yV5pUIyaSvwWM0lj6CpLgPSZGZy7GAGYGfB1vzRti-d5bVLazg7viBH7ypqq9i-u6z2Z0M6kU-7MDvUtP9lIjUe-fQs4hscb4YF77QoeYJMAYraSxqIrMJBPMLtX0oFP-446j6_AUvz2BE"
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjYCUmACp1Q_9DPkSg9SFVKhu0jv3_j1OfDgBjakLLvJHhMrxk27jCdvSEj2PP3ze0WFKwfR2P5gRLbvxerPyBPVVRykZ2JPOLCBpRpBkDprYr34JjNuxn5e8K9H0LXuY5G8H2agiG4zTT"
+    },
+    {
+      "title": "foeconomy.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzl3BTOw8jlp5VSBfvDDNk9MCsZyjNj-e0O91Su_weN9jPnH6iB001YWhvnSu8y2JkiqsaiYPqG2klVBIN9vTIfFswFWkSZtMZ7D-h2Q5v-OwpbGgFT0x06GQT3PlIkSlKcUxZ99Mcd2VF_Q=="
+    },
+    {
+      "title": "buffettlab.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7VJkzKmA0PMylSy9ZLHDuRxX8TpCwclV4BSDjcX_80oyiyKy5uc9KKY8ooOpuH4icLfz9HN3iCyYmYOg6eiUBo113GAt4NGFKMwyG8DFnUo4_iE_bABJSzundLgFQ9EhdxSaJ1rgjXL5BKkhTWg=="
+    },
+    {
+      "title": "kbmaeil.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQcgDrr5Q3GhT0DFilxqMmBp5M7a8AJbxvG7tquGfDOSH7GvPbEFPqx9kFzN9gvcYyfRwaK0LQ6349bDneSW3EjsfApSO-_9O9FjBGf9FfoZ3tip4-H1pjONlp0Ob5yDX9fIEE6a2OIQ=="
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsCNmi5xB60fe7b9wLdF3vnvHJoEWGI6L4wkDNoJLxeSXn7KBXwslc9lOiUmf73O2SiBWyIhv8hao86gK7yU5MGpu0GQ1jI6JxzcASnT4NVdH7MMWB7IVjVsKAPkQFtVx2R2NawyntTYSgFTCdAhsL_uT3So0xxw8rbTwigbZBCef7U-oZVrN_PQ=="
+    }
+  ],
   "note": "JSON 파싱 실패"
 }
