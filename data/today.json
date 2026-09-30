@@ -1,13 +1,16 @@
 {
-  "updatedAt": "2026년 9월 30일 수요일 PM 9:26",
+  "updatedAt": "2026년 9월 30일 수요일 PM 11:13",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "{\n  \"updatedAt\": \"2026-09-30 21:26 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 하락, 코스닥 선방 속 업종별 차별화 심화\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"미 국채금리 급등과 외국인 매도세에 코스피는 하락했으나, 코스닥은 HBM 및 개별 모멘",
+  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "{\n  \"updatedAt\": \"2026-09-30 21:26 KST\",\n  \"session\": \"장 마감 브리핑\",\n  \"marketTitle\": \"코스피 하락, 코스닥 선방 속 업종별 차별화 심화\",\n  \"temperature\": \"약화\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"미 국채금리 급등과 외국인 매도세에 코스피는 하락했으나, 코스닥은 HBM 및 개별 모멘텀으로 상승 마감하며 시장 내 차별화가 심화되었습니다.\",\n  \"marketRegime\": \"글로벌 매크로 불확실성(미 국채금리, 중동 지정학적 리스크)이 지속되며 국내 증시 상단을 제한하는 흐름입니다. 대형주 중심의 코스피는 숨고르기 국면에 진입한 반면, 코스닥은 HBM 밸류체인 및 지정학적 반사이익 테마로 수급이 쏠리며 지수 하방 경직성을 확보하는 등 업종 및 종목별 차별화가 뚜렷한 시장 흐름을 보였습니다.\",\n  \"summary\": [\n    \"코스피는 미 국채금리 급등 부담과 외국인·기관의"
+    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.",
+    "환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.",
+    "외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.",
+    "반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다."
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -74,39 +77,6 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [
-    {
-      "title": "youtube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMwNjlRqffClEDtDjHghXzBnsCnuM4Ylynv1aKh9-iBmY9sLzFwGHyRUt6n5RW4MlHd6Nloako5HRIw4VKLsCl_51Lz4MA1tdEsXP4u6228Q870_0BV-kc6Tpfo6dsM8FdoCdvj3QmzpgUSSdIi8d1uNvMQlZFEMBL1XaR"
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3opM9ZJ_gR3v_Yy30gPyIoFenKyGfkwe2w8Fw1-QONunJH2fNupU3zA49Advcp-fVDA_sucnymS43xhHEH_zlx7mXpZKpxVoP_ciJxXcXBCc5-vw_PCnP4TXTrARSbwUglqg="
-    },
-    {
-      "title": "foeconomy.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT-Bnwv7V1_zZdXNp65FdpqoZ3GweU0v4qUEr0O0nV52RYOTQzfb7JK0i_d6M7cWsFIssx7URREUCKGUhnEdH43zWdU6pqI3Z-Hh4QQfmpBz52uYs7CurWXOZPdvvS03mB6npIGX9ech1gnv8="
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdm5wiHdtSmAv5UjapLvpnK6X6Lgjiy01d5w90zKPNPvdGvZ6DzaJsbq9Y67tsen_1udehEBOEyNO4lzVjRntiuTewcAVOXSduCDfK6p6kQ-gMorj1nZ8dUS9lO0tlCymrpecr21XCZOw="
-    },
-    {
-      "title": "yonhapnewstv.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT2lMcBm-4UUDID5voNLxhvT_IRJ6g2EVCXn6JQ3Q1eCbF1jAwpZR9m1_6rIBXEctZBJulQGcB4rc-KhcS30ss-fZGe6LcN26_6N_Frm108n3tQrf5LJ0uZtlTf9aUoE1GyUAekzNKpFDqvjcPM4k43w=="
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJT8EIWVY0IRuLfCzxlS7KwSOHS_zCNiGc02hKnsp9xFhKQ_8xSGRZgwmAER3nh2_sGZ0boAi94HSJ-lx2k5oJArrezGeP-7uwbx_wvej4fcP1n6TmMY1_p8ELLa0ClM7HCV1iVptotg8="
-    },
-    {
-      "title": "kbthink.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWN_Iz98s6o0hxxYRgPQyZQc21ab6_GcfUiC6vARbLi-7kg-3Abrrgi0xGFKdp81oaWYPCu0JWv1aPn-2u_eOjJUXSx74hAcmgxvSjXZYfpjzoTPzkc_aPvuUB5Pl39AgKcrgXc7ZsvxspmNwtSVBNjTkmPDOSL8QZEto="
-    },
-    {
-      "title": "mk.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEG2dqY1vu43_cRjGeTurBxt5-3jcZjGLvQ2K0w_jk3KePQInyckkA579DSMGWlvOlLgIIO5Kkr6Pr1gtDbLDc3k42OE3Wzy2THmjLEPzRtnNBeg4CzNHm94W1ToNPNo6YX8="
-    }
-  ],
-  "note": "JSON 파싱 실패"
+  "sources": [],
+  "note": "Gemini API 오류: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u"
 }
