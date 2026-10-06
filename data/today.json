@@ -1,237 +1,112 @@
 {
-  "updatedAt": "2026년 10월 6일 화요일 AM 1:22",
-  "session": "장 전 브리핑",
-  "marketTitle": "글로벌 증시 혼조 속 한국 증시 방향성 탐색",
+  "updatedAt": "2026년 10월 6일 화요일 AM 11:53",
+  "session": "오늘 시장 브리핑",
+  "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 증시 혼조세와 환율 변동성 속, 국내 증시는 수급과 매크로 지표에 주목하며 방향성 모색 예상.",
-  "marketRegime": "글로벌 경기 둔화 우려와 인플레이션 압력이 상존하는 가운데, 주요국 중앙은행의 통화 정책 스탠스 변화 가능성에 따라 시장의 변동성이 확대될 수 있는 흐름입니다. 기술주 중심의 성장주와 경기 방어적 성격의 가치주 간 순환매가 나타날 수 있으며, 개별 기업 실적과 매크로 지표에 대한 민감도가 높아질 것으로 보입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 10월 6일 화요일 AM 11:53 KST\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"코스피 7천선 공방, 코스닥 바이오·AI 강세\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"미국 기술주 강세에도 고금리 부담 속 코스피는 7천선 공방, 코스닥은 바이오·",
+  "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "미국 증시는 9월 고용 지표 둔화 소식에 안도하며 금요일 상승 마감했으나, 주간 기준으로는 다우존스와 S&P500이 하락하고 나스닥은 상승하는 혼조세를 보였습니다.",
-    "필라델피아 반도체 지수는 지난 10월 2일 2.40% 상승했으나, 10월 5일에는 기술주 차익 실현 매물로 약세를 보였습니다.",
-    "원/달러 환율은 2026년 10월 5일 기준 1342.88원으로 전일 대비 소폭 상승했으며, 변동성이 확대될 가능성이 있습니다.",
-    "글로벌 국채 금리 상승세가 지속되며 시장의 부담으로 작용하고 있으며, 특히 미국 10년물 국채 금리는 5.3% 안팎에서 움직이고 있습니다.",
-    "국내 증시는 개천절 연휴 이후 10월 6일 화요일에 재개되며, 연휴 기간 해외 증시 흐름과 주요 경제지표가 한꺼번에 반영될 가능성이 있습니다.",
-    "오늘(10월 6일) 미국에서는 8월 국제 무역 지수와 9월 LMI 물류 관리자 지수 등이 발표될 예정입니다."
+    "{\n  \"updatedAt\": \"2026년 10월 6일 화요일 AM 11:53 KST\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"코스피 7천선 공방, 코스닥 바이오·AI 강세\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"미국 기술주 강세에도 고금리 부담 속 코스피는 7천선 공방, 코스닥은 바이오·AI 주도 강세 지속.\",\n  \"marketRegime\": \"미국 장기금리 상승 부담이 지속되는 가운데, 국내 증시는 코스피 대형주 중심의 외국인 매도세와 코스닥 바이오 및 AI 관련주의 강세가 엇갈리는 시장 흐름을 보이고 있습니다. 특히 미국 기술주 훈풍에 힘입어 반도체 소부장 및 AI 관련 섹터가 견조한 흐름을 이어가고 있으나, 코스피 전체의 상승 동력은 제한적인 모습입니다.\",\n  \"summary\": [\n    \"코스피는 7천선 공방을 벌이며 보합권 등락 중이며, 외국인 순매도세가 지수 상단"
   ],
   "dashboard": {
-    "indices": "코스피는 글로벌 매크로 불확실성 속 횡보 흐름을 보일 가능성이 있으며, 코스닥은 개별 성장 테마 및 중소형주 중심의 변동성 장세가 예상됩니다. 특히 외국인과 기관의 수급 방향이 지수 움직임에 중요한 영향을 미칠 것입니다.",
-    "global": "미국 증시는 9월 고용 보고서가 예상보다 부진하게 나오면서 연방준비제도(Fed)의 10월 금리 동결 기대감이 높아지며 금요일 상승 마감했습니다. 다우존스는 0.5% 상승했고, S&P 500은 0.7% 올랐으며, 나스닥 종합지수는 장중 사상 최고치를 경신한 후 1.2% 상승했습니다. 그러나 주간 기준으로는 다우존스가 약 1.3% 하락했고 S&P 500은 0.3% 내렸으며, 나스닥은 0.6% 상승하는 혼조세를 보였습니다. 필라델피아 반도체 지수는 10월 5일 기술주 차익 실현 매물로 약세를 보였으나, AI 관련주는 여전히 시장의 주요 관심사입니다. 오늘 아시아 증시 개장 전 미국 선물 시장의 움직임을 주시해야 합니다.",
-    "fx": "원/달러 환율은 2026년 10월 5일 기준 1342.88원/달러로 전일 대비 소폭 상승했습니다. 글로벌 달러 강세 압력과 국내 경기 지표에 따라 변동성이 확대될 수 있습니다. 금리 인상 사이클 종료 기대감과 인플레이션 우려가 공존하며, 채권 시장의 움직임도 함께 살펴봐야 합니다. 달러 강세는 외국인 자금 이탈 압력으로 작용할 수 있습니다.",
-    "flows": "외국인 투자자는 최근 국내 증시에서 매수와 매도를 반복하며 관망세를 유지하고 있습니다. 기관 투자자는 연기금을 중심으로 특정 대형주 및 실적 개선 기대 종목에 대한 선별적 매수세를 보일 수 있습니다. 프로그램 매매는 지수 변동성에 따라 단기적인 수급 영향을 줄 수 있습니다.",
-    "sources": [
-      {
-        "title": "달러 환율 전망. 오늘의 달러 및 2026년, 2027년 예측 - 경제예측기관",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHigrQOEUskqoQUIFaCZmLZT_AiLFNW9txzluCMfIUp9QHQsBLIZ4SGXZJuWoZ6M5SIDjI2A7RaA0ETEg7TAFb2fsaasirU-wnqIUTRN11AhGjdfPFiexnakbltjSpJFfyDSPA-pyoBTBi0PhTf9iTG1y4dXDcBoieVpU_BQ9BkBJ4Z24fCqy_4Dwmg"
-      },
-      {
-        "title": "다음주 어닝시즌 개막, AI주 강세 확산될까…재료 공백 속 국채 금리 주목 - 머니투데이",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHph1uKgVTnT5D6GSpoVLz2aH1EUuYrgUJNA7jIOOe74wqJXJ81UcfXvc-xqf9kYUwPiM-Fo-EjsgaXxjd9ymDIZ0b3M2l1A6HEw4nr1SX7K66Xaxz8ChiRMUd_nUzGKPZTaEPiDxXoKJUcK77snBoQ81BXCSJxd09a4h8UOG0="
-      },
-      {
-        "title": "다우존스, 나스닥, S&P 500 주간 전망: 3분기 실적 시즌 개막과 국채 금리 급등 - Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqGUmeBNecwMzRrIV2pCapZ5Mvz2DFc3zv88Z3OeXWHhmxDdiaknEGkT_e1VKIJElUeMQhtWHpnIVxQF5c4vS4GeVGuOLS4dTPGEtVEkaDGWmEGpri2R6ZzuWiFOj-do7KKf57sXggwcz4WQgGgXCmmvLaarDCJ8h8Bw=="
-      },
-      {
-        "title": "나쁜 소식이 증시에는 좋은 소식 | 머니네버슬립 - Daum",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD0qH_7S5LOVUHGprZsCGyoVEPKGkcXPI-HObfXZthJzESAlaju9-xLEyfzeKbvr3EZpx4AL6I2U9aPck3o2jXp9GRVMkkKxrJo98P9U6y6hOTT_2ZNt89mds="
-      },
-      {
-        "title": "[국내 증시] 한국 주식 5일장 휴장 왜?…재개는 언제 - CBC뉴스 | CBCNEWS",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodHXx7t6IYopEHid-z1uXBb6IcsstjmQNhhkS2c-yNhxsRqXOnltwcGiMsLUhoXP1T7EW8L-qG7TDAYw6QORMq-5DqnRKloNWEBepTuQwSX-sViaVeVkeGT_5i8YkgGzapNzhPmhFdwfbyYjiIsE57x7JQQ=="
-      },
-      {
-        "title": "美국채금리 5.3%에 다우 '주춤'… 뉴욕증시 혼조 출발 - 조선비즈",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26hwuzhwJziPnQ6aVPFCpJG1eZaPBBqC9pd_ZZNrXgnfjvkd0m39IT5QLsGvmX4lmH9S_2P-_tlj3-oVOS3fXekgXeLcTU0sPGhc-XRR-Jo7t92upcyBCeOqPk4bf-u93nU7joW_qstic_bepMcDzwW1k7ewzIUihNR0RHNh2_9jxXX2fImiY2BKbAYzOO_3tC5Cg-dkxR13Y65o="
-      },
-      {
-        "title": "Nasdaq 100, 저항선 31,281 돌파 직전 긴장감 고조: 실시간 업데이트 By Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0UjY6fMkv1XW0gbCRRjqsSL7F8UquuGY9OpooNqDWg6NSV3j4Li3cu8E4hhL0txsdcSLRZTAgXpFvo1Hb5bEO4bYgl0h5ypX1gCc5emlT0T28xJKZa__p3V-XKV6wK2o0bgWDq-yngcI4L7zzoFzUytCjjY6CyLjr9YC5Ff4V"
-      },
-      {
-        "title": "이번 주 미국 주식 시장 - 2026-10-05 - TradingKey",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRlKBKZioke0iJcO9PB4hfIWHKgJdHHUgQEoxrz6eYoDTTsJv2sBmgjTq0WyknroIng5-nQv9dQVsMJ17kvsWnMh6Rgc4a8Dxetvcnn1xAlzRmwo01chb8Ha-XNQ0_vreYU0gcv6DKJQav5j0TIeMZJEjrtL7uM5nlvIK4oefAWULfY53tEK26p0-5O2lGOw="
-      },
-      {
-        "title": "뉴욕증시, 국채금리 주목하며 혼조 출발 - 연합인포맥스",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwzzyqkdGFYp8WHYhuLLgJ-VHp9UeuHiscxHvn8ReO-UwBtxIRBEhB-eCmBIh2yJej5S2e603QQOXSI9azIIP7O6CibxoaVlCZplIGd0CeAjLt1m_r0KeI-jJVuXib_sQNBsYkXkijNcoqfz--Mm_trVTHGkg2TA3urg=="
-      },
-      {
-        "title": "삼성전자·SK하이닉스 '삼전닉스' 6일장 출격…연휴 뒤 반도체株 방향은 - CBC뉴스",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYGbcQNQRSOyQaOwJCjYeU2pm0QeJVJ789Jpv0y1BVEco--yopf7DQIIEu9Y4ECI-8qTqFxRok6G2mPs1eWHCaHTOizaEPUxWJc453Hiv_ZwB-qrJ7e-Blq_SjkGWrqM7jm_l1wjc7Ot7hwipbaKVSOiqcDg=="
-      },
-      {
-        "title": "[개장 전 주요 공시] 제일기획·현대건설·한미약품·한국가스공사 등 - 글로벌이코노믹",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZuwlH8_iFNJe4JCtau3Fb-8JBEMad_G0ZQYP3oc6Wfjp0sqM4TkOdFIHY9DNmcmWU274T0LrchEjczRivMw29PZZDl8lIVIwXY83zajvbzrh1W705BzM9g9tIltXmq8vBn_BuNqiKDl19d3sXEI2SoehLomJqam6DaJB23T459w2n1gGbIvDpVBJJGw=="
-      },
-      {
-        "title": "10월 연준 금리 인상 기대 약화로 TSX 선물 상승 - Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHATLPv5EoCVDHrqn99etdwlac-YzvjZKj6FThHn0PzgWFFenALF3tlDdSrg7inBteinhPgitg3mdOnMpjzoAKg0C4CqCU6Z34Uindy0krCGQgLkAU4YCnUt2PSCF-X4H-VuDW5as6HGJKnO1amUVm5max_bs-bao4erwA=="
-      },
-      {
-        "title": "미국 필라델피아 반도체 - 다음 금융 - Daum",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAWv9uMAziQbOd6NGNu4w6kUfv0OCc9rdkJveQ-G1nNaOIyFt2ZavCiBOCmJsEuR1c7M8Zd0fDVW-T299o6eEeFBEiK_0_CrV0E2yHAoYCIzy6S6XhPrYpai-d_-jSDm5c4ThnPlOGZIRm"
-      },
-      {
-        "title": "Release Schedule | U.S. Bureau of Economic Analysis (BEA)",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcBppvT8CT1wl44OcVM7w284P7RSutZUPpvtmMavlbrqhXz-nUfmXSJGXokXYKjl7l5EuBWmPdIcciwE-a1b6juc5HZVRtwPjGl641iT07Hiji_llTD38eGZK5DA=="
-      },
-      {
-        "title": "뉴욕증시, 상승세로 마감…나스닥 1.19%↑ - 블루밍비트",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkiQ1_Y0T5JcIzhxr31Bu9x5GtrgNgXFXapjXEyMxQjW3v4Y4dVa_NYvjpqUts9JDL6xhjjJmNN1iibSx5BGFV6TjN0EA89wnUrLZfLDhdo85dKJOv0UQKtKTTKN_f9msmnA="
-      },
-      {
-        "title": "필라델피아 반도체 지수 가격, 실시간 시세, 뉴스 - Google Finance",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0tnTgXdQQPTggl2H8Smc06nWAXLCAwjZbEGeRjlQgDAi6ZS-29gmUfM4_b-bVHYVfl1KS67Xs23JX-hMcc6AdIIz_KXfReCPSHWejPiPAMwQz0r8-zKOVITgJaVdB0SBvwScLMwpY9Pq5csEOnHBIOT_C1DI="
-      },
-      {
-        "title": "뉴욕증시 프리뷰, 주가 선물 혼조...국채금리 5.27%·고유가에 기술주 '주춤' - 뉴스핌",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX2C7C57JLyRx8Yh66RwIeOGZYZVa25nSGQMOa5dvG_TClekpjn_qETcrZ6151CeP6BXFbC-RIlt710xZkUbbYLcSHvER7mtPpVVk_FqOxMYmER_4WRqv8hsf2hLZ1IlZ4_vAH60x6Yw=="
-      },
-      {
-        "title": "기간별환율조회 - 우리은행",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu66F1P52MKSwv6kKP2cdipKXfy4OEQVeD5S4X2NZLiMTcKstTPVj5sLgjXND6an33Lr4XV7TfTC552q1vs9LVFFrr-2yRaySg1ZSESKH8WYcxBu0C0SK3R-u1yBoQw5KLw61o4RvrxMnD_P6c4NuWGw=="
-      },
-      {
-        "title": "[0930개장체크] 美 증시, 반도체 등 일부 대형 기술주 강세 - 인포스탁데일리",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYcuCRi-PLHldirWmebHF7ySdyNyL1zUBWxNa0N0t5mFyPxhZU8TPp_mQGcjiWGiZAT23teQakAXiE4J11UcVSHhNGFHNg8j6e0kJRmW1hvmwhXLwwJxNr6PQn8ToYbwrkedN6TeA4-aKkaRtYns08eQ-b-DrAyGKK1fpLGaU="
-      },
-      {
-        "title": "[뉴욕개장] 기술주 사상 최고치서 숨고르기…보합권 출발 - 뉴스1",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7hJ6l1Iq0JS4YWjIAhMBWMtbQ5vDh8v7g5ZczIdKOMXNMrtmsgKGMk1PBaa51X-LexHI2yLDIvseJoz68g7qADJW65i4SPyEqoESO4F72VH9QuEgeoqWem8oGU3ZQHelM1LULqnQQRdpRV6BnQ-yc-beR"
-      },
-      {
-        "title": "미국 - 경제 일정",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFisvXUdcLwaXkqvMI0GiUIA9kh6zTNjBNkvLHZCKlmcODkzkapiuQ6uETm6XWhuq1gbfCE-REkbaMkAxrkhQxcgS0-rxvCoOb6Wf48vXrQu_PnOrkuswTXGtX1TWlKjybOW8L01DJQe1LZKzSDc3jV8A=="
-      },
-      {
-        "title": "필라델피아 반도체 실시간 지수 | SOX 지수 - Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg7r93MVsgXHUvgIzVU0lBiHVhPlV85X6SMKiYK-bPVf133YGLjbp4lJdXXnY5JQZgxaBQ-zSdaZ6wScRjye_4bahOCM-9QzddP8ENBmnNN_ZE8cBltVyKsQy64e1i9IYrFGmzQD7px8cg0U0Iog=="
-      },
-      {
-        "title": "미국 CPI 발표 시간과 뉴스: 2026년 일정",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7JSpZLaBwI3FUH3x52k-OH0PJWpGEXhFOfdLksXQIFzr3h21yXKdqBA2R2vjMjOuYr8ePtaS0FuGc7-t7wyeplA-9f94OM-vHp2BH0XQMBeblqsm_r1egXkfh9VOidb4m"
-      },
-      {
-        "title": "경제캘린더 - Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPLI7cifW_JxnJm51tgLjv-mcbRKjl-DDwvpPsIvpE8Xq6BvHjYIc3X4FeRRbVGoyGqsv9ddqfOy3bzg6i7es_AF13OecJjIyYmxgvb9uVXS2opIduNsPVo7CkMIfkYtebdu_fIg=="
-      },
-      {
-        "title": "USD KRW 과거 데이터 - Investing.com",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTIJoAs6DX1gGntpSdJjk3aBuVHaEWt52rj6chs69s9OW9Lct0y8VAd9vKOLIjrRs3oF6bDP5us6YCYeX6zzdJbLiQzm2kYYSmhCExJJX-lzeo-1Mq9Z-Jdw-rVXaemuc6klYq_o75bYh_xPgLIIL3nkX-d8cq"
-      },
-      {
-        "title": "환율 조회 > 기간별 매매기준율 - 서울외국환중개",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-QGdcgs7Q-ilb9kwLtQ1bE4KrAfR4sCN7kZ7Sn2g1SEWULCEorrVQuSKY4MpXqnWyYhkZlQUuOwgrgcDJVL5I-DOnfNjAcCP7_KqYi43lm3ZZSSTe7WGQnbBwQ2RG2Lmox6M="
-      },
-      {
-        "title": "일자별 환율 - 대신증권",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPwvc832v7qyuQW30GDIjzRluLklMJCJ9UPvI8DAfhyp2zX-jBzwzzkopZcxSf_Z__wIgu6OddDlI5g-nKm5BLZG_lOHICbpH0wKHrNG15Zykjrcp1EIG0SKjC1ShA0bEe8q_VrQ="
-      },
-      {
-        "title": "경제지표 - 국가 목록",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh4xpuGqsu5tkUd4SccinjrI2NwNkmaX4eNQ7UeBoPyJbWCnO3XDHYhZw1CTmzHRrWU8dEvA4JPLy6uZeeeOepgGECozO42dFe8Cxs5ZDN-mzf3t11HCYmpUBsrHhPZRjNA_4="
-      },
-      {
-        "title": "TIGER 미국필라델피아반도체나스닥 - 시장종합 - 한국경제",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8RpnWv8d9N0bj72d9Xpo_dFKWFu4o4lINGVACQDj21bzDdxJxG28Eek3NwL7oeS3XOMBuGHbk8cZ_vKJ9aVE4ZAGEdu4lAhvLhpbZatk6052VDL7itvs6j8vpYQTVstb88d5"
-      }
-    ]
+    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
+    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
+    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
+    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "확인 필요",
-      "view": "미국 기술주 혼조세 영향 속, 국내 반도체 기업들의 실적 전망과 외국인 수급에 따라 방향성이 결정될 것으로 예상됩니다. AI 관련주는 여전히 시장의 주요 관심사이나, 단기 과열에 대한 경계감도 존재합니다."
+      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "정부 정책 기대감은 있으나, 단기 급등에 따른 숨고르기 가능성이 있습니다. 장기적인 관점에서는 관심이 지속될 수 있습니다."
+      "status": "확인 필요",
+      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "글로벌 전기차 수요 둔화 우려가 지속되고 있으며, 배터리 소재 가격 변동성 및 수급 불확실성이 상존합니다."
+      "status": "확인 필요",
+      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
     },
     {
       "name": "바이오",
-      "status": "중립",
-      "view": "개별 신약 개발 모멘텀 및 기술 수출 소식에 따라 종목별 차별화가 예상됩니다. 전반적인 시장 관심은 아직 제한적입니다."
+      "status": "확인 필요",
+      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려 속 완성차 판매량 추이를 주시해야 합니다. 전장 부품 분야는 성장 기대감이 유효하나, 단기 변동성이 존재합니다."
+      "status": "확인 필요",
+      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
     },
     {
       "name": "조선·방산",
-      "status": "강함",
-      "view": "지정학적 리스크 지속 및 친환경 선박 발주 증가 기대감이 있습니다. 방산 수출 모멘텀도 지속될 것으로 보입니다."
+      "status": "확인 필요",
+      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
     },
     {
       "name": "금융·지주",
-      "status": "중립",
-      "view": "금리 인상 사이클 종료 기대감과 경기 둔화 우려가 상존합니다. 배당 매력은 유효하나, 성장 모멘텀은 제한적입니다."
+      "status": "확인 필요",
+      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "확인 필요",
-      "view": "AI 기술 발전과 연계된 성장 기대감은 있으나, 실적 가시화까지 시간이 필요합니다. 테마성 움직임에 주의해야 합니다."
+      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
     }
   ],
   "watch": [
-    "미국 증시 선물 움직임 및 아시아 증시 개장 동향.",
-    "원/달러 환율의 변동성 확대 여부 및 외국인 수급 방향.",
-    "국내 기관 투자자의 주요 매수/매도 섹터 및 종목.",
-    "글로벌 주요 경제 지표 발표 (예: 미국 8월 국제 무역 지수, 9월 LMI 물류 관리자 지수 등).",
-    "국내 기업들의 잠정 실적 발표 및 가이던스 변화.",
-    "유가 등 원자재 가격 변동이 인플레이션에 미치는 영향."
+    "코스피·코스닥 지수 방향",
+    "외국인·기관 수급",
+    "환율과 미국 반도체주 흐름",
+    "주도 섹터 확산 여부"
   ],
   "risks": [
-    "글로벌 경기 둔화 심화 가능성 및 기업 실적 하향 조정 우려.",
-    "미국 연방준비제도(Fed)의 매파적 스탠스 재강화 가능성.",
-    "중동 등 지정학적 리스크 고조로 인한 유가 급등 및 공급망 불안.",
-    "원/달러 환율의 급격한 상승으로 인한 외국인 자금 이탈.",
-    "중국 경기 회복 지연 및 부동산 시장 불안정성 심화."
+    "환율 급등",
+    "미국 기술주 조정",
+    "특정 섹터 쏠림 후 차익매물",
+    "외국인 수급 둔화"
   ],
   "actionPlan": {
-    "holder": "보유 종목의 실적 모멘텀과 섹터 흐름을 점검하고, 비중 조절을 고려해야 합니다. 단기 급등 종목은 차익 실현 관점에서 접근하고, 장기 성장성이 유효한 종목은 보유 전략을 유지합니다.",
-    "newEntry": "글로벌 매크로 불확실성이 상존하므로, 신규 진입은 보수적인 관점에서 접근하는 것이 좋습니다. 실적 개선이 확실시되거나 구조적 성장 섹터 내 저평가 종목을 선별적으로 탐색하되, 분할 매수 전략을 활용합니다.",
-    "cash": "시장 변동성 확대에 대비하여 일정 수준의 현금 비중을 유지하는 것이 중요합니다. 시장의 방향성이 명확해지거나 매력적인 매수 기회가 왔을 때를 대비하여 현금을 확보하는 전략이 유효합니다."
+    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
+    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
+    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
   "sources": [
     {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqGUmeBNecwMzRrIV2pCapZ5Mvz2DFc3zv88Z3OeXWHhmxDdiaknEGkT_e1VKIJElUeMQhtWHpnIVxQF5c4vS4GeVGuOLS4dTPGEtVEkaDGWmEGpri2R6ZzuWiFOj-do7KKf57sXggwcz4WQgGgXCmmvLaarDCJ8h8Bw=="
+      "title": "jabon.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkTRKHUKONTm3myZv9hyf5rxf2CZRaasMlCoe0FI2r4q53BH8NcyHegp-IKfdKiTeaKy6yPHhfpnRsl4RRsXuVL0dg7vtFZ8f02_mY9oTNNF8mZ_q2xcb2aIaLl2j3aB5iRAtFx75WJjXMIHtIomlT3rfT"
     },
     {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD0qH_7S5LOVUHGprZsCGyoVEPKGkcXPI-HObfXZthJzESAlaju9-xLEyfzeKbvr3EZpx4AL6I2U9aPck3o2jXp9GRVMkkKxrJo98P9U6y6hOTT_2ZNt89mds="
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb_a7ZEWwjWCxro8ibzxogHLfRMh6XwQmDgf5GGf2-eJxlksrSeLkV-SA1zz-vksYK8g5Qjs-aIREunF7HnS6WVEuKtjtYZu4ljtHgy_fIpVMaTg8nbXCO7vREEiTlzXegozXvKyDxcJYF"
     },
     {
-      "title": "tradingkey.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRlKBKZioke0iJcO9PB4hfIWHKgJdHHUgQEoxrz6eYoDTTsJv2sBmgjTq0WyknroIng5-nQv9dQVsMJ17kvsWnMh6Rgc4a8Dxetvcnn1xAlzRmwo01chb8Ha-XNQ0_vreYU0gcv6DKJQav5j0TIeMZJEjrtL7uM5nlvIK4oefAWULfY53tEK26p0-5O2lGOw=="
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE162NQJs3d5FIjTV7pLNM3KQ5a3RZCJQ5R1rUmgUsNmKz2Yno2-xVTbvUF9OQW6_fi_J5H_x4vO-DatlRiZ-VKcT0E2qAoc4w9e9Pb8-fGqTFHrWGqi2A43GjRNnYLh9PDBWl8tqOYZP9s9A=="
     },
     {
-      "title": "mt.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHph1uKgVTnT5D6GSpoVLz2aH1EUuYrgUJNA7jIOOe74wqJXJ81UcfXvc-xqf9kYUwPiM-Fo-EjsgaXxjd9ymDIZ0b3M2l1A6HEw4nr1SX7K66Xaxz8ChiRMUd_nUzGKPZTaEPiDxXoKJUcK77snBoQ81BXCSJxd09a4h8UOG0="
-    },
-    {
-      "title": "daum.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAWv9uMAziQbOd6NGNu4w6kUfv0OCc9rdkJveQ-G1nNaOIyFt2ZavCiBOCmJsEuR1c7M8Zd0fDVW-T299o6eEeFBEiK_0_CrV0E2yHAoYCIzy6S6XhPrYpai-d_-jSDm5c4ThnPlOGZIRm"
-    },
-    {
-      "title": "google.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0tnTgXdQQPTggl2H8Smc06nWAXLCAwjZbEGeRjlQgDAi6ZS-29gmUfM4_b-bVHYVfl1KS67Xs23JX-hMcc6AdIIz_KXfReCPSHWejPiPAMwQz0r8-zKOVITgJaVdB0SBvwScLMwpY9Pq5csEOnHBIOT_C1DI="
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGgOwqr6An83BC5kM-32fRv_ur7ztn6u-BiRi94qzUmpdZnRrMpI6Mk2pWa-aho2O61_W9q7VaoxwWFiyOsIwyNiJJZjC1UctalgFzLeOCo64Pu5m8SHDy3T7JLtui-684unvtsBQHiDk="
     },
     {
       "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg7r93MVsgXHUvgIzVU0lBiHVhPlV85X6SMKiYK-bPVf133YGLjbp4lJdXXnY5JQZgxaBQ-zSdaZ6wScRjye_4bahOCM-9QzddP8ENBmnNN_ZE8cBltVyKsQy64e1i9IYrFGmzQD7px8cg0U0Iog=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE2dz-XrfpPQ7-FR1sPrR-XH6VsvRdBg8kgTOVnHcAtBVWVvvvh8_Gp4m5EzKkswMN2vLyjMGkOiCEcThPpyMB2iFwxsliAThQSNaXQ3Sv3AgvYkEw7S5Fcq6VREuyHEKnTf17ov4lykZQgwwc6ijg2_mQoIiygfyyJg=="
     },
     {
-      "title": "wonforecast.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHigrQOEUskqoQUIFaCZmLZT_AiLFNW9txzluCMfIUp9QHQsBLIZ4SGXZJuWoZ6M5SIDjI2A7RaA0ETEg7TAFb2fsaasirU-wnqIUTRN11AhGjdfPFiexnakbltjSpJFfyDSPA-pyoBTBi0PhTf9iTG1y4dXDcBoieVpU_BQ9BkBJ4Z24fCqy_4Dwmg"
+      "title": "ebn.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUT-EUxnhFcn0LgIUra_FC3Aqs3FzhfVzJwLadd8-oqrdmU1_p5EaJjUctFVItP53_U8GKz4vWAYjt5Og4RSIK64oN8QTekC0c7ACRJUVdsJ6OXTILgOLNOCnNIeJjCGU8QL8NCUqXfcH0QT4mIbLsxlb5ww=="
+    },
+    {
+      "title": "specialtimes.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoASk98_dHkNNWfgINi8Dc1BbkZryDyd7TonOMtTnO_LlKCjKRM5wbAfn84BDJWAKIeEA7aJ-hp8X1wkTPqKXZxWQSte2REWuP_LP55JKV7TF1ext1EwqvWhjGoYEf95jIdYZlfRUrOC_WT4UdgKoPf7D9krKU6H29a-g="
+    },
+    {
+      "title": "hankyung.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIkTZu-eH-FlXjreGZsFrqmWLPtOSlsRWLnbswIzJDb-NtXoZKUpH1tswcaPaWXABK0Rmgoyyh-HSZQRX9SY8949o6JAnKX-fWB3ATAI8kGnqwltyxarHG"
     }
-  ]
+  ],
+  "note": "JSON 파싱 실패"
 }
