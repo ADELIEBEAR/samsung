@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 10월 7일 수요일 PM 2:19",
+  "updatedAt": "2026년 10월 7일 수요일 PM 8:56",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 6844.79,
-      "changePct": 9.36,
+      "last": 6803.9,
+      "changePct": 8.71,
       "points": [
         {
           "date": "2026-08-07",
@@ -167,7 +167,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 6844.79
+          "close": 6803.9
         }
       ]
     },
@@ -176,8 +176,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 903.87,
-      "changePct": 13.15,
+      "last": 898.43,
+      "changePct": 12.47,
       "points": [
         {
           "date": "2026-08-07",
@@ -337,7 +337,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 903.87
+          "close": 898.43
         }
       ]
     },
@@ -346,8 +346,8 @@
       "title": "삼성전자",
       "desc": "005930 추세",
       "symbol": "005930.KS",
-      "last": 270500,
-      "changePct": 17.1,
+      "last": 268500,
+      "changePct": 16.23,
       "points": [
         {
           "date": "2026-08-07",
@@ -507,7 +507,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 270500
+          "close": 268500
         }
       ]
     },
@@ -516,8 +516,8 @@
       "title": "SK하이닉스",
       "desc": "000660 추세",
       "symbol": "000660.KS",
-      "last": 1733000,
-      "changePct": 21.87,
+      "last": 1723000,
+      "changePct": 21.17,
       "points": [
         {
           "date": "2026-08-07",
@@ -677,7 +677,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 1733000
+          "close": 1723000
         }
       ]
     }
