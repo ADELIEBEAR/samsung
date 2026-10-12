@@ -1,119 +1,82 @@
 {
-  "updatedAt": "2026년 10월 13일 화요일 AM 12:12 KST",
-  "session": "장 전 브리핑",
-  "marketTitle": "글로벌 불확실성 속 한국 증시 개장 준비",
+  "updatedAt": "2026년 10월 13일 화요일 AM 1:59",
+  "session": "오늘 시장 브리핑",
+  "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 증시 혼조세와 환율 변동성 속, 국내 증시는 관망세로 출발할 전망이며, 특정 주도 섹터 부재 속 수급 균형이 중요합니다.",
-  "marketRegime": "지난밤 미국 증시가 기술주 강세와 다우존스 하락이 엇갈리며 혼조세를 보인 가운데, 국내 증시는 개장 전 신중한 분위기가 예상됩니다. 특히 코스피는 최근 4거래일 연속 하락하며 6,400선마저 내주는 등 한 달 만에 최대 낙폭을 기록했습니다. 반면 코스닥은 중소형 성장주 중심으로 상대적으로 선방하는 흐름을 보였습니다. 원/달러 환율은 최근 반도체 수출 호조와 경상수지 흑자로 인해 2년 만에 최저 수준으로 하락했으나, 중장기적으로 반도체 업황에 따라 변동성이 커질 수 있다는 분석도 나옵니다. 전반적으로 특정 방향으로의 강한 움직임보다는 개별 종목 및 섹터별 차별화 장세가 이어질 것으로 보입니다.",
+  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "미국 증시 혼조세 마감, 국내 증시 관망세 예상.",
-    "코스피 4거래일 연속 하락, 코스닥은 상대적 선방.",
-    "원/달러 환율 2년 만에 최저 수준 기록, 추가 하락 여지 있으나 변동성 주의.",
-    "주요 기업 3분기 실적 발표 및 거시 경제 지표 대기.",
-    "외국인·기관 수급 동향이 시장 방향성 결정의 주요 변수.",
-    "10월 13일 코스피 52개, 코스닥 72개 종목 자사주 매수 신청 공시."
+    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.",
+    "환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.",
+    "외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.",
+    "반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다."
   ],
   "dashboard": {
-    "indices": "코스피는 전일 4거래일 연속 하락하며 6,400선마저 내주는 등 부진한 흐름을 보였습니다. 금일은 낙폭 과대에 따른 기술적 반등 가능성도 있으나, 6,500선 회복 여부가 중요합니다. 코스닥은 전일 하락했으나 코스피 대비 낙폭이 작았으며, 중소형 성장주 중심의 개별 종목 장세가 예상됩니다.",
-    "global": "미국 다우존스는 소폭 하락했으나, 나스닥과 S&P 500은 기술주 및 AI 관련 종목의 상승세에 힘입어 강세로 마감했습니다. 특히 AI 소프트웨어 산업의 투자심리 회복에 긍정적 영향이 기대됩니다. 필라델피아 반도체 지수도 견조한 흐름을 이어가며 국내 반도체 섹터에 긍정적인 영향을 미칠 수 있습니다.",
-    "fx": "원/달러 환율은 반도체 호황에 따른 달러 공급 증가로 2년 만에 최저 수준인 1333원대까지 하락했습니다. 한국은행 총재는 환율의 추가 하락 여지가 있다고 언급했으나, 여전히 예년보다 높은 수준이라고 평가했습니다. 미국 국채 금리는 변동성이 컸으나, 금리 인상 불확실성 해소에 대한 시장의 안정 기대감도 존재합니다.",
-    "flows": "외국인 투자자는 전일 코스피에서 매도 우위를 보이며 지수 하락을 이끌었습니다. 코스닥에서는 외국인과 기관 모두 매도 우위를 보였고, 개인은 순매수했습니다. 금일은 SK하이닉스 등 주요 기업의 자사주 매수 신청이 예정되어 있어 수급에 영향을 줄 수 있습니다. 외국인과 기관의 매매 동향이 시장 방향성을 결정하는 주요 변수가 될 것입니다."
+    "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
+    "global": "미국장과 반도체 지수 흐름을 함께 확인합니다.",
+    "fx": "원/달러 환율과 달러 흐름을 함께 확인합니다.",
+    "flows": "외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
-      "status": "중립",
-      "view": "미국 기술주 강세와 AI 관련주 기대감은 유효하나, 국내 반도체 투톱(삼성전자, SK하이닉스)은 전일 약세를 보였습니다. SK하이닉스의 자사주 매수 신청은 긍정적 요인입니다."
+      "status": "확인 필요",
+      "view": "대형주 수급과 장비·소부장 확산 여부를 확인합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "정부 정책 기대감은 지속되나, 단기 급등에 따른 숨고르기 양상이 나타날 수 있습니다."
+      "status": "확인 필요",
+      "view": "AI 데이터센터와 전력기기 흐름을 확인합니다."
     },
     {
       "name": "2차전지",
-      "status": "약함",
-      "view": "글로벌 전기차 판매 둔화 우려와 수급 불균형으로 인해 투자 심리가 위축될 수 있습니다."
+      "status": "확인 필요",
+      "view": "대형주 반등과 소재·장비 동조 여부를 확인합니다."
     },
     {
       "name": "바이오",
       "status": "확인 필요",
-      "view": "개별 종목의 임상 결과 및 기술 수출 소식에 따라 변동성이 클 것으로 예상됩니다. 셀트리온은 3분기 호실적을 발표했습니다."
+      "view": "개별 이슈인지 섹터 확산인지 구분합니다."
     },
     {
       "name": "자동차·전장",
-      "status": "중립",
-      "view": "글로벌 경기 둔화 우려에도 불구하고 신차 효과 및 전장 부품 성장 기대감은 유효합니다. 현대차는 전일 상승했습니다."
+      "status": "확인 필요",
+      "view": "환율, 실적, 전장 부품 흐름을 확인합니다."
     },
     {
       "name": "조선·방산",
-      "status": "강함",
-      "view": "지정학적 리스크 지속과 친환경 선박 발주 증가로 견조한 실적 기대감이 유지됩니다."
+      "status": "확인 필요",
+      "view": "수주와 정책 기대가 주가에 이어지는지 확인합니다."
     },
     {
       "name": "금융·지주",
-      "status": "강함",
-      "view": "고금리 환경 지속과 배당 매력으로 인해 방어적인 성격의 투자 수요가 유입될 수 있습니다. KB금융, 신한지주 등 자사주 매수 신청이 있습니다."
+      "status": "확인 필요",
+      "view": "배당, 밸류업, 대형주 순환매 흐름을 확인합니다."
     },
     {
       "name": "로봇·소프트웨어",
-      "status": "중립",
-      "view": "산업 자동화 및 AI 기술 발전 기대감은 여전하나, 단기적인 모멘텀은 다소 약화될 수 있습니다."
+      "status": "확인 필요",
+      "view": "테마성 급등인지 실수급이 붙는 흐름인지 확인합니다."
     }
   ],
   "watch": [
-    "미국 9월 소비자물가지수(CPI) 발표 일정.",
-    "주요 기업들의 3분기 실적 발표 동향 (존슨앤존슨, 유나이티드헬스그룹, 블랙록 등).",
-    "원/달러 환율의 추가 하락 여부 및 변동성.",
-    "외국인 투자자의 코스피·코스닥 매매 동향.",
-    "10월 13일 국내 금융당국의 부동산 PF 상황 점검 회의.",
-    "SK하이닉스 등 주요 기업의 자사주 매수 진행 상황."
+    "코스피·코스닥 지수 방향",
+    "외국인·기관 수급",
+    "환율과 미국 반도체주 흐름",
+    "주도 섹터 확산 여부"
   ],
   "risks": [
-    "미국 연방준비제도(Fed)의 통화정책 불확실성 지속.",
-    "중동 지역의 지정학적 리스크 고조 및 국제 유가 변동성.",
-    "글로벌 경기 침체 우려 심화.",
-    "국내 기업들의 실적 부진 가능성.",
-    "환율 변동성 확대에 따른 외국인 자금 유출 가능성."
+    "환율 급등",
+    "미국 기술주 조정",
+    "특정 섹터 쏠림 후 차익매물",
+    "외국인 수급 둔화"
   ],
   "actionPlan": {
-    "holder": "보유 종목 중 실적 개선 기대감이 높은 종목은 지속 보유하되, 단기 급등 종목은 차익 실현을 고려할 수 있습니다. 특히 최근 하락폭이 컸던 코스피 대형주 중 저점 매수 기회를 모색할 수 있습니다.",
-    "newEntry": "신규 진입은 보수적인 관점에서 접근하며, 실적 안정성과 성장성을 겸비한 종목을 분할 매수하는 전략이 유효합니다. 자사주 매수 공시가 있는 종목에 대한 관심도 필요합니다.",
-    "cash": "현금 비중을 일정 부분 유지하며 시장의 불확실성에 대비하고, 저점 매수 기회를 모색하는 것이 좋습니다. 특히 주요 경제 지표 발표 전후 변동성 확대에 대비해야 합니다."
+    "holder": "보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.",
+    "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
+    "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [
-    {
-      "title": "kihoilbo.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLHWx_I0AiiXr4B3ebDZVVKplHpBLMS59EPLHBvph6P2b0fxw_nnK7JOGF_XnKdp-pOmNbExzBFrVV36h6i1CRkcjP29cERtNHmlAeMKURgzA66ROZlsvwdfiYsQAv-1vGmR4ojrXzMgFqYG8VsJrW-1WaPrzsuGk="
-    },
-    {
-      "title": "hkhantimes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKQzYNtqxWn5-LE34I-39MVeM3wU4QG7oS4UFzPdL9k93DWe4iwdPnOTd4ls7JLMhbLj5HRLLAugDUKkMybYEIH5_hNArtnWWcANdiS4LFxTw4onRvf9fSLM7Csg-3Aw=="
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpaITr8UKgASGE9OymUvIEXnKvXAl3EBppcIyFEhqHYELvBkIEVOqu-Pg9la7khR9CgM7BGMjtCAOCOoGSmwrGGxSUvmwmCj3GWyyV_iboOZRLN4YMLFL0HJtVWJsHq9RO1gRo5_EiV4zkohtW1xxqsThxFIxgSo8E"
-    },
-    {
-      "title": "yna.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFu7Gpj3MFH6l_qSNmO7tp9r-HMss6UCyFdfC2S7n-UGNDC1iCqXV0BHXQxZgA6VX7w6bWb4kML26oS9ev1od-2fIKv8FC7gWHqHicN27XdMc2bPGgGRd8v1fqL0R6VjA7OB8abQrMWkY="
-    },
-    {
-      "title": "investing.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgJwn2jF5D78BGGA4tg3q-2r7wJKvkAilS-67kefpUQ_hcMrqy2VUcgPaPr6CWGeu146IDZ4vIZTTbxAgxmrTdsFC-HSu4hLC2u9APsmVFu-eSVti_G2-mJ3oGu6vr85gwyalPMSirOMLad01wzE9n3hjqfZFzG8PB"
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG4a4lh18UzVAg0erK3r7QwPUdxWWfNuxUt5o9K_llAhLg6fhU4NzrV86JY5Mzxd1-NYXLfQqtC8A2gXIEFrQHBl40C8wkVQ1aPl17R6RXgxWU_bBagboYkmB6JoUh_b_bIRW75kja5yX4"
-    },
-    {
-      "title": "busan.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1gDX3QZI4o3gMVkLYH1ztxa8yz1DMu87UlavNzV6Xu7ixt1KKJrn_XbBMDJrMa0bBPmqrTSmSk7COq4q3LvYCzUuQ6JiqW0zFD73Nb69nBZuPlMIjSmRIh2ujFAFb4hrFWWGNHzeVUJwPijH8frKp5VjweeIdThItJ7tjKESKZh54"
-    },
-    {
-      "title": "mt.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxteBgVgRznNMEYxdo0rXjvsh63zUiFtrX-yWJN_vEfUOPkrWuuhd-JFHISDEGKQIVBfFEfU2QUaIQKM9ruAkWW1ecfInVhW2DZ3lMUDRB2u7OgEsaXoRPPN0T6TLaBjFmw0Bz1cFmVCfmqXj29vqIhQdXFjM="
-    }
-  ]
+  "sources": [],
+  "note": "Gemini API 오류: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u"
 }
