@@ -1,16 +1,13 @@
 {
-  "updatedAt": "2026년 10월 13일 화요일 AM 1:59",
+  "updatedAt": "2026년 10월 13일 화요일 PM 12:29",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026-10-13 12:29:00 KST\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"반도체발 충격에 코스피 6000선 붕괴, 투심 급랭\",\n  \"temperature\": \"리스크오프\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"중국 D램 기술 추격 우려와 외국인 대규모 매도세에 반도체주 급락, 코스피 6",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.",
-    "환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.",
-    "외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.",
-    "반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다."
+    "{\n  \"updatedAt\": \"2026-10-13 12:29:00 KST\",\n  \"session\": \"장중 브리핑\",\n  \"marketTitle\": \"반도체발 충격에 코스피 6000선 붕괴, 투심 급랭\",\n  \"temperature\": \"리스크오프\",\n  \"riskLevel\": \"높음\",\n  \"oneLine\": \"중국 D램 기술 추격 우려와 외국인 대규모 매도세에 반도체주 급락, 코스피 6000선이 무너지며 시장 전반에 투심이 급랭하고 있습니다.\",\n  \"marketRegime\": \"글로벌 AI 수익성 우려와 중국 반도체 기술 추격 소식에 국내 증시가 큰 폭의 하락세를 보이며 투자 심리가 급격히 위축되는 시장 흐름을 나타내고 있습니다. 외국인 매도세가 집중되며 대형 기술주 중심의 하락이 두드러지고 있습니다.\",\n  \"summary\": [\n    \"코스피는 개장 초 4%대 급락에 이어 장중 6000선마저 붕괴되며 심각한 하락세를 보이고 있습니다.\",\n    \"외국인 투자자들은 반도체"
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -77,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
-  "note": "Gemini API 오류: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u"
+  "sources": [
+    {
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLZY3E9YNLzongp8QOQtCrhUGE6xZeBSk0doZjfYPOtGx8GHynWw-TnGfRxolMsuRzWWNtSxkhbR11dyGUGApZOE4qC306JuYlcUsxQoaP5lDE9SbhdDnJhR8uxorjw9oBw4q3nk9pyc8Ad0lHFB-ie-c9sRWIUkRj4w=="
+    },
+    {
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVPQpykaNnmG3tQ0CY_XILoTeQy9iw0P5d2yiMumYIinQ8LY37JLc7H3C2A6D-TExzQQmcRVPEEEdNCTp6Fqy-CQFeZp0IzlU9NpeYN71G5KeHz_CprKDnRvrMih4OdRhD-fc="
+    },
+    {
+      "title": "fntimes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfM9PCHJIUgcXiERcefGPuFHCwtphxaB0NWeSPOBqsgPGaLPs1ar84LV2K82v1zjQLNFbKUF22TG7gLWfpf-G8vbn9UMxZnoMcZK2LNoiWAznkF88mR5h6xpGPYvjGhB407RYWhS0cZvt0rKYpWZl6X0rFghh4KYJseA8Fe2FeOY="
+    },
+    {
+      "title": "mk.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPNj598X3Eimlm94KKF7jSZITXeMB903zA_W5VLizqg3ukD3GGzDK4qMmkfXtP2qYJ066LoTq50S3n5AuYkQKiXXkVcOrEkJ5EIQR5VQTSRoe5pQ5uyjjV-P52iaYUg6wu868="
+    },
+    {
+      "title": "wonforecast.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNbN9yzYMzHxkFsxq5sZw4Sv9e-iw5DPng-bAIe4lX9x-ycPAAGi-M2ppHSqJXbcCOORB_TBltptyYxjaDhMQ5xARpAITjSCZdkrDJKkO0WnzsrOx5MGo5H8NWUnerfQ_IAqffeBKNwH-zeSna85OI-0ukbGWnOMxMshY0LA91aS3cDr1CWVUgTY75"
+    },
+    {
+      "title": "chosun.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLZIipSBwsrnqT_3SlZua0e42bTVHQZRZf1fUYBAEFzOLP4lzYaUBFuF6D1Atez2x4xeiTU4EPh4vS8egj3JE-jffU1py6D5dh70bkYbsR1gEttLmjrU3hn3NhjILPjCOxMWbz4s-PxaQTXm_O-EiUsUoDk_r6GFsqLWtfd5zlJUhTM6_kyQ=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHI26mF7zNfpV6Z4DoF8qHblJs_riIripx92X8rRzBs_TetGDpGUpU-EkvlHnLRmodfjHCmA98XB4yCkLRtKZfuz570xHbbKaOGBMamH19CiW8p96hlVf6sBx3VnK9izzSOOtxbE="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBw9JVeGoIHirpaeIlXfiYTeDdSINoxe4xovBo6D4KSQMIis6K3ACm1yMUL_JiRAJxsA0knFG4_eRyB8IVCGoQNY4W3orsn7ulFzIu667uCMP_ZhivkYd9ThbMkMh-Jdn9LEbXYGg="
+    }
+  ],
+  "note": "JSON 파싱 실패"
 }
