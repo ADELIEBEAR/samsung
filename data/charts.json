@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 10월 16일 금요일 PM 12:59",
+  "updatedAt": "2026년 10월 16일 금요일 PM 5:57",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 5706.65,
-      "changePct": -16.93,
+      "last": 5668.05,
+      "changePct": -17.49,
       "points": [
         {
           "date": "2026-08-18",
@@ -167,7 +167,7 @@
         },
         {
           "date": "2026-10-16",
-          "close": 5706.65
+          "close": 5668.05
         }
       ]
     },
@@ -176,8 +176,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 791.46,
-      "changePct": -5.12,
+      "last": 794.78,
+      "changePct": -4.73,
       "points": [
         {
           "date": "2026-08-18",
@@ -337,7 +337,7 @@
         },
         {
           "date": "2026-10-16",
-          "close": 791.46
+          "close": 794.78
         }
       ]
     },
@@ -516,8 +516,8 @@
       "title": "SK하이닉스",
       "desc": "000660 추세",
       "symbol": "000660.KS",
-      "last": 1282000,
-      "changePct": -22.86,
+      "last": 1272000,
+      "changePct": -23.47,
       "points": [
         {
           "date": "2026-08-18",
@@ -677,7 +677,7 @@
         },
         {
           "date": "2026-10-16",
-          "close": 1282000
+          "close": 1272000
         }
       ]
     }
