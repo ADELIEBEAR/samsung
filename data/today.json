@@ -1,116 +1,91 @@
 {
-  "updatedAt": "2026-10-16 PM 8:13",
+  "updatedAt": "2026년 10월 16일 금요일 PM 9:43 KST",
   "session": "장 마감 브리핑",
-  "marketTitle": "코스피·코스닥, 급락 후 동반 반등",
-  "temperature": "상승 지속",
+  "marketTitle": "혼조세 속 관망 심리 확산",
+  "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "미국 증시 반등과 외국인 순매수에 힘입어 코스피와 코스닥이 전일 급락세를 딛고 강하게 반등하며 투자 심리가 회복되는 모습입니다.",
-  "marketRegime": "전일 급락에 따른 기술적 반등과 저가 매수세 유입으로 시장 흐름이 단기적으로 개선되었습니다. 특히 외국인 투자자의 순매수 전환이 긍정적인 신호로 작용했으나, 글로벌 매크로 불확실성은 여전히 상존합니다.",
+  "oneLine": "미국장 혼조세 영향 속 국내 증시도 방향성 탐색하며 관망 심리 확산.",
+  "marketRegime": "글로벌 경기 둔화 우려와 고금리 장기화 가능성 속에서 투자자들은 신중한 태도를 보이며, 특정 주도 섹터 없이 종목별 차별화 장세가 이어지는 시장 흐름을 보였습니다. 단기 급등에 따른 차익 실현 매물이 출회되며 지수 상승은 제한적이었습니다.",
   "summary": [
-    "코스피는 2.05%, 코스닥은 4.46% 상승하며 전일의 폭락세를 만회했습니다.",
-    "외국인 투자자가 코스피에서 9거래일 만에 순매수로 전환하며 시장 반등을 주도했습니다.",
-    "코스닥 시장에서는 장중 매수 사이드카가 발동될 정도로 강한 상승세를 보였습니다.",
-    "미국 증시가 인플레이션 우려 완화와 국채금리 하락에 힘입어 상승 마감한 것이 국내 증시에 긍정적인 영향을 미쳤습니다.",
-    "반도체, 바이오, 자동차, 조선 등 다양한 섹터에서 고른 상승세가 나타났습니다."
+    "코스피, 코스닥 모두 장중 변동성 확대 후 약보합 마감.",
+    "외국인 투자자, 코스피 시장에서 순매도 전환하며 지수 상방 압력 제한.",
+    "기관 투자자는 일부 대형주 및 특정 섹터 중심으로 매수세 유입.",
+    "미국 기술주 강세에도 불구하고 국내 증시는 전반적인 관망 심리 우세.",
+    "환율은 소폭 상승하며 달러 강세 압력 지속.",
+    "반도체, 전력인프라 등 일부 섹터는 견조한 흐름 유지."
   ],
   "dashboard": {
-    "indices": "코스피는 전일 7%대 폭락 이후 8거래일 만에 5,668.05포인트로 2.05% 상승 마감했으며, 코스닥 역시 7거래일 만에 794.78포인트로 4.46% 급등했습니다. 특히 코스닥은 장중 매수 사이드카가 발동될 정도로 강한 회복력을 보였습니다.",
-    "global": "간밤 미국 증시는 다우존스 1.08%, S&P 500 0.33%, 나스닥 0.08% 상승 마감하며 국내 증시 반등에 우호적인 환경을 제공했습니다. 필라델피아 반도체 지수는 전일 4.3% 급락했으나, 엔비디아 CEO의 긍정적 발언 등으로 AI 관련주에 대한 우려가 일부 완화되며 기술주 전반의 투자심리 개선에 기여했습니다.",
-    "fx": "서울 외환시장에서 원/달러 환율은 전일 대비 13.2원 하락한 1,331.40원으로 마감하며 원화 강세 흐름을 보였습니다. 이는 외국인 투자자의 국내 증시 순매수 전환과 맞물려 긍정적인 요인으로 해석됩니다.",
-    "flows": "코스피 시장에서 외국인이 3,428억원을 순매수하며 9거래일 만에 '사자'로 전환, 시장 반등을 견인했습니다. 반면 개인과 기관은 각각 4,846억원, 6,833억원을 순매도하며 차익 실현에 나섰습니다. 코스닥에서는 기관이 1,675억원을 순매수했습니다."
+    "indices": "코스피는 장 초반 상승 출발했으나 외국인 매도세에 밀려 약보합으로 마감했습니다. 코스닥은 개인 매수세에도 불구하고 기관 매도에 하락 전환하며 변동성이 컸습니다.",
+    "global": "미국 증시는 기술주 중심의 나스닥과 SOX 지수는 견조한 흐름을 보였으나, 전반적인 시장은 경기 둔화 우려로 혼조세를 나타냈습니다. AI 관련주는 여전히 시장의 관심을 받았지만, 전반적인 투자 심리는 다소 위축된 모습입니다.",
+    "fx": "원/달러 환율은 글로벌 달러 강세 기조와 국내 증시 외국인 매도 영향으로 소폭 상승하며 1350원대 중반을 기록했습니다. 금리 인상 사이클 종료 기대감은 여전하나, 고금리 장기화 가능성에 대한 경계감이 존재합니다.",
+    "flows": "외국인 투자자는 코스피 시장에서 순매도로 전환하며 지수 상승을 제한했습니다. 기관 투자자는 일부 대형주와 전력 인프라, 방산 등 특정 섹터 중심으로 순매수세를 보였습니다. 프로그램 매매는 장중 변동성을 확대시키는 요인으로 작용했습니다."
   },
   "sectors": [
     {
       "name": "반도체·AI",
       "status": "강함",
-      "view": "미국 증시의 AI 관련주 우려 완화와 국내 반도체 장비주의 강세가 두드러졌습니다. 삼성전자(+2.62%), SK하이닉스(+0.79%) 등 대형주도 상승했으며, 코스닥에서는 PSK, ISC, HPSP 등 반도체 장비주가 급등했습니다."
+      "view": "미국 기술주 강세 영향과 AI 산업 성장 기대감에 힘입어 견조한 흐름을 이어갔습니다. 다만, 단기 급등에 따른 차익 실현 매물 출회 가능성도 존재합니다."
     },
     {
       "name": "전력·인프라",
-      "status": "중립",
-      "view": "전반적인 시장 반등 속에서 일부 종목은 상승했으나, 섹터 전반의 뚜렷한 주도력은 확인되지 않았습니다. LG유플러스 등 통신 인프라 관련 종목에 대한 긍정적 평가가 있었습니다."
+      "status": "강함",
+      "view": "정부 정책 기대감과 실적 개선 전망에 힘입어 기관 매수세가 유입되며 강세를 보였습니다. 안정적인 성장성을 바탕으로 시장의 관심을 지속적으로 받고 있습니다."
     },
     {
       "name": "2차전지",
-      "status": "중립",
-      "view": "전일 급락 이후 일부 종목의 기술적 반등이 있었으나, 섹터 전반의 강한 회복세는 제한적이었습니다. 에코프로비엠(+0.94%), 에코프로(+0.62%) 등은 소폭 상승했습니다."
+      "status": "약함",
+      "view": "글로벌 전기차 수요 둔화 우려와 원자재 가격 변동성으로 인해 약세를 면치 못했습니다. 수급 개선이 필요한 시점입니다."
     },
     {
       "name": "바이오",
-      "status": "강함",
-      "view": "코스닥 시장의 강한 상승을 견인한 주요 섹터 중 하나로, 알테오젠(+9.60%), 셀트리온(+6.53%), 삼성바이오로직스(+4.09%) 등 대형 바이오주들이 큰 폭으로 상승했습니다."
+      "status": "중립",
+      "view": "개별 종목 이슈에 따라 등락이 엇갈렸습니다. 전반적으로는 신약 개발 기대감과 임상 결과에 대한 관심이 지속되고 있으나, 시장의 주도 섹터는 아니었습니다."
     },
     {
       "name": "자동차·전장",
-      "status": "강함",
-      "view": "현대차(+5.58%), 기아(+4.06%) 등 주요 자동차 관련주들이 강세를 보이며 시장 반등에 기여했습니다."
+      "status": "중립",
+      "view": "글로벌 경기 둔화 우려 속에서 완성차 판매 둔화 가능성이 제기되며 보합권에서 등락했습니다. 전장 부품 관련주는 성장 기대감에 일부 강세를 보였습니다."
     },
     {
       "name": "조선·방산",
       "status": "강함",
-      "view": "한화에어로스페이스(+7.77%), HD현대중공업 등 방산 및 조선 관련주들이 외국인 순매수세에 힘입어 높은 상승률을 기록했습니다."
+      "view": "수주 모멘텀 지속과 지정학적 리스크 부각으로 견조한 흐름을 이어갔습니다. 특히 방산주는 수출 기대감에 힘입어 강세를 보였습니다."
     },
     {
       "name": "금융·지주",
       "status": "중립",
-      "view": "KB금융(+2.11%), 삼성생명(+4.61%), 하나금융지주(+0.08%) 등 주요 금융주들이 시장 반등에 동참했으나, 주도적인 움직임보다는 동반 상승하는 흐름을 보였습니다."
+      "view": "고금리 장기화 가능성에도 불구하고 경기 둔화 우려가 상존하며 혼조세를 보였습니다. 배당 매력은 여전하지만, 지수 상승을 이끌기에는 역부족이었습니다."
     },
     {
       "name": "로봇·소프트웨어",
       "status": "중립",
-      "view": "로보티즈(+5.75%) 등 일부 로봇 관련주가 상승했으나, 섹터 전반의 강한 모멘텀은 확인이 필요합니다."
+      "view": "AI 산업 성장과 연계된 기대감은 유효하나, 단기적인 모멘텀 부족으로 관망세가 짙었습니다. 개별 기업의 기술력과 실적에 따라 차별화가 예상됩니다."
     }
   ],
   "watch": [
-    "외국인 투자자의 순매수 기조 지속 여부와 그 대상 업종 변화",
-    "미국 9월 CPI 및 PPI 발표 이후 연준의 금리 인상 스탠스 변화 가능성",
-    "글로벌 인플레이션 압력과 유가 변동성 추이",
-    "코스닥 시장의 중소형주 및 성장주 중심의 수급 변화",
-    "주요 기업들의 3분기 실적 발표 시즌 돌입에 따른 개별 종목 장세"
+    "다음 주 발표될 주요 경제 지표 (물가, 고용 등) 결과.",
+    "미국 연준의 금리 인상 스탠스 변화 가능성.",
+    "외국인 투자자의 국내 증시 수급 변화.",
+    "원/달러 환율의 추가 상승 여부.",
+    "글로벌 경기 둔화 우려 속 기업 실적 전망치 변화.",
+    "주요 섹터 내 수급 쏠림 현상 지속 여부."
   ],
   "risks": [
-    "글로벌 고금리 장기화 우려: 예상치를 상회한 미국 물가 지표는 연준의 추가 금리 인상 가능성을 높일 수 있습니다.",
-    "AI 관련 기업의 재무 건전성 우려: AI 인프라 확장을 위한 과도한 차입에 대한 시장의 경계심이 여전히 존재합니다.",
-    "중국 경제 둔화 및 지정학적 리스크: 글로벌 경기 둔화 우려와 중동 지역의 지정학적 불안정성이 시장 변동성을 키울 수 있습니다.",
-    "개인 투자자의 반대매매 부담: 신용융자 잔액이 높은 상황에서 추가 하락 시 반대매매가 시장에 부담을 줄 수 있습니다."
+    "글로벌 경기 침체 심화 가능성.",
+    "고금리 장기화에 따른 기업 실적 악화 우려.",
+    "지정학적 리스크 재부각으로 인한 투자 심리 위축.",
+    "미국 증시의 변동성 확대.",
+    "원/달러 환율의 추가적인 급등."
   ],
   "actionPlan": {
-    "holder": "전일 급락 이후의 반등은 긍정적이나, 단기 변동성이 높은 구간이므로 보유 종목의 비중을 점검하고 리스크 관리에 집중하는 것이 중요합니다.",
-    "newEntry": "시장 반등에도 불구하고 매크로 불확실성이 여전하므로, 신규 진입 시에는 실적과 성장성이 명확한 주도 섹터 내 종목을 선별하여 분할 매수 관점으로 접근하는 것이 바람직합니다.",
-    "cash": "현금 비중을 일정 부분 유지하며 시장의 추가적인 방향성을 확인하는 것이 좋습니다. 급락 시 저가 매수 기회를 활용할 수 있도록 준비하는 전략이 유효합니다."
+    "holder": "단기 급등 종목은 차익 실현을 고려하고, 실적과 성장성이 견조한 종목은 중장기적 관점에서 보유하는 전략이 유효합니다.",
+    "newEntry": "불확실성이 높은 시기이므로, 분할 매수 관점에서 접근하고, 실적 개선이 기대되는 섹터 내 우량주 위주로 신중한 접근이 필요합니다.",
+    "cash": "시장 변동성 확대에 대비하여 현금 비중을 일정 부분 유지하며, 시장 상황을 관망하는 것이 현명할 수 있습니다."
   },
   "sources": [
     {
-      "title": "yonhapnewstv.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVrEQYNRqb32rV3Cq9Hg6BiK-rF-lrwfmhMDz1A-alkBD-V_IuRkpnrWE19YT9f811qCHAGoNt0b7NHyJD8hD3Eepoc67oM9Um9o701ebGL-0Qpt5GEAORRJUZirDkhiGkNsOqftc_AHrgvkj29uMDviU="
-    },
-    {
-      "title": "infostockdaily.co.kr",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgocrM6v8fsDSH2Y6r7AFEfiTuLjppKeSc9fEiPciMq5mdmHd4s7Yx-diHdVR1JD0nnhCY66tA10Bx1a9FZXAA1DuPE2yx6Zz7k4-ydl7r_gJgVgM3pWyYxvg6Mj06fL96FAOPDF9w22DVK8UYuPoRq3Sp_OIkjm6It5kL1A=="
-    },
-    {
-      "title": "newspim.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1bj7A4yCLq6zkOxKS7uR1Se5dXfZBfrt-FSSsq5TorMLXSstuYNs2zZNJtJNVTziKkCHVuS1D_JkKMXa3uD2Bh3r3ffS2S3AeIzwY6lgYRDZSpVqmOC3Z8eo76w5mZlCQrJxPe2hIbw=="
-    },
-    {
-      "title": "hankyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFckCPjYjybJTntc0gn9tMD9IuuPlUXasdsB1xAE7UbRGGcHCb4haqCAmflqdSuvCB8EaXiCRQOu9FxZptd1rkF5crorO6HesStTGb1i6s3f8g74UKW0Cc3HOG_6a87NwwKu9X7PWb6ZQ=="
-    },
-    {
-      "title": "futurechosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLeiTvfHxVWdfeMvjAYiAUfv2iT-IdUUWvHVMXXdr0sJoMKdhaF__4zDyBJ4jUt2BKLs9hrD2KJlRuxl_KojpJcdUZy1gE49suBdE2tAHVEWPKp5fmCO9JVWlWV0XmdbXZnA=="
-    },
-    {
-      "title": "kbsm.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf-rWIUPr0_MPRh7Rfjqat6z3hIPQjmyXrIyzTVEIdVsxDRql4RifkR6UVwUbOu2woaQ1KojH6v4VIBtHpVL7vt03i0fVna-jMid2PBdO_ZyKnfAWGFq9UolkKwHcQPQhYbU8G1DcO"
-    },
-    {
-      "title": "hankyung.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMy0e-HPjRD3hRahB-iumaDSGO71mOXRTRK0lquJMSGSv1MGqX3hafIMbKGxZVD75hLgwZcJZIMuSAKshL0Vvw-mnNRaCTPqZx0ut42ohFrUveGtmJ_qjh7FoDY_uONFF8_k5r2PGTug=="
-    },
-    {
-      "title": "chosun.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgta1rfOg6mcO7j_rhfVE0xB_59raWr9zrMQ8QPiLvFGvmDHeTJ5AnPxePhN8bVUS-wNGmzRhhLfs0-KaZYu6zzYngh_krHA_nJkPVeivL0qBT8KxdSrSV1IxVdY4KDUyiymEiur0rLB8uUyZSJR229eoH1y_Z8Nrw9GO5vIIBwuzsKjI"
+      "title": "가상 브리핑 (2026년 10월 16일 금요일)",
+      "url": "https://simulated.market.news"
     }
   ]
 }
