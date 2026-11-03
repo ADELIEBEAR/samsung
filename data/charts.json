@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026년 11월 3일 화요일 PM 1:04",
+  "updatedAt": "2026년 11월 3일 화요일 PM 3:03",
   "charts": [
     {
       "key": "kospi",
       "title": "KOSPI",
       "desc": "코스피 지수",
       "symbol": "^KS11",
-      "last": 5654.53,
-      "changePct": -14.06,
+      "last": 5650.98,
+      "changePct": -14.11,
       "points": [
         {
           "date": "2026-09-03",
@@ -167,7 +167,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 5654.53
+          "close": 5650.98
         }
       ]
     },
@@ -176,8 +176,8 @@
       "title": "KOSDAQ",
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
-      "last": 709.6,
-      "changePct": -10.2,
+      "last": 705.8,
+      "changePct": -10.68,
       "points": [
         {
           "date": "2026-09-03",
@@ -337,7 +337,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 709.6
+          "close": 705.8
         }
       ]
     },
