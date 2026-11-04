@@ -1,16 +1,13 @@
 {
-  "updatedAt": "2026년 11월 4일 수요일 PM 7:50",
+  "updatedAt": "2026년 11월 4일 수요일 PM 11:21",
   "session": "오늘 시장 브리핑",
   "marketTitle": "오늘 시장 흐름 점검",
   "temperature": "중립",
   "riskLevel": "보통",
-  "oneLine": "오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.",
+  "oneLine": "{\n  \"updatedAt\": \"2026년 11월 5일 목요일 AM 8:21 KST\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"미국장 혼조 속 국내 증시 변동성 주시\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 증시 혼조세와 국내 증시의 높은 변동성 속, 2차전지 및 일부 전통 산업 강세가",
   "marketRegime": "시장 흐름은 확인 중입니다.",
   "summary": [
-    "코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.",
-    "환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.",
-    "외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.",
-    "반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다."
+    "{\n  \"updatedAt\": \"2026년 11월 5일 목요일 AM 8:21 KST\",\n  \"session\": \"장 전 브리핑\",\n  \"marketTitle\": \"미국장 혼조 속 국내 증시 변동성 주시\",\n  \"temperature\": \"중립\",\n  \"riskLevel\": \"보통\",\n  \"oneLine\": \"미국 증시 혼조세와 국내 증시의 높은 변동성 속, 2차전지 및 일부 전통 산업 강세가 두드러졌으며, 외국인 수급과 미국 중간선거 후 정책 변화에 주목해야 할 시점입니다.\",\n  \"marketRegime\": \"어제 국내 증시는 미국 중간선거 결과를 주시하며 장중 큰 변동성을 보였습니다. 코스피와 코스닥 모두 급등 출발 후 급락했다가 오후 들어 낙폭을 만회하며 상승 마감하는 '롤러코스터' 장세를 연출했습니다. 특히 외국인 투자자들의 대규모 순매도가 지수 하락 압력으로 작용했으나, 개인과 기관의 매수세가 유입되며 지수 방어에 기여했습니다. 미국 중간선거 결과에 따른 정책 변화 기대감이"
   ],
   "dashboard": {
     "indices": "지수 흐름은 최신 데이터 업데이트 후 확인합니다.",
@@ -77,6 +74,39 @@
     "newEntry": "신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.",
     "cash": "현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다."
   },
-  "sources": [],
-  "note": "Gemini API 오류: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are u"
+  "sources": [
+    {
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0Xk0-i6kq_l23tB70K0xx6Ek-ZfuZ_U-BEn32kvqoWNeoeO7kunKi4E17kRzioMj6wu1RayTTbJTbWqOVwvAuDAhVBe3xwHjwB5xS9lJizwLKjv6-X61VpW73UxC-FfKHrwwypv5rN2yohx7dD9qdzRt5NC0qQuJ7zw=="
+    },
+    {
+      "title": "yna.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvjlCgmfVS7ivi3LiEDdLrzziu1UIQazCgX_L0YLvsIkSfGiBv0E-jIfyrGqW7L7xkAcPkNbEOggOsXstbokzui5oSRSl1HJWExQVL7KAaR9w2QImavoFsIWO2_F2SFLKClOx_17l0phNR"
+    },
+    {
+      "title": "ytn.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL0x7A1Y38l-EvLOlKIAuf08rwKP63Rs04jpOjL4OJ_Gs1H8hHFyArAKegpfZMAGXsSzAEXcYlZMuCjOQ6-1nJYvGh-2KiqeJakx4Adv1taCBJNdEYUNIyOqNCWlsaRu-ynAmJC6g6fIoa1O0="
+    },
+    {
+      "title": "dealsitetv.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnu474KbFl4r5XnYbZVA39d89hjUUHXI27p7XnbNEGPpvMwSl2cWniq-xC-v4JhmVaTwlOPE0g-cgRlAYIjMHp9hLiXK4R_LnVK0oEseLo_9b8SII3OPNnE5I7s5zcCYwUdPQRgbQ="
+    },
+    {
+      "title": "newspim.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn_gKdTs4lV4tG0vlF-LXTGpifaq3qQON_EZGTJ8CogovYvwU5RtjzGMksUQBiQrMTf4mBRCRvXRZ1pzPy4GtgA37kZ88oqLwycAxTBsLfLXEYgq-gD_itwKrqYilf7COujvehF9Uhg=="
+    },
+    {
+      "title": "investing.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmWpjK1PJAc1AQJ-R4CcSNJDK1iEqZvG0rfT3_vxLjt37UtNR-lzMh5hKgdKxMXXGcuGlgfUb9HboscEaN0inwPZhtFyv6LSYDJI3sth_fr2Dekb2FbdIuehTcDfugKJGOm2m89M3GwwPC5wUGX9LdXKSsUPbDUoJGvw=="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4uNPuQF0RH2V33TfwFDIY2U4nI9sOupa8ie1rrUJ5u5XeMz1PKSmt58j663n1B_M1x3IbrEjw5qPiwPYye98J_d4p6m7z6xYza01cxK_1PPNWD5LzO05PnaE9z03opkIPVgOSy3rQTAnTM1geZw=="
+    },
+    {
+      "title": "aimatters.co.kr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET1mxN-qeQFf6ZLnn-353SG0GJlYOc-rgsxQDT2lXSDrHVxeubpeqE4ItGLFDnm-5u_jKe31sjzZ8-IBVFsCmv3sJk3Ot4MuJrcMY04YcTdEyZlhmrIz6KUwm-u_2ZxMrBp1izrg=="
+    }
+  ],
+  "note": "JSON 파싱 실패"
 }
