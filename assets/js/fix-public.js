@@ -1,4 +1,4 @@
-// Public cleanup and fallback renderer loaded after site.js
+// Optional legacy cleanup and validated chart renderer. Not enabled by current pages.
 (function(){
   const $=(s,r=document)=>r.querySelector(s);
   const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
@@ -27,8 +27,31 @@
   }
   function path(points,w,h,pad){const vals=points.map(p=>Number(p.close)).filter(Number.isFinite);const min=Math.min(...vals),max=Math.max(...vals),span=max-min||1;return points.map((p,i)=>{const x=pad+(i/(points.length-1||1))*(w-pad*2);const y=h-pad-((Number(p.close)-min)/span)*(h-pad*2);return `${i?'L':'M'}${x.toFixed(1)} ${y.toFixed(1)}`;}).join(' ');}
   function svg(item){const w=720,h=280,p=34;const pts=(item.points||[]).filter(x=>Number.isFinite(Number(x.close)));if(pts.length<2)return `<div class="internal-svg" style="display:grid;place-items:center;color:#94a8c7">업데이트 대기</div>`;const vals=pts.map(x=>Number(x.close));const min=Math.min(...vals),max=Math.max(...vals),last=vals[vals.length-1],span=max-min||1,lastX=w-p,lastY=h-p-((last-min)/span)*(h-p*2),d=path(pts,w,h,p);const grid=[0,1,2,3].map(i=>`<line x1="${p}" x2="${w-p}" y1="${p+i*((h-p*2)/3)}" y2="${p+i*((h-p*2)/3)}" stroke="#172843" stroke-width="1"/>`).join('');return `<svg class="internal-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">${grid}<path d="${d} L ${lastX} ${h-p} L ${p} ${h-p} Z" fill="rgba(109,225,255,.16)"/><path d="${d}" fill="none" stroke="#6de1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${lastX}" cy="${lastY}" r="6" fill="#a7f3d0"/><text x="${p}" y="${h-10}" fill="#8fa3bf" font-size="12">최근 ${pts.length}개 흐름</text></svg>`;}
-  function fallback(){const mk=(base)=>{let v=base;return [3,-2,5,4,-3,6,2,-1,7,3,-2,5,4,3,-1,4,6,-3,3,5,2,-2,4,5,3,-1,4,3,5,2].map((m,i)=>{v+=m;return{date:String(i+1),close:v};});};return[{key:'kospi',title:'KOSPI',desc:'코스피 지수',last:0,changePct:0,points:mk(2860)},{key:'kosdaq',title:'KOSDAQ',desc:'코스닥 지수',last:0,changePct:0,points:mk(810)},{key:'samsung',title:'삼성전자',desc:'005930 추세',last:0,changePct:0,points:mk(72000)},{key:'hynix',title:'SK하이닉스',desc:'000660 추세',last:0,changePct:0,points:mk(285000)}];}
-  function render(charts,updated){const chart=document.getElementById('chart');if(!chart)return;const title=chart.querySelector('.section-head h2');if(title)title.textContent='시장 차트 대시보드';const desc=chart.querySelector('.section-head p');if(desc)desc.textContent='주요 지수와 대표 대형주의 최근 흐름을 확인합니다.';const shell=chart.querySelector('.chart-shell');if(!shell)return;shell.innerHTML='<div class="internal-chart-grid">'+charts.map(item=>{const last=Number(item.last||0),chg=Number(item.changePct||0),cls=chg>0?'up':chg<0?'down':'flat';return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${esc(item.title)}</strong><span>${esc(item.desc||item.symbol||'')}</span></div><div class="internal-chart-value">${last?last.toLocaleString('ko-KR'):'-'}<span class="internal-chart-change ${cls}">${chg>0?'+':''}${chg.toFixed(2)}%</span></div></div>${svg(item)}<div class="internal-chart-foot"><span>최근 흐름</span><span>${esc(updated||'업데이트 대기')}</span></div></article>`;}).join('')+'</div>';}
-  async function charts(){try{const r=await fetch('data/charts.json?ts='+Date.now());const d=await r.json();const arr=(d.charts||[]).filter(c=>(c.points||[]).length>=2);if(arr.length)return render(arr,d.updatedAt);}catch(e){console.warn(e)}render(fallback(),'업데이트 대기');}
-  clean();css();charts();setTimeout(clean,150);setTimeout(clean,800);
+  const MAX_AGE_MS=7*24*60*60*1000, SKEW_MS=5*60*1000;
+  const object=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
+  const iso=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(v)&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString()===v;
+  const finitePositive=v=>typeof v==='number'&&Number.isFinite(v)&&v>0;
+  function validPayload(data,now=Date.now()){
+    if(!object(data)||data.schemaVersion!==2||!iso(data.generatedAt)||Date.parse(data.generatedAt)>now+SKEW_MS||now-Date.parse(data.generatedAt)>MAX_AGE_MS||!Array.isArray(data.charts)||!data.charts.length||data.charts.length>4)return false;
+    return data.charts.every(item=>{
+      if(!object(item)||item.status!=='available'||item.timestampMeaning!=='provider_daily_bar'||typeof item.title!=='string'||!item.title.trim()||item.title.length>100||!finitePositive(item.last)||typeof item.changePct!=='number'||!Number.isFinite(item.changePct)||!iso(item.observedAt)||!iso(item.fetchedAt)||!iso(item.expiresAt)||!Array.isArray(item.points)||item.points.length<2||item.points.length>40)return false;
+      const observed=Date.parse(item.observedAt),fetched=Date.parse(item.fetchedAt),expires=Date.parse(item.expiresAt);
+      if(observed>fetched+SKEW_MS||fetched>now+SKEW_MS||Math.abs(fetched-Date.parse(data.generatedAt))>15*60*1000||expires<=now||expires<=observed||expires-observed>MAX_AGE_MS)return false;
+      let previous=0;
+      for(const point of item.points){
+        if(!object(point)||!finitePositive(point.close)||!iso(point.observedAt)||point.date!==point.observedAt.slice(0,10))return false;
+        const time=Date.parse(point.observedAt);
+        if(time<=previous||time>observed)return false;
+        previous=time;
+      }
+      const first=item.points[0].close,last=item.points[item.points.length-1];
+      return last.observedAt===item.observedAt&&last.close===item.last&&Math.abs(item.changePct-Math.round(((item.last-first)/first)*10000)/100)<0.000001;
+    });
+  }
+  function unavailable(){const chart=document.getElementById('chart');const shell=chart?.querySelector('.chart-shell');if(shell)shell.innerHTML='<div class="brief-card"><h3>차트 데이터 확인 중</h3><p>확인 가능한 최신 가격 자료가 없어 차트를 표시하지 않습니다. 실시간 시세는 거래소나 증권사에서 확인해 주세요.</p></div>';}
+  function render(charts,updated){const chart=document.getElementById('chart');if(!chart)return;const title=chart.querySelector('.section-head h2');if(title)title.textContent='시장 차트 대시보드';const desc=chart.querySelector('.section-head p');if(desc)desc.textContent='주요 지수와 대표 대형주의 일별 가격 흐름을 확인합니다. 실시간 시세가 아닙니다.';const shell=chart.querySelector('.chart-shell');if(!shell)return;shell.innerHTML='<div class="internal-chart-grid">'+charts.map(item=>{const last=Number(item.last||0),chg=Number(item.changePct||0),cls=chg>0?'up':chg<0?'down':'flat';return `<article class="internal-chart-card"><div class="internal-chart-head"><div><strong>${esc(item.title)}</strong><span>${esc(item.desc||item.symbol||'')}</span></div><div class="internal-chart-value">${last?last.toLocaleString('ko-KR'):'-'}<span class="internal-chart-change ${cls}">${chg>0?'+':''}${chg.toFixed(2)}%</span></div></div>${svg(item)}<div class="internal-chart-foot"><span>최근 흐름</span><span>제공자 일별 가격 기준: ${esc(item.observedAt)} · 조회: ${esc(item.fetchedAt)}</span></div></article>`;}).join('')+'</div>';}
+  let current=null;
+  function renderCurrent(){if(validPayload(current))render(current.charts,current.generatedAt);else unavailable();}
+  async function charts(){try{const r=await fetch('data/charts.json?ts='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(10000)});if(!r.ok)throw new Error('unavailable');current=await r.json();}catch{current=null;}renderCurrent();}
+  clean();css();charts();setTimeout(clean,150);setTimeout(clean,800);setInterval(renderCurrent,60000);
 })();

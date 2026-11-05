@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const MAX_FUTURE_SKEW_MS = 5 * 60 * 1000;
 const targets = [
   { key: 'kospi', title: 'KOSPI', desc: '코스피 지수', symbol: '^KS11' },
   { key: 'kosdaq', title: 'KOSDAQ', desc: '코스닥 지수', symbol: '^KQ11' },
@@ -8,87 +10,97 @@ const targets = [
   { key: 'hynix', title: 'SK하이닉스', desc: '000660 추세', symbol: '000660.KS' }
 ];
 
-function kstNow() {
+function kstNow(now = new Date()) {
   return new Intl.DateTimeFormat('ko-KR', {
-    timeZone: 'Asia/Seoul',
-    dateStyle: 'full',
-    timeStyle: 'short'
-  }).format(new Date());
+    timeZone: 'Asia/Seoul', dateStyle: 'full', timeStyle: 'short'
+  }).format(now);
 }
 
-function pct(a, b) {
-  if (!a || !b) return 0;
-  return ((b - a) / a) * 100;
-}
-
-function samplePoints(base) {
-  const moves = [3,-2,5,4,-3,6,2,-1,7,3,-2,5,4,3,-1,4,6,-3,3,5,2,-2,4,5,3,-1,4,3,5,2];
-  let value = base;
-  return moves.map((move, index) => {
-    value += move;
-    const d = new Date();
-    d.setDate(d.getDate() - (moves.length - index));
-    return { date: d.toISOString().slice(0, 10), close: Math.round(value * 100) / 100 };
-  });
-}
-
-function fallbackChart(target) {
-  const baseMap = { kospi: 2860, kosdaq: 810, samsung: 72000, hynix: 285000 };
-  const points = samplePoints(baseMap[target.key] || 1000);
-  const first = points[0].close;
-  const last = points[points.length - 1].close;
+function unavailableChart(target, reason = 'fetch_failed', now = new Date()) {
   return {
-    ...target,
-    last,
-    changePct: Math.round(pct(first, last) * 100) / 100,
-    points,
-    status: 'fallback'
+    ...target, status: 'unavailable', last: null, changePct: null, points: [],
+    fetchedAt: now.toISOString(), observedAt: null, expiresAt: null,
+    timestampMeaning: 'provider_daily_bar', reason
   };
 }
 
-async function getChart(target) {
+function parseChart(target, json, now = new Date()) {
+  const result = json?.chart?.result?.[0];
+  const timestamps = result?.timestamp;
+  const closes = result?.indicators?.quote?.[0]?.close;
+  if (json?.chart?.error || !Array.isArray(timestamps) || !Array.isArray(closes) ||
+      timestamps.length !== closes.length) {
+    return unavailableChart(target, 'invalid_data', now);
+  }
+  const points = [];
+  let previousTime = 0;
+  for (let index = 0; index < timestamps.length; index++) {
+    const close = closes[index];
+    const seconds = timestamps[index];
+    // A null close denotes an absent provider observation, not a zero price.
+    if (close === null) continue;
+    const time = seconds * 1000;
+    if (typeof close !== 'number' || !Number.isFinite(close) || close <= 0 ||
+        typeof seconds !== 'number' || !Number.isFinite(time) || time <= previousTime ||
+        time > now.getTime() + MAX_FUTURE_SKEW_MS || !Number.isFinite(new Date(time).getTime())) {
+      return unavailableChart(target, 'invalid_data', now);
+    }
+    previousTime = time;
+    const observedAt = new Date(time).toISOString();
+    points.push({ date: observedAt.slice(0, 10), close: Math.round(close * 100) / 100, observedAt });
+  }
+  if (points.length < 2) return unavailableChart(target, 'insufficient_data', now);
+  const selected = points.slice(-40);
+  const observedAt = selected[selected.length - 1].observedAt;
+  const expiresAt = new Date(Date.parse(observedAt) + MAX_AGE_MS).toISOString();
+  if (now.getTime() >= Date.parse(expiresAt)) return unavailableChart(target, 'stale_data', now);
+  const first = selected[0].close;
+  const last = selected[selected.length - 1].close;
+  const changePct = Math.round(((last - first) / first) * 10000) / 100;
+  if (first <= 0 || !Number.isFinite(changePct)) return unavailableChart(target, 'invalid_data', now);
+  return {
+    ...target, status: 'available', last, changePct, points: selected,
+    fetchedAt: now.toISOString(), observedAt, expiresAt,
+    timestampMeaning: 'provider_daily_bar', source: 'Yahoo Finance',
+    sourceUrl: 'https://finance.yahoo.com/quote/' + encodeURIComponent(target.symbol) + '/history/'
+  };
+}
+
+async function getChart(target, { fetchImpl = globalThis.fetch, now = new Date() } = {}) {
   const url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(target.symbol) + '?range=3mo&interval=1d';
   try {
-    const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 market-chart-bot' } });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const json = await res.json();
-    const result = json.chart && json.chart.result && json.chart.result[0];
-    const timestamps = result && result.timestamp ? result.timestamp : [];
-    const quote = result && result.indicators && result.indicators.quote && result.indicators.quote[0];
-    const closes = quote && quote.close ? quote.close : [];
-    const points = closes
-      .map((close, index) => ({ close, time: timestamps[index] }))
-      .filter(x => typeof x.close === 'number' && Number.isFinite(x.close))
-      .slice(-40)
-      .map(x => ({
-        date: x.time ? new Date(x.time * 1000).toISOString().slice(0, 10) : '',
-        close: Math.round(x.close * 100) / 100
-      }));
-    if (points.length < 2) return fallbackChart(target);
-    const first = points[0].close;
-    const last = points[points.length - 1].close;
-    return {
-      ...target,
-      last,
-      changePct: Math.round(pct(first, last) * 100) / 100,
-      points
-    };
-  } catch (error) {
-    console.warn('chart fetch failed:', target.symbol, error.message);
-    return fallbackChart(target);
+    const res = await fetchImpl(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 market-chart-bot' },
+      signal: AbortSignal.timeout(20000)
+    });
+    if (!res.ok) return unavailableChart(target, 'http_error', now);
+    return parseChart(target, await res.json(), now);
+  } catch {
+    return unavailableChart(target, 'fetch_failed', now);
   }
 }
 
-(async () => {
-  try {
-    const charts = await Promise.all(targets.map(getChart));
-    const payload = { updatedAt: kstNow(), charts };
-    fs.writeFileSync(path.join(__dirname, '..', 'data', 'charts.json'), JSON.stringify(payload, null, 2), 'utf8');
-    console.log('Updated data/charts.json');
-  } catch (error) {
-    const charts = targets.map(fallbackChart);
-    const payload = { updatedAt: kstNow(), charts, note: String(error.message || error) };
-    fs.writeFileSync(path.join(__dirname, '..', 'data', 'charts.json'), JSON.stringify(payload, null, 2), 'utf8');
-    console.log('Updated data/charts.json with fallback');
-  }
-})();
+async function buildPayload(options = {}) {
+  const now = options.now || new Date();
+  const charts = await Promise.all(targets.map(target => getChart(target, { ...options, now })));
+  return {
+    schemaVersion: 2, generatedAt: now.toISOString(), updatedAt: kstNow(now),
+    note: '조회 시각과 제공자의 일별 가격 기준 시각은 다릅니다. 실시간 시세가 아닙니다.',
+    charts
+  };
+}
+
+async function main() {
+  const payload = await buildPayload();
+  const destination = path.join(__dirname, '..', 'data', 'charts.json');
+  const temporary = destination + '.tmp';
+  fs.writeFileSync(temporary, JSON.stringify(payload, null, 2), 'utf8');
+  fs.renameSync(temporary, destination);
+  console.log('Updated data/charts.json; available charts:', payload.charts.filter(chart => chart.status === 'available').length);
+}
+
+module.exports = { MAX_AGE_MS, targets, unavailableChart, parseChart, getChart, buildPayload };
+if (require.main === module) main().catch(error => {
+  console.error('Could not publish chart data:', error.message);
+  process.exitCode = 1;
+});

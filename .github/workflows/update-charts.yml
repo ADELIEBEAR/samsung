@@ -7,28 +7,34 @@ on:
     - cron: "0,15,30,45 0-6 * * 1-5"
     - cron: "40 7 * * 1-5"
 
+concurrency:
+  group: market-data-writes
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   update-charts:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      - name: Validate publication safety
+        run: node --test tests/*.test.js
 
       - name: Update chart data
         run: node scripts/update-charts.js
 
-      - name: Commit updated chart data
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/charts.json
-          git commit -m "Update market chart data" || echo "No changes to commit"
-          git push
+      - name: Commit validated data
+        run: bash scripts/commit-data.sh data/charts.json "Update market chart data"

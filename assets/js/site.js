@@ -28,44 +28,52 @@ if (search) {
   });
 }
 
-/* ---------- 오늘 브리핑 ---------- */
-async function loadToday() {
-  const roots = $$('[data-live-root]');
-  const detail = $('#liveDetail');
-  if (!roots.length && !detail) return;
-  try {
-    const response = await fetch('data/today.json?ts=' + Date.now());
-    const data = await response.json();
-    roots.forEach(root => {
-      const set = (key, value) => {
-        const el = $(`[data-live-field="${key}"]`, root);
-        if (el) el.textContent = value || '-';
-      };
-      set('regime', data.marketTitle || data.marketRegime || '-');
-      set('temperature', data.temperature || '-');
-      set('riskLevel', data.riskLevel || '-');
-      set('updatedAt', data.updatedAt || '-');
-      set('summary', data.oneLine || (data.summary || [])[0] || '-');
-      const list = $('[data-live-list="keyPoints"]', root);
-      if (list) list.innerHTML = (data.summary || []).slice(0, 4).map(x => `<li>${escapeHtml(x)}</li>`).join('') || '<li>업데이트 대기</li>';
-    });
-    if (detail) renderLiveDetail(data);
-  } catch (error) {
-    console.warn('today.json 로드 실패', error);
-  }
+/* ---------- 오늘 브리핑: validated, expiring, source-linked facts only ---------- */
+const briefingUnavailableTitle = '오늘 브리핑 확인 중';
+const briefingUnavailableText = '최신 브리핑이 출처·게시 기준을 통과하지 못해 현재 요약을 표시하지 않습니다. 확인되지 않은 시장 설명이나 투자 대응은 제공하지 않습니다.';
+function validBriefing(data) {
+  return typeof BriefingSafety !== 'undefined' && BriefingSafety.validateReport(data);
 }
-
+function formatBriefingTime(value) {
+  return new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', dateStyle: 'medium', timeStyle: 'short' }).format(new Date(value)) + ' KST 생성';
+}
+function renderBriefing(data) {
+  const valid = validBriefing(data);
+  $$('[data-live-root]').forEach(root => {
+    const values = { regime: valid ? '검색 출처 기반 시장 요약' : briefingUnavailableTitle,
+      summary: valid ? data.summary[0].text : briefingUnavailableText,
+      temperature: valid ? '자동 요약 · 원문 확인' : '확인 대기', riskLevel: '투자 조언 아님',
+      updatedAt: valid ? formatBriefingTime(data.generatedAt) : '게시 기준을 통과한 최신 자료 없음' };
+    Object.entries(values).forEach(([key,value]) => {
+      const element = $(`[data-live-field="${key}"]`, root);
+      if (element) element.textContent = value;
+    });
+    const list = $('[data-live-list="keyPoints"]', root);
+    if (list) list.innerHTML = valid ? data.summary.slice(0,4).map(x => `<li>${escapeHtml(x.text)}</li>`).join('') : '<li>게시 기준을 통과한 최신 자료 없음</li>';
+  });
+  renderLiveDetail(data);
+}
 function renderLiveDetail(data) {
   const root = $('#liveDetail');
   if (!root) return;
-  const sectors = (data.sectors || []).map(s => `<div class="sector-row"><strong>${escapeHtml(s.name)}</strong><span class="pill">${escapeHtml(s.status || '확인')}</span><p>${escapeHtml(s.view || '')}</p></div>`).join('');
-  const sources = (data.sources || []).map((s, i) => `<li><a href="${escapeHtml(s.url || '#')}" target="_blank" rel="noreferrer">${escapeHtml(s.title || ('출처 ' + (i + 1)))}</a></li>`).join('');
-  root.innerHTML = `
-    <section class="page-hero"><div class="container"><p class="eyebrow">Today Market Briefing</p><h1 class="page-title">${escapeHtml(data.marketTitle || '오늘 국장 브리핑')}</h1><p class="page-lead">${escapeHtml(data.oneLine || '')}</p><div class="live-meta"><span class="pill good">${escapeHtml(data.temperature || '-')}</span><span class="pill warn">${escapeHtml(data.riskLevel || '-')}</span><span class="pill">${escapeHtml(data.updatedAt || '-')}</span></div></div></section>
-    <section class="section"><div class="container live-preview"><article class="brief-card"><h3>핵심 요약</h3><ul>${(data.summary || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul></article><article class="brief-card"><h3>오늘 봐야 할 것</h3><ul>${(data.watch || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul></article></div></section>
-    <section class="section section-muted"><div class="container"><div class="section-head"><div><p class="eyebrow">Sector Rotation</p><h2>섹터별 흐름</h2></div></div><div class="sector-list">${sectors}</div></div></section>
-    <section class="section"><div class="container"><div class="brief-card"><h3>리스크</h3><ul>${(data.risks || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul></div></div></section>
-    <section class="section section-muted"><div class="container live-preview"><div class="brief-card"><h3>보유자 대응</h3><p>${escapeHtml(data.actionPlan?.holder || '')}</p></div><div class="brief-card"><h3>신규·현금 전략</h3><p><b>신규 진입</b> · ${escapeHtml(data.actionPlan?.newEntry || '')}</p><p><b>현금 비중</b> · ${escapeHtml(data.actionPlan?.cash || '')}</p></div></div></section>
-    <section class="section"><div class="container"><div class="brief-card sources"><h3>참고 출처</h3><ul>${sources || '<li>업데이트 후 출처가 표시됩니다.</li>'}</ul></div></div></section>`;
+  if (!validBriefing(data)) {
+    root.innerHTML = `<section class="page-hero"><div class="container"><p class="eyebrow">Today Market Briefing</p><h1 class="page-title">${briefingUnavailableTitle}</h1><p class="page-lead">${briefingUnavailableText}</p><p>기존 자료실은 계속 이용할 수 있습니다.</p><a class="btn btn-secondary" href="index.html#materials">자료실 보기</a></div></section>`;
+    return;
+  }
+  const items = data.summary.map(item => `<li><p>${escapeHtml(item.text)}</p><p>${item.sourceIndexes.map(i => `<a href="${escapeHtml(data.sources[i].url)}" target="_blank" rel="noopener noreferrer">원문 ${i + 1}</a>`).join(' · ')}</p></li>`).join('');
+  const sources = data.sources.map((s,i) => `<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${i + 1}. ${escapeHtml(s.title)}</a></li>`).join('');
+  root.innerHTML = `<section class="page-hero"><div class="container"><p class="eyebrow">Today Market Briefing</p><h1 class="page-title">검색 출처 기반 시장 요약</h1><p class="page-lead">검색 자료를 바탕으로 생성한 자동 요약입니다. 투자 판단 전 원문과 사건 날짜를 확인하세요.</p><p>${escapeHtml(formatBriefingTime(data.generatedAt))} · 실시간 시세 아님</p></div></section><section class="section"><div class="container brief-card"><h2>확인할 소식</h2><ul>${items}</ul></div></section><section class="section"><div class="container brief-card sources"><h2>참고 출처</h2><ul>${sources}</ul></div></section>`;
+}
+let currentBriefing = null;
+async function loadToday() {
+  if (!$$('[data-live-root]').length && !$('#liveDetail')) return;
+  try {
+    const response = await fetch('data/today.json?ts=' + Date.now(), { cache: 'no-store', signal: AbortSignal.timeout(10000) });
+    if (!response.ok) throw new Error('briefing-unavailable');
+    currentBriefing = await response.json();
+  } catch { currentBriefing = null; }
+  renderBriefing(currentBriefing);
 }
 loadToday();
+// A tab left open must not retain expired investment-related content.
+setInterval(() => renderBriefing(currentBriefing), 60000);

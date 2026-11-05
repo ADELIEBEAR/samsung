@@ -9,31 +9,37 @@ on:
     - cron: "10 06 * * 1-5"
     - cron: "40 07 * * 1-5"
 
+concurrency:
+  group: market-data-writes
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   update-market:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      - name: Validate publication safety
+        run: node --test tests/*.test.js
 
       - name: Generate market briefing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/update-market.js
 
-      - name: Commit updated briefing
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/today.json
-          git commit -m "Update daily market briefing" || echo "No changes to commit"
-          git push
+      - name: Commit validated data
+        run: bash scripts/commit-data.sh data/today.json "Update daily market briefing"

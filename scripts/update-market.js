@@ -1,160 +1,127 @@
-const fs = require('fs');
-const path = require('path');
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const safety = require('../assets/js/briefing-safety.js');
+const OUTPUT = path.join(__dirname, '..', 'data', 'today.json');
 
-const API_KEY = process.env.GEMINI_API_KEY || '';
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
-
-const now = new Date();
-const kst = new Intl.DateTimeFormat('ko-KR', {
-  timeZone: 'Asia/Seoul',
-  dateStyle: 'full',
-  timeStyle: 'short'
-}).format(now);
-
-function baseReport(reason = '') {
-  return {
-    updatedAt: kst,
-    session: '오늘 시장 브리핑',
-    marketTitle: '오늘 시장 흐름 점검',
-    temperature: '중립',
-    riskLevel: '보통',
-    oneLine: '오늘 시장은 지수, 환율, 외국인·기관 수급, 주도 섹터를 함께 확인해야 하는 구간입니다.',
-    marketRegime: '시장 흐름은 확인 중입니다.',
-    summary: [
-      '코스피·코스닥 흐름과 거래대금 변화를 먼저 확인해야 합니다.',
-      '환율과 미국 반도체주 흐름이 국내 대형주 방향에 영향을 줄 수 있습니다.',
-      '외국인·기관 수급이 대형주에 이어지는지 확인이 필요합니다.',
-      '반도체·AI, 전력·인프라, 2차전지, 바이오 등 주요 섹터별 온도 차이를 봐야 합니다.'
-    ],
-    dashboard: {
-      indices: '지수 흐름은 최신 데이터 업데이트 후 확인합니다.',
-      global: '미국장과 반도체 지수 흐름을 함께 확인합니다.',
-      fx: '원/달러 환율과 달러 흐름을 함께 확인합니다.',
-      flows: '외국인·기관 수급은 장중과 장마감 데이터를 나눠 확인합니다.'
-    },
-    sectors: [
-      { name: '반도체·AI', status: '확인 필요', view: '대형주 수급과 장비·소부장 확산 여부를 확인합니다.' },
-      { name: '전력·인프라', status: '확인 필요', view: 'AI 데이터센터와 전력기기 흐름을 확인합니다.' },
-      { name: '2차전지', status: '확인 필요', view: '대형주 반등과 소재·장비 동조 여부를 확인합니다.' },
-      { name: '바이오', status: '확인 필요', view: '개별 이슈인지 섹터 확산인지 구분합니다.' },
-      { name: '자동차·전장', status: '확인 필요', view: '환율, 실적, 전장 부품 흐름을 확인합니다.' },
-      { name: '조선·방산', status: '확인 필요', view: '수주와 정책 기대가 주가에 이어지는지 확인합니다.' },
-      { name: '금융·지주', status: '확인 필요', view: '배당, 밸류업, 대형주 순환매 흐름을 확인합니다.' },
-      { name: '로봇·소프트웨어', status: '확인 필요', view: '테마성 급등인지 실수급이 붙는 흐름인지 확인합니다.' }
-    ],
-    watch: [
-      '코스피·코스닥 지수 방향',
-      '외국인·기관 수급',
-      '환율과 미국 반도체주 흐름',
-      '주도 섹터 확산 여부'
-    ],
-    risks: [
-      '환율 급등',
-      '미국 기술주 조정',
-      '특정 섹터 쏠림 후 차익매물',
-      '외국인 수급 둔화'
-    ],
-    actionPlan: {
-      holder: '보유자는 지수보다 보유 종목의 상대강도와 거래대금을 확인합니다.',
-      newEntry: '신규 진입자는 급등 추격보다 눌림과 수급 확인을 우선합니다.',
-      cash: '현금 보유자는 시장 방향이 확인되는 구간까지 분할 접근을 우선합니다.'
-    },
-    sources: [],
-    note: reason
-  };
-}
-
-function save(report) {
-  const text = JSON.stringify(report, null, 2).replace(/레짐/g, '흐름');
-  fs.writeFileSync(path.join(__dirname, '..', 'data', 'today.json'), text, 'utf8');
-  console.log('Updated data/today.json');
-}
-
-function extractText(data) {
-  return data?.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('\n') || '';
-}
-
-function cleanJson(text) {
-  return String(text || '').replace(/^```json\s*/i, '').replace(/^```\s*/, '').replace(/```$/,'').trim();
-}
-
-function collectSources(data) {
-  const chunks = data?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
-  return chunks.map(c => c.web).filter(Boolean).map(w => ({ title: w.title || w.uri, url: w.uri })).slice(0, 8);
-}
-
-const prompt = `
-너는 한국 주식시장 데일리 브리핑 편집자다.
-특정 종목 추천이 아니라 오늘 한국 증시의 시장 흐름, 수급, 매크로, 섹터 로테이션, 리스크를 요약한다.
-삼성전자 중심으로만 쓰지 말고 코스피, 코스닥, 환율, 미국장, 외국인·기관 수급, 주도 섹터를 균형 있게 다뤄라.
-어려운 말인 레짐이라는 단어는 절대 쓰지 말고 시장 흐름이라고 써라.
-현재 시각: ${kst}
-출력은 JSON만. 마크다운 금지.
-{
-  "updatedAt": "KST 기준 업데이트 시간",
-  "session": "장 전 브리핑 또는 장중 브리핑 또는 장 마감 브리핑",
-  "marketTitle": "20자 내외 제목",
-  "temperature": "공격/상승 지속/중립/약화/리스크오프 중 하나",
-  "riskLevel": "낮음/보통/높음",
-  "oneLine": "한 문장 요약",
-  "marketRegime": "시장 흐름 설명",
-  "summary": ["핵심 요약 4~6개"],
-  "dashboard": {"indices":"코스피·코스닥 해석","global":"미국장·나스닥·SOX·AI 관련 해석","fx":"환율·금리·달러 해석","flows":"외국인·기관·프로그램 수급 해석"},
-  "sectors": [
-    {"name":"반도체·AI", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"전력·인프라", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"2차전지", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"바이오", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"자동차·전장", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"조선·방산", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"금융·지주", "status":"강함/중립/약함/확인 필요", "view":"해석"},
-    {"name":"로봇·소프트웨어", "status":"강함/중립/약함/확인 필요", "view":"해석"}
-  ],
-  "watch": ["오늘 반드시 봐야 할 포인트 4~6개"],
-  "risks": ["리스크 3~5개"],
-  "actionPlan": {"holder":"보유자 관점","newEntry":"신규 진입자 관점","cash":"현금 보유자 관점"},
-  "sources": [{"title":"출처 제목", "url":"URL"}]
-}
-매수·매도 추천 표현 금지. 수익 보장 표현 금지.
-`;
-
-(async () => {
+function assert(condition, code) { if (!condition) throw new Error(code); }
+function groundingUrl(value) {
   try {
-    if (!API_KEY) {
-      save(baseReport('GEMINI_API_KEY 없음'));
-      return;
+    const u = new URL(value);
+    if (safety.safeSourceUrl(value)) return u.href;
+    if (u.protocol === 'https:' && u.hostname === 'vertexaisearch.cloud.google.com' && u.pathname.startsWith('/grounding-api-redirect/') && !u.username && !u.password && !u.port && !u.hash) return u.href;
+  } catch {}
+  return null;
+}
+async function verifySource(web, fetchFn = fetch, now = new Date()) {
+  assert(web && typeof web.title === 'string' && web.title.trim().length >= 2 && web.title.length <= 300 && !/가상|출처\s*\d|placeholder|example/i.test(web.title), 'invalid-source-title');
+  let url = groundingUrl(web.uri);
+  assert(url, 'untrusted-source-host');
+  for (let hop = 0; hop < 5; hop++) {
+    const response = await fetchFn(url, { method: 'GET', redirect: 'manual', signal: AbortSignal.timeout(10000), headers: { 'User-Agent': 'MarketBriefingSourceCheck/1.0', 'Accept': 'text/html' } });
+    if ([301,302,303,307,308].includes(response.status)) {
+      const next = new URL(response.headers.get('location') || '', url).href;
+      await response.body?.cancel();
+      assert(next !== url && groundingUrl(next), 'unsafe-source-redirect');
+      url = next;
+      continue;
     }
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
-    const body = {
-      contents: [{ parts: [{ text: prompt }] }],
-      tools: [{ google_search: {} }],
-      generationConfig: { temperature: 0.35 }
-    };
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'x-goog-api-key': API_KEY, 'Content-Type': 'application/json' },
-      body: JSON.stringify(body)
-    });
-    if (!res.ok) {
-      const err = await res.text();
-      save(baseReport('Gemini API 오류: ' + res.status + ' ' + err.slice(0, 120)));
-      return;
-    }
-    const data = await res.json();
-    const text = cleanJson(extractText(data));
-    let report;
-    try {
-      report = JSON.parse(text);
-    } catch (e) {
-      report = baseReport('JSON 파싱 실패');
-      report.oneLine = text.slice(0, 220) || report.oneLine;
-      report.summary = [text.slice(0, 500) || report.summary[0]];
-    }
-    const sources = collectSources(data);
-    if (sources.length) report.sources = sources;
-    report.updatedAt = report.updatedAt || kst;
-    save(report);
-  } catch (error) {
-    save(baseReport('스크립트 오류: ' + String(error.message || error)));
+    await response.body?.cancel();
+    assert(response.status === 200 && safety.safeSourceUrl(url), 'source-unavailable');
+    assert((response.headers.get('content-type') || '').toLowerCase().includes('text/html'), 'source-not-article');
+    return { title: web.title.trim(), url, checkedAt: now.toISOString() };
   }
-})();
+  throw new Error('source-redirect-limit');
+}
+function parseCandidate(data) {
+  assert(data && !data.promptFeedback?.blockReason, 'blocked-response');
+  const candidate = data.candidates?.[0];
+  assert(candidate && candidate.finishReason === 'STOP', 'incomplete-response');
+  const parts = candidate.content?.parts;
+  // Grounding offsets refer to an individual part, not a concatenated response.
+  assert(Array.isArray(parts) && parts.length === 1 && parts.every(p => typeof p.text === 'string' && !p.thought), 'invalid-response-parts');
+  const raw = parts.map(p => p.text).join('');
+  assert(raw.length > 0 && raw.length <= 24000, 'invalid-response-size');
+  // Do not repair malformed/markdown JSON or publish the model's raw output.
+  const parsed = JSON.parse(raw);
+  assert(parsed && !Array.isArray(parsed) && Object.keys(parsed).length === 1 && Array.isArray(parsed.summary) && parsed.summary.length >= 3 && parsed.summary.length <= 6, 'invalid-schema');
+  assert(parsed.summary.every(t => typeof t === 'string' && t.trim().length >= 15 && t.length <= 600), 'invalid-summary');
+  assert(new Set(parsed.summary).size === parsed.summary.length, 'duplicate-summary');
+  const chunks = candidate.groundingMetadata?.groundingChunks;
+  const supports = candidate.groundingMetadata?.groundingSupports;
+  assert(Array.isArray(chunks) && chunks.length > 0 && chunks.length <= 40 && Array.isArray(supports) && supports.length > 0 && supports.length <= 100, 'missing-grounding');
+  const validSupports = supports.map(s => {
+    assert(s && s.segment && typeof s.segment.text === 'string' && s.segment.text.length > 0, 'invalid-grounding-segment');
+    const { text, startIndex = 0, endIndex, partIndex = 0 } = s.segment;
+    assert(partIndex === 0, 'invalid-grounding-part');
+    assert(Number.isInteger(startIndex) && Number.isInteger(endIndex) && startIndex >= 0 && endIndex > startIndex, 'invalid-grounding-offset');
+    // API offsets can be UTF-8 byte offsets; require an exact match in either representation.
+    const segment = raw.slice(startIndex, endIndex);
+    const utf8Segment = Buffer.from(raw, 'utf8').subarray(startIndex, endIndex).toString('utf8');
+    assert((endIndex <= raw.length && segment === text) || (endIndex <= Buffer.byteLength(raw, 'utf8') && utf8Segment === text), 'grounding-text-mismatch');
+    assert(Array.isArray(s.groundingChunkIndices) && s.groundingChunkIndices.length > 0 && s.groundingChunkIndices.every(i => Number.isInteger(i) && i >= 0 && i < chunks.length && chunks[i]?.web), 'invalid-grounding-indices');
+    return s;
+  });
+  const claims = parsed.summary.map(text => {
+    // Require each whole displayed claim to be inside a supported raw-output segment.
+    const encoded = JSON.stringify(text).slice(1,-1);
+    const matches = validSupports.filter(s => s.segment.text.includes(encoded));
+    assert(matches.length > 0, 'unsupported-claim');
+    return { text: text.trim(), chunkIndexes: [...new Set(matches.flatMap(s => s.groundingChunkIndices))] };
+  });
+  return { claims, chunks };
+}
+async function buildReport(data, options = {}) {
+  const now = options.now || new Date();
+  const { claims, chunks } = parseCandidate(data);
+  assert(claims.every(c => safety.safeSummary(c.text, now.getTime())), 'unsafe-or-stale-summary');
+  const used = [...new Set(claims.flatMap(c => c.chunkIndexes))];
+  assert(used.length >= 2 && used.length <= 8, 'insufficient-sources');
+  const sources = [];
+  const indexes = new Map();
+  for (const i of used) {
+    const source = await verifySource(chunks[i].web, options.fetchFn || fetch, now);
+    let index = sources.findIndex(s => s.url === source.url);
+    if (index < 0) { index = sources.length; sources.push(source); }
+    indexes.set(i, index);
+  }
+  const report = { schemaVersion: 2, status: 'ready', generatedAt: now.toISOString(), expiresAt: new Date(now.getTime() + safety.MAX_AGE_MS).toISOString(),
+    summary: claims.map(c => ({ text: c.text, grounded: true, sourceIndexes: [...new Set(c.chunkIndexes.map(i => indexes.get(i)))] })), sources };
+  assert(safety.validateReport(report, now.getTime()), 'publication-validation-failed');
+  return report;
+}
+function save(report, output = OUTPUT) {
+  const temporary = output + '.tmp';
+  fs.writeFileSync(temporary, JSON.stringify(report, null, 2) + '\n', 'utf8');
+  fs.renameSync(temporary, output);
+}
+async function generate(options = {}) {
+  const now = options.now || new Date();
+  const fetchFn = options.fetchFn || fetch;
+  let report = safety.unavailable(now), reason = 'unavailable';
+  try {
+    const key = options.apiKey ?? process.env.GEMINI_API_KEY;
+    assert(key, 'missing-api-key');
+    const prompt = `한국 시장의 최근 뉴스 중 원문으로 확인되는 사실 3~6개만 한국어로 요약하라. 현재 UTC ${now.toISOString()}. 검색으로 확인할 수 없는 숫자, 시장 마감·방향, 미래 예측을 만들지 말라. 기사와 사건의 실제 날짜를 YYYY-MM-DD 형식으로 각 문장에 명시하라. 한국 시간 오늘 또는 어제 발생한 사실만 포함하라. 최근 36시간 내 확인할 사실이 부족하면 summary를 빈 배열로 반환하라. 휴장일과 장 진행 중에는 마감했다고 표현하지 말라. 보유·매수·매도·현금비중 조언이나 추천, 시장 온도 등급을 만들지 말라. 각 문장은 검색 출처로 전부 뒷받침되어야 한다. JSON만 출력: {"summary":["날짜를 포함한 확인된 사실 문장", "..."]}. sources 등 다른 키, 가상 출처, URL 또는 마크다운을 출력하지 말라.`;
+    const response = await fetchFn('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent', {
+      method: 'POST', headers: { 'x-goog-api-key': key, 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(60000),
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.1 } })
+    });
+    assert(response.ok, 'generation-http-error');
+    report = await buildReport(await response.json(), { now, fetchFn });
+    reason = 'ready';
+  } catch (error) {
+    // Fixed codes only: never leak API response text, credentials, or raw model content.
+    reason = /^[a-z-]+$/.test(error.message || '') ? error.message : 'validation-error';
+    console.warn('Briefing withheld:', reason);
+  }
+  save(report, options.output || OUTPUT);
+  // Diagnostic failures must not prevent publishing the already-saved safe state.
+  try {
+    if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Market briefing\nPublication state: **${report.status}**. Check: ${reason}.\n`);
+    if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `status=${report.status}\n`);
+  } catch { console.warn('Unable to write workflow diagnostics'); }
+  return report;
+}
+if (require.main === module) generate().catch(() => { console.error('Unable to persist safe briefing state'); process.exitCode = 1; });
+module.exports = { groundingUrl, verifySource, parseCandidate, buildReport, save, generate };
