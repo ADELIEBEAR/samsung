@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-09T05:38:51.392Z",
-  "updatedAt": "2026년 11월 9일 월요일 오후 2:38",
+  "generatedAt": "2026-11-09T14:22:42.306Z",
+  "updatedAt": "2026년 11월 9일 월요일 오후 11:22",
   "note": "조회 시각과 제공자의 일별 가격 기준 시각은 다릅니다. 실시간 시세가 아닙니다.",
   "charts": [
     {
@@ -10,8 +10,8 @@
       "desc": "코스피 지수",
       "symbol": "^KS11",
       "status": "available",
-      "last": 5065.82,
-      "changePct": -28.16,
+      "last": 5018.85,
+      "changePct": -28.83,
       "points": [
         {
           "date": "2026-09-09",
@@ -210,11 +210,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 5065.82,
+          "close": 5018.85,
           "observedAt": "2026-11-09T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-09T05:38:51.392Z",
+      "fetchedAt": "2026-11-09T14:22:42.306Z",
       "observedAt": "2026-11-09T00:00:00.000Z",
       "expiresAt": "2026-11-16T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -227,8 +227,8 @@
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
       "status": "available",
-      "last": 645.84,
-      "changePct": -22.22,
+      "last": 638.97,
+      "changePct": -23.05,
       "points": [
         {
           "date": "2026-09-09",
@@ -427,11 +427,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 645.84,
+          "close": 638.97,
           "observedAt": "2026-11-09T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-09T05:38:51.392Z",
+      "fetchedAt": "2026-11-09T14:22:42.306Z",
       "observedAt": "2026-11-09T00:00:00.000Z",
       "expiresAt": "2026-11-16T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -444,8 +444,8 @@
       "desc": "005930 추세",
       "symbol": "005930.KS",
       "status": "available",
-      "last": 191500,
-      "changePct": -28.94,
+      "last": 189900,
+      "changePct": -29.54,
       "points": [
         {
           "date": "2026-09-09",
@@ -644,11 +644,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 191500,
+          "close": 189900,
           "observedAt": "2026-11-09T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-09T05:38:51.392Z",
+      "fetchedAt": "2026-11-09T14:22:42.306Z",
       "observedAt": "2026-11-09T00:00:00.000Z",
       "expiresAt": "2026-11-16T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -661,8 +661,8 @@
       "desc": "000660 추세",
       "symbol": "000660.KS",
       "status": "available",
-      "last": 1156000,
-      "changePct": -37.72,
+      "last": 1136000,
+      "changePct": -38.79,
       "points": [
         {
           "date": "2026-09-09",
@@ -861,11 +861,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 1156000,
+          "close": 1136000,
           "observedAt": "2026-11-09T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-09T05:38:51.392Z",
+      "fetchedAt": "2026-11-09T14:22:42.306Z",
       "observedAt": "2026-11-09T00:00:00.000Z",
       "expiresAt": "2026-11-16T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
