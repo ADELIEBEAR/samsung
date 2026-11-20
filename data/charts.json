@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-19T16:44:54.934Z",
-  "updatedAt": "2026년 11월 20일 금요일 오전 1:44",
+  "generatedAt": "2026-11-20T04:22:36.099Z",
+  "updatedAt": "2026년 11월 20일 금요일 오후 1:22",
   "note": "조회 시각과 제공자의 일별 가격 기준 시각은 다릅니다. 실시간 시세가 아닙니다.",
   "charts": [
     {
@@ -10,19 +10,9 @@
       "desc": "코스피 지수",
       "symbol": "^KS11",
       "status": "available",
-      "last": 5067.44,
-      "changePct": -26.5,
+      "last": 4900.36,
+      "changePct": -30.17,
       "points": [
-        {
-          "date": "2026-09-18",
-          "close": 6894.23,
-          "observedAt": "2026-09-18T00:00:00.000Z"
-        },
-        {
-          "date": "2026-09-21",
-          "close": 7007.72,
-          "observedAt": "2026-09-21T00:00:00.000Z"
-        },
         {
           "date": "2026-09-22",
           "close": 7017.91,
@@ -212,11 +202,21 @@
           "date": "2026-11-18",
           "close": 5067.44,
           "observedAt": "2026-11-18T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-19",
+          "close": 5137.89,
+          "observedAt": "2026-11-19T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-20",
+          "close": 4900.36,
+          "observedAt": "2026-11-20T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-19T16:44:54.934Z",
-      "observedAt": "2026-11-18T00:00:00.000Z",
-      "expiresAt": "2026-11-25T00:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:22:36.099Z",
+      "observedAt": "2026-11-20T00:00:00.000Z",
+      "expiresAt": "2026-11-27T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EKS11/history/"
@@ -227,14 +227,9 @@
       "desc": "코스닥 지수",
       "symbol": "^KQ11",
       "status": "available",
-      "last": 662.81,
-      "changePct": -19.87,
+      "last": 654.75,
+      "changePct": -21.71,
       "points": [
-        {
-          "date": "2026-09-18",
-          "close": 827.12,
-          "observedAt": "2026-09-18T00:00:00.000Z"
-        },
         {
           "date": "2026-09-21",
           "close": 836.27,
@@ -429,11 +424,16 @@
           "date": "2026-11-18",
           "close": 662.81,
           "observedAt": "2026-11-18T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-20",
+          "close": 654.75,
+          "observedAt": "2026-11-20T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-19T16:44:54.934Z",
-      "observedAt": "2026-11-18T00:00:00.000Z",
-      "expiresAt": "2026-11-25T00:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:22:36.099Z",
+      "observedAt": "2026-11-20T00:00:00.000Z",
+      "expiresAt": "2026-11-27T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EKQ11/history/"
@@ -444,19 +444,9 @@
       "desc": "005930 추세",
       "symbol": "005930.KS",
       "status": "available",
-      "last": 194700,
-      "changePct": -25.4,
+      "last": 184400,
+      "changePct": -33.31,
       "points": [
-        {
-          "date": "2026-09-18",
-          "close": 261000,
-          "observedAt": "2026-09-18T00:00:00.000Z"
-        },
-        {
-          "date": "2026-09-21",
-          "close": 274000,
-          "observedAt": "2026-09-21T00:00:00.000Z"
-        },
         {
           "date": "2026-09-22",
           "close": 276500,
@@ -646,11 +636,21 @@
           "date": "2026-11-18",
           "close": 194700,
           "observedAt": "2026-11-18T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-19",
+          "close": 196900,
+          "observedAt": "2026-11-19T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-20",
+          "close": 184400,
+          "observedAt": "2026-11-20T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-19T16:44:54.934Z",
-      "observedAt": "2026-11-18T00:00:00.000Z",
-      "expiresAt": "2026-11-25T00:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:22:36.099Z",
+      "observedAt": "2026-11-20T00:00:00.000Z",
+      "expiresAt": "2026-11-27T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/005930.KS/history/"
@@ -661,19 +661,9 @@
       "desc": "000660 추세",
       "symbol": "000660.KS",
       "status": "available",
-      "last": 1144000,
-      "changePct": -38.4,
+      "last": 1111000,
+      "changePct": -39.62,
       "points": [
-        {
-          "date": "2026-09-18",
-          "close": 1857000,
-          "observedAt": "2026-09-18T00:00:00.000Z"
-        },
-        {
-          "date": "2026-09-21",
-          "close": 1868000,
-          "observedAt": "2026-09-21T00:00:00.000Z"
-        },
         {
           "date": "2026-09-22",
           "close": 1840000,
@@ -863,11 +853,21 @@
           "date": "2026-11-18",
           "close": 1144000,
           "observedAt": "2026-11-18T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-19",
+          "close": 1183000,
+          "observedAt": "2026-11-19T00:00:00.000Z"
+        },
+        {
+          "date": "2026-11-20",
+          "close": 1111000,
+          "observedAt": "2026-11-20T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-19T16:44:54.934Z",
-      "observedAt": "2026-11-18T00:00:00.000Z",
-      "expiresAt": "2026-11-25T00:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:22:36.099Z",
+      "observedAt": "2026-11-20T00:00:00.000Z",
+      "expiresAt": "2026-11-27T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/000660.KS/history/"
