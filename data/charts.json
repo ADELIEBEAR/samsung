@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T15:46:12.709Z",
-  "updatedAt": "2026년 11월 21일 토요일 오전 12:46",
+  "generatedAt": "2026-11-20T16:19:53.928Z",
+  "updatedAt": "2026년 11월 21일 토요일 오전 1:19",
   "note": "조회 시각과 제공자의 일별 가격 기준 시각은 다릅니다. 실시간 시세가 아닙니다.",
   "charts": [
     {
@@ -214,7 +214,7 @@
           "observedAt": "2026-11-19T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-20T15:46:12.709Z",
+      "fetchedAt": "2026-11-20T16:19:53.928Z",
       "observedAt": "2026-11-19T00:00:00.000Z",
       "expiresAt": "2026-11-26T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -431,7 +431,7 @@
           "observedAt": "2026-11-19T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-20T15:46:12.709Z",
+      "fetchedAt": "2026-11-20T16:19:53.928Z",
       "observedAt": "2026-11-19T00:00:00.000Z",
       "expiresAt": "2026-11-26T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -648,7 +648,7 @@
           "observedAt": "2026-11-19T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-20T15:46:12.709Z",
+      "fetchedAt": "2026-11-20T16:19:53.928Z",
       "observedAt": "2026-11-19T00:00:00.000Z",
       "expiresAt": "2026-11-26T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
@@ -865,7 +865,7 @@
           "observedAt": "2026-11-19T00:00:00.000Z"
         }
       ],
-      "fetchedAt": "2026-11-20T15:46:12.709Z",
+      "fetchedAt": "2026-11-20T16:19:53.928Z",
       "observedAt": "2026-11-19T00:00:00.000Z",
       "expiresAt": "2026-11-26T00:00:00.000Z",
       "timestampMeaning": "provider_daily_bar",
